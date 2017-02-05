@@ -1060,7 +1060,9 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="padding-right:10px">$ \ $</td>
 					<td style="vertical-align:top; padding-right:15px">(b)</td>
 					<td>
-						By part (a), we know that if $0 \leq x < y,$ then $x^n < y^n$. Moreover, if $0 \leq x < y,$ then $0 \leq -y < -x,$ so by (a), $(-y)^n < -(x)^n.$ Since $n$ is odd, we derive $-y^n < -x^n,$ hence $x^n < y^n.$ Finally, $x < 0 \leq y$ implies that $x^n < 0 \leq y^n,$ since $n$ is odd. Thus, in every case, if $x < y$ then $x^n < y^n. \ \ \square$
+						By part (a), we know that if $0 \leq x < y,$ then $x^n < y^n$. Moreover, if $0 \leq x < y,$ then $0 \leq -y < -x,$ so by (a), $(-y)^n < -(x)^n.$ Since $n$ is odd, we derive $-y^n < -x^n,$ hence $x^n < y^n.$ Finally, $x < 0 \leq y$ implies that $x^n < 0 \leq y^n,$ 
+						<br>
+						since $n$ is odd. Thus, in every case, if $x < y$ then $x^n < y^n. \ \ \square$
 					</td>
 					</tr>
 					<tr>
@@ -1074,17 +1076,37 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td>
 						This follows immediately from (b) since $x < y$ implies that $x^2 < y^2$, and conversely, $y < x$ implies that $y^2 < x^2. \ \ \square$
 					</td>
-				</tr>
-				<tr>
+					</tr>
+					<tr>
 						<td>&#160</td>
 						<td>&#160</td>
 						<td>&#160</td>
 					</tr>
 					<tr>
 					<td style="padding-right:10px">$ \ $</td>
-					<td style="vertical-align:top; padding-right:15px">(b)</td>
+					<td style="vertical-align:top; padding-right:15px">(d)</td>
 					<td>
-						Similarly, if $n$ is even, then using part (a) instead of part (b) we see thtat if $x,y \geq 0 \ \text{and} \ x^n=y^n,$ then $x=y$. Moreover, if $x,y \leq 0$ and $x^n=y^n,$ then $-x,-y \leq 0$ and $(-x)^n=(-y)^n,$ so again $x=y.$ The only other possibility is that one of $x$ and $y$ is positive, the other negative. In this case $x$ and $-y$ are both positive or both negative. Moreover $x^n=(-y)^n,$ since $n$ is even, so it follows from thr previous cases that $x=-y. \ \ \square$ <label title="Spivak" style="color: #aaa; padding-left:5px">*</label>
+						Similarly, if $n$ is even, then using part (a) instead of part (b) we see thtat if $x,y \geq 0 \ \text{and} \ x^n=y^n,$ then $x=y$. Moreover, if $x,y \leq 0$ and $x^n=y^n,$ then $-x,-y \leq 0$ and $(-x)^n=(-y)^n,$ so again $x=y.$ The only other possibility is that one of $x$ and $y$ is positive, the other negative. In this case $x$ and $-y$ are both positive or both negative. Moreover $x^n=(-y)^n,$ since $n$ is even, so it follows from the previous cases that $x=-y. \ \ \square$ <label title="Spivak" style="color: #aaa; padding-left:5px">*</label>
+					</td>
+					</tr>
+				</table>
+				<br>
+				<br>
+				<table>
+					<tr>
+						<td style="vertical-align:top; padding-right:10px">7.</td>
+						<td style="vertical-align:top; padding-right:15px">
+							If $a < b$, then 
+							$$a=\frac{a+a}{2} < \frac{a+b}{2} < \frac{b+b}{2}=b.$$ 
+							If $0 < a < b, \ \text{then} \ a^2 < ab$ by Problem 5(iv), so $a < \sqrt{ab}$ by Problem 5(x). Moreover, $(a-b)^2 > 0,$ therefore 
+							$$\begin{align}
+							a^2+b^2 &> 2ab, \\
+							a^2+2ab+b^2 &> 4ab, \\
+							(a+b)^2 &> 4ab,
+							\end{align}$$
+							so $a+b>2 \sqrt{ab} \ \Leftrightarrow \ \sqrt{ab} < (a+b)/2.$ Moreover, for all $a,b$ we have $(a-b)^2 \geq 0,$ and thus $4ab \leq (a+b)^2 \ \Leftrightarrow \ \sqrt{ab} \ \leq \ (a+b)/2 \ \text{for} \ a,b \geq 0. \ \ \square$
+						</td>
+					</tr>
 				</table>
 			</div>
 		</td>
