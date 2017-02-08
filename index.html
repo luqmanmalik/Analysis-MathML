@@ -112,7 +112,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 <div class="w3-content">
 <table class="mySlides">
 	<tr>
-		<td style="vertical-align:top; padding-right:80px; width:583px">
+		<td style="vertical-align:top; padding-right:80px; width:50%">
 			<p style="padding-top:30px; padding-left:40px; color:grey; font-family:'Avenir', 'light'; font-size:18px">
 				Calculus: Fourth Edition
 				<br>
@@ -198,7 +198,8 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 			</p>
 		</td>
 		<td id="real" 
-			style="vertical-align:top; 
+			style="vertical-align:top;
+					width:50%;
 					padding-left: 39px;
 					border-top:20px solid #f2f2f2;  
 					border-left:1px solid #f2f2f2">
@@ -209,7 +210,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 						<td style="padding-left:15px; padding-top:1px">
 							You will notice that some of my arguments are taken directly from Spivak or, in 
 							<br>
-							other casse, are inspried by the author. In such cases, proofs are tagged with the superscript&ndash;label <label title="Spivak" style="color: #aaa">[*]</label> or the author's last name.
+							other casse, are inspried by the author. In such cases, proofs are marked with an <label title="Spivak" style="color: #aaa">asterisk</label> superscript or the author's last name.
 							<br>
 							<br>
 							<table>
@@ -1593,6 +1594,179 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 						&= \frac{|y-z|+y+z+2x+|y+z+|y-z|-2x|}{4}. \\ \\
 						& \ \square
 						\end{align}$$
+					</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>
+<table class="mySlides">
+	<tr>
+		<td style="vertical-align:top; padding-right:25px; width:49.7%">
+			<p style="padding-top:30px; padding-left:40px; color:grey; font-family:'Avenir', 'light'; font-size:18px">
+				Calculus: Fourth Edition
+				<br>
+				<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+			</p>
+			<table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px">14.</td>
+		        <td style="vertical-align:top; padding-left:15px">(a)</td>
+		        <td style="padding-left:15px">
+		        	Prove that $|a|=|-a|.$ (The trick is not to become confused by too many cases. First prove the statement for $a \geq 0$. Why is it then obvious for $a \leq 0$?)
+		        </td>
+		      </tr>
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px">&#160</td>
+		        <td style="vertical-align:top; padding-left:15px">(b)</td>
+		        <td style="padding-left:15px">
+		        	Prove that $-b \leq a \leq b$ if and only if $|a| \leq b.$ In particular, it follows that $-|a| \leq a \leq |a|.$
+		        </td>
+		      </tr>
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px">&#160</td>
+		        <td style="vertical-align:top; padding-left:15px">(c)</td>
+		        <td style="padding-left:15px">
+		        	Use this fact to give a new proof that $|a+b| \leq |a|+|b|.$
+		        </td>
+		      </tr>
+		    </table>
+		    <br>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="S" style="color:#aaa">*</label>15.</td>
+		        <td style="vertical-align:top; padding-left:15px">
+		        	Prove that if $x$ and $y$ are not both $0$, then $$x^2+xy+y^2 >0, \\ x^4+x^3y+x^2y^2+xy^3+y^4 >0.$$ Hint: Use Problem 1.
+		        </td>
+		      </tr>
+		    </table>
+		    <br>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="S" style="color:#aaa">*</label>16.</td>
+		        <td style="vertical-align:top; padding-left:15px">(a)</td>
+		        <td style="padding-left:15px">
+		        	Show that
+                  <table>
+                    <tr>
+                      <td style="padding-left:10px">$(x+y)^2 = x^2+y^2$</td>
+                      <td style="padding-left:20px">only when $x=0$ or $y=0$,</td>
+                    </tr>
+                    <tr>
+                      <td style="padding-left:10px">$(x+y)^3 = x^3+y^3$</td>
+                      <td style="padding-left:20px">only when $x=0$ or $y=0$ or $x=-y.$</td>
+                    </tr>
+                  </table>
+		        </td>
+		      </tr>
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><p>&#160</p></td>
+		        <td style="vertical-align:top; padding-left:15px">(b)</td>
+		        <td style="padding-left:15px">
+		        	Using the fact that $$x^2+2xy+y^2 = (x+y)^2 \geq 0,$$ show that $4x^2+6xy+4y^2 >0$ unless $x$ and $y$ are both $0$.
+		        </td>
+		      </tr>
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><p>&#160</p></td>
+		        <td style="vertical-align:top; padding-left:15px">(c)</td>
+		        <td style="padding-left:15px">
+		        	Use part (b) to find out when $(x+y)^4 = x^4+y^4.$
+		        </td>
+		      </tr>
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><p>&#160</p></td>
+		        <td style="vertical-align:top; padding-left:15px">(d)</td>
+		        <td style="padding-left:15px">
+		        	Find out when $(x+y)^5 = x^5+y^5.$ Hint: From the assumption $(x+y)^5$ $=x^5+y^5$ you should be able to derive the equation $x^3+2x^2y+y^3 =$ $0,$ if $x,y \neq 0.$ This implies that $(x+y)^3=x^2y+xy^2=xy(x+y).$
+		        </td>
+		      </tr>
+		    </table>
+		    <p style="padding-left:90">You should now be able to make a good guess as to when $(x+y)^n = x^n+y^n;$ the proof is contained in Problem 11&ndash;63.</p>
+		</td>
+		<td id="real2" style="vertical-align:top; 
+								padding-left: 25px;
+								padding-right: 0px; 
+								border-top: 20px solid #f2f2f2; 
+								border-left:1px solid #f2f2f2; 
+								width: 50.3%">
+			<div style="height: 685px; overflow:auto; padding-top:40px">
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">14.</td>
+					<td style="vertical-align:top; padding-right:15px">(a)</td>
+					<td style="vertical-align:top">
+					If $0 \leq a,$ then $|a|=a=-(-a)=|-a|,$ since $-a \leq 0.$ Similarly, if $a \leq 0,$ 
+					<br>
+					then $|-a|=-a=|a|,$ since $0 \leq -a. \ \ \square$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(b)</td>
+					<td style="vertical-align:top">
+					If $|a| \leq b,$ then naturally $0 \leq b.$ Now $|a| \leq b$ means that $a \leq b$ if $0 \leq a,$ 
+					<br>
+					moreover $a \leq b$ if $a \leq 0.$ Similarly, $|a| \leq b$ means $-a \leq b,$ and hence $-b \leq a,$
+					<br>
+					if $a \leq 0,$ and surely $-b \leq a$ if $0 \leq a.$ So, $-b \leq a \leq b.$ Conversely, if $-b \leq a \leq b.$ then $|a|=a \leq b$ if $0 \leq a,$ while $|a|=-a \leq b$ if $a \leq 0. \ \ \square$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(c)</td>
+					<td style="vertical-align:top">
+					From $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ it follows that $-(|a|+|b|) \leq a+b \leq |a|+|b| \ \Leftrightarrow \ |a+b| \leq |a|+|b|. \ \ \square$
+					</td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px"><label title="S" style="color:#aaa">*</label>15.</td>
+					<td style="vertical-align:top; padding-right:15px">
+						If $x \neq y,$ then
+						
+						$$x^2+xy+y^2=\displaystyle\frac{x^3-y^3}{x-y}.$$
+						
+						Problem 6(b) shows that the quotient on the right is always positive (since 0 < $x^3-y^3$ if $0 < x-y$ and $x^3-y^3 < 0$ if $x-y < 0$). Moreover, if $x=y \neq 0,$ then $0 < x^2+xy+y^2=3x^2.$ 
+						<br>
+						<br>
+						Similarly, if $x \neq y$, then
+
+						$$x^4+x^3y+x^2y^2+xy^3+y^4=\displaystyle\frac{x^5-y^5}{x-y}.$$
+
+						Again, the quotient on the right is always positive, since 0 < $x^5-y^5$ if $0 < x-y$ 
+						<br>
+						and $x^5-y^5 < 0$ if $x-y < 0$. In particular, if $x=y \neq 0,$ then $0 < x^4+x^3y+x^2y^2+xy^3+y^4=5x^4. \ \ \square$ 
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px"><label title="Spivak" style="color:#aaa">*</label>16.</td>
+					<td style="vertical-align:top; padding-right:15px">(a)</td>
+					<td style="vertical-align:top">
+					If $$x^2+y^2=(x+y)^2=x^2+2xy+y^2,$$ then $xy=0, \ \text{so} \ x=0 \ \text{or} \ y=0.$ If $$x^3+y^3=(x+y)^3=x^3+3x^2y+3xy^2+y^3,$$ Then, 
+					$3xy(x+y)=0, \ \text{so} \ x=0 \ \text{or} \ y=0, \ \text{or} \ x=-y. \ \ \square$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(b)</td>
+					<td style="vertical-align:top">
+					The first equation implies that $$0 \leq 4x^2+8xy+4y^2.$$ Suppose that we also had $$4x^2+8xy+4y^2 \leq 0.$$ Subtracting the second from the first would give $0 \leq 2xy.$ If neither $x$ nor $y$
+					<br>
+					is 0, this means that we must have $0 < 2xy;$ but this implies that $0 < 4x^2+6xy+4y^2,$ a contradiction. Moreover, it is clear that if one of $x$ 
+					<br>
+					and $y$ is 0, but not the other, then we also have $0 < 4x^2+6xy+y^2. \ \ \square$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(c)</td>
+					<td style="vertical-align:top">
+					From $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ it follows that $-(|a|+|b|) \leq a+b \leq |a|+|b| \ \Leftrightarrow \ |a+b| \leq |a|+|b|. \ \ \square$
 					</td>
 					</tr>
 				</table>
