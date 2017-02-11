@@ -1903,13 +1903,13 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 								border-top: 20px solid #f2f2f2; 
 								border-left:1px solid #f2f2f2; 
 								width: 50.3%">
-			<div style="height: 985px; overflow:auto; padding-top:40px">
+			<div style="height: 1112px; overflow:auto; padding-top:40px">
 				<table>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">17.</td>
 					<td style="vertical-align:top; padding-right:15px">(a)</td>
 					<td style="vertical-align:top">
-					We can solve this straight forward by completing the square. Since 
+					We may find this value directly by completing the square. Since 
 					$$
 					\begin{align}
 					\displaystyle
@@ -1927,11 +1927,17 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(b)</td>
 					<td style="vertical-align:top">
-					If $|a| \leq b,$ then naturally $0 \leq b.$ Now $|a| \leq b$ means that $a \leq b$ if $0 \leq a,$ 
-					<br>
-					moreover $a \leq b$ if $a \leq 0.$ Similarly, $|a| \leq b$ means $-a \leq b,$ and hence $-b \leq a,$
-					<br>
-					if $a \leq 0,$ and surely $-b \leq a$ if $0 \leq a.$ So, $-b \leq a \leq b.$ Conversely, if $-b \leq a \leq b.$ then $|a|=a \leq b$ if $0 \leq a,$ while $|a|=-a \leq b$ if $a \leq 0. \ \ \square$
+					Similarly, we have 
+					$$
+					\begin{align}
+					\displaystyle
+					x^2-3x+2y^2+4y+2 &= x^2-3x+2y^2+4y+2+\bigg(\frac{9}{4}-\frac{9}{4}\bigg) \\
+							  &= x^2-3x+\frac{9}{4}+2y^2+4y+2-\frac{9}{4} \\
+							  &= \bigg(x-\frac{3}{2}\bigg)\bigg(x-\frac{3}{2}\bigg)+2(y^2+2y+1)-\frac{9}{4} \\
+							  &= \bigg(x-\frac{3}{2}\bigg)^2+2(y+1)^2-\frac{9}{4}, \\
+					\end{align}
+					$$
+					so the smallest possible value is $-9/4,$ when $x=3/2$ and $y=1. \ \ \square$
 					</td>
 					</tr>
 					<tr>
