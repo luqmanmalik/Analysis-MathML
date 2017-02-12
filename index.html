@@ -1944,7 +1944,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(c)</td>
 					<td style="vertical-align:top">
-					<span style="font-family:'Avenir', 'light'; font-size:14; color:#aaa">Still need to varify line (1 &rarr; 2) &mdash;</span> For each $y$ we have
+					<span style="font-family:'Avenir', 'light'; font-size:14; color:#aaa">Still need to varify line 1 &ndash; 2:</span> For each $y$ we have
 					<br>
 					<br>
 					$
@@ -1967,32 +1967,33 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 				<br>
 				<table>
 					<tr>
-					<td style="vertical-align:top; padding-right:10px"><label title="S" style="color:#aaa">*</label>15.</td>
-					<td style="vertical-align:top; padding-right:15px">
-						If $x \neq y,$ then
-						
-						$$x^2+xy+y^2=\displaystyle\frac{x^3-y^3}{x-y}.$$
-						
-						Problem 6(b) shows that the quotient on the right is always positive (since $0 <$ $x^3-y^3$ if $0 < x-y$ and $x^3-y^3 < 0$ if $x-y < 0$). Moreover, if $x=y \neq 0,$ then $0 < x^2+xy+y^2=3x^2.$ 
-						<br>
-						<br>
-						Similarly, if $x \neq y$, then
-
-						$$x^4+x^3y+x^2y^2+xy^3+y^4=\displaystyle\frac{x^5-y^5}{x-y}.$$
-
-						Again, the quotient on the right is always positive, since 0 < $x^5-y^5$ if $0 < x-y$ 
-						<br>
-						and $x^5-y^5 < 0$ if $x-y < 0$. In particular, if $x=y \neq 0,$ then $0 < x^4+x^3y+x^2y^2+xy^3+y^4=5x^4. \ \ \square$ 
-					</tr>
-				</table>
-				<br>
-				<table>
-					<tr>
-					<td style="vertical-align:top; padding-right:10px"><label title="Spivak" style="color:#aaa">*</label>16.</td>
+					<td style="vertical-align:top; padding-right:10px">18.</td>
 					<td style="vertical-align:top; padding-right:15px">(a)</td>
 					<td style="vertical-align:top">
-					If $$x^2+y^2=(x+y)^2=x^2+2xy+y^2,$$ then $xy=0, \ \text{so} \ x=0 \ \text{or} \ y=0.$ If $$x^3+y^3=(x+y)^3=x^3+3x^2y+3xy^2+y^3,$$ Then, 
-					$3xy(x+y)=0, \ \text{so} \ x=0 \ \text{or} \ y=0, \ \text{or} \ x=-y. \ \ \square$
+					To show that the numbers under consideration satisfy the given equation, we 
+					<br>
+					will prove the quadratic equation by completing the square. First, note that $x^2+bx+c=0 \ \Leftrightarrow \ ax^2+bx+c=0,$ where $x=1$. It then follows that
+
+					$$
+					\begin{align}
+					x^2+\frac{bx}{a}+\frac{c}{a} &= \frac{0}{a} \\
+					x^2+\frac{bx}{a}+\frac{c}{a} &= 0 \\
+					x^2+\frac{bx}{a}+\frac{c}{a}-\bigg(\frac{c}{a}\bigg) &= 0-\bigg(\frac{c}{a}\bigg) \\
+					x^2+\frac{bx}{a} &= -\frac{c}{a} \\
+					x^2+\frac{bx}{a}+\bigg(\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\bigg(\frac{b}{2a}\bigg)^2 \\
+					\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\frac{b^2}{4a^2} \\
+					\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2} \\
+					\bigg(x+\frac{b}{2a}\bigg)^2 &= \frac{b^2-4ac}{4a^2} \\
+					\sqrt{\bigg(x+\frac{b}{2a}\bigg)^2} &= \sqrt{\frac{b^2-4ac}{4a^2}} \\
+					x+\frac{b}{2a}^2 &= \pm\sqrt{\frac{b^2-4ac}{4a^2}} \\
+					x+\frac{b}{2a}^2 &= \pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+					x+\frac{b}{2a}^2-\bigg(\frac{b}{2a}^2) &= -\bigg(\frac{b}{2a}^2)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+					x &= -\bigg(\frac{b}{2a}^2)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+					x &= \frac{-b\pm\displaystyle\sqrt{{b}^2-4ac}}{2a}.
+					\end{align}
+					$$
+
+					So, clearly the desired numbers satisfy the given equation, particulary in the case $a=1. \ \ \square$
 					</td>
 					</tr>
 					<tr>
