@@ -1944,7 +1944,23 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(c)</td>
 					<td style="vertical-align:top">
-					From $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ it follows that $-(|a|+|b|) \leq a+b \leq |a|+|b| \ \Leftrightarrow \ |a+b| \leq |a|+|b|. \ \ \square$
+					<span style="font-family:'Avenir', 'light'; font-size:14; color:#aaa">Still need to varify line (1 &rarr; 2) &mdash;</span> For each $y$ we have
+					<br>
+					<br>
+					$
+					\begin{align}
+					x^2+4xy+5y^2 &- 4x-6y+7 \\
+								 &= x^2+4x(y-1)+5y^2-6y+7 \\
+					     		 &= [x+2y(y-1)^2]+5y^2-6y+7-4(y-1)^2 \\
+					     		 &= [x+2y(y-1)^2]+5y^2-6y+7-4(y^2-2y+1) \\
+					    		 &= [x+2y(y-1)^2]+5y^2-6y+7-4y^2+8y-4) \\
+				 				 &= [x+2y(y-1)^2]+y^2-2y+3 \\
+			     				 &= [x+2y(y-1)^2]+(y-1)^2+2, \\
+					\end{align}
+					$
+					<br>
+					<br>
+					so the smallest possible value is 2, when $y=-1$ and $x=-2(y-1)=4. \ \ \square$
 					</td>
 					</tr>
 				</table>
