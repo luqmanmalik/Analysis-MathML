@@ -2002,25 +2002,34 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(b)</td>
 					<td style="vertical-align:top">
-					The first equation implies that $$0 \leq 4x^2+8xy+4y^2.$$ Suppose that we also had $$4x^2+8xy+4y^2 \leq 0.$$ Subtracting the second from the first would give $0 \leq 2xy.$ If neither $x$ nor $y$
+					We may capture this result by forcing the following contradiction.
+					$$
+					\begin{align}
+					x^2+bx+c &= x^2+bx+\frac{b^2}{4}+c-\frac{b^2}{4} \\
+							 &= \bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \geq c-\frac{b^2}{4};
+					\end{align}
+					$$
+					but $\displaystyle (b^2-4c < 0) \ = \ (-4c < -b^2) \ = \ (c > b^2/4) \ = \ [0 < c-(b^2/4)].$ 
 					<br>
-					is 0, this means that we must have $0 < 2xy;$ but this implies that $0 < 4x^2+6xy+4y^2,$ a contradiction. Moreover, it is clear that if one of $x$ 
-					<br>
-					and $y$ is 0, but not the other, then we also have $0 < 4x^2+6xy+y^2. \ \ \square$
+					which contradicts our original assumption, so $x^2+bx+c>0$ for all $x. \ \ \square$
 					</td>
 					</tr>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
-					<td style="vertical-align:top; padding-right:15px">(d)</td>
+					<td style="vertical-align:top; padding-right:15px">(c)</td>
 					<td style="vertical-align:top">
-					If $$x^5+y^5=(x+y)^5=x^5+5x^4y+10x^3y^2+10x^2y^3+5xy^4+y^5,$$ then 
-					$$\begin{align}
-					0 &= 5x^4y+10x^3y^2+10x^2y^3+5xy^4 \\
-					  &= 5xy(x^3+2x^2y+2xy^2+y^3),
-					\end{align}$$
-					so $xy=0$ or $$x^3+2x^2y+2xy^2+y^3=0.$$ Subtrating this equation from $$(x+y)^3=x^3+3x^2y+3xy^2+y^3$$ we obtain $$(x+y)^3=x^2y+xy^2=xy(x+y).$$ So either $x+y=0$ or $(x+y)^2=xy;$ the latter condition implies that $x^2+xy+y^2=0,$ so $x=0$ or $y=0$ by Problem 15. Hence $x=0$ or 
+					Applying part (b) with $y$ for $b$ and $y^2$ for $c:$ we have $b^2-4c=y^2-4y^2 < 0$ 
 					<br>
-					$y=0$ or $x=-y. \ \ \square$
+					for $y \neq 0,$ so $x^2+xy+y^2>0$ for all $x$ if $y \neq 0$ (and surely $x^2+xy+y^2$ 
+					<br>
+					$>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ <label title="Spivak" style="color:#aaa; padding-left:5">*</label>
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(c)</td>
+					<td style="vertical-align:top">
+					$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ <label title="Spivak" style="color:#aaa; padding-left:5">*</label>
 					</td>
 					</tr>
 				</table>
