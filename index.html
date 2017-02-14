@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Calculus &middot; Spivak</title>
+<title>Calculus &middot; Fourth Edition</title>
 
 <!-- MathJax -->
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
@@ -108,7 +108,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 </div>
 
 <!-- P_set -->
-
+$\require{cancel}$
 <div class="w3-content">
 <table class="mySlides">
 	<tr>
@@ -1847,7 +1847,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        <td style="vertical-align:top; padding-left:40px">&#160</td>
 		        <td style="vertical-align:top; padding-left:15px">(e)</td>
 		        <td style="padding-left:15px">
-		        	Find the smallest possible value of $x^2+by+c$ and of $ax^2+by+c$ for $a > 0.$
+		        	Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c$ for $a > 0.$
 		        </td>
 		      </tr>
 		    </table>
@@ -1855,9 +1855,9 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		      <tr>
 		        <td style="vertical-align:top; padding-left:40px">19.</td>
 		        <td style="vertical-align:top; padding-left:15px">
-		        	The fact that $a^2 \geq$ for all numbers $a$, elementary as it may seem, is nevertheless the fundamental idea upon which most important inequalites are ultimately based. The great&ndash;granddaddy of all inequalities is the <i>Schwarz inequality</i>. 
+		        	The fact that $a^2 \geq 0$ for all numbers $a$, elementary as it may seem, is the fundamental idea upon which most important inequalites are ultimately based. The great&ndash;granddaddy of all inequalities is the <i>Schwarz inequality</i>. 
 		        	
-		        	$$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2 + {x_1}^2}\sqrt{{y_1}^2 + {y_1}^2}.$$
+		        	$$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2 + {x_2}^2}\sqrt{{y_1}^2 + {y_2}^2}.$$
 		        	
 		        	(A more general form occurs in Problem 2&ndash;21.) The three proofs of the Schwarz inequality outlined below have only one thing in common&mdash;their reliance on the fact that $a^2 \geq 0$ for all $a$.
 		        </td>
@@ -1870,7 +1870,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        	Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some number $\lambda \geq 0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0.$ Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2= \lambda y_2.$ Then 
 		        	$$\begin{eqnarray}
 		        	0 & < & (\lambda y_1 - x_1)^2 + (\lambda y_2 - x_2)^2 \\ 
-		        	  &=&\lambda^2(y_1^2 + y_2^2) - 2\lambda (x_1y_1 + x_2y_2)+(x_1^2+x_2^2).
+		        	  &=&\lambda^2({y_1}^2 + {y_2}^2) - 2\lambda (x_1y_1 + x_2y_2)+({x_1}^2+{x_2}^2).
 		        	\end{eqnarray}$$
 		        	Using Problem 18, complete the proof of the Schwarz inequality.
 		        </td>
@@ -1886,7 +1886,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		      <tr>
 		        <td style="vertical-align:top; padding-left:15px">(c)</td>
 		        <td style="padding-left:15px">
-		        	Prove the Schwarz inequality by first proving that $$(x_1^2 + x_2^2)(y_1^2 + y_2^2) = (x_1y_1 + x_2y_2)^2 + (x_1y_2 - x_2y_1)^2.$$
+		        	Prove the Schwarz inequality by first proving that $$({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2) = (x_1y_1 + x_2y_2)^2+(x_1y_2 - x_2y_1)^2.$$
 		        </td>
 		      </tr>
 		      <tr>
@@ -2022,14 +2022,108 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<br>
 					for $y \neq 0,$ so $x^2+xy+y^2>0$ for all $x$ if $y \neq 0$ (and surely $x^2+xy+y^2$ 
 					<br>
-					$>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ <label title="Spivak" style="color:#aaa; padding-left:5">*</label>
+					$>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ 
 					</td>
 					</tr>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(d)</td>
 					<td style="vertical-align:top">
-					$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ <label title="Spivak" style="color:#aaa; padding-left:5">*</label>
+					$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ 
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(e)</td>
+					<td style="vertical-align:top">
+					Since $$\displaystyle x^2+bx+c=\bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \geq c-\frac{b^2}{4},$$ and since $x^2+bx+c$ has the value $c-b^2/4$ when $x=-b/2,$ the minimum value is $c-b^2/4.$ Also, since $$ax^2+bx+c=a\bigg(x^2+\frac{bx}{a}+\frac{c}{a}\bigg),$$ the minimum value is $$a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg)=c-\frac{b^2}{4a}. \ \ \square$$
+					</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">19.</td>
+					<td style="vertical-align:top; padding-right:15px">(a)</td>
+					<td style="vertical-align:top">
+					<u>Pf</u><sub>1</sub>. If $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \geq 0,$ then
+					$$
+					\begin{align}
+					x_1y_1+x_2y_2 &\leq \sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2} \\
+					(\lambda y_1)y_1 + (\lambda y_2)y_2 &\leq \sqrt{{(\lambda y_1)}^2+{(\lambda y_2)}^2} \sqrt{{\bigg(\frac{x_1}{\lambda}\bigg)}^2+{\bigg(\frac{x_2}{\lambda}\bigg)}^2} \\
+					\lambda {y_1}^2 + \lambda {y_2}^2 &\leq \sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{\bigg(\frac{\lambda y_1}{\lambda}\bigg)}^2+{\bigg(\frac{\lambda y_2}{\lambda}\bigg)}^2} \\
+					\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 &\leq \bigg(\sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{y_1}^2+{y_2}^2}\bigg)^2 \\
+					\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 &\leq \big({\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2\big) \big({y_1}^2+{y_2}^2\big) \\
+					\lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4 &\leq \lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4. \\
+					& \ \square
+					\end{align}
+					$$
+					<table>
+						<tr>
+							<td style="vertical-align:top; padding-top:10"><u>Pf</u><sub>2</sub>.</td>
+							<td>
+								$
+								\begin{align}
+								(x_1)(0)+(x_2)(0) &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2} \sqrt{0+0} \\
+								0 &\leq 0. \\
+								& \ \square
+								\end{align}
+								$
+							</td>
+						</tr>
+						<tr>
+							<td style="vertical-align:top; padding-top:15"><u>Pf</u><sub>3</sub>.</td>
+							<td style="vertical-align:top; padding-top:15">
+								Supposing $y_1$ and $y_2$ are not both $0$, and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2=\lambda y_2$, then 
+								$$
+								\begin{align}0 &< (\lambda y_1-x_1)^2 + (\lambda y_2-x_2)^2 \\ 
+								&= \lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{x_2}^2\big),
+								\end{align}
+								$$ 
+								and the equation $$\lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{y_1}^{2 \ *}\big)=0$$ 
+								has $no$ solution $\lambda$. So by problem 18(a/e), that is,
+
+								$$
+								\begin{align}\displaystyle
+								a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
+								a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+								(a)\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+								\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
+								\end{align}
+								$$
+
+								we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)} < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
+								<br>
+								<br>
+								<label title="erratum" style="color:aaa">*</label> It is likely that this term is a typo, and is intended to read $"{x_2}^2"$ as the line that contains it is simply an expansion of the right&ndash;hand side of the initial inequality, and otherwise identical to the equation just above it. 
+								<br>
+								Given 18(a), the argument seems erroneous otherwise. But the 
+								<br>
+								simplification actually works out using either term, so there 
+								<br>
+								may be some other reason for this.
+							</td>
+						</tr>
+					</table>
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(b)</td>
+					<td style="vertical-align:top">
+						We have $2xy \leq x^2+y^2,$ since $0 \leq (x-y)^2x=x^2-2xy+y^2.$ Thus
+						$$
+						\begin{array}{cc}
+						1.) & & \displaystyle\frac{2x_1y_1}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2}, \\ \\
+						2.) & & \displaystyle\frac{2x_2y_2}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2};
+						\end{array}
+						$$
+						addition yields
+						$$
+						\begin{align}\displaystyle
+						\frac{2(x_1y_1+x_2y_2)}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \ \ \ \ \ \ \ &\leq \ \ \ \ \ \ \ \ \ \bigg(\frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2}\bigg) \\ & \ \ \ \ \ \ \ \ \ + \bigg(\frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2}\bigg) \\ \\ & \ \ \ \ \ \ \ \ \ =\frac{2({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)} \\ \\ & \ \ \ \ \ \ \ \ \ =\frac{2\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}} \\ \\ &\leq \ \ \ \ \ 2.
+						\end{align}
+						$$
+						Multiplying both sides of the statement by 
+						$$\displaystyle\frac{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}}{2}$$
+						yields the Schwarz inequality. $ \ \ \square$
 					</td>
 					</tr>
 				</table>
