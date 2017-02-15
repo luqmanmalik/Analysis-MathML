@@ -112,7 +112,6 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 <table class="mySlides">
 	<tr>
 		<td style="vertical-align:top; padding-right:80px; width:50%">
-			$\require{cancel}$
 			<p style="padding-top:30px; padding-left:40px; color:grey; font-family:'Avenir', 'light'; font-size:18px">
 				Calculus: Fourth Edition
 				<br>
@@ -2108,6 +2107,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(b)</td>
 					<td style="vertical-align:top">
+						$\require{cancel}$
 						We have $2xy \leq x^2+y^2,$ since $0 \leq (x-y)^2=x^2-2xy+y^2.$ Thus
 						$$
 						\begin{array}{cc}
@@ -2177,6 +2177,82 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 						similarly, if $y_2=0,$ then $\lambda=x_2/y_2.$ 
 						<label title="Combined Answer Book" style="color:#aaa; font-family:'Avenir'; font-size:12">$\clubsuit$</label>
 					</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>
+<table class="mySlides">
+	<tr>
+		<td style="vertical-align:top; padding-right:25px; width:49.7%">
+			<p style="padding-top:30px; padding-left:40px; color:grey; font-family:'Avenir', 'light'; font-size:18px">
+				Calculus: Fourth Edition
+				<br>
+				<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+			</p>
+			<table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:50px">20.</td>
+		        <td style="padding-left:15px">
+		        	Prove that if
+		            $$\vert x-x_0 \rvert < \frac{\varepsilon}{2} \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2}$$
+		            then 
+		            $$\lvert (x+y) - (x_0+y_0) \rvert < \varepsilon, \\ \lvert (x-y) - (x_0-y_0) \rvert < \varepsilon.$$
+		        </td>
+		      </tr>
+		    </table>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="text" style="color:#aaa">*</label>21.</td>
+		        <td style="padding-left:15px">
+		        	Prove that if
+		            $$\lvert x-x_0 \rvert < \text{min} \bigg(\frac{\varepsilon}{2(\lvert y_0 \rvert +1)} \ , 1 \bigg) \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2(\lvert x_0 \rvert +1)} \ ,$$
+		            then $\lvert xy-x_0y_0 \rvert < \varepsilon.$
+		            <br>
+		            The notation "min" was defined in Problem 13, but the formula provided by that problem is irrelevent at the moment; the first inequality in the hypothesis just means that
+		            $$\vert x-x_0 \rvert < \frac{\varepsilon}{2(\lvert y_0 \rvert+1)} \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < 1;$$
+		            at one point in the argunment you will need the first inequality, and at another point you will need the second. One more word of advice: since the hypotheses only provide information about $x-x_0$ and $y-y_0,$ it is almost a foregone conclusion that the proof will depend upon writing $xy-x_0y_0$ in a way that involves $y-y_0.$)
+		        </td>
+		      </tr>
+		    </table>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="text" style="color:#aaa">*</label>22.</td>
+		        <td style="padding-left:15px">
+		        	Prove that if $y_0 \neq 0$
+		            $$\lvert y-y_0 \rvert < \text{min} \bigg( \frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg),$$
+		            then $y \neq 0$ and
+					$${\huge\lvert} \ \frac{1}{y} - \frac{1}{y_0} {\huge\rvert} < \varepsilon.$$
+		        </td>
+		      </tr>
+		    </table>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="text" style="color:#aaa">*</label>23.</td>
+		        <td style="padding-left:15px">
+		        	Replace the question marks in the following statement by expressions involvi&ndash;<br>ng $\varepsilon, \ x_0$ and $y_0$ so that the conclusion will be true:
+		        	<br>
+		        	If $y_0 \neq 0$ and 
+		        	$$\lvert y-y_0 \rvert < \ ? \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < \ ?$$
+		        	then $y \neq 0$ and
+		        	$${\huge\lvert} \frac{x}{y} \ - \frac{x_0}{y_0} \ {\huge\rvert} < \varepsilon.$$
+		        	This problem is trivial in the sense that its solution follows from Problem 21 and 22 with almost no work at all (notice that $x/y=x \cdot 1/y.$) The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely. 
+		        </td>
+		      </tr>
+		    </table>
+		</td>
+		<td id="real2" style="vertical-align:top; 
+								padding-left: 25px;
+								padding-right: 0px; 
+								border-top: 20px solid #f2f2f2; 
+								border-left:1px solid #f2f2f2; 
+								width: 50.3%">
+			<div style="height: 790px; overflow:auto; padding-top:40px">
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">20&ndash;23.</td>
+					<td style="vertical-align:top; padding-right:15px"> See Chapter 5.</td>
 					</tr>
 				</table>
 			</div>
