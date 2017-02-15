@@ -23,6 +23,8 @@
 
 a{color: white; text-decoration: none; font-size: 13px}
 a:hover{color: lightgrey}
+a.pset{color: white; text-decoration: none; font-size: 13px}
+a.pset:hover{text-decoration: underline;}
 /*a:active{color: grey !important}*/
 a.two{color:lightgrey; text-decoration: none}
 a.two:hover{color: grey}
@@ -2191,7 +2193,12 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 				<br>
 				<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
 			</p>
-			<table style="vertical-align:top; padding: 18 0 0 0">
+			<p style="vertical-align:top; padding: 18 0 0 40">
+				In our later work, three facts about inequalities will be crucial. Although proofs will be supplied at the appropriate point in the text, a personal assault
+	            on these problems is infinitely more enlightening than a perusal of a completely worked-out proof. The statements of these propositions involve some weird 
+	            numbers, but their basic message is simple: if $x$ is close enough to $x_0,$ and $y$ is close enough to $y_0,$ then $x+y$ will be close to $x_0+y_0,$ and $xy$ will be close to $x_0y_0,$ and $1/y$ will be close to $1/y_0.$ The symbol "<i>&epsilon;</i>" which appears in these propositions is the fifth letter of the Greek alphabet ("epsilon"), snd could just as well be replaced by a less intimidating Roman letter; however, tradition has made the use of <i>&epsilon;</i> sacrosanct in thecontexts to which these theorems apply.
+			</p>
+			<table style="vertical-align:top; padding: 10 0 0 0">
 		      <tr>
 		        <td style="vertical-align:top; padding-left:50px">20.</td>
 		        <td style="padding-left:15px">
@@ -2210,7 +2217,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		            $$\lvert x-x_0 \rvert < \text{min} \bigg(\frac{\varepsilon}{2(\lvert y_0 \rvert +1)} \ , 1 \bigg) \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2(\lvert x_0 \rvert +1)} \ ,$$
 		            then $\lvert xy-x_0y_0 \rvert < \varepsilon.$
 		            <br>
-		            The notation "min" was defined in Problem 13, but the formula provided by that problem is irrelevent at the moment; the first inequality in the hypothesis just means that
+		            (The notation "min" was defined in Problem 13, but the formula provided by that problem is irrelevent at the moment; the first inequality in the hypothesis just means that
 		            $$\vert x-x_0 \rvert < \frac{\varepsilon}{2(\lvert y_0 \rvert+1)} \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < 1;$$
 		            at one point in the argunment you will need the first inequality, and at another point you will need the second. One more word of advice: since the hypotheses only provide information about $x-x_0$ and $y-y_0,$ it is almost a foregone conclusion that the proof will depend upon writing $xy-x_0y_0$ in a way that involves $y-y_0.$)
 		        </td>
@@ -2253,6 +2260,123 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">20&ndash;23.</td>
 					<td style="vertical-align:top; padding-right:15px"> See Chapter 5.</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>
+<table class="mySlides">
+	<tr>
+		<td style="vertical-align:top; padding-right:25px; width:49.7%">
+			<p style="padding-top:30px; padding-left:40px; color:grey; font-family:'Avenir', 'light'; font-size:18px">
+				Calculus: Fourth Edition
+				<br>
+				<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+			</p>
+			<table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="text" style="color:#aaa">*</label>24.</td>
+		        <td style="padding-left:15px">
+		        	This problem shows that the actual placement of parentheses is a sum is irrelevent. The proofs involve "mathematical induction"; if you are not fam- iliar with such proofs, but still want to tackle this problem, it can be saved until after Chapter 2, where proofs by induction are explained.
+		        	<br>
+		        	Let us agree, for definiteness, that $a_1+ \cdots + a_k$ will denote
+		        	$$a_1 + (a_2 + (a_3 + \cdots + (a_{n-2} + (a_{n-1}+a_n))) \cdots).$$
+		        	Thus $a_1+a_2+a_3$ denotes $a_1+(a_2+a_3),$ and $a_1+a_2+a_3+a_4$ denotes $a_1+(a_2+a_3+a_4),$ etc.
+		        	<br>
+		        	<br>
+		        	<table>
+		        		<tr>
+		        			<td style="vertical-align:top">(a)</td>
+		        			<td style="vertical-align:top; padding-left:10">
+		        				Prove that
+		        				$$(a_1+ \cdots + a_k)+a_{k+1} = a_1+ \cdots + a_{k+1}.$$
+		        				Hint: Use induction on $k$.
+		        			</td>
+		        		</tr>
+		        		<tr>
+		        			<td style="vertical-align:top">(b)</td>
+		        			<td style="vertical-align:top; padding-left:10">
+		        				Prove that if $k \leq n,$ then
+		        				$$(a_1+ \cdots + a_k)+(a_{k+1}+ \cdots + a_n) = a_1+ \cdots + a_n.$$
+		        				Hint: Use part (a) to give a proof by induction on $k$.
+		        			</td>
+		        		</tr>
+		        		<tr>
+		        			<td style="vertical-align:top">(c)</td>
+		        			<td style="vertical-align:top; padding-left:10">
+		        				Let $s(a_1, \dots, a_k)$ be some sum formed from $a_1, \dots, a_k.$ Show that
+		        				$$s(a_1, \dots, a_k) = a_1 + \cdots + a_k.$$
+
+		        				Hint: There must be two sums $s'(a_1, \dots, a_l)$ and $s''(a_{l+1}, \dots, a_k)$ such that
+		        				$$s(a_1, \dots, a_k) = s'(a_1, \dots, a_l) + s''(a_{l+1}, \dots, a_k).$$
+		        			</td>
+		        		</tr>
+		        	</table>
+		      </tr>
+		    </table>
+		    <table style="vertical-align:top; padding: 18 0 0 0">
+		      <tr>
+		        <td style="vertical-align:top; padding-left:40px"><label title="text" style="color:#aaa">*</label>25.</td>
+		        <td style="padding-left:15px">
+		        	Suppose that we interpret "number" to mean either $0$ or $1$, and + and $\cdot$ to be the operations defined by the following two tables.
+		        	<div style="margin-left:50px"> 
+		             <div style="float:left"> 
+		              <table style="border-collapse:collapse">
+		                <tr>
+		                  <td style="padding:10px 19px 10 19px"><p>$+$</p></td>
+		                  <td style="padding:10px 19px 10 19px"><p>$0$</p></td>
+		                  <td style="padding:10px 19px 10 19px"><p>$1$</p></td>
+		                </tr>
+		                <tr>
+		                  <td style="padding:10px 19px 0 19px"><p>$0$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                </tr>
+		                <tr>
+		                  <td style="padding:10px 19px 0 19px"><p>$1$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$1$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                </tr>
+		              </table>
+		            </div>
+
+		            <div style="float:left; padding-left:50px"> 
+		              <table style="border-collapse:collapse">
+		                <tr>
+		                  <td style="padding:10px 19px 10 19px"><p>$+$</p></td>
+		                  <td style="padding:10px 19px 10 19px"><p>$0$</p></td>
+		                  <td style="padding:10px 19px 10 19px"><p>$1$</p></td>
+		                </tr>
+		                <tr>
+		                  <td style="padding:10px 19px 0 19px"><p>$0$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                </tr>
+		                <tr>
+		                  <td style="padding:10px 19px 0 19px"><p>$1$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$1$</p></td>
+		                  <td style="border:1px solid grey; padding:10px 19px 10 19px"><p>$0$</p></td>
+		                </tr>
+		              </table>
+		            </div>
+		          </div>
+		        </td>
+		      </tr>
+		    </table>
+		    <p style="padding-left:92">Check that properties P1&ndash;P9 all hold, even though $1+1=0.$</p>
+		</td>
+		<td id="real2" style="vertical-align:top; 
+								padding-left: 25px;
+								padding-right: 0px; 
+								border-top: 20px solid #f2f2f2; 
+								border-left:1px solid #f2f2f2; 
+								width: 50.3%">
+			<div style="height: 790px; overflow:auto; padding-top:40px">
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px"><label title="text" style="color:#aaa">*</label>24.</td>
+					<td style="vertical-align:top; padding-right:15px">Hello world!</td>
 					</tr>
 				</table>
 			</div>
@@ -2311,38 +2435,39 @@ function currentDiv(n) {
 					<div  id="myDropdown" class="dropdown-content">
 			          <table style="width:100%">
 			          	<tr>
-			          		<td><a href="#">Basic Properties of Numbers</a></td>
-			          		<td><a href="#">Numbers of Various Sorts</a></th>
-			          		<td><a href="#">Functions</a></th>
-			          		<td><a href="#">Graphs</a></th>
+			          		<td><a class="pset" href="#">Basic Properties of Numbers</a></td>
+			          		<td><a class="pset" href="#">Numbers of Various Sorts</a></th>
+			          		<td><a class="pset" href="#">Functions</a></th>
+			          		<td><a class="pset" href="#">Graphs</a></th>
 			          	</tr>
 			          	<tr>
 			          		<td>
 			          			<a onclick="currentDiv(1)" href="#">1</a>
-			          			<a onclick="currentDiv(2)" href="#">2</a>
-			          			<a onclick="currentDiv(3)" href="#">3</a>
-			          			<a onclick="currentDiv(4)" href="#">4</a>
-			          			<a onclick="currentDiv(5)" href="#">5</a>
-			          			<a onclick="currentDiv(6)" href="#">6</a>
-			          			<a onclick="currentDiv(7)" href="#">7</a>
-			          			<a onclick="currentDiv(8)" href="#">8</a>
-			          			<a onclick="currentDiv(9)" href="#">9</a>
-			          			<a onclick="currentDiv(10)" href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2371,6 +2496,108 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
+			          			<a href="#">25</a>
+			          			<a href="#">26</a>
+			          			<a href="#">27</a>
+			          			<a href="#">28</a>
+			          		</td>
+			          		<td>
+			          			<a href="#">1</a>
+			          			<a href="#">2</a>
+			          			<a href="#">3</a>
+			          			<a href="#">4</a>
+			          			<a href="#">5</a>
+			          			<a href="#">6</a>
+			          			<a href="#">7</a>
+			          			<a href="#">8</a>
+			          			<a href="#">9</a>
+			          			<a href="#">10</a>
+			          			<a href="#">11</a>
+			          			<a href="#">12</a>
+			          			<a href="#">13</a>
+			          			<a href="#">14</a>
+			          			<br>
+			          			<a href="#">15</a>
+			          			<a href="#">16</a>
+			          			<a href="#">17</a>
+			          			<a href="#">18</a>
+			          			<a href="#">19</a>
+			          			<a href="#">20</a>
+			          			<a href="#">21</a>
+			          			<a href="#">22</a>
+			          			<a href="#">23</a>
+			          			<a href="#">24</a>
+			          			<br>
+			          			<a href="#">25</a>
+			          			<a href="#">26</a>
+			          			<a href="#">27</a>
+			          			<a href="#">28</a>
+			          		</td>
+			          		<td>
+			          			<a href="#">1</a>
+			          			<a href="#">2</a>
+			          			<a href="#">3</a>
+			          			<a href="#">4</a>
+			          			<a href="#">5</a>
+			          			<a href="#">6</a>
+			          			<a href="#">7</a>
+			          			<a href="#">8</a>
+			          			<a href="#">9</a>
+			          			<a href="#">10</a>
+			          			<a href="#">11</a>
+			          			<a href="#">12</a>
+			          			<a href="#">13</a>
+			          			<a href="#">14</a>
+			          			<br>
+			          			<a href="#">15</a>
+			          			<a href="#">16</a>
+			          			<a href="#">17</a>
+			          			<a href="#">18</a>
+			          			<a href="#">19</a>
+			          			<a href="#">20</a>
+			          			<a href="#">21</a>
+			          			<a href="#">22</a>
+			          			<a href="#">23</a>
+			          			<br>
+			          			&#160
+			          		</td>
+			          	</tr>
+			          	<tr><th>&#160</th></tr>
+			          	<tr>
+			          		<td><a class="pset" href="#">Limits</th>
+			          		<td><a class="pset" href="#">Continuous Functions<a/></th>
+			          		<td><a class="pset" href="#">Three Hard Theorems</a></th>
+			          		<td><a class="pset" href="#">Least Upper Bounds</a></th>
+			          	</tr>
+			          	<tr>
+			          		<td>
+			          			<a href="#">1</a>
+			          			<a href="#">2</a>
+			          			<a href="#">3</a>
+			          			<a href="#">4</a>
+			          			<a href="#">5</a>
+			          			<a href="#">6</a>
+			          			<a href="#">7</a>
+			          			<a href="#">8</a>
+			          			<a href="#">9</a>
+			          			<a href="#">10</a>
+			          			<a href="#">11</a>
+			          			<a href="#">12</a>
+			          			<a href="#">13</a>
+			          			<a href="#">14</a>
+			          			<br>
+			          			<a href="#">15</a>
+			          			<a href="#">16</a>
+			          			<a href="#">17</a>
+			          			<a href="#">18</a>
+			          			<a href="#">19</a>
+			          			<a href="#">20</a>
+			          			<a href="#">21</a>
+			          			<a href="#">22</a>
+			          			<a href="#">23</a>
+			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2399,6 +2626,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2427,15 +2655,45 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
+			          			<a href="#">25</a>
+			          		</td>
+			          		<td>
+			          			<a href="#">1</a>
+			          			<a href="#">2</a>
+			          			<a href="#">3</a>
+			          			<a href="#">4</a>
+			          			<a href="#">5</a>
+			          			<a href="#">6</a>
+			          			<a href="#">7</a>
+			          			<a href="#">8</a>
+			          			<a href="#">9</a>
+			          			<a href="#">10</a>
+			          			<a href="#">11</a>
+			          			<a href="#">12</a>
+			          			<a href="#">13</a>
+			          			<a href="#">14</a>
+			          			<br>
+			          			<a href="#">15</a>
+			          			<a href="#">16</a>
+			          			<a href="#">17</a>
+			          			<a href="#">18</a>
+			          			<a href="#">19</a>
+			          			<a href="#">20</a>
+			          			<a href="#">21</a>
+			          			<a href="#">22</a>
+			          			<a href="#">23</a>
+			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
 			          	<tr>
-			          		<td><a href="#">Limits</th>
-			          		<td><a href="#">Continuous Functions<a/></th>
-			          		<td><a href="#">Three Hard Theorems</a></th>
-			          		<td><a href="#">Least Upper Bounds</a></th>
+			          		<td><a class="pset" href="#">Derivatives</a></th>
+			          		<td><a class="pset" href="#">Differentiation</a></th>
+			          		<td><a class="pset" href="#">Significance of the Derivative</a></th>
+			          		<td><a class="pset" href="#">Inverse Functions</a></th>
 			          	</tr>
 			          	<tr>
 			          		<td>
@@ -2464,6 +2722,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2492,6 +2751,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2520,6 +2780,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2548,136 +2809,16 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
-			          			<a href="#">25</a>
-			          		</td>
-			          	</tr>
-			          	<tr><th>&#160</th></tr>
-			          	<tr>
-			          		<td><a href="#">Limits</a></th>
-			          		<td><a href="#">Derivatives</a></th>
-			          		<td><a href="#">Differentiation</a></th>
-			          		<td><a href="#">Significance of the Derivative</a></th>
-			          	</tr>
-			          	<tr>
-			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
-			          			<a href="#">24</a>
-			          			<a href="#">25</a>
-			          		</td>
-			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
-			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
-			          			<a href="#">24</a>
-			          			<a href="#">25</a>
-			          		</td>
-			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
-			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
-			          			<a href="#">24</a>
-			          			<a href="#">25</a>
-			          		</td>
-			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
-			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
-			          			<a href="#">24</a>
 			          			<a href="#">25</a>
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
 			          	<tr>
-			          		<td><a href="#">Inverse Functions</a></th>
-			          		<td><a href="#">Integrals</a></th>
-			          		<td><a href="#">The Fundamental Theorem of Calculus</a></th>
-			          		<td><a href="#">The Trigonometric Functions</a></th>
+			          		<td><a class="pset" href="#">Integrals</a></th>
+			          		<td><a class="pset" href="#">The Fundamental Theorem of Calculus</a></th>
+			          		<td><a class="pset" href="#">The Trigonometric Functions</a></th>
+			          		<td><a class="pset" href="#">&pi; is Irrational</a></th>
 			          	</tr>
 			          	<tr>
 			          		<td>
@@ -2706,6 +2847,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2734,6 +2876,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2762,6 +2905,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2790,15 +2934,16 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
 			          	<tr>
-			          		<td><a href="#">&pi; is Irrational</a></th>
-			          		<td><a href="#">Planetary Motion</a></th>
-			          		<td><a href="#">The Logarithmic + Exponential Functions</a></th>
-			          		<td><a href="#">Integration in Elementary Terms</a></th>
+			          		<td><a class="pset" href="#">Planetary Motion</a></th>
+			          		<td><a class="pset" href="#">The Logarithmic + Exponential Functions</a></th>
+			          		<td><a class="pset" href="#">Integration in Elementary Terms</a></th>
+			          		<td><a class="pset" href="#">Approximation by Polynomial Functions</a></th>
 			          	</tr>
 			          	<tr>
 			          		<td>
@@ -2827,6 +2972,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2855,6 +3001,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2883,6 +3030,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          		<td>
@@ -2911,6 +3059,7 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
+			          			<br>
 			          			<a href="#">25</a>
 			          		</td>
 			          	</tr>
