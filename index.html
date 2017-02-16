@@ -99,6 +99,36 @@ input[type="submit"]:hover{color: black; border: 1px solid grey; transition: col
 .dropbtn{padding: 0 0 5 0}
 th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:left}
 
+.tooltip {
+	color: #aaa;
+	font-size: 14;
+	cursor: default;
+    position: relative;
+    display: inline-block;
+    font-family: 'Avenir','light';
+}
+
+.tooltip .tooltiptext {
+	font-size: 12;
+    visibility: hidden;
+    width: 200;
+    background-color: #f2f2f2;
+    color: black;
+    text-align: left;
+    padding: 10 10;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    left: -50;
+    top: 22;
+    box-shadow: 2px 2px 4px #888888;
+}
+
 </style>
 </head>
 
@@ -2376,7 +2406,79 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 				<table>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px"><label title="text" style="color:#aaa">*</label>24.</td>
-					<td style="vertical-align:top; padding-right:15px">Hello world!</td>
+					<td style="vertical-align:top; padding-right:15px">(a)</td>
+					<td style="vertical-align:top; padding-right:15px">
+						For $k=1$ the equation reads $a_1+a_2=a_1+a_2.$ If the equation holds for $k,$ then
+						$$
+						\begin{equation}
+						\begin{split}
+						(a_1+\cdots+a_{k+1})+a_{k+2} &= [(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2} \\
+						&= (a_1+\cdots+a_k)+(a_{k+1}+a_{k+2}) \ \ \ \text{by P1} \\
+						&= a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \\
+						& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{since the equation holds for }k \\
+						&= a_1+\cdots+a_k+a_{k+1}+a_{k+2} \\
+						&= a_1+\cdots+a_{k+2} \\ 
+						& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_1+\cdots+a_{k+2}. \\
+						& \ \square
+						\end{split}
+						\end{equation}
+						$$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(b)</td>
+					<td style="vertical-align:top; padding-right:15px">
+						For $k=1$ the equation reduces to the definition $a_1+\cdots+a_k.$ If the equation is true for some $k < n,$ then
+						$$
+						\begin{equation}
+						\begin{split}
+						(a_1+\cdots+a_{k+1})
+						&+(a_{k+2}+\cdots+a_n) \\
+						&= [(a_1+\cdots+a_k)+a_{k+1}]+(a_{k+2}+\cdots+a_n) \\
+						& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by part(a)} \\
+						&= (a_1+\cdots+a_k)+(a_{k+1}+(a_{k+2}+\cdots+a_n)) \\
+						& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by P1} \\
+						&= (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n) \\ 
+						& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_{k+1}\cdots+a_n. \\
+						&=a_1+\cdots+a_n \ \ \ \ \ \ \text{by assumption}. \\
+						& \ \square
+						\end{split}
+						\end{equation}
+						$$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">&#160</td>
+					<td style="vertical-align:top; padding-right:15px">(c)</td>
+					<td style="vertical-align:top; padding-right:15px">
+						The proof is by 
+						<div class="tooltip">complete induction
+  							<span class="tooltiptext">
+  								<u>Complete induction</u>: proves the statement <span style="font-family:'times'; font-size:13"><b>P</b>(<em>m</em> + 1)</span> under the assumption that 
+  								<span style="font-family:'times'; font-size:13"><b>P</b>(<em>n</em>)</span> holds for all natural 
+  								<span style="font-family:'times'; font-size:13"><em>n</em> < (<em>m</em> + 1);</span> by contrast, basic&ndash;induction only assumes 
+  								<span style="font-family:'times'; font-size:13"><b>P</b>(<em>m</em>)</span>.
+  							</span>
+						</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
+						$$
+						\begin{equation}
+						\begin{split}
+						s(a_1,\dots,a_k) &= s'(a_1,\dots,a_l)+s''(a_{l+1},\dots,a_k) \\
+						&= (a_1+\cdots+a_l)+(a_{l+1}+\cdots+a_k) \ \ \ \ \ \text{by assumption} \\
+						&= a_1+\cdots+a_k \ \ \ \ \ \text{by part(b).} \\
+						& \ \square
+						\end{split}
+						\end{equation}
+						$$
+					</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px"><label title="text" style="color:#aaa">*</label>25.</td>
+					<td style="vertical-align:top; padding-right:15px">
+						P2, P3, P4, P6, P7, P8 are obvious from a glance at the tables. There are eight cases for P1, and even this number can be reduced: because P2 is true, it is clear that $a+(b+c)=(a+b)+c$ if $a,b,$ or $c$ is 0, so only the case $a=b=c=1$ must be checked. Similarly for P5. Finally, P9 is true for $a=0,$ since $0\cdot b=0$ for all $b,$ and for $a=1,$ since $1\cdot b=b$ for all $b. \ \ \square$
 					</tr>
 				</table>
 			</div>
