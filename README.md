@@ -1,2 +1,2 @@
-### Calculus: Fourth Edition —— Michael Spivak
+### Calculus: Fourth Edition — [M. Spivak]
 Above are my solutions to the text. Whenever I deamed it pertenant, I have marked a result taken directly from or inspired by Spivak with an asterisk or the author's last name.
