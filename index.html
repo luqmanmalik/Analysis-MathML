@@ -109,7 +109,8 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 }
 
 .tooltip .tooltiptext {
-	font-size: 12;
+	font-family: 'Times','new Roman';
+
     visibility: hidden;
     width: 200;
     background-color: #f2f2f2;
@@ -125,7 +126,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 .tooltip:hover .tooltiptext {
     visibility: visible;
     left: -50;
-    top: 22;
+    top: 20;
     box-shadow: 2px 2px 4px #888888;
 }
 
@@ -2452,13 +2453,10 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(c)</td>
 					<td style="vertical-align:top; padding-right:15px">
-						The proof is by 
+						This proof is by 
 						<div class="tooltip">complete induction
   							<span class="tooltiptext">
-  								<u>Complete induction</u>: proves the statement <span style="font-family:'times'; font-size:13"><b>P</b>(<em>m</em> + 1)</span> under the assumption that 
-  								<span style="font-family:'times'; font-size:13"><b>P</b>(<em>n</em>)</span> holds for all natural 
-  								<span style="font-family:'times'; font-size:13"><em>n</em> < (<em>m</em> + 1);</span> by contrast, basic&ndash;induction only assumes 
-  								<span style="font-family:'times'; font-size:13"><b>P</b>(<em>m</em>)</span>.
+  								<span style="color:grey; font-family:'avenir'; font-size:13">complete induction</span>: to prove the statement <b>P</b>(<em>m</em> + 1) under the assumption that <b>P</b>(<em>n</em>) holds for all natural <em>n</em> < (<em>m</em> + 1). By contrast, basic&ndash;induction only assumes <b>P</b>(<em>m</em>)
   							</span>
 						</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
 						$$
