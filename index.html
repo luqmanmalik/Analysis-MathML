@@ -110,7 +110,6 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 
 .tooltip .tooltiptext {
 	font-family: 'Times','new Roman';
-
     visibility: hidden;
     width: 200;
     background-color: #f2f2f2;
@@ -121,13 +120,13 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
+    left: -53;
+    top: 20;
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
-    left: -50;
-    top: 20;
-    box-shadow: 2px 2px 4px #888888;
+    box-shadow: 1px 1px 3px #888888;
 }
 
 </style>
@@ -2110,18 +2109,22 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 								\end{align}
 								$$ 
 								and the equation $$\lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{y_1}^{2 \ *}\big)=0$$ 
-								has $no$ solution $\lambda$. So by problem 18(a/e), that is,
+								has no solution $\lambda$. So by problem 
+								<div class="tooltip">18(a,e)
+		  							<span class="tooltiptext">
+		  								that is to say,
+		  								$$
+										\begin{align}\displaystyle
+										a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
+										a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+										(a)\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+										\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
+										\end{align}
+										$$
+		  							</span>
+								</div>
 
-								$$
-								\begin{align}\displaystyle
-								a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
-								a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
-								(a)\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
-								\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
-								\end{align}
-								$$
-
-								we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)} < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
+								we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\Bigg[\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)}\Bigg] < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
 								<br>
 								<br>
 								<label title="erratum" style="color:aaa">*</label> It is likely that this term is a typo, and is intended to read $"{x_2}^2"$ as the line that contains it is simply an expansion of the right&ndash;hand side of the initial inequality, and otherwise identical to the equation just above it. 
@@ -2556,8 +2559,8 @@ function currentDiv(n) {
 			          			<a onclick="currentDiv(5)" href="#">12</a>
 			          			<a onclick="currentDiv(5)" href="#">13</a>
 			          			<a onclick="currentDiv(6)" href="#">14</a>
-			          			<br>
 			          			<a onclick="currentDiv(6)" href="#">15</a>
+			          			<br>
 			          			<a onclick="currentDiv(6)" href="#">16</a>
 			          			<a onclick="currentDiv(7)" href="#">17</a>
 			          			<a onclick="currentDiv(7)" href="#">18</a>
@@ -2567,8 +2570,9 @@ function currentDiv(n) {
 			          			<a onclick="currentDiv(8)" href="#">22</a>
 			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
 			          			<a href="#">1</a>
@@ -2585,8 +2589,8 @@ function currentDiv(n) {
 			          			<a href="#">12</a>
 			          			<a href="#">13</a>
 			          			<a href="#">14</a>
-			          			<br>
 			          			<a href="#">15</a>
+			          			<br>
 			          			<a href="#">16</a>
 			          			<a href="#">17</a>
 			          			<a href="#">18</a>
@@ -2596,9 +2600,9 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
 			          			<a href="#">26</a>
+			          			<br>
 			          			<a href="#">27</a>
 			          			<a href="#">28</a>
 			          		</td>
@@ -2617,8 +2621,8 @@ function currentDiv(n) {
 			          			<a href="#">12</a>
 			          			<a href="#">13</a>
 			          			<a href="#">14</a>
-			          			<br>
 			          			<a href="#">15</a>
+			          			<br>
 			          			<a href="#">16</a>
 			          			<a href="#">17</a>
 			          			<a href="#">18</a>
@@ -2628,9 +2632,9 @@ function currentDiv(n) {
 			          			<a href="#">22</a>
 			          			<a href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
 			          			<a href="#">26</a>
+			          			<br>
 			          			<a href="#">27</a>
 			          			<a href="#">28</a>
 			          		</td>
@@ -2672,120 +2676,124 @@ function currentDiv(n) {
 			          	</tr>
 			          	<tr>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
@@ -2797,120 +2805,124 @@ function currentDiv(n) {
 			          	</tr>
 			          	<tr>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
@@ -2922,120 +2934,124 @@ function currentDiv(n) {
 			          	</tr>
 			          	<tr>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          	</tr>
 			          	<tr><th>&#160</th></tr>
@@ -3047,120 +3063,124 @@ function currentDiv(n) {
 			          	</tr>
 			          	<tr>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          		<td>
-			          			<a href="#">1</a>
-			          			<a href="#">2</a>
-			          			<a href="#">3</a>
-			          			<a href="#">4</a>
-			          			<a href="#">5</a>
-			          			<a href="#">6</a>
-			          			<a href="#">7</a>
-			          			<a href="#">8</a>
-			          			<a href="#">9</a>
-			          			<a href="#">10</a>
-			          			<a href="#">11</a>
-			          			<a href="#">12</a>
-			          			<a href="#">13</a>
-			          			<a href="#">14</a>
+			          			<a onclick="currentDiv(1)" href="#">1</a>
+			          			<a onclick="currentDiv(1)" href="#">2</a>
+			          			<a onclick="currentDiv(1)" href="#">3</a>
+			          			<a onclick="currentDiv(2)" href="#">4</a>
+			          			<a onclick="currentDiv(2)" href="#">5</a>
+			          			<a onclick="currentDiv(3)" href="#">6</a>
+			          			<a onclick="currentDiv(3)" href="#">7</a>
+			          			<a onclick="currentDiv(3)" href="#">8</a>
+			          			<a onclick="currentDiv(4)" href="#">9</a>
+			          			<a onclick="currentDiv(4)" href="#">10</a>
+			          			<a onclick="currentDiv(4)" href="#">11</a>
+			          			<a onclick="currentDiv(5)" href="#">12</a>
+			          			<a onclick="currentDiv(5)" href="#">13</a>
+			          			<a onclick="currentDiv(6)" href="#">14</a>
+			          			<a onclick="currentDiv(6)" href="#">15</a>
 			          			<br>
-			          			<a href="#">15</a>
-			          			<a href="#">16</a>
-			          			<a href="#">17</a>
-			          			<a href="#">18</a>
-			          			<a href="#">19</a>
-			          			<a href="#">20</a>
-			          			<a href="#">21</a>
-			          			<a href="#">22</a>
-			          			<a href="#">23</a>
+			          			<a onclick="currentDiv(6)" href="#">16</a>
+			          			<a onclick="currentDiv(7)" href="#">17</a>
+			          			<a onclick="currentDiv(7)" href="#">18</a>
+			          			<a onclick="currentDiv(7)" href="#">19</a>
+			          			<a onclick="currentDiv(8)" href="#">20</a>
+			          			<a onclick="currentDiv(8)" href="#">21</a>
+			          			<a onclick="currentDiv(8)" href="#">22</a>
+			          			<a onclick="currentDiv(8)" href="#">23</a>
 			          			<a href="#">24</a>
-			          			<br>
 			          			<a href="#">25</a>
+			          			<br>
+			          			&#160;
 			          		</td>
 			          	</tr>
 			          </table>
