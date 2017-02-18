@@ -2525,11 +2525,11 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        	<table style="padding-top:10; width:100%">
 		        		<tr>
 		        			<td style="padding-top:3">(i)</td>
-		        			<td style="padding-left:10">$\displaystyle\sum_{i=1}^{n} (2i-1)=1+2+3+4+5+\cdots+(2n-1).$</td>
+		        			<td style="padding-left:10">$\displaystyle\sum_{i=1}^{n} (2i-1)=1+3+5+\cdots+(2n-1).$</td>
 		        		</tr>
 		        		<tr>
 		        			<td style="padding-top:3">(ii)</td>
-		        			<td style="padding-left:10">$\displaystyle\sum_{i=1}^{n} (2i-1)^2=1^2+2^2+3^2+4^2+5^2+\cdots+(2n-1)^2.$</td>
+		        			<td style="padding-left:10">$\displaystyle\sum_{i=1}^{n} (2i-1)^2=1^2+3^2+5^2+\cdots+(2n-1)^2.$</td>
 		        		</tr>
 		        	</table>
 		        </td>
@@ -2554,11 +2554,69 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        				<br>
 		        				<br>
 		        				This relation gives rise to the following configuration, known as "Pas-cal's triangle" &mdash; a number not on one of the sides is the sum of the two numbers above it; the binomial coefficient $\displaystyle{n \choose k}$ is the $(k+1)\text{st}$ number in the $(n+1)\text{st}$ row.
+		        				$$
+		        				\begin{array}
+								&	&    &    &    &	&  1 \\
+									&	 &    &    &  1 &    &  1 \\
+									&	 &    &  1 &    &  2 &    &  1 \\
+									&	 &	1 &    &  3 &    &  3 &    &  1 \\
+									&  1 &    &  4 &    &  6 &    &  4 &    &  1 \\
+								  1 &    &  5 &	   & 10 & 	 & 10 &	   &  5 &	 &  1 \\
+									&	 &    &    &	& \dots
+								\end{array}
+								$$
 		        			</td>
 		        		</tr>
 		        		<tr>
-		        			<td style="padding-top:3">(b)</td>
-		        			<td style="padding-left:10">$1^3+\cdots+n^3=(1+\cdots+n)^2.$</td>
+		        			<td style="vertical-align:top; padding-top:0">(b)</td>
+		        			<td style="padding-left:10">
+		        				Notice that all the numbers in Pascal's triangle are natural  numbers. Use part (a) to prove by induction that $\displaystyle{n \choose k}$ is always a natural number.(Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
+		        			</td>
+		        		</tr>
+		        		<tr>
+		        			<td style="vertical-align:top; padding-top:11">(c)</td>
+		        			<td style="padding-left:10">
+		        				Give another proof that $\displaystyle{n \choose k}$ is a natural number by showing that $\displaystyle{n \choose k}$ is the number of sets of exactly $k$ itegers  each chosen from $1,\cdots, n.$
+		        			</td>
+		        		</tr>
+		        		<tr>
+		        			<td style="vertical-align:top; padding-top:1">(d)</td>
+		        			<td style="vertical-align:top; padding-left:10">
+		        				Prove the <b>binomial theorem</b>: If $a$ and $b$ are any numbers and $n$ is a natural number, then
+		        				$$
+		        				\begin{equation}
+		        				\begin{split}
+		        				\displaystyle
+		        				(a+b)^n &= a^n+{n \choose 1}a^{n-1}b+{n \choose 2}a^{n-2}b^2+\cdots+{n \choose n-1}ab^{n-1}+b^n \\
+		        				&= \sum_{j=0}^{n} {n \choose j}a^{n-j}b^j.
+		        				\end{split}
+		        				\end{equation}
+		        				$$
+		        			</td>
+		        		</tr>
+		        		<tr>
+		        			<td style="vertical-align:top; padding-top:8">(e)</td>
+		        			<td>
+		        				<object width="100%" height="40" data="c2p2.html"></object>
+		        				<table style="padding-top:10">
+		        					<tr>
+		        						<td>(i)</td>
+		        						<td style="padding-left:10">$\displaystyle\sum_{j=0}^{n}{n \choose j}={n \choose 0}+\cdots+{n \choose n}=2^n.$</td>
+		        					</tr>
+		        					<tr>
+		        						<td>(ii)</td>
+		        						<td style="padding-left:10">$\displaystyle\sum_{j=0}^{n}(-1)^j{n \choose j}={n \choose 0}-{n \choose 1}+\cdots\pm{n \choose n}=0.$</td>
+		        					</tr>
+		        					<tr>
+		        						<td>(iii)</td>
+		        						<td style="padding-left:10">$\displaystyle\sum_{l \ \text{odd}}^{n}{n \choose l}={n \choose l}+{n \choose 3}+\cdots=2^{n-1}.$</td>
+		        					</tr>
+		        					<tr>
+		        						<td>(iv)</td>
+		        						<td style="padding-left:10">$\displaystyle\sum_{l \ \text{even}}^{n}{n \choose l}={n \choose 0}+{n \choose 2}+\cdots=2^{n-1}.$</td>
+		        					</tr>
+		        				</table>
+		        			</td>
 		        		</tr>
 		        	</table>
 		        </td>
@@ -2571,20 +2629,100 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 								border-top: 20px solid #f2f2f2; 
 								border-left:1px solid #f2f2f2; 
 								width: 50.3%">
-			<div style="height: 790px; overflow:auto; padding-top:40px">
+			<div style="height: 1290px; overflow:auto; padding-top:40px">
 				<table>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">1.</td>
 					<td style="vertical-align:top; padding-right:15px">(i)</td>
-					<td style="vertical-align:top; padding-right:15px">
-						Hello, World!
+					<td style="vertical-align:top; padding: 1 15 0 0"> 
+						$
+						\begin{align}
+						\text{Base}: \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 &= [1(1+1)(2\cdot1+1)]/6 \\
+						&= [1\cdot2(2+1)]/6 \\
+						&= (2\cdot3)/6 \\
+						&= 1.
+						\end{align}
+						$
+						<br>
+						<br>
+						$
+						\begin{align}
+						\text{Induction hypothesis}: \ n=k \ \ \rightarrow \ \ 1^2+\cdots+k^2 &= [k(k+1)(2\cdot k+1)]/6 \\
+						&= [(k^2+k)(2k+1)]/6.
+						\end{align}
+						$ 
+						<br>
+						<br>
+						$ \ \text{Proof}: \ n=k+1$
+						$$
+						\begin{align}
+						1^2+\cdots+k^2+(k+1)^2 &= \big[[k(k+1)(2k+1)]/6\big]+(k+1)^2 \\
+						&= [(k+1)/6][k(2k+1)+6(k+1)] \\
+						&= [(k+1)/6][2k^2+k+6k+6] \\
+						&= \big[(k+1)[2(k+1)+1](k+2)\big]\big/6. \\
+						& \square
+						\end{align}
+						$$
 					</td>
 					</tr>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">&#160</td>
 					<td style="vertical-align:top; padding-right:15px">(ii)</td>
 					<td style="vertical-align:top; padding-right:15px">
-						Hello, World!
+						Since $1^3=1^2,$ the formula is trye for $n=1.$ Suppose the formula is true for $k.$ Then
+						$$
+						\begin{align}
+						[1+\cdots+k+(k+1)]^2 &= (1+\cdots+k)^2+2(1+\cdots+k)(k+1)+(k+1)^2 \\
+						&= 1^3+k^3+2\big[[k(k+1)/2](k+1)\big]+(k+1)^2 \\
+						&= 1^3+\cdots+k^3+k(k^2+2k+1)+(k+1)^2 \\
+						&= 1^3+\cdots+k^3+(k^3+2k^2+k)+(k^2+2k+1) \\
+						&= 1^3+\cdots+k^3+k^3+3k^2+3k+1 \\
+						&= 1^3+\cdots+k^3+(k+1)^3.
+						\end{align}
+						$$
+						So the formula is true for $k+1. \ \ \square$
+					</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding: 28px 10px 0px 0px">2.</td>
+					<td style="vertical-align:top; padding: 28px 15px 0px 0px">(i)</td>
+					<td style="vertical-align:top; padding: 0 15 0 0">
+						$$
+						\begin{equation}
+						\begin{split}
+						\displaystyle\sum_{i=1}^n(2i-1) 
+						&= 1+3+5+\cdots+(2n-1) \\
+						&= 1+2+3+\cdots+2n-2(1+\cdots+n) \\
+						&= \frac{(2n)(2n+1)}{2}-2\bigg[\frac{n(n+1)}{2}\bigg] \ \prec \ 1+\cdots+n=\frac{n(n+1)}{2} \\
+						&= \frac{(2n)(2n+1)}{2}-n(n+1) \\
+						&= \frac{(2n)(2n+1)-2\cdot n(n+1)}{2} \\
+						&= n^2. \\
+						& \ \square
+						\end{split}
+						\end{equation}
+						$$ 
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding: 28px 10px 0px 0px">&#160</td>
+					<td style="vertical-align:top; padding: 28px 15px 0px 0px">(ii)</td>
+					<td style="vertical-align:top; padding: 0 15 0 0">
+						$$
+						\begin{equation}
+						\begin{split}
+						\displaystyle\sum_{i=1}^n(2i-1)^2 
+						&= 1^2+3^2+\cdots+(2n-1)^2 \\
+						&= [1^2+2^2+\cdots+(2n)^2-[2^2+4^2+6^2+\cdots+(2n)^2] \\
+						&= [1^2+2^2+\cdots+(2n)^2-4[1^2+2^2+3^2+\cdots+(n)^2] \\
+						&= \frac{(2n)(2n+1)(4n+1)}{6}-\frac{4n(n+1)(2n+1)}{6} \ \prec \ 1(\text{i}) \\
+						&= \frac{2n(2n+1)[4n+1-2(n+1)]}{6} \\
+						&= \frac{n(2n+1)(2n-1)}{3}. \\
+						& \ \square
+						\end{split}
+						\end{equation}
+						$$ 
 					</td>
 					</tr>
 				</table>
