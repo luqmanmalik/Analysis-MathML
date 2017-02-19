@@ -2541,12 +2541,12 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        <td style="vertical-align:top; padding:12 0 0 38">3.</td>
 		        <td style="vertical-align:top; padding-left:16px">
 		        	If $0 \leq k \leq n,$ the binomial coefficient $\displaystyle {n \choose k}$ is defined by 
-		        	$\displaystyle{n \choose k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)\cdots(n-k+1)}{k!},$ if $k\neq0,n$ 
+		        	$\displaystyle{n \choose k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)\cdots(n-k+1)}{k!}, \ \ \ \text{if} \ k\neq0,n$ 
 		        	<br>
 		        	$\displaystyle{n \choose 0}={n \choose n}=1$ (a special case of the first formula if we define $0!=1,)$ and for $k < 0$ or $n < k$ we just define the binomial coefficient to be 0.
 		        	<table style="padding-top:10; width:100%">
 		        		<tr>
-		        			<td style="vertical-align:top; padding-top:3">(a)</td>
+		        			<td style="vertical-align:top">(a)</td>
 		        			<td style="vertical-align:top; padding-left:10">
 		        				Prove that
 		        				$$\displaystyle{n+1 \choose k}=\displaystyle{n \choose k-1}+\displaystyle{n \choose k}.$$
@@ -2570,7 +2570,7 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 		        		<tr>
 		        			<td style="vertical-align:top; padding-top:0">(b)</td>
 		        			<td style="padding-left:10">
-		        				Notice that all the numbers in Pascal's triangle are natural  numbers. Use part (a) to prove by induction that $\displaystyle{n \choose k}$ is always a natural number.(Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
+		        				Notice that all the numbers in Pascal's triangle are natural  numbers. Use part (a) to prove by induction that $\displaystyle{n \choose k}$ is always a natural number. (Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
 		        			</td>
 		        		</tr>
 		        		<tr>
@@ -2629,12 +2629,12 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 								border-top: 20px solid #f2f2f2; 
 								border-left:1px solid #f2f2f2; 
 								width: 50.3%">
-			<div style="height: 1290px; overflow:auto; padding-top:40px">
+			<div style="height: 1600px; overflow:auto; padding-top:40px">
 				<table>
 					<tr>
 					<td style="vertical-align:top; padding-right:10px">1.</td>
 					<td style="vertical-align:top; padding-right:15px">(i)</td>
-					<td style="vertical-align:top; padding: 1 15 0 0"> 
+					<td style="vertical-align:top; padding: 1 0 0 0"> 
 						$
 						\begin{align}
 						\text{Base}: \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 &= [1(1+1)(2\cdot1+1)]/6 \\
@@ -2707,8 +2707,8 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 					</tr>
 					<tr>
 					<td style="vertical-align:top; padding: 28px 10px 0px 0px">&#160</td>
-					<td style="vertical-align:top; padding: 28px 15px 0px 0px">(ii)</td>
-					<td style="vertical-align:top; padding: 0 15 0 0">
+					<td style="vertical-align:top; padding: 28px 0px 0px 0px">(ii)</td>
+					<td style="vertical-align:top; padding: 0px 40px 0px 0px">
 						$$
 						\begin{equation}
 						\begin{split}
@@ -2723,6 +2723,52 @@ th{color:white; font-family:'Avenir', 'light'; font-weight:normal; text-align:le
 						\end{split}
 						\end{equation}
 						$$ 
+					</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+					<td style="vertical-align:top; padding: 25 5 0 0">3.</td>
+					<td style="vertical-align:top; padding: 25 5 0 5">(a)</td>
+					<td style="vertical-align:top; padding: 0 0 0 10">
+						$$
+						\begin{align}
+						\begin{split}
+						\displaystyle
+						{n \choose k-1} + {n \choose k}
+						&= \frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!} \\
+						&= \bigg[\frac{k!(n-k)!}{k!(n-k)!}\bigg]\bigg[\frac{n!}{(k-1)!(n-k+1)!}\bigg] \\
+						& \ \ \ \ \ \ \ \ \ \ + \bigg[\frac{(k-1)!(n-k+1)!}{(k-1)!(n-k+1)!}\bigg]\bigg[\frac{n!}{k!(n-k)!}\bigg] \\
+						&= \frac{k!(n-k)!n!+(k-1)!(n-k+1)!n!}{k!(n-k)!(k-1)!(n-k+1)!} \\
+						&= \frac{\color{grey}{\cancel{(k-1)!(n-k)!}}[kn!+(n+1-k)n!]}{k!\color{grey}{\cancel{(k-1)!(n-k)!}}(n-k+1)!} \\
+						&= \frac{kn!}{k!(n+1-k)}+\frac{(n+1-k)n!}{k!(n+1-k)} \\ 
+						&= \frac{(n+1)n!}{k!(n+1-k)!}=\frac{(n+1)!}{k!(n+1-k)!} \\
+						&= {n+1 \choose k}. \\
+						& \ \square 
+						\end{split}
+						\end{align}
+						$$
+					</td>
+					</tr>
+					<tr>
+					<td style="vertical-align:top; padding-right:10px">
+						&#160;
+					</td>
+					<td style="vertical-align:top; padding: 10px 15px 0px 0px">
+						(b)
+					</td>
+					<td style="vertical-align:top; padding: 1 0 0 0">
+						$\text{Clearly} \ \displaystyle{1 \choose 1} \ \text{is a natural number. Suppose that} \ \displaystyle {n \choose p} \ \text{is a natural number}$
+						<br>
+						$\text{for all} \ p \leq n.\ \text{Since}$
+						$$
+						\displaystyle {n+1 \choose p} = {n \choose p-1} + {n \choose p} \ \ \ \ \ \ \text{for} \ p \leq n,
+						$$
+						$\text{it follows that} \ \displaystyle{n+1 \choose p} \ \text{is a natural number for all} \ p \leq n, \ \text{while} \ {n+1 \choose n+1}$
+						<br>
+						$\displaystyle \text{is also a natural number. So} \ {n+1 \choose p} \ \text{is a natural number for all} \ p \leq n+1.$
+						<br>
+						$\square$ <label title="Spivak" style="color:#aaa; padding-left:5">&#9733;</label>
 					</td>
 					</tr>
 				</table>
