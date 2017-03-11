@@ -52,19 +52,19 @@
 		}						
 
 		.infscrll {
-		    height: 645 !important;
+		    height: 649 !important;
 		    overflow: scroll;
 		    font-size:15; 
 		    padding-top:40
 		}
 		.infscrll_C2P1 {
-		    height: 660 !important;
+		    height: 663 !important;
 		    overflow: scroll;
 		    font-size:15; 
 		    padding-top:27
 		}
 		.c1p1 {
-		    height: 561 !important;
+		    height: 635 !important;
 		    overflow: scroll;
 		    font-size:15; 
 		    margin: 0 0 0 45;
@@ -72,7 +72,7 @@
 		    border-top: 1 solid #f2f2f2;
 		}
 		.c1p4 {
-		    height: 567 !important;
+		    height: 635 !important;
 		    overflow: scroll;
 		    font-size:15; 
 		    margin: 0 0 0 45;
@@ -80,7 +80,15 @@
 		    border-top: 1 solid #f2f2f2;
 		}
 		.c1p6 {
-		    height: 561 !important;
+		    height: 635 !important;
+		    overflow: scroll;
+		    font-size:15; 
+		    margin: 0 0 0 45;
+		    padding: 5 0 0 0;
+		    border-top: 1 solid #f2f2f2;
+		}
+		.c1p9 {
+		    height: 635 !important;
 		    overflow: scroll;
 		    font-size:15; 
 		    margin: 0 0 0 45;
@@ -262,8 +270,8 @@
 							<br>
 							&#9634; <span style="font-size:12px">MICHAEL SPIVAK</span>
 						</p>
-						<canvas id="recursion" data-processing-sources="recursion.pde" width="600" height="360">
-						</canvas>
+						<!-- Cover art -->
+						<canvas id="recursion" data-processing-sources="recursion.pde" width="600" height="360"></canvas>
 						<p style="color:#f2f2f2; 
 									font-size:14; 
 									padding:50 0 0 39;
@@ -542,27 +550,16 @@
 								width:50%">
 						<p style="padding-top:24; 
 									padding-left:48; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; 
-											font-size:15">
-											Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
 						<div class="c1p1">
 							<table style="padding: 10 0 0 0">
 								<tr>
-									<td style="vertical-align:top; 
-												padding-right:15">
-										1.
-									</td>
-									<td style="padding-top:1">
+									<td style="vertical-align:top; padding:0 0 0 00">1.</td>
+									<td style="vertical-align:top; padding:0 0 0 10">
 										Prove the following:
 										<table style="padding:10 0 0 ">
 											<tr>
@@ -597,34 +594,36 @@
 							</table>
 							<table style="padding: 20 0 0 0">
 								<tr>
-									<td style="vertical-align:top; padding:0 15 0 0">2.</td>
-									<td style="padding-top:1">
+									<td style="vertical-align:top; padding:0 0 0 00">2.</td>
+									<td style="vertical-align:top; padding:0 0 0 10">
 										What is wrong with the following "proof"? Let $x=y.$ Then
-										$$
-										\begin{equation}
-											\begin{split}
-												x^2 &= xy, \\ 
-												x^2-y^2 &= xy-y^2, \\ 
-												(x+y)(x-y) &= y(x-y), \\ 
-												x+y &= y, \\ 
-												2y &= y, \\ 
-												2 &= 1. \\ 
-												& \ \square
-											\end{split}
-										\end{equation}
-										$$
+										<p style="padding:0 0 0 37">
+											$
+											\begin{equation}
+												\begin{split}
+													x^2 &= xy, \\ 
+													x^2-y^2 &= xy-y^2, \\ 
+													(x+y)(x-y) &= y(x-y), \\ 
+													x+y &= y, \\ 
+													2y &= y, \\ 
+													2 &= 1. \\ 
+													& \ \square
+												\end{split}
+											\end{equation}
+											$
+										</p>
 									</td>
 								</tr>
 							</table>
-							<table style="padding:0 0 0 0">
+							<table style="padding:20 0 0 0">
 								<tr>
-									<td style="vertical-align:top; padding:0 15 0 0">3.</td>
-									<td style="padding-top:1">
+									<td style="vertical-align:top; padding:0 0 0 00">3.</td>
+									<td style="vertical-align:top; padding:0 0 0 10">
 										Prove the following:
-										<table style="padding:10 0 0 0">
+										<table style="padding:10 0 10 0">
 											<tr>
 												<td style="padding:0 0 10 0">(i)</td>
-												<td style="padding:0 0 10 15">
+												<td style="padding:0 0 10 10">
 													$
 													\displaystyle
 														\frac{a}{b} = \frac{ac}{bc}$, if $b,c \neq 0.
@@ -633,7 +632,7 @@
 											</tr>
 											<tr>
 												<td style="padding:0 0 10 0">(ii)</td>
-												<td style="padding:0 0 10 15">
+												<td style="padding:0 0 10 10">
 													$
 													\displaystyle
 														\frac{a}{b} + \frac{c}{d} = \frac{ad+bc}{bd}
@@ -642,7 +641,7 @@
 											</tr>
 											<tr>
 												<td style="vertical-align:top; padding:0 0 10 0">(iii)</td>
-												<td style="padding:0 0 10 15">
+												<td style="padding:0 0 10 10">
 													$(ab)^{-1}=a^{-1}b^{-1},$ if $a,b \neq 0.$ (To do this, you must
 													<br> 
 													remember the defining property of $(ab)^{-1}$).
@@ -650,7 +649,7 @@
 											</tr>
 											<tr>
 												<td style="padding:0 0 10 0">(iv)</td>
-												<td style="padding:0 0 10 15">
+												<td style="padding:0 0 10 10">
 													$
 													\displaystyle
 														\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db},
@@ -659,7 +658,7 @@
 											</tr>
 											<tr>
 												<td style="padding:0 0 10 0">(v)</td>
-												<td style="padding:0 0 10 15">
+												<td style="padding:0 0 10 10">
 													$
 													\displaystyle
 														\frac{a}{b} \bigg/ \frac{c}{d} = \frac{ad}{bc},
@@ -668,8 +667,8 @@
 											</tr>
 											<tr>
 												<td style="vertical-align:top; 
-															padding:5 0 0 0">(vi)</td>
-												<td style="padding:0 0 0 15">
+															padding:3 0 0 0">(vi)</td>
+												<td style="padding:0 0 0 10">
 													If $b,d \neq 0$, then 
 													$
 													\displaystyle
@@ -809,7 +808,7 @@
 							<table style="padding-top:20">
 								<tr>
 									<td style="vertical-align:top">2.</td>
-									<td style="vertical-align:top; padding:0 0 0 15">
+									<td style="vertical-align:top; padding:0 0 0 10">
 										Line 3 $\rightarrow$ 4: division by 0 is undefined.
 									</td>
 								</tr>
@@ -817,7 +816,7 @@
 							<table style="padding-top:20">
 								<tr>
 									<td style="vertical-align:top; padding:7 0 0 0">3.</td>
-									<td style="vertical-align:top; padding:0 0 0 15">
+									<td style="vertical-align:top; padding:0 0 10 10">
 										<table>
 											<tr>
 												<td style="vertical-align:top; padding:5 0 0 0">(i)</td>
@@ -917,24 +916,17 @@
 								width:50%">
 						<p style="padding-top:24; 
 									padding-left:48; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
 						<div class="c1p4">
 							<table style="padding: 10 0 0 0">
 								<tr>
-									<td style="vertical-align:top; padding:1 10 0 0">4.</td>
-									<td style="padding: 1 0 0 0">
+									<td style="vertical-align:top; padding:0 10 0 0">4.</td>
+									<td style="padding: 0 0 0 0">
 										Find all numbers $x$ for which 
-										<br>
 										<table style="padding: 10 0 0 0">
 											<tr>
 												<td style="padding:0 0 0 0">(i)</td>
@@ -1389,44 +1381,38 @@
 								padding-right:0; 
 								width:50%">
 						<p style="padding:24 0 0 48; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
 						<div class="c1p6">
 							<table style="padding: 10 0 0 0">
 								<tr>
-									<td style="vertical-align:top">6.</td>
-									<td style="padding: 0 0 0 10">(a)</td>
-									<td style="padding: 0 0 0 10">
+									<td style="vertical-align:top; padding: 0 0 0 00">6.</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">(a)</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">
 										Prove that if $0 \leq x < y,$ then $x^n < y^n,$ $n=1, 2, 3, \dots$
 									</td>
 								</tr>
 								<tr>
-									<td style="padding: 0 0 0 10">&#160;</td>
-									<td style="padding: 0 0 0 10">(b)</td>
-									<td style="padding: 0 0 0 10">
+									<td style="vertical-align:top; padding: 0 0 0 10">&#160;</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">(b)</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">
 										Prove that if $x < y$ and $n$ is odd, then $x^n < y^n.$
 									</td>
 								</tr>
 								<tr>
-									<td style="padding: 0 0 0 10">&#160;</td>
-									<td style="padding: 0 0 0 10">(c)</td>
-									<td style="padding: 0 0 0 10">
+									<td style="vertical-align:top; padding: 0 0 0 10">&#160;</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">(c)</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">
 										Prove that if $x^n = y^n$ and $n$ is odd, then $x=y.$
 									</td>
 								</tr>
 								<tr>
-									<td style="padding: 0 0 0 10">&#160;</td>
-									<td style="padding: 0 0 0 10">(d)</td>
-									<td style="padding: 0 0 0 10">
+									<td style="vertical-align:top; padding: 0 0 0 10">&#160;</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">(d)</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">
 										Prove that if $x^n = y^n,$ and $n$ is even, then $x=y$ or $x=-y.$
 									</td>
 								</tr>
@@ -1434,12 +1420,12 @@
 							<table style="padding: 18 0 0 0">
 							    <tr>
 							    	<td style="vertical-align:top; padding: 0 0 0 0">7.</td>
-							    	<td style="padding: 0 0 0 10">
+							    	<td style="vertical-align:top; padding: 0 0 0 10">
 							        	Prove that if $0 < a < b$, then 
 
 							        	$$a < \sqrt{ab} < \frac{a+b}{2} < b.$$
 							        	
-							        	<p style="padding: 0 20 0 0">
+							        	<p style="vertical-align:top; padding: 0 20 0 0">
 							        		Notice that the inequality $\sqrt{ab} \leq (a+b)/2 \ $ holds for all $a,b \geq 0.$ A gener-alization of this fact occurs in Problem 2-22.
 							        	</p>
 							      	</td>
@@ -1449,49 +1435,49 @@
 						    	<tr>
 						        	<td style="vertical-align:top; padding: 0 0 0 0">8.</td>
 						        	<td>
-						          		<p style="padding: 0 20 0 10">
+						          		<p style="vertical-align:top; padding: 0 20 0 10">
 						          			Although the basic properties of inequalities were stated in terms of the collection $P$ of all positive numbers, and < was defined in terms of $P$, this procedure can be reversed. Suppose that P10&ndash;P12 are replaced by
 						          		</p>
 							            <table>
 							            	<tr>
-							                	<td style="padding-left:15px; vertical-align:top">(P'10)</td>
-							                	<td style="padding-left:15px; vertical-align:top">
+							                	<td style="padding:0 0 0 10; vertical-align:top">(P'10)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
 							                		For any numbers $a$ and $b$ one, and only one, of the 
 							                		<br> 
 							                		following holds:
 								                  	<ol type="i">
-								                      	<li style="padding-left:15px">$a=b,$</li>
-								                      	<li style="padding-left:15px">$a < b,$</li>
-								                      	<li style="padding-left:15px">$b < a.$</li>
+								                      	<li style="vertical-align:top; padding:0 0 0 10">$a=b,$</li>
+								                      	<li style="vertical-align:top; padding:0 0 0 10">$a < b,$</li>
+								                      	<li style="vertical-align:top; padding:0 0 0 10">$b < a.$</li>
 								                  	</ol>
 							                	</td>
 							             	</tr>
 							            </table>
 							            <table>
 							              	<tr>
-							                	<td style="padding-left:15px; vertical-align:top">(P'11)</td>
-							                	<td style="padding-left:15px; vertical-align:top">
+							                	<td style="padding:0 0 0 10; vertical-align:top">(P'11)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
 							                  		For any numbers $a,b$ and $c$, if $a < b$ and $b < c$, then <br> $a < c$.
 							                	</td>
 							              	</tr>
 							            </table>
 							            <table>
 							              	<tr>
-							                	<td style="padding-left:15px; vertical-align:top">(P'12)</td>
-							                	<td style="padding-left:15px; vertical-align:top">
+							                	<td style="padding:0 0 0 10; vertical-align:top">(P'12)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
 							                  		For any numbers $a,b$ and $c$, if $a < b$, then <br> $a+c < b+c$.
 							                	</td>
 							              	</tr>
 							            </table>
 							            <table>
 							              	<tr>
-							                	<td style="padding-left:15px; vertical-align:top">(P'13)</td>
-							                	<td style="padding-left:15px; vertical-align:top">
+							                	<td style="padding:0 0 0 10; vertical-align:top">(P'13)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
 							                  		For any numbers $a,b$ and $c$, if $a < b$, and $0 < c$, then <br> $ac < bc$.
 							                	</td>
 							              	</tr>
 							            </table>
-							            <p style="padding-left:15px">Show that P10&ndash;P12 can then be decuced as theorems.</p>
+							            <p style="padding:0 0 0 10">Show that P10&ndash;P12 can then be decuced as theorems.</p>
 						       		</td>
 						      	</tr>
 						    </table>
@@ -1581,89 +1567,79 @@
 								padding-right:0; 
 								width:50%">
 						<p style="padding:24 0 0 48; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
-						<div class="c1p6">
-							<table style="padding: 10 0 0 0">
+						<div class="c1p9">
+							<table style="padding: 10 0 0 7">
 								<tr>
-									<td style="vertical-align:top">
-										9.
-									</td>
-					        		<td style="padding: 1 20 0 10">
+									<td style="vertical-align:top; padding:0 0 0 0">9.</td>
+					        		<td style="padding:0 0 0 10">
 					        			Express each of the following  with at least one less pair of absolute value signs.
 							            <table style="padding: 10 0 0 0">
 							            	<tr>
-							                	<td style="padding-left:0; vertical-align:top">(i)</td>
-							                	<td style="padding-left:10; vertical-align:top">
+							                	<td style="padding:0 0 0 00; vertical-align:top">(i)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
 							                  		$|\sqrt{2} + \sqrt{3} - \sqrt{5} + \sqrt{7}|.$
 							                	</td>
 							              	</tr>
 								             <tr>
-								             	<td style="padding-left:0; vertical-align:top">(ii)</td>
-								                <td style="padding-left:10; vertical-align:top">
-								                  	$|(|a+b| - |a| - |b|)|.$
+							                	<td style="padding:0 0 0 00; vertical-align:top">(ii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|(|a+b| - |a| - |b|)|.$
 								                </td>
 								            </tr>
 								            <tr>
-								                <td style="padding-left:0; vertical-align:top">(iii)</td>
-								                <td style="padding-left:10; vertical-align:top">
-								                	$|(|a+b| + |c| - |a+b+c|)|.$
+							                	<td style="padding:0 0 0 00; vertical-align:top">(iii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|(|a+b| + |c| - |a+b+c|)|.$
 								                </td>
 								            </tr>
 								            <tr>
-								                <td style="padding-left:0; vertical-align:top">(iv)</td>
-								                <td style="padding-left:10; vertical-align:top">
-								                  	$|x^2 - 2xy + y^2|.$
+							                	<td style="padding:0 0 0 00; vertical-align:top">(iv)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x^2 - 2xy + y^2|.$
 								                </td>
 								            </tr>
 								            <tr>
-								                <td style="padding-left:0; vertical-align:top">(v)</td>
-								                <td style="padding-left:10; vertical-align:top">
-								                  	$|(|\sqrt{2} + \sqrt{3}| - |\sqrt{5} + \sqrt{7}|)|.$
+							                	<td style="padding:0 0 0 00; vertical-align:top">(v)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|(|\sqrt{2} + \sqrt{3}| - |\sqrt{5} + \sqrt{7}|)|.$
 								                </td>
 								            </tr>
 							            </table>
 					        		</td>
 					      		</tr>
 					    	</table>
-							<table style="vertical-align:top; padding: 18 0 0 0">
+							<table style="vertical-align:top; padding: 20 20 0 0">
 							    <tr>
-							        <td style="vertical-align:top">10.</td>
-							        <td>
-							          <p style="padding-left:10">
+							    	<td style="padding:0 0 0 00; vertical-align:top">10.</td>
+							        <td style="padding:0 0 0 10; vertical-align:top">
 							            Express each of the following  without absolute value signs, treating various cases seperately when necessary.
-							          </p>
-							            <table>
+							            <table style="padding:10 0 0 0">
 							              <tr>
-							                <td style="padding-left:10; vertical-align:top">(i)</td>
-							                <td style="padding-left:10; vertical-align:top">
+							                <td style="padding:0 0 0 00; vertical-align:top">(i)</td>
+							                <td style="padding:0 0 0 10; vertical-align:top">
 							                	$|a + b| - |b|.$
 							                </td>
 							              </tr>
 							              <tr>
-							                <td style="padding-left:10; vertical-align:top">(ii)</td>
-							                <td style="padding-left:10; vertical-align:top">
+							                <td style="padding:0 0 0 00; vertical-align:top">(ii)</td>
+							                <td style="padding:0 0 0 10; vertical-align:top">
 							                	$|(|x| - 1)|.$
 							                </td>
 							              </tr>
 							              <tr>
-							                <td style="padding-left:10; vertical-align:top">(iii)</td>
-							                <td style="padding-left:10; vertical-align:top">
+							                <td style="padding:0 0 0 00; vertical-align:top">(iii)</td>
+							                <td style="padding:0 0 0 10; vertical-align:top">
 							                	$|x| - |x^2|.$
 							                </td>
 							              </tr>
 							              <tr>
-							                <td style="padding-left:10; vertical-align:top">(iv)</td>
-							                <td style="padding-left:10; vertical-align:top">
+							                <td style="padding:0 0 0 00; vertical-align:top">(iv)</td>
+							                <td style="padding:0 0 0 10; vertical-align:top">
 							                	$a - |(a - |a|)|.$
 							                </td>
 							              </tr>
@@ -1671,72 +1647,125 @@
 							        </td>
 							    </tr>
 						    </table>
-						 	<table style="vertical-align:top; padding: 18 0 0 0">
+						 	<table style="vertical-align:top; padding: 20 0 0 0">
 						     	<tr>
-							        <td style="vertical-align:top">11.</td>
-							        <td style="padding-left: 10">
+							        <td style="vertical-align:top; padding:0 0 0 00">11.</td>
+							        <td style="vertical-align:top; padding:0 0 0 10">
 							        	Find all numbers $x$ for which
 							            <table style="padding: 10 0 0 0">>
-							              <tr>
-							                <td style="padding-left:0; vertical-align:top">(i)</td>
-							                <td style="padding-left:10; vertical-align:top">
-							                  $|x-3|=8.$
-							                </td>
-							              </tr>
-							              <tr>
-							                <td style="padding-left:0; vertical-align:top">(ii)</td>
-							                <td style="padding-left:10; vertical-align:top">
-							                  $|x-3| < 8.$
-							                </td>
-							              </tr>
-							              <tr>
-							                <td style="padding-left:0; vertical-align:top">(iii)</td>
-							                <td style="padding-left:10; vertical-align:top">
-							                  $|x+4| < 2.$
-							                </td>
-							              </tr>
-							              <tr>
-							                <td style="padding-left:0; vertical-align:top">(iv)</td>
-							                <td style="padding-left:10; vertical-align:top">
-							                  $|x-1| + |x-2| > 1.$
-							                </td>
-							              </tr>
-							              <tr>
-							                <td style="padding-left:0; vertical-align:top">(v)</td>
-							                <td style="padding-left:10; vertical-align:top">
-							                  $|x-1| + |x+1| < 2.$
-							                </td>
-							              </tr>
-							              <tr>
-										    <td style="padding-left:0; vertical-align:top">(vi)</td>
-										    <td style="padding-left:10; vertical-align:top">
-										      $|x-1| + |x+1| < 1.$
-										    </td>
-										  </tr>
-										  <tr>
-										    <td style="padding-left:0; vertical-align:top">(vii)</td>
-										    <td style="padding-left:10; vertical-align:top">
-										    	$|x-1| \cdot |x+1| = 0.$
-										    </td>
-										  </tr>
-										  <tr>
-										    <td style="padding-left:0; vertical-align:top">(viii)</td>
-										    <td style="padding-left:10; vertical-align:top">
-										      $|x-1| \cdot |x+2| = 3.$
-										    </td>
-										  </tr>
+							            	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(i)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-3|=8.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(ii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-3| < 8.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(iii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x+4| < 2.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(iv)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-1| + |x-2| > 1.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(v)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-1| + |x+1| < 2.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(vi)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-1| + |x+1| < 1.$
+										    	</td>
+										  	</tr>
+										  	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(vii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-1| \cdot |x+1| = 0.$
+										    	</td>
+										  	</tr>
+										  	<tr>
+							                	<td style="padding:0 0 0 00; vertical-align:top">(viii)</td>
+							                	<td style="padding:0 0 0 10; vertical-align:top">
+							                  		$|x-1| \cdot |x+2| = 3.$
+										    	</td>
+										  	</tr>
 							            </table>
 							        </td>
 						      	</tr>
 						    </table>
+						    <table style="padding: 20 0 10 0">
+								<tr>
+									<td style="vertical-align:top; padding: 0 10 0 0">12.</td>
+									<td style="vertical-align:top; padding: 0 0 0 0">Prove the following:
+							            <table style="padding: 10 0 0 0">
+							              	<tr>
+							                	<td style="padding: 0 0 0 00; vertical-align:top">(i)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                  		$|xy| = |x| \cdot |y|.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 00; vertical-align:top">(ii)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                    	$\lvert 1/x \ \rvert = 1/|x|, \ \text{if} \ x \neq 0. \ (\text{The best way to do this is to remember what}$ $|x|^{-1}$ is.)
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 00">(iii)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                    	$|x|/|y| = \lvert x/y \rvert, \ \text{if} \ y \neq 0.$
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 00; vertical-align:top">(iv)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                  		$|x - y| \leq |x| + |y|.$ (Give a very short proof.)
+							                	</td>
+							              	</tr>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 00; vertical-align:top">(v)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                  		$|x| - |y| \leq |x  -  y|.$ (A very short proof is possible if you write things in the right way.)
+							                	</td>
+							              	</tr>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 00; vertical-align:top">(vi)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                  		$|(|x| - |y|)| \leq |x - y|.$ (Why does this follow immediately from (v)?)
+							                	</td>
+							              	</tr>
+							              	<tr>
+							                	<td style="padding: 0 0 0 0; vertical-align:top">(vii)</td>
+							                	<td style="padding: 0 0 0 10; vertical-align:top">
+							                  		$|x+y+z| \leq |x| + |y| + |z|.$ Indicate when equality holds, and prove your statement.
+							                	</td>
+							              	</tr>
+							            </table>
+						        	</td>
+						      	</tr>
+						    </table>
 						</div>
 					</td>
-					<td style="vertical-align:top; 
-											padding-left: 30; 
-											border-top: 20 solid #f2f2f2; 
-											border-left: 1 solid #f2f2f2; 
-											width: 50%">
-						<div style="height: 635; overflow:auto; padding:41 0 15 0">
+					<td style="vertical-align:top;
+								width:50%;
+								padding: 2 0 0 30;
+								border-top:20 solid #f2f2f2;
+								border-left:1 solid #f2f2f2">
+						<div class="infscrll">
 							<table>
 								<tr>
 									<td style="vertical-align:top; padding:0 10 0 0">9.</td>
@@ -1895,6 +1924,57 @@
 									</td>
 								</tr>
 							</table>
+							<table style="padding:15 20 10 0">
+								<tr>
+									<td style="vertical-align:top; padding:1 0 0 00">12.</td>
+									<td style="vertical-align:top; padding:1 0 0 10">
+										<table>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(i)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													$(|xy|)^2 = (xy)^2 = x^2y^2 = |x|^2|y|^2 = (|x|\cdot|y|)^2.$ Taking the root on both ends of the equation shows that $|xy|=|x|\cdot|y|. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(ii)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													By (i), we have $\lvert 1/x \rvert \cdot |x| = \lvert 1/x \cdot x \rvert = |1| = 1,$ therefore $\lvert 1/x \rvert = 1/|x|. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(iii)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													$|x|/|y| = |x| \cdot |y|^{-1} = |x| \cdot |y^{-1}| \ \text{by(ii)} = |xy^-1| \ \text{by(i)} = |x/y|. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(iv)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													$|x-y| = |x+(-y)| \leq |x|+|-y| = |x|+|y|.$ (p.12) $ \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(v)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													It follows from (iv) that $|x| = |y-(y-x)| \leq |y|+|y-x|,$ hence $|x|-|y| \leq |x-y|. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(vi)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													Interchanging $x$ and $y$ in (v) returns $|y|-|x| \leq |x-y|.$ Joining this observation with (v) yields $|(|x|-|y|)| \leq |x-y|. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(vii)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													$|x+y+z| \leq |x+y|+|z| \leq |x|+|y|+|z|.$ If equality holds, then certainly $|x+y|=|x|+|y|, \ \text{so} \ x \ \text{and} \ y$ have the same sign. Moreover, $z$ must have the same sign as $x+y,$ so $x,y$ and $z$ must all have the same sign (unless either of them is 0). $ \ \ \square$
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
 						</div>
 					</td>
 				</tr>
@@ -1909,76 +1989,16 @@
 								width:50%">
 						<p style="padding-top:24; 
 									padding-left:48; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
-						<div class="c1p12">
-							<table style="padding: 10 0 0 0">
-								<tr>
-									<td style="vertical-align:top; padding:1 10 0 0">12.</td>
-									<td style="padding: 1 0 0 0">
-						            	Prove the following:
-							            <table>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00; vertical-align:top">(i)</td>
-							                	<td style="padding: 1 0 0 10; vertical-align:top">
-							                  		$|xy| = |x| \cdot |y|.$
-							                	</td>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00; vertical-align:top">(ii)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                    	$\lvert 1/x \ \rvert = 1/|x|, \ \text{if} \ x \neq 0. \ (\text{The best way to do this is to remember what}$ $|x|^{-1}$ is.)
-							                	</td>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00">(iii)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                    	$|x|/|y| = \lvert x/y \rvert, \ \text{if} \ y \neq 0.$
-							                	</td>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00; vertical-align:top">(iv)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                  		$|x - y| \leq |x| + |y|.$ (Give a very short proof.)
-							                	</td>
-							              	</tr>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00; vertical-align:top">(v)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                  		$|x| - |y| \leq |x  -  y|.$ (A very short proof is possible if you write things in the right way.)
-							                	</td>
-							              	</tr>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 00; vertical-align:top">(vi)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                  		$|(|x| - |y|)| \leq |x - y|.$ (Why does this follow immediately from (v)?)
-							                	</td>
-							              	</tr>
-							              	<tr>
-							                	<td style="padding: 0 0 0 0; vertical-align:top">(vii)</td>
-							                	<td style="padding: 0 0 0 10; vertical-align:top">
-							                  		$|x+y+z| \leq |x| + |y| + |z|.$ Indicate when equality holds, and prove your statement.
-							                	</td>
-							              	</tr>
-							            </table>
-						        	</td>
-						      	</tr>
-						    </table>
-							<table style="vertical-align:top; padding: 18 0 0 0">
+						<div class="c1p9">
+							<table style="vertical-align:top; padding:10 20 0 7">
 						      	<tr>
-						        	<td style="vertical-align:top">13.</td>
-						        	<td style="padding: 0 0 0 10">
+						        	<td style="vertical-align:top; padding:0 0 0 00">13.</td>
+						        	<td style="vertical-align:top; padding:0 0 0 10">
 						        		The maximum of two numbers $x$ and $y$ is denoted by $\text{max}(x, y)$. Thus $\text{max}(-1,3) = \text{max}(3,3) = 3$, and 
 						            	$\text{max}(-1,-4) = \text{max}(-4,-1) = -1$. The minumum of $x$ and $y$ is denoted by $\text{min}(x,y)$. Prove that
 						            	$$
@@ -1996,115 +2016,7 @@
 						        	</td>
 						      	</tr>
 						    </table>
-						</div>
-					</td>
-					<td style="vertical-align:top; 
-								padding: 0 0 0 25; 
-								border-top: 20 solid #f2f2f2; 
-								border-left:1 solid #f2f2f2; 
-								width: 50%">
-						<div style="height: 645; overflow:auto; padding-top:40">
-							<table>
-								<tr>
-									<td style="vertical-align:top; padding: 2 10 0 0">12.</td>
-									<td style="vertical-align:top; padding: 2 10 0 0">(i)</td>
-									<td style="vertical-align:top; padding: 0 00 0 0">
-										<p style="padding: 0 20 0 0">
-											$(|xy|)^2 = (xy)^2 = x^2y^2 = |x|^2|y|^2 = (|x|\cdot|y|)^2.$ Taking the root on both ends of the equation shows that $|xy|=|x|\cdot|y|. \ \ \square$
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-right:10px">$ \ $</td>
-									<td style="padding-right:15px">(ii)</td>
-									<td style="padding-top:0">
-										By (i), we have $\lvert 1/x \rvert \cdot |x| = \lvert 1/x \cdot x \rvert = |1| = 1,$ therefore $\lvert 1/x \rvert = 1/|x|. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-right:10px">$ \ $</td>
-									<td style="padding-right:15px">(iii)</td>
-									<td>
-										$|x|/|y| = |x| \cdot |y|^{-1} = |x| \cdot |y^{-1}| \ \text{by(ii)} = |xy^-1| \ \text{by(i)} = |x/y|. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-right:10px">$ \ $</td>
-									<td style="vertical-align:top; padding-right:15px">(iv)</td>
-									<td>$|x-y| = |x+(-y)| \leq |x|+|-y| = |x|+|y|.$ (p.12) $ \ \ \square$</td>
-								</tr>
-								<tr>
-									<td style="padding-right:10px">$ \ $</td>
-									<td style="vertical-align:top; padding-right:15px">(v)</td>
-									<td>It follows from (iv) that $|x| = |y-(y-x)| \leq |y|+|y-x|,$ hence $|x|-|y| \leq |x-y|. \ \ \square$</td>
-								</tr>
-								<tr>
-								<td style="padding-right:10px">$ \ $</td>
-									<td style="vertical-align:top; padding-right:15px">(vi)</td>
-									<td>
-										<p style="padding: 0 20 0 0">
-											Interchanging $x$ and $y$ in (v) returns $|y|-|x| \leq |x-y|.$ Joining this observation with (v) yields $|(|x|-|y|)| \leq |x-y|. \ \ \square$
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-right:10px">$ \ $</td>
-									<td style="vertical-align:top; padding-right:15px">(vii)</td>
-									<td>
-										<p style="padding: 0 20 0 0">
-											$|x+y+z| \leq |x+y|+|z| \leq |x|+|y|+|z|.$ If equality holds, then certainly $|x+y|=|x|+|y|, \ \text{so} \ x \ \text{and} \ y$ have the same sign. Moreover, $z$ must have the same sign as $x+y,$ so $x,y$ and $z$ must all have the same sign (unless either of them is 0). $ \ \ \square$
-										</p>
-									</td>
-								</tr>
-							</table>
-							<table style="padding: 20 0 0 0">
-								<tr>
-									<td style="vertical-align:top; padding-right:10px">13.</td>
-									<td style="vertical-align:top; padding-right:15px">
-										If $x \leq y,$ then $|y-x|=y-x,$ so $x+y+|y-x|=x+y+y-x=2y=$ $2\text{max}(x,y),$ so $y=\text{max}(x,y) = (x+y+|y-x|)/2.$ Interchanging $x$ and $y$ proves the formula when $y \leq x$. Similarly, if $x \leq y,$ then $|y-x| = y-x,$ so $x+y-|y-x|=x+y-(y-x)=2x=2\text{min}(x,y),$ so $x=\text{min}(x,y)=$ $(x+y-|y-x|)/2.$ Also
-
-										$$
-										\begin{align}
-											\begin{split}
-												\displaystyle
-													\text{max}(x,y,z) 
-													&= \text{max}(x, \text{max}(y,z)) \\ \\ 
-													&= \frac{x+\displaystyle\frac{y+z+|y-z|}{2}+\displaystyle {\Large\lvert} \frac{y+z+|y-z|}{2}-x {\Large\rvert}}{2} \\ \\
-													&= \frac{|y-z|+y+z+2x+|y+z+|y-z|-2x|}{4}. \\ \\
-													& \ \square
-											\end{split}
-										\end{align}
-										$$
-									</td>
-								</tr>
-							</table>
-						</div>
-					</td>
-				</tr>
-			</table>
-			<table class="mySlides" 
-					style="padding: 20 0 0 0; 
-							margin-left:-10; 
-							width:101%">
-				<tr>
-					<td style="vertical-align:top; 
-								padding-right:0; 
-								width:50%">
-						<p style="padding-top:24; 
-									padding-left:48; 
-									color:grey; 
-									font-family:'Avenir', 'light'; 
-									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
-						</p>
-						<div class="c1p12">
-							<table style="padding: 11 0 0 7">
+						    <table style="padding:0 20 0 7">
 								<tr>
 									<td style="vertical-align:top; padding:0 0 0 00">14.</td>
 							        <td style="vertical-align:top; padding:0 0 0 10">(a)</td>
@@ -2127,7 +2039,7 @@
 							        </td>
 							    </tr>
 						    </table>
-						    <table style="padding: 20 0 0 0">
+						    <table style="padding:20 0 0 0">
 						    	<tr>
 							      	<td style="vertical-align:top; padding:0 0 0 0">
 							      		<label title="Text" style="color:#aaa">*</label>15.
@@ -2138,7 +2050,7 @@
 							        </td>
 						    	</tr>
 						    </table>
-						   	<table style="padding: 20 0 0 0">
+						    <table style="padding: 20 20 0 0">
 						    	<tr>
 							      	<td style="vertical-align:top; padding:0 0 0 0">
 							      		<label title="Text" style="color:#aaa">*</label>16.
@@ -2146,7 +2058,7 @@
 								    <td style="vertical-align:top; padding:0 0 0 10">(a)</td>
 							        <td style="vertical-align:top; padding:0 0 0 10">
 						        		Show that
-						                <table>
+						                <table style="padding: 20 20 0 0">
 						              		<tr>
 						                    	<td style="padding:0 0 0 10">$(x+y)^2 = x^2+y^2$</td>
 						                    	<td style="padding:0 0 0 20">only when $x=0$ or $y=0$,</td>
@@ -2180,46 +2092,70 @@
 						        	</td>
 						      	</tr>
 						    </table>
-						    <p style="padding-left:44; font-size:16">
+						    <p style="padding:0 20 0 44; font-size:16">
 						    	You should now be able to make a good guess as to when $(x+y)^n = x^n+y^n;$ the proof is contained in Problem 11&ndash;63.
 						    </p>
 						</div>
 					</td>
 					<td style="vertical-align:top;
 								width:50%;
-								padding: 0 0 0 25;
+								padding:0 0 0 25;
 								border-top:20 solid #f2f2f2;
 								border-left:1 solid #f2f2f2">
 						<div class="infscrll">
-							<table style="padding:2 0 0 8">
+							<table style="padding:2 20 0 6">
 								<tr>
-									<td style="vertical-align:top; padding: 0 0 0 00">14.</td>
-									<td style="vertical-align:top; padding: 0 0 0 10">(a)</td>
-									<td style="vertical-align:top; padding: 0 20 0 10">
-										If $0 \leq a,$ then $|a|=a=-(-a)=|-a|,$ since $-a \leq 0.$ Similarly, if $a \leq 0,$ then $|-a|=-a=|a|,$ since $0 \leq -a. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="vertical-align:top; padding:0 00 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(b)</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
-										If $|a| \leq b,$ then naturally $0 \leq b.$ Now $|a| \leq b$ means that $a \leq b$ if $0 \leq a,$ moreover $a \leq b$ if $a \leq 0.$ Similarly, $|a| \leq b$ means $-a \leq b,$ and hence $-b \leq a,$ if $a \leq 0,$ and surely $-b \leq a$ if $0 \leq a.$ So, $-b \leq a \leq b.$ Conversely, if $-b \leq a \leq b.$ then $|a|=a \leq b$ if $0 \leq a,$ while $|a|=-a \leq b$ if $a \leq 0. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="vertical-align:top; padding:0 00 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(c)</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
-										From $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ it follows that $-(|a|+|b|) \leq a+b \leq |a|+|b| \ \Leftrightarrow \ |a+b| \leq |a|+|b|. \ \ \square$
+									<td style="vertical-align:top; padding:0 0 0 00">13.</td>
+									<td style="vertical-align:top; padding:0 0 0 10">
+										If $x \leq y,$ then $|y-x|=y-x,$ so $x+y+|y-x|=x+y+y-x=2y=$ $2\text{max}(x,y),$ so $y=\text{max}(x,y) = (x+y+|y-x|)/2.$ Interchanging $x$ and $y$ proves the formula when $y \leq x$. Similarly, if $x \leq y,$ then $|y-x| = y-x,$ so $x+y-|y-x|=x+y-(y-x)=2x=2\text{min}(x,y),$ so $x=\text{min}(x,y)=$ $(x+y-|y-x|)/2.$ Also
+										$$
+										\begin{align}
+											\begin{split}
+												\displaystyle
+													\text{max}(x,y,z) 
+													&= \text{max}(x, \text{max}(y,z)) \\
+													&= \frac{x+\displaystyle\frac{y+z+|y-z|}{2}+\displaystyle {\Large\lvert} \frac{y+z+|y-z|}{2}-x {\Large\rvert}}{2} \\
+													&= \frac{|y-z|+y+z+2x+|y+z+|y-z|-2x|}{4}. \\
+													& \ \square
+											\end{split}
+										\end{align}
+										$$
 									</td>
 								</tr>
 							</table>
-							<table style="padding:20 0 0 0">
+							<table style="padding:0 0 0 6">
+								<tr>
+									<td style="vertical-align:top; padding: 0 0 0 00">14.</td>
+									<td style="vertical-align:top; padding: 0 0 0 10">
+										<table style="padding:0 20 0 0">
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													If $0 \leq a,$ then $|a|=a=-(-a)=|-a|,$ since $-a \leq 0.$ Similarly, if $a \leq 0,$ then $|-a|=-a=|a|,$ since $0 \leq -a. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													If $|a| \leq b,$ then naturally $0 \leq b.$ Now $|a| \leq b$ means that $a \leq b$ if $0 \leq a,$ moreover $a \leq b$ if $a \leq 0.$ Similarly, $|a| \leq b$ means $-a \leq b,$ and hence $-b \leq a,$ if $a \leq 0,$ and surely $-b \leq a$ if $0 \leq a.$ So, $-b \leq a \leq b.$ Conversely, if $-b \leq a \leq b.$ then $|a|=a \leq b$ if $0 \leq a,$ while $|a|=-a \leq b$ if $a \leq 0. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													From $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ it follows that $-(|a|+|b|) \leq a+b \leq |a|+|b| \ \Leftrightarrow \ |a+b| \leq |a|+|b|. \ \ \square$
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table style="padding:20 20 0 0">
 								<tr>
 									<td style="vertical-align:top; padding:0 0 0 0">
 										<label title="Text" style="color:#aaa">*</label>15.
 									</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
+									<td style="vertical-align:top; padding:0 0 0 10">
 										If $x \neq y,$ then
 										<br>
 										$x^2+xy+y^2=\displaystyle\frac{x^3-y^3}{x-y}.$
@@ -2230,48 +2166,51 @@
 							</table>
 							<table style="padding:20 0 0 0">
 								<tr>
-									<td style="vertical-align:top; padding:0 0 0 0">
+									<td style="vertical-align:top; padding:2 0 0 0">
 										<label title="Spivak" style="color:#aaa">*</label>16.
 									</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(a)</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
-										If $x^2+y^2=(x+y)^2=x^2+2xy+y^2,$ then $xy=0, \ \text{so} \ x=0 \ \text{or} \ y=0.$ If $$x^3+y^3=(x+y)^3=x^3+3x^2y+3xy^2+y^3,$$ Then, $3xy(x+y)=0, \ \text{so} \ x=0 \ \text{or} \ y=0, \ \text{or} \ x=-y. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="vertical-align:top; padding:0 00 0 0">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(b)</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
-										The first equation implies that 
-										$$4x^2+8xy+4y^2 \geq 0.$$ 
-										Suppose that we also had 
-										$$4x^2+6xy+4y^2 \leq 0.$$ 
-										Subtracting the second from the first would give $0 \leq 2xy.$ If neither $x$ nor $y$ is 0, this means that we must have $0 < 2xy;$ but this implies that $0 < 4x^2+6xy+4y^2,$ a contradiction. Moreover, it is clear that if one of $x$ and $y$ is 0, but not the other, then we also have $0 < 4x^2+6xy+y^2. \ \ \square$
-									</td>
-								</tr>
-								<tr>
-									<td style="vertical-align:top; padding:0 00 0 0">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(c)</td>
-									<td style="vertical-align:top; padding:0 20 0 10">
-										If $x^4+y^4=(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4,$ then 
-										$$0 = 4x^3y+6x^2y^2+4xy^3 \color{grey}{= xy(4x^2+xy+4y^2)},$$
-										so $x=0 \ \text{or} \ y=0 \ \text{or} \ 4x^2+xy+4y^2=0.$ But by part (b), the <span style="color:grey">last equation</span> suggests that $x$ and $y$ are both 0. So we must always have $x=0$ or $y=0.$
-									</td>
-								</tr>
-								<tr>
-									<td style="vertical-align:top; padding:0 00 0 0">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 00 0 10">(d)</td>
-									<td style="vertical-align:top; padding:0 20 15 10">
-										If $x^5+y^5=(x+y)^5=x^5+5x^4y+10x^3y^2+10x^2y^3+5xy^4+y^5,$ then 
-										$$
-										\begin{align}
-										0 &= 5x^4y+10x^3y^2+10x^2y^3+5xy^4 \\
-										  &= 5xy(x^3+2x^2y+2xy^2+y^3),
-										\end{align}
-										$$
-										so $xy=0$ or $x^3+2x^2y+2xy^2+y^3=0.$
-										<br>
-										Subtrating this equation from $$(x+y)^3=x^3+3x^2y+3xy^2+y^3$$ we obtain $$(x+y)^3=x^2y+xy^2=xy(x+y).$$ So either $x+y=0$ or $(x+y)^2=xy;$ the latter condition implies that $x^2+xy+y^2=0,$ so $x=0$ or $y=0$ by Problem 15. Hence $x=0$ or $y=0$ or $x=-y. \ \ \square$
+									<td style="vertical-align:top; padding:0 0 0 0">
+										<table style="padding:0 20 0 10">
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
+												<td style="vertical-align:top; padding:0 20 0 10">
+													If $x^2+y^2=(x+y)^2=x^2+2xy+y^2,$ then $xy=0, \ \text{so} \ x=0 \ \text{or} \ y=0.$ If $$x^3+y^3=(x+y)^3=x^3+3x^2y+3xy^2+y^3,$$ Then, $3xy(x+y)=0, \ \text{so} \ x=0 \ \text{or} \ y=0, \ \text{or} \ x=-y. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													The first equation implies that 
+													$$4x^2+8xy+4y^2 \geq 0.$$ 
+													Suppose that we also had 
+													$$4x^2+6xy+4y^2 \leq 0.$$ 
+													Subtracting the second from the first would give $0 \leq 2xy.$ If neither $x$ nor $y$ is 0, this means that we must have $0 < 2xy;$ but this implies that $0 < 4x^2+6xy+4y^2,$ a contradiction. Moreover, it is clear that if one of $x$ and $y$ is 0, but not the other, then we also have $0 < 4x^2+6xy+y^2. \ \ \square$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+													If $x^4+y^4=(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4,$ then 
+													$$0 = 4x^3y+6x^2y^2+4xy^3 \color{grey}{= xy(4x^2+xy+4y^2)},$$
+													so $x=0 \ \text{or} \ y=0 \ \text{or} \ 4x^2+xy+4y^2=0.$ But by part (b), the <span style="color:grey">last equation</span> suggests that $x$ and $y$ are both 0. So we must always have $x=0$ or $y=0.$
+												</td>
+											</tr>
+											<tr>
+												<td style="vertical-align:top; padding:0 0 00 00">(d)</td>
+												<td style="vertical-align:top; padding:0 0 10 10">
+													If $x^5+y^5=(x+y)^5=x^5+5x^4y+10x^3y^2+10x^2y^3+5xy^4+y^5,$ then 
+													$$
+													\begin{align}
+													0 &= 5x^4y+10x^3y^2+10x^2y^3+5xy^4 \\
+													  &= 5xy(x^3+2x^2y+2xy^2+y^3),
+													\end{align}
+													$$
+													so $xy=0$ or $x^3+2x^2y+2xy^2+y^3=0.$
+													<br>
+													Subtrating this equation from $$(x+y)^3=x^3+3x^2y+3xy^2+y^3$$ we obtain $$(x+y)^3=x^2y+xy^2=xy(x+y).$$ So either $x+y=0$ or $(x+y)^2=xy;$ the latter condition implies that $x^2+xy+y^2=0,$ so $x=0$ or $y=0$ by Problem 15. Hence $x=0$ or $y=0$ or $x=-y. \ \ \square$
+												</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 							</table>
@@ -2288,81 +2227,83 @@
 								padding:0 0 0 0;
 								width:50%">
 						<p style="padding:25 0 0 49; 
-									color:grey; 
+									color:lightgrey; 
 									font-family:'Avenir', 'light'; 
 									font-size:18">
-							Calculus
-							<br>
-							<span style="font-size:16px">Fourth Edition Problem Sets</span>
-							<br>
-							&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-							<br>
-							<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+							Basic Properties of Numbers
 						</p>
-						<div class="c1p12">
-							<table style="padding:11 0 0 0">
+						<div class="c1p9">
+							<table style="padding:8 20 0 0">
 								<tr>
-									<td style="vertical-align:top; padding:0 0 0 00">17.</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-							        	Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square," i.e., write $2x^2-3x+4 = 2(x-3/4)^2+$ ?
-							        </td>
-					      		</tr>
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-						        		Find the smalles possible value of $x^2-3x+2y^2+4y+2$.
-						        	</td>
-						      	</tr>
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(c)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-						        		Find the smalles possible value of $x^2-4xy+5y^2-4x-6y+7$.
-						        	</td>
-						      	</tr>
-						    </table>
-						    <table style="vertical-align:top; padding: 18 0 0 0">
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">18.</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-							        	Suppose that $b^2-4c \geq 0.$ Show that the numbers 
-							        	$$\frac{-b+\displaystyle\sqrt{{b}^2-4c}}{2} \ , \ \ \ \ \ \ \ \frac{-b-\displaystyle\sqrt{{b}^2-4c}}{2}$$
-							        	both satisfy the equation $x^2+bx+c=0$.
-						        	</td>
-						      	</tr>
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-							        	Suppose that $b^2-4c < 0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0;$ in fact $x^2+bx+c > 0$ for all $x.$ Hint: Complete the square.
-						        	</td>
-						      	</tr>
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(c)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-						        		Use this fact to give another proof that if $x$ and $y$ are not both $0$, then $x^2+xy+y^2 > 0.$
-						        	</td>
-						      	</tr>
-						      	<tr>
-						        	<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(d)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-						        		For which numbers $\alpha$ is it true that $x^2 + \alpha xy + y^2 > 0$ whenever $x$ and $y$ are not both $0$?
-						        	</td>
-						      	</tr>
-						      	<tr>
-							        <td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-									<td style="vertical-align:top; padding:0 0 0 10">(e)</td>
-							        <td style="vertical-align:top; padding:0 0 0 10">
-							        	Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c$ for $a > 0.$
-							        </td>
+									<td style="vertical-align:top; padding:2 0 0 00">17.</td>
+									<td style="vertical-align:top; padding:0 0 0 10">
+										<table style="padding:0 0 0 0">
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+										        	Find the smallest possible value of $2x^2-3x+4$. Hint: "Complete the square," i.e., write $2x^2-3x+4 = 2(x-3/4)^2+$ ?
+										        </td>
+								      		</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+									        		Find the smalles possible value of $x^2-3x+2y^2+4y+2$.
+									        	</td>
+									      	</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+									        		Find the smalles possible value of $x^2-4xy+5y^2-4x-6y+7$.
+									        	</td>
+											</tr>
+										</table>
+									</td>
 						      	</tr>
 						    </table>
-						    <table style="vertical-align:top; padding: 18 0 10 0">
+						    <table style="vertical-align:top; padding: 20 20 0 0">
+						      	<tr>
+						        	<td style="vertical-align:top; padding:2 0 0 0">18.</td>
+									<td style="vertical-align:top; padding:0 0 0 0">
+										<table style="padding:0 0 0 0">
+											<tr>
+												<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
+												<td style="vertical-align:top; padding:0 0 0 10">
+										        	Suppose that $b^2-4c \geq 0.$ Show that the numbers 
+										        	$$
+										        	\frac{-b+\displaystyle\sqrt{{b}^2-4c}}{2} \ , \ \ \ \ \ \ \ \frac{-b-\displaystyle\sqrt{{b}^2-4c}}{2}
+										        	$$
+										        	both satisfy the equation $x^2+bx+c=0$.
+									        	</td>
+									      	</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+										        	Suppose that $b^2-4c < 0.$ Show that there are no numbers $x$ satisfying $x^2+bx+c=0;$ in fact $x^2+bx+c > 0$ for all $x.$ Hint: Complete the square.
+									        	</td>
+									      	</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 10">(c)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+									        		Use this fact to give another proof that if $x$ and $y$ are not both $0$, then $x^2+xy+y^2 > 0.$
+									        	</td>
+									      	</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 10">(d)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+									        		For which numbers $\alpha$ is it true that $x^2 + \alpha xy + y^2 > 0$ whenever $x$ and $y$ are not both $0$?
+									        	</td>
+									      	</tr>
+									      	<tr>
+												<td style="vertical-align:top; padding:0 0 0 10">(e)</td>
+										        <td style="vertical-align:top; padding:0 0 0 10">
+										        	Find the smallest possible value of $x^2+bx+c$ and of $ax^2+bx+c$ for $a > 0.$
+										        </td>
+											</tr>
+										</table>
+									</td>
+						      	</tr>
+						    </table>
+						    <table style="vertical-align:top; padding:20 20 10 0">
 						      	<tr>
 						        	<td style="vertical-align:top; padding:0 0 0 00">19.</td>
 							        <td style="vertical-align:top; padding:0 0 0 10">
@@ -2376,29 +2317,34 @@
 										        <td style="vertical-align:top; padding:0 0 0 0">(a)</td>
 										        <td style="vertical-align:top; padding:0 0 0 10">
 										        	Prove that if $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some number $\lambda \geq 0,$ then equality holds in the Schwarz inequality. Prove the same thing if $y_1=y_2=0.$ Now suppose that $y_1$ and $y_2$ are not both $0,$ and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2= \lambda y_2.$ Then 
-										        	$$\begin{eqnarray}
-										        	0 & < & (\lambda y_1 - x_1)^2 + (\lambda y_2 - x_2)^2 \\ 
-										        	  &=&\lambda^2({y_1}^2 + {y_2}^2) - 2\lambda (x_1y_1 + x_2y_2)+({x_1}^2+{x_2}^2).
-										        	\end{eqnarray}$$
+										        	$$
+										        	\begin{eqnarray}
+											        	0 &<& (\lambda y_1 - x_1)^2 + (\lambda y_2 - x_2)^2 \\ 
+											        	  &=& \lambda^2({y_1}^2 + {y_2}^2) - 2\lambda (x_1y_1 + x_2y_2)+({x_1}^2+{x_2}^2).
+										        	\end{eqnarray}
+										        	$$
 										        	Using Problem 18, complete the proof of the Schwarz inequality.
 										        </td>
 									      	</tr>
 									      	<tr>
-										        <td style="vertical-align:top; padding:0 0 0 0">(b)</td>
+										        <td style="vertical-align:top; padding:0 0 0 00">(b)</td>
 										        <td style="vertical-align:top; padding:0 0 0 10">
 										        	Prove the Schwarz inequality by using $2xy \leq x^2+y^2$ (how is this derived?) with
-										        	$$x = \frac{x_i}{\displaystyle\sqrt{{x_1}^2 + {x_2}^2}} \ , \ \ \ \ \ \ \ \ y = \frac{y_i}{\displaystyle\sqrt{{y_1}^2 + {y_2}^2}} \ ,$$
+										        	$$
+										        	x = \frac{x_i}{\displaystyle\sqrt{{x_1}^2 + {x_2}^2}} \ , \ \ \ \ \ \ \ \ 
+										        	y = \frac{y_i}{\displaystyle\sqrt{{y_1}^2 + {y_2}^2}} \ ,
+										        	$$
 										        	first for $i=1$, and then for $i=2.$
 										        </td>
 									      	</tr>
 									      	<tr>
-										        <td style="vertical-align:top; padding:0 0 0 0">(c)</td>
+										        <td style="vertical-align:top; padding:0 0 0 00">(c)</td>
 										        <td style="vertical-align:top; padding:0 0 0 10">
 										        	Prove the Schwarz inequality by first proving that $$({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2) = (x_1y_1 + x_2y_2)^2+(x_1y_2 - x_2y_1)^2.$$
 										        </td>
 									      	</tr>
 									      	<tr>
-										        <td style="vertical-align:top; padding:0 0 0 0">(d)</td>
+										        <td style="vertical-align:top; padding:0 0 0 00">(d)</td>
 										        <td style="vertical-align:top; padding:0 0 0 10">
 										        	Deduce, from each of these proofs, that equality holds only when $y_1=y_2=0$ or when there is a number $\lambda \geq 0$ such that $x_1=\lambda y_1$ and $x_2=\lambda y_2.$
 										        </td>
@@ -2414,327 +2360,342 @@
 								border-top:20 solid #f2f2f2;
 								border-left:1 solid #f2f2f2">
 						<div class="infscrll">
-								<table style="padding:2 0 0 0">
+								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">17.</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											We may find this value directly by completing the square. (Notice that there is a good amount of reverse engineering occuring in 17 &mdash; c in particular.) Since
-											<p>
-											$
-											\begin{align}
-											\displaystyle
-											2x^2-3x+4 &= 2x^2-3x+\frac{9}{8}+4-\frac{9}{8} \\
-													  &= 2\bigg(x^2-\frac{6x}{4}+\frac{9}{8}\bigg)+4-\frac{9}{8} \\
-													  &= 2\bigg(x^2-\frac{3x}{4}-\frac{3x}{4}+\frac{9}{16}\bigg)+4-\frac{9}{8} \\
-													  &= 2 \bigg(x-\frac{3}{4}\bigg)^2+4-\frac{9}{8} \\
-											          &= 2 \bigg(x-\frac{3}{4}\bigg)^2 +\frac{23}{8},
-											\end{align}
-											$
-											</p>
-											the smallest possible value is 23/8, when $(x-3/4)=0,$ or $x=3/4. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											Similarly, we have 
-											<p>
-												$
-												\begin{align}
-												\displaystyle
-												x^2-3x+2y^2+4y+2 &= x^2-3x+2y^2+4y+2+\bigg(\frac{9}{4}-\frac{9}{4}\bigg) \\
-														  &= x^2-3x+\frac{9}{4}+2y^2+4y+2-\frac{9}{4} \\
-														  &= \bigg(x-\frac{3}{2}\bigg)\bigg(x-\frac{3}{2}\bigg)+2(y^2+2y+1)-\frac{9}{4} \\
-														  &= \bigg(x-\frac{3}{2}\bigg)^2+2(y+1)^2-\frac{9}{4}, \\
-												\end{align}
-												$
-											</p>
-											so the smallest possible value is $-9/4,$ when $x=3/2$ and $y=1. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(c)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											This (original) calculation is an unpacking of Spivak<label title="(CAB:3,4ED)" style="color:grey">*</label>. For each $y$ we have
-											<p>
-											$
-											\require{cancel}
-											\begin{align}
-											x^2+4xy+5y^2 &- 4x-6y+7 \\
-														 &= x^2+4xy-4x+5y^2-6y+7 \\
-														 &= x^2+4x(y-1)+5y^2-6y+7 \\
-														 &= x^2+2[2x(y-1)]+5y^2-6y+7 \\
-														 &= x^2+2x(y-1)+2x(y-1)+ \color{grey}{4(y-1)^2} - \color{grey}{4(y-1)^2} \\ 
-														 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
-														 &= [x+2(y-1)][x+2(y-1)]-4(y-1)^2 \\ 
-														 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
-											     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y-1)^2 \\
-											     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y^2-2y+1) \\
-											    		 &= [x+2(y-1)]^2+5y^2-6y+7-4y^2+8y-4) \\
-										 				 &= [x+2(y-1)]^2+y^2+2y+3 \\
-									     				 &= [x+2(y-1)]^2+(y+1)^2+2, \\
-											\end{align}
-											$
-											</p>
-											so the smallest possible value is 2, when $y=-1$ and $x=-2(y-1)=4. \ \ \square$
-										</td>
-									</tr>
-								</table>
-								<table stle="padding:20 0 0 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">18.</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
+										<td style="vertical-align:top; padding:2 0 0 00">17.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
-											To show that the numbers under consideration satisfy the given equation, we 
-											will prove the quadratic equation by completing the square. First, note that $x^2+bx+c=0 \ \Leftrightarrow \ ax^2+bx+c=0,$ where $x=1$. It then follows that
-											$$
-											\begin{equation}
-												\begin{split}
-																			x^2+\frac{bx}{a}+\frac{c}{a} &= \frac{0}{a} \\
-																			x^2+\frac{bx}{a}+\frac{c}{a} &= 0 \\
-													x^2+\frac{bx}{a}+\frac{c}{a}-\bigg(\frac{c}{a}\bigg) &= 0-\bigg(\frac{c}{a}\bigg) \\
-																						x^2+\frac{bx}{a} &= -\frac{c}{a} \\
-															 x^2+\frac{bx}{a}+\bigg(\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\bigg(\frac{b}{2a}\bigg)^2 \\
-																			\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\frac{b^2}{4a^2} \\
-																			\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2} \\
-																			\bigg(x+\frac{b}{2a}\bigg)^2 &= \frac{b^2-4ac}{4a^2} \\
-																	 \sqrt{\bigg(x+\frac{b}{2a}\bigg)^2} &= \sqrt{\frac{b^2-4ac}{4a^2}} \\
-																						  x+\frac{b}{2a} &= \pm\sqrt{\frac{b^2-4ac}{4a^2}} \\
-																						  x+\frac{b}{2a} &= \pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
-																 x+\frac{b}{2a}-\bigg(\frac{b}{2a}\bigg) &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
-																									   x &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
-																									   x &= \frac{-b\pm\displaystyle\sqrt{{b}^2-4ac}}{2a}.
-												\end{split}
-											\end{equation}
-											$$
-											So, clearly the desired numbers satisfy the given equation, particulary in the
-											case $a=1. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-										We may capture this result by forcing the following contradiction.
-										<p style="padding:0 0 0 30">
-											$
-											\begin{align}
-											x^2+bx+c &= x^2+bx+\frac{b^2}{4}+c-\frac{b^2}{4} \\
-													 &= \bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \\
-													 &\geq c-\frac{b^2}{4};
-											\end{align}
-											$
-										</p>
-										but $\displaystyle (b^2-4c < 0) \ = \ (-4c < -b^2) \ = \ (c > b^2/4) \ = \ [0 < c-(b^2/4)].$ which contradicts our original assumption, so $x^2+bx+c>0$ for all $x. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(c)</td>
-										<td style="vertical-align:top; padding:0 20 0 10">
-											Applying part (b) with $y$ for $b$ and $y^2$ for $c:$ we have $b^2-4c=y^2-4y^2 < 0$ for $y \neq 0,$ so $x^2+xy+y^2>0$ for all $x$ if $y \neq 0$ (and surely $x^2+xy+y^2>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ 
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(d)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ 
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(e)</td>
-										<td style="vertical-align:top; padding:0 20 0 10">
-											Since 
-											<p style="padding:0 0 0 30">
-												$\displaystyle x^2+bx+c=\bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \geq c-\frac{b^2}{4},$
-											</p> 
-											and since $x^2+bx+c$ has the value $c-b^2/4$ when $x=-b/2,$ the minimum value is $c-b^2/4.$ Also, since 
-											<p style="padding:0 0 0 30">
-												$\displaystyle ax^2+bx+c=a\bigg(x^2+\frac{bx}{a}+\frac{c}{a}\bigg),$
-											</p>
-											the minimum value is 
-											<p style="padding:0 0 0 30">
-												$\displaystyle a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg)=c-\frac{b^2}{4a}. \ \ \square$
-											</p>
-										</td>
-									</tr>
-								</table>
-								<table style="padding:20 0 0 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">19.</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(a)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											<u>Pf</u><sub>1</sub>: If $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \geq 0,$ then
-											<p>
-												$
-												\begin{equation}
-													\begin{split}
-																										 x_1y_1+x_2y_2 &\leq \sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2} \\
-																  				   (\lambda y_1)y_1 + (\lambda y_2)y_2 &\leq \sqrt{{(\lambda y_1)}^2+{(\lambda y_2)}^2} \sqrt{{\bigg(\frac{x_1}{\lambda}\bigg)}^2+{\bigg(\frac{x_2}{\lambda}\bigg)}^2} \\
-																					 \lambda {y_1}^2 + \lambda {y_2}^2 &\leq \sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{\bigg(\frac{\lambda y_1}{\lambda}\bigg)}^2+{\bigg(\frac{\lambda y_2}{\lambda}\bigg)}^2} \\
-																		 \big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 &\leq \bigg(\sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{y_1}^2+{y_2}^2}\bigg)^2 \\
-																		 \big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 &\leq \big({\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2\big) \big({y_1}^2+{y_2}^2\big) \\
-														\lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4 &\leq \lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4. \\
-																													   & \ \square
-													\end{split}
-												\end{equation}
-												$
-											</p>
-											<table>
+											<table style="padding:0 0 0 0">
 												<tr>
-													<td style="vertical-align:top; padding:10 0 0 0">
-														<u>Pf</u><sub>2</sub>:
-													</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
+													<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
+													<td style="vertical-align:top; padding:1 0 0 10">
+														We may find this value directly by completing the square. (Notice that there is a good amount of reverse engineering occuring in 17 &mdash; c in particular.) Since
+														<p>
 														$
 														\begin{align}
-														(x_1)(0)+(x_2)(0) &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2} \sqrt{0+0} \\
-														0 &\leq 0. \\
-														& \ \square
+														\displaystyle
+														2x^2-3x+4 &= 2x^2-3x+\frac{9}{8}+4-\frac{9}{8} \\
+																  &= 2\bigg(x^2-\frac{6x}{4}+\frac{9}{8}\bigg)+4-\frac{9}{8} \\
+																  &= 2\bigg(x^2-\frac{3x}{4}-\frac{3x}{4}+\frac{9}{16}\bigg)+4-\frac{9}{8} \\
+																  &= 2 \bigg(x-\frac{3}{4}\bigg)^2+4-\frac{9}{8} \\
+														          &= 2 \bigg(x-\frac{3}{4}\bigg)^2 +\frac{23}{8},
 														\end{align}
 														$
+														</p>
+														the smallest possible value is 23/8, when $(x-3/4)=0,$ or $x=3/4. \ \ \square$
 													</td>
 												</tr>
 												<tr>
-													<td style="vertical-align:top; padding:15 0 0 0">
-														<u>Pf</u><sub>3</sub>:
-													</td>
-													<td style="vertical-align:top; padding:15 20 0 5">
-														Supposing $y_1$ and $y_2$ are not both $0$, and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2=\lambda y_2$, then 
-														$$
-														\begin{align}
-															0 
-															&< (\lambda y_1-x_1)^2 + (\lambda y_2-x_2)^2 \\ 
-															&= \lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{x_2}^2\big),
-														\end{align}
-														$$ 
-														and the equation 
-														$$\lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{y_1}^{2 \ *}\big)=0
-														$$ 
-														has no solution $\lambda$. So by problem 
-														<div class="tooltip">18(a,e)
-								  							<span class="tooltiptext">
-								  								That is to say, this difference ine-quality corresponds to the following transformation of 18(e):
-								  								$$
-																\begin{align}\displaystyle
-																a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
-																a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
-																a\cdot\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
-																\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
-																\end{align}
-																$$
-								  							</span>
-														</div>
-														we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\Bigg[\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)}\Bigg] < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
+													<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														Similarly, we have 
 														<p>
-															<label title="erratum" style="color:aaa">*</label> It is likely that this term is a typo, and is intended to read $"{x_2}^2"$ as the line that contains it is simply an expansion of the right&ndash;hand side of the initial inequality, and otherwise identical to the equation just above it. Given 18(a), the argument seems erroneous otherwise. But the simplification actually works out using either term, so there may be some other reason for this.
+															$
+															\begin{align}
+															\displaystyle
+															x^2-3x+2y^2+4y+2 &= x^2-3x+2y^2+4y+2+\bigg(\frac{9}{4}-\frac{9}{4}\bigg) \\
+																	  &= x^2-3x+\frac{9}{4}+2y^2+4y+2-\frac{9}{4} \\
+																	  &= \bigg(x-\frac{3}{2}\bigg)\bigg(x-\frac{3}{2}\bigg)+2(y^2+2y+1)-\frac{9}{4} \\
+																	  &= \bigg(x-\frac{3}{2}\bigg)^2+2(y+1)^2-\frac{9}{4}, \\
+															\end{align}
+															$
+														</p>
+														so the smallest possible value is $-9/4,$ when $x=3/2$ and $y=1. \ \ \square$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														This (original) calculation is an unpacking of Spivak<label title="(CAB:3,4ED)" style="color:grey">*</label>. For each $y$ we have
+														<p>
+														$
+														\require{cancel}
+														\begin{align}
+														x^2+4xy+5y^2 &- 4x-6y+7 \\
+																	 &= x^2+4xy-4x+5y^2-6y+7 \\
+																	 &= x^2+4x(y-1)+5y^2-6y+7 \\
+																	 &= x^2+2[2x(y-1)]+5y^2-6y+7 \\
+																	 &= x^2+2x(y-1)+2x(y-1)+ \color{grey}{4(y-1)^2} - \color{grey}{4(y-1)^2} \\ 
+																	 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
+																	 &= [x+2(y-1)][x+2(y-1)]-4(y-1)^2 \\ 
+																	 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
+														     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y-1)^2 \\
+														     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y^2-2y+1) \\
+														    		 &= [x+2(y-1)]^2+5y^2-6y+7-4y^2+8y-4) \\
+													 				 &= [x+2(y-1)]^2+y^2+2y+3 \\
+												     				 &= [x+2(y-1)]^2+(y+1)^2+2, \\
+														\end{align}
+														$
+														</p>
+														so the smallest possible value is 2, when $y=-1$ and $x=-2(y-1)=4. \ \ \square$
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table stle="padding:20 20 0 0">
+									<tr>
+										<td style="vertical-align:top; padding:2 0 0 00">18.</td>
+										<td style="vertical-align:top; padding:0 20 0 10">
+											<table stle="padding:0 20 0 0">
+												<tr>
+													<td style="vertical-align:top; padding:0 00 0 00">(a)</td>
+													<td style="vertical-align:top; padding:0 20 0 10">
+														To show that the numbers under consideration satisfy the given equation, we 
+														will prove the quadratic equation by completing the square. First, note that $x^2+bx+c=0 \ \Leftrightarrow \ ax^2+bx+c=0,$ where $x=1$. It then follows that
+														$$
+														\begin{equation}
+															\begin{split}
+																						x^2+\frac{bx}{a}+\frac{c}{a} &= \frac{0}{a} \\
+																						x^2+\frac{bx}{a}+\frac{c}{a} &= 0 \\
+																x^2+\frac{bx}{a}+\frac{c}{a}-\bigg(\frac{c}{a}\bigg) &= 0-\bigg(\frac{c}{a}\bigg) \\
+																									x^2+\frac{bx}{a} &= -\frac{c}{a} \\
+																		 x^2+\frac{bx}{a}+\bigg(\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\bigg(\frac{b}{2a}\bigg)^2 \\
+																						\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\frac{b^2}{4a^2} \\
+																						\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2} \\
+																						\bigg(x+\frac{b}{2a}\bigg)^2 &= \frac{b^2-4ac}{4a^2} \\
+																				 \sqrt{\bigg(x+\frac{b}{2a}\bigg)^2} &= \sqrt{\frac{b^2-4ac}{4a^2}} \\
+																									  x+\frac{b}{2a} &= \pm\sqrt{\frac{b^2-4ac}{4a^2}} \\
+																									  x+\frac{b}{2a} &= \pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+																			 x+\frac{b}{2a}-\bigg(\frac{b}{2a}\bigg) &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+																												   x &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+																												   x &= \frac{-b\pm\displaystyle\sqrt{{b}^2-4ac}}{2a}.
+															\end{split}
+														\end{equation}
+														$$
+														So, clearly the desired numbers satisfy the given equation, particulary in the
+														case $a=1. \ \ \square$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+													We may capture this result by forcing the following contradiction.
+													<p style="padding:0 0 0 30">
+														$
+														\begin{align}
+														x^2+bx+c &= x^2+bx+\frac{b^2}{4}+c-\frac{b^2}{4} \\
+																 &= \bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \\
+																 &\geq c-\frac{b^2}{4};
+														\end{align}
+														$
+													</p>
+													but $\displaystyle (b^2-4c < 0) \ = \ (-4c < -b^2) \ = \ (c > b^2/4) \ = \ [0 < c-(b^2/4)].$ which contradicts our original assumption, so $x^2+bx+c>0$ for all $x. \ \ \square$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														Applying part (b) with $y$ for $b$ and $y^2$ for $c:$ we have $b^2-4c=y^2-4y^2 < 0$ for $y \neq 0,$ so $x^2+xy+y^2>0$ for all $x$ if $y \neq 0$ (and surely $x^2+xy+y^2>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ 
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(d)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ 
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(e)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														Since 
+														<p style="padding:0 0 0 30">
+															$\displaystyle x^2+bx+c=\bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \geq c-\frac{b^2}{4},$
+														</p> 
+														and since $x^2+bx+c$ has the value $c-b^2/4$ when $x=-b/2,$ the minimum value is $c-b^2/4.$ Also, since 
+														<p style="padding:0 0 0 30">
+															$\displaystyle ax^2+bx+c=a\bigg(x^2+\frac{bx}{a}+\frac{c}{a}\bigg),$
+														</p>
+														the minimum value is 
+														<p style="padding:0 0 0 30">
+															$\displaystyle a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg)=c-\frac{b^2}{4a}. \ \ \square$
 														</p>
 													</td>
 												</tr>
 											</table>
 										</td>
 									</tr>
+								</table>
+								<table style="padding:20 0 10 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 0 0 10">(b)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											$\require{cancel}$
-											We have $2xy \leq x^2+y^2,$ since $0 \leq (x-y)^2=x^2-2xy+y^2.$ Thus
-											<ol type="1">
-												<li>
-													$\displaystyle\frac{2x_1y_1}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2},$
-												</li>
-												<li>
-													$\displaystyle\frac{2x_2y_2}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2};$
-												</li>
-											</ol>
-											addition yields
-											<p>
-												$
-												\begin{align}
-													\displaystyle
-														\frac{2(x_1y_1+x_2y_2)}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} 
-														&\leq \\
-														\bigg(\frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2}\bigg) &+ \bigg(\frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2}\bigg) \\ 
-														&= \frac{2({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)} \\ 
-														&= \frac{2\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}}{\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}} \\ 
-														&\leq 2.
-												\end{align}
-												$
-											</p>
-											Multiplying both sides of the statement by 
-											$$\displaystyle\frac{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}}{2}$$
-											yields the Schwarz inequality. $ \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:6 0 0 10">(c)</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											<u>Theorem</u>: 
-											$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$
-											<br>
-											<u>Lemma</u>: $({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2) = (x_1y_1+x_2y_2)^2+(x_1y_1-x_2y_2).$
-											<br>
-											<u>Pf</u><sub>(lemma)</sub>:
-											<p>
-												$
-												\begin{equation}
-													\begin{split}
-														({x_1}^2 + {x_2}^2)({y_1}^2+{y_2}^2) 
-															&= (x_1y_1+x_2y_2)^2 + (x_1y_1-x_2y_2) \\
-															{x_1}^2{y_1}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 
-															&= (x_1y_1)^2 + 2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\ 
-															& \ \ \ \ \ + (x_1y_1)^2-2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\
-															&= {x_1}^2{y_1}^2 + 2x_1y_1x_2y_2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
-															& \ \ \ \ \ - 2x_1y_1x_2y_2 + {x_2}^2{y_1}^2 \\
-															&= {x_1}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 \\
-															&= {x_1}^2{y_1}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
-															&= {y_1}^2({x_1}^2+{x_2}^2) + {y_2}^2({x_1}^2+{x_2}^2) \\
-															({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2) 
-															&= ({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2). \\
-															& \ \square
-													\end{split}
-												\end{equation}
-												$
-											</p>
-											<u>Proof</u>:
-											<p>
-												$
-												\begin{equation}
-													\begin{split}
-														\text{Since} \ 0 \leq (x_1y_2-x_2y_1)^2 \ \Rightarrow \ (x_1y_2-x_2y_1)^2 &\leq ({x_1}^2+{x_2}^2)({x_1}^2+{x_2}^2) \\
-														x_1y_2-x_2y_1 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2} \\
-														& \ \Downarrow \\
-														x_1y_1+x_2y_2 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}. \\
-														& \ \square
-													\end{split}
-												\end{equation}
-												$
-											</p>
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:00 00 00 00">&nbsp;</td>
-										<td style="vertical-align:top; padding:00 00 00 10">(d)</td>
-										<td style="vertical-align:top; padding:00 20 15 10">
-											The proof in part (a) already yields the desired result. In part (b), equality holds only if it holds in (1) and (2). Since $2xy=x^2+y^2$ only when $0=(x-y)^2,$ i.e., $x=y,$ this means that 
-											$$
-											\begin{equation}
-												\frac{x_i}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}}=\frac{y_i}{\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \ \ \ \ \ \text{for} \ i=1,2,
-											\end{equation}
-											$$
-											so we can choose $\lambda=\displaystyle\sqrt{{x_1}^2+{x_2}^2}\bigg/\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$ 
-											<br>
-											<br>
-											In part (c), equaliy only holds when $x_1y_2-x_2y_1=0.$ One possibility is $y_1=y_2=0.$ If $y_1 \neq 0,$ then $x_1=(x_1/y_1)y_1$ and also $x_1=(x_1/y_1)y_2;$ 
-											<br>
-											similarly, if $y_2=0,$ then $\lambda=x_2/y_2.$ 
-											<label title="Combined Answer Book" style="color:#aaa">&#9733;</label>
+										<td style="vertical-align:top; padding:3 00 0 00">19.</td>
+										<td style="vertical-align:top; padding:0 20 0 10">
+											<table>
+												<tr>
+													<td style="vertical-align:top; padding:1 0 0 00">(a)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														<table>
+															<tr>
+																<td style="vertical-align:top; padding:0 0 0 0">
+																	Proof<sub>1</sub>:
+																</td>
+																<td style="vertical-align:top; padding:0 0 0 10">
+																	If $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \geq 0,$ then
+																	
+																	<p>$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}$</p>
+																	
+																	$\displaystyle(\lambda y_1)y_1 + (\lambda y_2)y_2 \leq \sqrt{{(\lambda y_1)}^2+{(\lambda y_2)}^2} \sqrt{(x_1\lambda^{-1})^2+(x_2\lambda^{-1})^2}$
+																	
+																	$\displaystyle\lambda {y_1}^2 + \lambda {y_2}^2 \leq \sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{(\lambda y_1\lambda^{-1})^2+(\lambda y_2\lambda^{-1})^2}$ 
+																	
+																	$\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 \leq \bigg(\sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{y_1}^2+{y_2}^2}\bigg)^2$ 
+																	
+																	$\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 \leq \big({\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2\big) \big({y_1}^2+{y_2}^2\big)$
+
+																	<p style="padding:0 0 10 0">
+																		$\lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4 \leq \lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4. \ \square$
+																	</p>
+																</td>
+															</tr>
+															<tr>
+																<td style="vertical-align:top; padding:15 0 0 0">
+																	Proof<sub>2</sub>:
+																</td>
+																<td style="vertical-align:top; padding:7 0 0 10">
+																	$
+																	\begin{align}
+																	(x_1)(0)+(x_2)(0) &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2} \sqrt{0+0} \\
+																	0 &\leq 0. \\
+																	& \ \square
+																	\end{align}
+																	$
+																</td>
+															</tr>
+															<tr>
+																<td style="vertical-align:top; padding:15 0 0 0">
+																	Proof<sub>3</sub>:
+																</td>
+																<td style="vertical-align:top; padding:15 20 0 10">
+																	Supposing $y_1$ and $y_2$ are not both $0$, and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2=\lambda y_2$, then 
+																	$$
+																	\begin{align}
+																		0 
+																		&< (\lambda y_1-x_1)^2 + (\lambda y_2-x_2)^2 \\ 
+																		&= \lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{x_2}^2\big),
+																	\end{align}
+																	$$ 
+																	and the equation 
+																	$$\lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{y_1}^{2 \ *}\big)=0
+																	$$ 
+																	has no solution $\lambda$. So by problem 
+																	<div class="tooltip">18(a,e)
+											  							<span class="tooltiptext">
+											  								That is to say, this difference ine-quality corresponds to the following transformation of 18(e):
+											  								$$
+																			\begin{align}\displaystyle
+																			a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
+																			a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+																			a\cdot\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+																			\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
+																			\end{align}
+																			$$
+											  							</span>
+																	</div>
+																	we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\Bigg[\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)}\Bigg] < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
+																	<p>
+																		<label title="erratum" style="color:aaa">*</label> It is likely that this term is a typo, and is intended to read $"{x_2}^2"$ as the line that contains it is simply an expansion of the right&ndash;hand side of the initial inequality, and otherwise identical to the equation just above it. Given 18(a), the argument seems erroneous otherwise. But the simplification actually works out using either term, so there may be some other reason for this.
+																	</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														$\require{cancel}$
+														We have $2xy \leq x^2+y^2,$ since $0 \leq (x-y)^2=x^2-2xy+y^2.$ Thus
+														<ol type="1">
+															<li>
+																$\displaystyle\frac{2x_1y_1}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2},$
+															</li>
+															<li>
+																$\displaystyle\frac{2x_2y_2}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2};$
+															</li>
+														</ol>
+														addition yields
+														<p>
+															$
+															\begin{align}
+																\displaystyle
+																	\frac{2(x_1y_1+x_2y_2)}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} 
+																	&\leq \\
+																	\bigg(\frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2}\bigg) &+ \bigg(\frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2}\bigg) \\ 
+																	&= \frac{2({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)} \\ 
+																	&= \frac{2\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}}{\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}} \\ 
+																	&\leq 2.
+															\end{align}
+															$
+														</p>
+														Multiplying both sides of the statement by 
+														$$\displaystyle\frac{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}}{2}$$
+														yields the Schwarz inequality. $ \ \ \square$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:6 0 0 00">(c)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														Theorem: 
+														$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$
+														<br>
+														Lemma: $({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2) = (x_1y_1+x_2y_2)^2+(x_1y_1-x_2y_2).$
+														<br>
+														Proof<sub>(lemma)</sub>:
+														<p>
+															$
+															\begin{equation}
+																\begin{split}
+																	({x_1}^2 + {x_2}^2)({y_1}^2+{y_2}^2) 
+																		&= (x_1y_1+x_2y_2)^2 + (x_1y_1-x_2y_2) \\
+																		{x_1}^2{y_1}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 
+																		&= (x_1y_1)^2 + 2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\ 
+																		& \ \ \ \ \ + (x_1y_1)^2-2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\
+																		&= {x_1}^2{y_1}^2 + 2x_1y_1x_2y_2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
+																		& \ \ \ \ \ - 2x_1y_1x_2y_2 + {x_2}^2{y_1}^2 \\
+																		&= {x_1}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 \\
+																		&= {x_1}^2{y_1}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
+																		&= {y_1}^2({x_1}^2+{x_2}^2) + {y_2}^2({x_1}^2+{x_2}^2) \\
+																		({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2) 
+																		&= ({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2). \\
+																		& \ \square
+																\end{split}
+															\end{equation}
+															$
+														</p>
+														<u>Proof</u>:
+														<p>
+															$
+															\begin{equation}
+																\begin{split}
+																	\text{Since} \ 0 \leq (x_1y_2-x_2y_1)^2 \ \Rightarrow \ (x_1y_2-x_2y_1)^2 &\leq ({x_1}^2+{x_2}^2)({x_1}^2+{x_2}^2) \\
+																	x_1y_2-x_2y_1 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2} \\
+																	& \ \Downarrow \\
+																	x_1y_1+x_2y_2 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}. \\
+																	& \ \square
+																\end{split}
+															\end{equation}
+															$
+														</p>
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:00 00 0 00">(d)</td>
+													<td style="vertical-align:top; padding:00 00 0 10">
+														The proof in part (a) already yields the desired result. In part (b), equality holds only if it holds in (1) and (2). Since $2xy=x^2+y^2$ only when $0=(x-y)^2,$ i.e., $x=y,$ this means that 
+														$$
+														\begin{equation}
+															\frac{x_i}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}}=\frac{y_i}{\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \ \ \ \ \ \text{for} \ i=1,2,
+														\end{equation}
+														$$
+														so we can choose $\lambda=\displaystyle\sqrt{{x_1}^2+{x_2}^2}\bigg/\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$ 
+														<br>
+														<br>
+														In part (c), equaliy only holds when $x_1y_2-x_2y_1=0.$ One possibility is $y_1=y_2=0.$ If $y_1 \neq 0,$ then $x_1=(x_1/y_1)y_1$ and also $x_1=(x_1/y_1)y_2;$ 
+														<br>
+														similarly, if $y_2=0,$ then $\lambda=x_2/y_2.$ 
+														<label title="Combined Answer Book" style="color:#aaa">&#9733;</label>
+													</td>
+												</tr>
+											</table>
 										</td>
 									</tr>
 								</table>
@@ -2751,28 +2712,22 @@
 									padding:0 0 0 0;
 									width:50%">
 							<p style="padding:25 0 0 49; 
-										color:grey; 
+										color:lightgrey; 
 										font-family:'Avenir', 'light'; 
 										font-size:18">
-								Calculus
-								<br>
-								<span style="font-size:16px">Fourth Edition Problem Sets</span>
-								<br>
-								&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-								<br>
-								<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+								Basic Properties of Numbers
 							</p>
-							<div class="c1p12">
-								<table style="padding:11 0 0 0">
+							<div class="c1p9">
+								<table style="padding:10 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 0">
 											In our later work, three facts about inequalities will be crucial. Although proofs will be supplied at the appropriate point in the text, a personal assault on these problems is infinitely more enlightening than a perusal of a completely worked-out proof. The statements of these propositions involve some weird numbers, but their basic message is simple: if $x$ is close enough to $x_0,$ and $y$ is close enough to $y_0,$ then $x+y$ will be close to $x_0+y_0,$ and $xy$ will be close to $x_0y_0,$ and $1/y$ will be close to $1/y_0.$ The symbol "<i>&epsilon;</i>" which appears in these propositions is the fifth letter of the Greek alphabet ("epsilon"), snd could just as well be replaced by a less intimidating Roman letter; however, tradition has made the use of <i>&epsilon;</i> sacrosanct in thecontexts to which these theorems apply.
 										</td>
 									</tr>
 								</table>
-								<table style="vertical-align:top; padding:20 0 0 8">
+								<table style="vertical-align:top; padding:20 20 0 8">
 							      	<tr>
-							        	<td style="vertical-align:top; padding:0 0 0 0">20.</td>
+							        	<td style="vertical-align:top; padding:0 0 0 00">20.</td>
 							        	<td style="vertical-align:top; padding:0 0 0 10">
 							        		Prove that if
 							            	<p>
@@ -2781,15 +2736,16 @@
 							            			\vert x-x_0 \rvert < \frac{\varepsilon}{2} \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2}
 							            		$
 							            	</p>
-							            	then 
-							            	$$
-							            	\lvert (x+y) - (x_0+y_0) \rvert < \varepsilon, \\ 
-							            	\lvert (x-y) - (x_0-y_0) \rvert < \varepsilon.
-							            	$$
+							            	then
+							            	<p>
+								            	$\lvert (x+y) - (x_0+y_0) \rvert < \varepsilon,$
+								            	<br>
+								            	$\lvert (x-y) - (x_0-y_0) \rvert < \varepsilon.$
+							            	</p>
 							        	</td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding:20 0 0 0">
+							    <table style="vertical-align:top; padding:20 20 0 0">
 							      	<tr>
 							        	<td style="vertical-align:top; padding:0 0 0 0">
 							        		<label title="text" style="color:#aaa">*</label>21.
@@ -2809,7 +2765,7 @@
 							       		</td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding: 20 0 0 0">
+							    <table style="vertical-align:top; padding: 20 20 0 0">
 							      	<tr>
 							        	<td style="vertical-align:top; padding:0 0 0 0">
 							        		<label title="text" style="color:#aaa">*</label>22.
@@ -2820,13 +2776,16 @@
 								            \lvert y-y_0 \rvert < \text{min} \bigg( \frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg),
 								            $$
 								            then $y \neq 0$ and
-											$$
-											{\huge\lvert} \ \frac{1}{y} - \frac{1}{y_0} {\huge\rvert} < \varepsilon.
-											$$
+								            <p style="padding:0 0 0 50">
+												$
+												\displaystyle
+													\Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert < \varepsilon.
+												$
+											</p>
 								        </td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding: 20 0 15 0">
+							    <table style="vertical-align:top; padding: 20 20 10 0">
 							      	<tr>
 							        	<td style="vertical-align:top; padding:0 0 0 0">
 							        		<label title="text" style="color:#aaa">*</label>23.
@@ -2840,7 +2799,7 @@
 								        	$$
 								        	then $y \neq 0$ and
 								        	$$
-								        	{\huge\lvert} \frac{x}{y} \ - \frac{x_0}{y_0} \ {\huge\rvert} < \varepsilon.
+								        	\Bigg\lvert \frac{x}{y} \ - \frac{x_0}{y_0} \ \Bigg\rvert < \varepsilon.
 								        	$$
 								        	This problem is trivial in the sense that its solution follows from Problem 21 and 22 with almost no work at all (notice that $x/y=x \cdot 1/y.$) The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely. 
 								        </td>
@@ -2874,19 +2833,13 @@
 									padding:0 0 0 0;
 									width:50%">
 							<p style="padding:25 0 0 49; 
-										color:grey; 
+										color:lightgrey; 
 										font-family:'Avenir', 'light'; 
 										font-size:18">
-								Calculus
-								<br>
-								<span style="font-size:16px">Fourth Edition Problem Sets</span>
-								<br>
-								&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-								<br>
-								<span style="color:lightgrey; font-size:15px">Basic Properties of Numbers</span>
+								Basic Properties of Numbers
 							</p>
-							<div class="c1p12">
-								<table style="padding:11 0 0 0">
+							<div class="c1p9">
+								<table style="padding:10 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 0">
 											<label title="text" style="color:#aaa">*</label>24.
@@ -2988,79 +2941,86 @@
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding-right:10px">
+										<td style="vertical-align:top; padding:2 0 0 0">
 											<label title="text" style="color:#aaa">*</label>24.
 										</td>
-										<td style="vertical-align:top; padding-right:15px">(a)</td>
-										<td style="vertical-align:top; padding-right:15px">
-											For $k=1$ the equation reads $a_1+a_2=a_1+a_2.$ If the equation holds for $k,$ then
-											$$
-											\begin{equation}
-											\begin{split}
-											(a_1+\cdots+a_{k+1})+a_{k+2} &= [(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2} \\
-											&= (a_1+\cdots+a_k)+(a_{k+1}+a_{k+2}) \ \ \ \text{by P1} \\
-											&= a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \\
-											& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{since the equation holds for }k \\
-											&= a_1+\cdots+a_k+a_{k+1}+a_{k+2} \\
-											&= a_1+\cdots+a_{k+2} \\ 
-											& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_1+\cdots+a_{k+2}. \\
-											& \ \square
-											\end{split}
-											\end{equation}
-											$$
+										<td style="vertical-align:top; padding:0 20 0 10">
+											<table>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														For $k=1$ the equation reads $a_1+a_2=a_1+a_2.$ If the equation holds for $k,$ then
+														$$
+														\begin{equation}
+														\begin{split}
+														(a_1+\cdots+a_{k+1})+a_{k+2} &= [(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2} \\
+														&= (a_1+\cdots+a_k)+(a_{k+1}+a_{k+2}) \ \ \ \text{by P1} \\
+														&= a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \\
+														& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{since the equation holds for }k \\
+														&= a_1+\cdots+a_k+a_{k+1}+a_{k+2} \\
+														&= a_1+\cdots+a_{k+2} \\ 
+														& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_1+\cdots+a_{k+2}. \\
+														& \ \square
+														\end{split}
+														\end{equation}
+														$$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														For $k=1$ the equation reduces to the definition $a_1+\cdots+a_k.$ If the equation is true for some $k < n,$ then
+														$$
+														\begin{equation}
+														\begin{split}
+														(a_1+\cdots+a_{k+1})
+														&+(a_{k+2}+\cdots+a_n) \\
+														&= [(a_1+\cdots+a_k)+a_{k+1}]+(a_{k+2}+\cdots+a_n) \\
+														& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by part(a)} \\
+														&= (a_1+\cdots+a_k)+(a_{k+1}+(a_{k+2}+\cdots+a_n)) \\
+														& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by P1} \\
+														&= (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n) \\ 
+														& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_{k+1}\cdots+a_n. \\
+														&=a_1+\cdots+a_n \ \ \ \ \ \ \text{by assumption}. \\
+														& \ \square
+														\end{split}
+														\end{equation}
+														$$
+													</td>
+												</tr>
+												<tr>
+													<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
+													<td style="vertical-align:top; padding:0 0 0 10">
+														his proof is by 
+														<div class="tooltip">complete induction
+								  							<span class="tooltiptext">
+								  								<span style="color:grey; font-family:'avenir'; font-size:13">complete induction</span>: to prove the statement <b>P</b>(<em>m</em> + 1) under the assumption that <b>P</b>(<em>n</em>) holds for all natural <em>n</em> < (<em>m</em> + 1). By contrast, basic&ndash;induction only assumes <b>P</b>(<em>m</em>)
+								  							</span>
+														</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
+														$$
+														\begin{equation}
+														\begin{split}
+														s(a_1,\dots,a_k) &= s'(a_1,\dots,a_l)+s''(a_{l+1},\dots,a_k) \\
+														&= (a_1+\cdots+a_l)+(a_{l+1}+\cdots+a_k) \ \ \ \ \ \text{by assumption} \\
+														&= a_1+\cdots+a_k \ \ \ \ \ \text{by part(b).} \\
+														& \ \square
+														\end{split}
+														\end{equation}
+														$$
+													</td>
+												</tr>
+											</table>
 										</td>
 									</tr>
-									<tr>
-									<td style="vertical-align:top; padding-right:10px">&#160</td>
-									<td style="vertical-align:top; padding-right:15px">(b)</td>
-									<td style="vertical-align:top; padding-right:15px">
-										For $k=1$ the equation reduces to the definition $a_1+\cdots+a_k.$ If the equation is true for some $k < n,$ then
-										$$
-										\begin{equation}
-										\begin{split}
-										(a_1+\cdots+a_{k+1})
-										&+(a_{k+2}+\cdots+a_n) \\
-										&= [(a_1+\cdots+a_k)+a_{k+1}]+(a_{k+2}+\cdots+a_n) \\
-										& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by part(a)} \\
-										&= (a_1+\cdots+a_k)+(a_{k+1}+(a_{k+2}+\cdots+a_n)) \\
-										& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by P1} \\
-										&= (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n) \\ 
-										& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_{k+1}\cdots+a_n. \\
-										&=a_1+\cdots+a_n \ \ \ \ \ \ \text{by assumption}. \\
-										& \ \square
-										\end{split}
-										\end{equation}
-										$$
-									</td>
-									</tr>
-									<tr>
-									<td style="vertical-align:top; padding-right:10px">&#160</td>
-									<td style="vertical-align:top; padding-right:15px">(c)</td>
-									<td style="vertical-align:top; padding-right:15px">
-										This proof is by 
-										<div class="tooltip">complete induction
-				  							<span class="tooltiptext">
-				  								<span style="color:grey; font-family:'avenir'; font-size:13">complete induction</span>: to prove the statement <b>P</b>(<em>m</em> + 1) under the assumption that <b>P</b>(<em>n</em>) holds for all natural <em>n</em> < (<em>m</em> + 1). By contrast, basic&ndash;induction only assumes <b>P</b>(<em>m</em>)
-				  							</span>
-										</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
-										$$
-										\begin{equation}
-										\begin{split}
-										s(a_1,\dots,a_k) &= s'(a_1,\dots,a_l)+s''(a_{l+1},\dots,a_k) \\
-										&= (a_1+\cdots+a_l)+(a_{l+1}+\cdots+a_k) \ \ \ \ \ \text{by assumption} \\
-										&= a_1+\cdots+a_k \ \ \ \ \ \text{by part(b).} \\
-										& \ \square
-										\end{split}
-										\end{equation}
-										$$
-									</td>
-									</tr>
 								</table>
-								<table>
+								<table style="padding:0 20 10 0">
 									<tr>
-									<td style="vertical-align:top; padding-right:10px"><label title="text" style="color:#aaa">*</label>25.</td>
-									<td style="vertical-align:top; padding-right:15px">
-										P2, P3, P4, P6, P7, P8 are obvious from a glance at the tables. There are eight cases for P1, and even this number can be reduced: because P2 is true, it is clear that $a+(b+c)=(a+b)+c$ if $a,b,$ or $c$ is 0, so only the case $a=b=c=1$ must be checked. Similarly for P5. Finally, P9 is true for $a=0,$ since $0\cdot b=0$ for all $b,$ and for $a=1,$ since $1\cdot b=b$ for all $b. \ \ \square$
+										<td style="vertical-align:top; padding:0 0 0 0">
+											<label title="text" style="color:#aaa">*</label>25.
+										</td>
+										<td style="vertical-align:top; padding:0 0 0 10">
+											P2, P3, P4, P6, P7, P8 are obvious from a glance at the tables. There are eight cases for P1, and even this number can be reduced: because P2 is true, it is clear that $a+(b+c)=(a+b)+c$ if $a,b,$ or $c$ is 0, so only the case $a=b=c=1$ must be checked. Similarly for P5. Finally, P9 is true for $a=0,$ since $0\cdot b=0$ for all $b,$ and for $a=1,$ since $1\cdot b=b$ for all $b. \ \ \square$
+										</td>
 									</tr>
 								</table>
 							</div>
@@ -3076,24 +3036,18 @@
 									padding:0 0 0 0;
 									width:50%">
 							<p style="padding:25 0 0 49; 
-										color:grey; 
+										color:lightgrey; 
 										font-family:'Avenir', 'light'; 
 										font-size:18">
-								Calculus
-								<br>
-								<span style="font-size:16px">Fourth Edition Problem Sets</span>
-								<br>
-								&#9634; <span style="font-size:12px"> MICHAEL SPIVAK</span> 
-								<br>
-								<span style="color:lightgrey; font-size:15px">Numbers of Various Sorts</span>
+								Numbers of Various Sorts
 							</p>
-							<div class="c1p12">
-								<table style="padding:11 0 0 0">
+							<div class="c1p9">
+								<table style="padding:10 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 0">1.</td>
 								        <td style="vertical-align:top; padding:0 0 0 10">
 								        	Prove the following formulas by induction.
-								        	<table style="padding-top:10; width:100%">
+								        	<table style="padding:10 0 0 0; width:100%">
 								        		<tr>
 								        			<td style="padding:3 0 0 00">(i)</td>
 								        			<td style="padding:0 0 0 10">$1^2+\cdots+n^2=\displaystyle\frac{n(n+1)(2n+1)}{6}.$</td>
@@ -3106,12 +3060,12 @@
 								        </td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding:20 0 0 0">
+							    <table style="vertical-align:top; padding:20 20 0 0">
 							      	<tr>
 								        <td style="vertical-align:top; padding:0 0 0 00">2.</td>
 								        <td style="vertical-align:top; padding:0 0 0 10">
 								        	Find a formula for
-								        	<table style="padding-top:10; width:100%">
+								        	<table style="padding:10 20 0 0; width:100%">
 								        		<tr>
 								        			<td style="padding:3 0 0 00">(i)</td>
 								        			<td style="padding:0 0 0 10">$\displaystyle\sum_{i=1}^{n} (2i-1)=1+3+5+\cdots+(2n-1).$</td>
@@ -3131,7 +3085,7 @@
 								        </td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding:20 0 0 0">
+							    <table style="vertical-align:top; padding:20 20 10 0">
 							      	<tr>
 								        <td style="vertical-align:top; padding:11 0 0 00">3.</td>
 								        <td style="vertical-align:top; padding:00 0 0 10">
@@ -3139,7 +3093,7 @@
 								        	$\displaystyle{n \choose k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)\cdots(n-k+1)}{k!}, \ \ \ \text{if} \ k\neq0,n$ 
 								        	<br>
 								        	$\displaystyle{n \choose 0}={n \choose n}=1$ (a special case of the first formula if we define $0!=1,)$ and for $k < 0$ or $n < k$ we just define the binomial coefficient to be 0.
-								        	<table style="padding-top:10; width:100%">
+								        	<table style="padding:10 20 0 0; width:100%">
 								        		<tr>
 								        			<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
 								        			<td style="vertical-align:top; padding:0 0 0 10">
@@ -3164,13 +3118,13 @@
 								        		</tr>
 								        		<tr>
 								        			<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
-								        			<td style="vertical-align:top; padding:0 0 0 10">
+								        			<td style="vertical-align:center; padding:0 0 0 10">
 								        				Notice that all the numbers in Pascal's triangle are natural  numbers. Use part (a) to prove by induction that $\displaystyle{n \choose k}$ is always a natural number. (Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
 								        			</td>
 								        		</tr>
 								        		<tr>
-								        			<td style="vertical-align:top; padding:11 0 0 00">(c)</td>
-								        			<td style="vertical-align:top; padding:00 0 0 10">
+								        			<td style="vertical-align:top; padding:10 0 0 00">(c)</td>
+								        			<td style="vertical-align:center; padding:00 0 0 10">
 								        				Give another proof that $\displaystyle{n \choose k}$ is a natural number by showing that $\displaystyle{n \choose k}$ is the number of sets of exactly $k$ itegers  each chosen from $1,\dots, n.$
 								        			</td>
 								        		</tr>
@@ -3192,6 +3146,7 @@
 								        		<tr>
 								        			<td style="vertical-align:top; padding:8 0 0 0">(e)</td>
 								        			<td style="vertical-align:top; padding:0 0 0 0">
+								        				<!-- Read text from alt file -->
 								        				<object width="100%" height="40" data="c2p2.html"></object>
 								        				<table style="padding:10 0 0 0">
 								        					<tr>
@@ -3236,370 +3191,400 @@
 									<p style="font-size:16; padding:0 20 0 0">
 										In problem 2, I introduce the notion $"\succ" \langle \text{read: "successor of"} \rangle$ to mean: "which is preceded by," in equational form.
 									</p>
-									<table style="padding:0 0 0 0">
+									<table style="padding:0 20 0 0">
 										<tr>
-											<td style="vertical-align:top; padding: 0 0 0 00">1.</td>
-											<td style="vertical-align:top; padding: 0 0 0 10">(i)</td>
-											<td style="vertical-align:top; padding: 0 0 0 00"> 
-												$
-												\begin{equation}
-													\begin{split}
-														\text{Base:} \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 
-															&= [1(1+1)(2\cdot1+1)]/6 \\
-															&= [1\cdot2(2+1)]/6 \\
-															&= (2\cdot3)/6 \\
-															&= 1. \\
-															& \ \square
-													\end{split}
-												\end{equation}
-												$
-												<br>
-												<br>
-												$
-												\begin{equation}
-													\begin{split}
-														\text{Induction hypothesis:} \ \ n=k \ \ \rightarrow \ \ 1^2+\cdots+k^2 
-														&= [k(k+1)(2\cdot k+1)]/6 \\
-														&= [(k^2+k)(2k+1)]/6.
-													\end{split}
-												\end{equation}
-												$ 
-												<br>
-												<br>
-												$ \ \text{Proof}: \ n=k+1$
-												$$
-												\begin{equation}
-													\begin{split}
-														1^2+\cdots+k^2+(k+1)^2 
-															&= \big[[k(k+1)(2k+1)]/6\big]+(k+1)^2 \\
-															&= [(k+1)/6][k(2k+1)+6(k+1)] \\
-															&= [(k+1)/6][2k^2+k+6k+6] \\
-															&= \big[(k+1)[2(k+1)+1](k+2)\big]\big/6. \\
-															& \ \square
-													\end{split}
-												\end{equation}
-												$$
+											<td style="vertical-align:top; padding: 2 0 0 00">1.</td>
+											<td style="vertical-align:top; padding: 0 0 0 10">
+												<table style="0 20 0 0">
+													<tr>
+														<td style="vertical-align:top; padding: 0 0 0 00">(i)</td>
+														<td style="vertical-align:top; padding: 0 0 0 10"> 
+															$
+															\begin{equation}
+																\begin{split}
+																	\text{Base:} \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 
+																		&= [1(1+1)(2\cdot1+1)]/6 \\
+																		&= [1\cdot2(2+1)]/6 \\
+																		&= (2\cdot3)/6 \\
+																		&= 1. \\
+																		& \ \square
+																\end{split}
+															\end{equation}
+															$
+															<br>
+															<br>
+															$
+															\begin{equation}
+																\begin{split}
+																	\text{Induction hypothesis:} \ \ n=k \ \ \rightarrow \ \ 1^2+\cdots+k^2 
+																	&= [k(k+1)(2\cdot k+1)]/6 \\
+																	&= [(k^2+k)(2k+1)]/6.
+																\end{split}
+															\end{equation}
+															$ 
+															<br>
+															<br>
+															$ \ \text{Proof}: \ n=k+1$
+															$$
+															\begin{equation}
+																\begin{split}
+																	1^2+\cdots+k^2+(k+1)^2 
+																		&= \big[[k(k+1)(2k+1)]/6\big]+(k+1)^2 \\
+																		&= [(k+1)/6][k(2k+1)+6(k+1)] \\
+																		&= [(k+1)/6][2k^2+k+6k+6] \\
+																		&= \big[(k+1)[2(k+1)+1](k+2)\big]\big/6. \\
+																		& \ \square
+																\end{split}
+															\end{equation}
+															$$
+														</td>
+													</tr>
+													<tr>
+														<td style="vertical-align:top; padding: 0 0 00 00">(ii)</td>
+														<td style="vertical-align:top; padding: 0 0 10 10">
+															Since $1^3=1^2,$ the formula is trye for $n=1.$ Suppose the formula is true for $k.$ 
+															<br>
+															Then
+															$$
+															\begin{equation}
+																\begin{split}
+																	[1+\cdots+k+(k+1)]^2 
+																		&= (1+\cdots+k)^2+2(1+\cdots+k)(k+1)+(k+1)^2 \\
+																		&= 1^3+k^3+2\big[[k(k+1)/2](k+1)\big]+(k+1)^2 \\
+																		&= 1^3+\cdots+k^3+k(k^2+2k+1)+(k+1)^2 \\
+																		&= 1^3+\cdots+k^3+(k^3+2k^2+k)+(k^2+2k+1) \\
+																		&= 1^3+\cdots+k^3+k^3+3k^2+3k+1 \\
+																		&= 1^3+\cdots+k^3+(k+1)^3.
+																\end{split}
+															\end{equation}
+															$$
+															So the formula is true for $k+1. \ \ \square$
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
+									</table>
+									<table style="padding:0 20 0 0">
 										<tr>
-											<td style="vertical-align:top; padding: 0 0 00 00">&#160;</td>
-											<td style="vertical-align:top; padding: 0 0 00 10">(ii)</td>
-											<td style="vertical-align:top; padding: 0 0 10 10">
-												Since $1^3=1^2,$ the formula is trye for $n=1.$ Suppose the formula is true for $k.$ 
-												<br>
-												Then
-												$$
-												\begin{equation}
-													\begin{split}
-														[1+\cdots+k+(k+1)]^2 
-															&= (1+\cdots+k)^2+2(1+\cdots+k)(k+1)+(k+1)^2 \\
-															&= 1^3+k^3+2\big[[k(k+1)/2](k+1)\big]+(k+1)^2 \\
-															&= 1^3+\cdots+k^3+k(k^2+2k+1)+(k+1)^2 \\
-															&= 1^3+\cdots+k^3+(k^3+2k^2+k)+(k^2+2k+1) \\
-															&= 1^3+\cdots+k^3+k^3+3k^2+3k+1 \\
-															&= 1^3+\cdots+k^3+(k+1)^3.
-													\end{split}
-												\end{equation}
-												$$
-												So the formula is true for $k+1. \ \ \square$
+											<td style="vertical-align:top; padding: 14 0 00 00">2.</td>
+											<td style="vertical-align:top; padding: 00 0 00 10">
+												<table>
+													<tr>
+														<td style="vertical-align:top; padding: 13 0 00 00">(i)</td>
+														<td style="vertical-align:top; padding: 00 0 10 10">
+															$
+															\begin{equation}
+																\begin{split}
+																	\displaystyle\sum_{i=1}^n(2i-1) 
+																		&= 1+3+5+\cdots+(2n-1) \\
+																		&= 1+2+3+\cdots+2n-2(1+\cdots+n) \\
+																		&= \frac{(2n)(2n+1)}{2}-2\bigg[\frac{n(n+1)}{2}\bigg] \ \succ \ 1+\cdots+n=\frac{n(n+1)}{2} \\
+																		&= \frac{(2n)(2n+1)}{2}-n(n+1) \\
+																		&= \frac{(2n)(2n+1)-2\cdot n(n+1)}{2} \\
+																		&= n^2. \\
+																		& \ \square
+																\end{split}
+															\end{equation}
+															$
+														</td>
+													</tr>
+													<tr>
+														<td style="vertical-align:top; padding: 13 0 00 00">(ii)</td>
+														<td style="vertical-align:top; padding: 00 0 10 10">
+															$
+															\begin{equation}
+																\begin{split}
+																	\displaystyle\sum_{i=1}^n(2i-1)^2 
+																		&= 1^2+3^2+\cdots+(2n-1)^2 \\
+																		&= [1^2+2^2+\cdots+(2n)^2-[2^2+4^2+6^2+\cdots+(2n)^2] \\
+																		&= [1^2+2^2+\cdots+(2n)^2-4[1^2+2^2+3^2+\cdots+(n)^2] \\
+																		&= \frac{(2n)(2n+1)(4n+1)}{6}-\frac{4n(n+1)(2n+1)}{6} \ \succ \ 1(\text{i}) \\
+																		&= \frac{2n(2n+1)[4n+1-2(n+1)]}{6} \\
+																		&= \frac{n(2n+1)(2n-1)}{3}. \\
+																		& \ \square
+																\end{split}
+															\end{equation}
+															$
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
 									</table>
 									<table>
 										<tr>
-											<td style="vertical-align:top; padding: 12 0 00 10">2.</td>
-											<td style="vertical-align:top; padding: 12 0 00 10">(i)</td>
-											<td style="vertical-align:top; padding: 00 0 10 10">
-												$
-												\begin{equation}
-													\begin{split}
-														\displaystyle\sum_{i=1}^n(2i-1) 
-															&= 1+3+5+\cdots+(2n-1) \\
-															&= 1+2+3+\cdots+2n-2(1+\cdots+n) \\
-															&= \frac{(2n)(2n+1)}{2}-2\bigg[\frac{n(n+1)}{2}\bigg] \ \succ \ 1+\cdots+n=\frac{n(n+1)}{2} \\
-															&= \frac{(2n)(2n+1)}{2}-n(n+1) \\
-															&= \frac{(2n)(2n+1)-2\cdot n(n+1)}{2} \\
-															&= n^2. \\
-															& \ \square
-													\end{split}
-												\end{equation}
-												$
-											</td>
-										</tr>
-										<tr>
-											<td style="vertical-align:top; padding: 12 0 00 0">&#160;</td>
-											<td style="vertical-align:top; padding: 12 0 00 10">(ii)</td>
-											<td style="vertical-align:top; padding: 00 0 10 10">
-												$
-												\begin{equation}
-													\begin{split}
-														\displaystyle\sum_{i=1}^n(2i-1)^2 
-															&= 1^2+3^2+\cdots+(2n-1)^2 \\
-															&= [1^2+2^2+\cdots+(2n)^2-[2^2+4^2+6^2+\cdots+(2n)^2] \\
-															&= [1^2+2^2+\cdots+(2n)^2-4[1^2+2^2+3^2+\cdots+(n)^2] \\
-															&= \frac{(2n)(2n+1)(4n+1)}{6}-\frac{4n(n+1)(2n+1)}{6} \ \succ \ 1(\text{i}) \\
-															&= \frac{2n(2n+1)[4n+1-2(n+1)]}{6} \\
-															&= \frac{n(2n+1)(2n-1)}{3}. \\
-															& \ \square
-													\end{split}
-												\end{equation}
-												$
-											</td>
-										</tr>
-									</table>
-									<table>
-										<tr>
-											<td style="vertical-align:top; padding: 10 0 0 00">3.</td>
-											<td style="vertical-align:top; padding: 10 0 0 10">(a)</td>
-											<td style="vertical-align:top; padding: 00 0 0 05">
-												$
-												\begin{align}
-													\begin{split}
-														\displaystyle
-															{n \choose k-1} + {n \choose k}
-																&= \frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!} \\
-																&= \bigg[\frac{k!(n-k)!}{k!(n-k)!}\bigg]\bigg[\frac{n!}{(k-1)!(n-k+1)!}\bigg] \\
-																& \ \ \ \ \ \ \ \ \ \ + \bigg[\frac{(k-1)!(n-k+1)!}{(k-1)!(n-k+1)!}\bigg]\bigg[\frac{n!}{k!(n-k)!}\bigg] \\
-																&= \frac{k!(n-k)!n!+(k-1)!(n-k+1)!n!}{k!(n-k)!(k-1)!(n-k+1)!} \\
-																&= \frac{\color{grey}{\cancel{(k-1)!(n-k)!}}[kn!+(n+1-k)n!]}{k!\color{grey}{\cancel{(k-1)!(n-k)!}}(n-k+1)!} \\
-																&= \frac{kn!}{k!(n+1-k)}+\frac{(n+1-k)n!}{k!(n+1-k)} \\ 
-																&= \frac{(n+1)n!}{k!(n+1-k)!}=\frac{(n+1)!}{k!(n+1-k)!} \\
-																&= {n+1 \choose k}. \\
-																& \ \square 
-													\end{split}
-												\end{align}
-												$
-											</td>
-										</tr>
-										<tr>
-											<td style="vertical-align:top; padding:00 10 0 0">&#160;</td>
-											<td style="vertical-align:top; padding:10 15 0 0">
-												(b)
-												<!-- "b–c" connector -->
-												<div class="vertical_line"></div>
-											</td>
-											<td style="vertical-align:top; padding: 1 0 0 0">
-												$\text{Clearly} \ \displaystyle{1 \choose 1} \ \text{is a natural number. Suppose that} \ \displaystyle {n \choose p} \ \text{is a natural number}$
-												<br>
-												$\text{for all} \ p \leq n.\ \text{Since} \ 3.\text{(a) is established, and in particular}$
-												$$
-												\displaystyle {n+1 \choose p} = {n \choose p-1} + {n \choose p} \ \ \ \ \ \ \text{for} \ p \leq n,
-												$$
-												$\text{it follows that} \ \displaystyle{n+1 \choose p} \ \text{is a natural number for all} \ p \leq n, \ \text{while} \ {n+1 \choose n+1}$
-												<br>
-												$\displaystyle \text{is also a natural number. So} \ {n+1 \choose p} \ \text{is a natural number}$
-												<br>
-												$ \text{for all} \ p \leq n+1. \ \ \square$ 
-												<div class="tooltip">&#9733;
-													<span class="tooltiptext">
-														<span style="color:grey; font-family:'avenir'; font-size:13">Spivak: <u>Combined Answer Book</u></span> Notice that this proof uses compl-ete induction on $p$.
-													</span>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td style="vertical-align:top; padding: 0 10 0 0">&#160;</td>
-											<td style="vertical-align:top; padding: 5 15 0 0">(c)</td>
-											<td style="vertical-align:top; padding: 5 0 0 0">
-												There are $n(n-1)\cdots(n-k+1) \ k$&ndash;tuples of distinct integers each chosen from $1,\dots,n,$ since the first can be drawn in $n$ ways, the next in $n-1$ ways, and so on.
-												<br>
-												Now, each set of exactly $k$ integers can be arranged into $k!$ $k$&ndash;tuples, so there are $N=n(n-1)\cdots(n-k+1)/k!=\displaystyle{n \choose k} \ \text{such sets, where} \ N \in \mathbb{N}. \ \ \square$
-											</td>
-										</tr>
-										<tr>
-											<td style="vertical-align:top; padding: 0 10 0 0">&#160;</td>
-											<td style="vertical-align:top; padding: 5 15 0 0">(d)</td>
-											<td style="vertical-align:top; padding: 5 0 0 0">
-												The binomial theorem clearly holds for $n=1$. Suppose that $\forall n \leq n+1,$
-												$$\displaystyle(a+b)^n=\sum_{j=0}^n{n \choose j}a^{n-j}b^j.$$
-												Given the induction hypothesis above, we have
-												<br>
-												<br>
-												$
-												\begin{equation}
-													\begin{split}
-														\displaystyle
-															(a+b)^{n+1}
-																&= (a+b)(a+b)^n \\
-																&=(a+b)\sum_{j=0}^n{n \choose j}a^{n-j}b^j \\
-																&=(a)\sum_{j=0}^n{n \choose j}a^{n-j}b^j+(b)\sum_{j=0}^n{n \choose j}a^{n-j}b^j \\
-																&=\sum_{j=0}^n{n \choose j}a^{n+1-j}b^j+\sum_{j=0}^n{n \choose j}a^{n-j}b^{j+1} \\
-																&=\sum_{j=0}^n{n \choose j}a^{n+1-j}b^j+\sum_{j=1}^{n+1}{n \choose j-1}a^{n+1-j}b^j \\
-																&=\sum_{j=0}^{n+1}{n+1 \choose j}a^{n+1-j}b^j \ \succ \ 3.(a),
-													\end{split}
-												\end{equation}
-												$
-												<br>
-												<br>
-												so the binomial theorem holds for $n+1. \ \ \square$
-											</td>
-										</tr>
-											<td style="vertical-align:top; padding:00 0 0 0">&#160;</td>
-											<td style="vertical-align:top; padding:12 0 0 0">(e)</td>
-											<td style="vertical-align:top; padding:00 0 0 0">
-												<ol type="i" style="padding:0 0 0 25">
-													<li>
-												   		$2^n=(1+1)^n=\displaystyle\sum_{j=0}^n{n \choose j}. \ \ \square$
-												   	</li>
-												   	<li>
-												   		$0=(1+-1)^n = \displaystyle\sum_{j=0}^n(-1)^j{n \choose j}. \ \ \square$
-												   	</li>
-												   	<li>
-												   		$\displaystyle\sum_{j=0}^n{n \choose j}-\displaystyle\sum_{j=0}^n(-1)^j{n \choose j} =$
-												   		<p>
-													   		$
-													   		\displaystyle
-															\frac{
-																\begin{array}{llll} 
-														  			\ \ \ \ \ 
-														  			\color{#aaa}{
-														  				\cancel{
-														  					\displaystyle{n \choose 0}
-														  				}
-														  			}
-														  			&+&
-														  			\ \ \ \ \displaystyle{n \choose 1}
-														  			&+&
-														  			\color{#aaa}{
-														  				\cancel{
-														  					\displaystyle{n \choose 2}
-														  				}
-														  			}
-														  			&+&
-														  			\cdots
-														  			&+&
-														  			\displaystyle{n \choose n}=2^n \\ 
-														  			-\bigg[
-														  				\color{#aaa}{
-															  				\cancel{
-															  					\displaystyle{n \choose 0}
-															  				}
-														  				}
-														  				&-& 
-														  				\ \ \ \ \displaystyle{n \choose 1}
-														  				&+&
-														  				\color{#aaa}{
-															  				\cancel{
-															  					\displaystyle{n \choose 2}
-															  				}
-														  				}
-														  				&+&
-														  				\cdots
-														  				&\pm&
-														  				\displaystyle{n \choose n}=0
-														  			\bigg]
-														  		\end{array}
-														  		}{
-														  		\begin{array}{llll} 
-														  			\ \color{transparent}{
-														  				\cancel{
-														  					\displaystyle{0 \choose 0}
-														  				}
-														  			}
-														  			& \ \ \ \ +&
-														  			\ \ \ 2\displaystyle{n \choose 1}
-														  			&\color{transparent}{+}&
-														  			\color{transparent}{
-														  				\cancel{
-														  					\displaystyle{0 \choose 0}
-														  				}
-														  			}
-														  			&+&
-														  			\cdots
-														  			& & & & &=2^n.
-																\end{array}
-															}
+											<td style="vertical-align:top; padding: 15 0 0 00">3.</td>
+											<td style="vertical-align:top; padding: 00 0 0 10">
+												<table style="padding:0 20 0 0">
+													<tr>
+														<td style="vertical-align:top; padding:13 00 0 0">(a)</td>
+														<td style="vertical-align:top; padding:00 20 0 0">
 															$
+															\begin{align}
+																\begin{split}
+																	\displaystyle
+																		{n \choose k-1} + {n \choose k}
+																			&= \frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!} \\
+																			&= \bigg[\frac{k!(n-k)!}{k!(n-k)!}\bigg]\bigg[\frac{n!}{(k-1)!(n-k+1)!}\bigg] \\
+																			& \ \ \ \ \ \ \ \ \ \ + \bigg[\frac{(k-1)!(n-k+1)!}{(k-1)!(n-k+1)!}\bigg]\bigg[\frac{n!}{k!(n-k)!}\bigg] \\
+																			&= \frac{k!(n-k)!n!+(k-1)!(n-k+1)!n!}{k!(n-k)!(k-1)!(n-k+1)!} \\
+																			&= \frac{\color{grey}{\cancel{(k-1)!(n-k)!}}[kn!+(n+1-k)n!]}{k!\color{grey}{\cancel{(k-1)!(n-k)!}}(n-k+1)!} \\
+																			&= \frac{kn!}{k!(n+1-k)}+\frac{(n+1-k)n!}{k!(n+1-k)} \\ 
+																			&= \frac{(n+1)n!}{k!(n+1-k)!}=\frac{(n+1)!}{k!(n+1-k)!} \\
+																			&= {n+1 \choose k}. \\
+																			& \ \square 
+																\end{split}
+															\end{align}
+															$
+														</td>
+													</tr>
+													<tr>
+														<td style="vertical-align:top; padding:11 0 0 00">
+															(b)
+															<!-- "b–c" connector -->
+															<div class="vertical_line"></div>
+														</td>
+														<td style="vertical-align:top; padding: 1 0 0 10">
+															$\text{Clearly} \ \displaystyle{1 \choose 1} \ \text{is a natural number. Suppose that} \ \displaystyle {n \choose p} \ \text{is a natural number}$
+															<br>
+															$\text{for all} \ p \leq n.\ \text{Since} \ 3.\text{(a) is established, and in particular}$
 															$$
+															\displaystyle {n+1 \choose p} = {n \choose p-1} + {n \choose p} \ \ \ \ \ \ \text{for} \ p \leq n,
+															$$
+															$\text{it follows that} \ \displaystyle{n+1 \choose p} \ \text{is a natural number for all} \ p \leq n, \ \text{while} \ {n+1 \choose n+1}$
+															<br>
+															$\displaystyle \text{is also a natural number. So} \ {n+1 \choose p} \ \text{is a natural number}$
+															<br>
+															$ \text{for all} \ p \leq n+1. \ \ \square$ 
+															<div class="tooltip">&#9733;
+																<span class="tooltiptext">
+																	<span style="color:grey; font-family:'avenir'; font-size:13">Spivak: <u>Combined Answer Book</u></span> Notice that this proof uses compl-ete induction on $p$.
+																</span>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td style="vertical-align:top; padding: 5 00 0 00">(c)</td>
+														<td style="vertical-align:top; padding: 5 20 0 10">
+															There are $n(n-1)\cdots(n-k+1) \ k$&ndash;tuples of distinct integers each chosen from $1,\dots,n,$ since the first can be drawn in $n$ ways, the next in $n-1$ ways, and so on.
+															<br>
+															Now, each set of exactly $k$ integers can be arranged into $k!$ $k$&ndash;tuples, so there are $N=n(n-1)\cdots(n-k+1)/k!=\displaystyle{n \choose k} \ \text{such sets, where} \ N \in \mathbb{N}. \ \ \square$
+														</td>
+													</tr>
+													<tr>
+														<td style="vertical-align:top; padding: 5 00 0 00">(d)</td>
+														<td style="vertical-align:top; padding: 5 20 0 10">
+															The binomial theorem clearly holds for $n=1$. Suppose that $\forall n \leq n+1,$
+															$$\displaystyle(a+b)^n=\sum_{j=0}^n{n \choose j}a^{n-j}b^j.$$
+															Given the induction hypothesis above, we have
+															<br>
+															<br>
+															$
 															\begin{equation}
 																\begin{split}
-																	\Longrightarrow 2\displaystyle\sum_{
-																		l \ \text{: odd}
-																	}{
-																		n \choose l
-																	}
-																	&=2^n \\
-																	\displaystyle\sum_{
-																		l \ \text{: odd}}{n \choose l
-																	} 
-																	&=2^n \cdot 2^{-1} = 2^{n-1}. \\ 
-																	&\ \square
+																	\displaystyle
+																		(a+b)^{n+1}
+																			&= (a+b)(a+b)^n \\
+																			&=(a+b)\sum_{j=0}^n{n \choose j}a^{n-j}b^j \\
+																			&=(a)\sum_{j=0}^n{n \choose j}a^{n-j}b^j+(b)\sum_{j=0}^n{n \choose j}a^{n-j}b^j \\
+																			&=\sum_{j=0}^n{n \choose j}a^{n+1-j}b^j+\sum_{j=0}^n{n \choose j}a^{n-j}b^{j+1} \\
+																			&=\sum_{j=0}^n{n \choose j}a^{n+1-j}b^j+\sum_{j=1}^{n+1}{n \choose j-1}a^{n+1-j}b^j \\
+																			&=\sum_{j=0}^{n+1}{n+1 \choose j}a^{n+1-j}b^j \ \succ \ 3.(a),
 																\end{split}
 															\end{equation}
-															$$
-														</p>
-													</li>
-													<li>
-														$\displaystyle\sum_{j=0}^n{n \choose j}+\displaystyle\sum_{j=0}^n(-1)^j{n \choose j} =$
-														<p>
 															$
-															\displaystyle
-																\frac{
-																	\begin{array}{llll} 
-															  			\ \ \ \ \ \
-															  			\displaystyle{n \choose 0}
-															  			&+&
-															  			\color{#aaa}{
-																  				\cancel{
-																  					\displaystyle{n \choose 1}
-																  				}
-															  				}
-															  				&+&
-															  				\displaystyle{n \choose 2}
-															  				&+&
-															  				\cdots
-															  				&+&
-															  				\displaystyle{n \choose n}=2^n \\ 
-															  				\ +\displaystyle{n \choose 0}
-															  			&-&
-															  			\color{#aaa}{
-																  				\cancel{
-																  					\displaystyle{n \choose 1}
-																  				}
-															  				}
-															  			&+&
-															  			\displaystyle{n \choose 2}
-															  				&+&
-															  				\cdots&\pm&\displaystyle{n \choose n}=0
-															  		\end{array}
-															  		}{
-															  		\begin{array}{llll} 
-															  			+2\displaystyle{n \choose 0}
-															  			&
-															  			\color{transparent}{+}
-															  			&
-															  			\color{transparent}{
-																  			\cancel{
-																  				\displaystyle{0 \choose 0}
-																  			}
-															  			}
-														  				&+&
-														  				2\displaystyle{n \choose 2}
-														  				&+&
-														  				\cdots & & & & & =2^n.
-																	\end{array}
-																} 
-															$
-															$$
-															\begin{equation}
-																\begin{split}
-																	\Longrightarrow 2\displaystyle\sum_{
-																		l \ \text{: even}
-																	}{
-																		n \choose l
-																	}
-																	&=2^n \\ 
-																	\displaystyle\sum_{
-																		l \ \text{: even}}{n \choose l
-																	} 
-																	&=2^n \cdot 2^{-1} = 2^{n-1}. \\ 
-																	& \ \square
-																\end{split}
-															\end{equation}
-															$$
-														</p>
-													</li>
-												</ol>
+															<br>
+															<br>
+															so the binomial theorem holds for $n+1. \ \ \square$
+														</td>
+													</tr>
+														<td style="vertical-align:top; padding:19 0 0 00">(e)</td>
+														<td style="vertical-align:top; padding:00 0 0 10">
+															<table style="padding:0 20 0 10">
+																<tr>
+																	<td style="vertical-align:center; padding:0 0 0 00">(i)</td>
+																	<td style="vertical-align:top; padding:5 0 0 10">
+																   		$2^n=(1+1)^n=\displaystyle\sum_{j=0}^n{n \choose j}. \ \ \square$
+																   	</td>
+																</tr>
+																<tr>
+																	<td style="vertical-align:top; padding:13 0 0 00">(ii)</td>
+																	<td style="vertical-align:top; padding:00 0 0 10">
+																   		$0=(1+-1)^n = \displaystyle\sum_{j=0}^n(-1)^j{n \choose j}. \ \ \square$
+																   	</td>
+																</tr>
+																<tr>
+																	<td style="vertical-align:top; padding:14 0 0 00">(iii)</td>
+																	<td style="vertical-align:top; padding:00 0 0 10">
+																   		$\displaystyle\sum_{j=0}^n{n \choose j}-\displaystyle\sum_{j=0}^n(-1)^j{n \choose j} =$
+																   		<p>
+																	   		$
+																	   		\displaystyle
+																			\frac{
+																				\begin{array}{llll} 
+																		  			\ \ \ \ \ 
+																		  			\color{#aaa}{
+																		  				\cancel{
+																		  					\displaystyle{n \choose 0}
+																		  				}
+																		  			}
+																		  			\
+																		  			\ \ \ \ +\displaystyle{n \choose 1}
+																		  			&+
+																		  			\color{#aaa}{
+																		  				\cancel{
+																		  					\displaystyle{n \choose 2}
+																		  				}
+																		  			}
+																		  			&+ \ \
+																		  			\cdots
+																		  			&+
+																		  			\displaystyle{n \choose n}=2^n \\ 
+																		  			-\bigg[
+																		  				\color{#aaa}{
+																			  				\cancel{
+																			  					\displaystyle{n \choose 0}
+																			  				}
+																		  				}
+																		  				\ 
+																		  				\ \ \ \ -\displaystyle{n \choose 1}
+																		  				&+
+																		  				\color{#aaa}{
+																			  				\cancel{
+																			  					\displaystyle{n \choose 2}
+																			  				}
+																		  				}
+																		  				&+ \ \
+																		  				\cdots
+																		  				&\pm
+																		  				\displaystyle{n \choose n}=0
+																		  			\bigg]
+																		  		\end{array}
+																		  		}{
+																		  		\begin{array}{llll} 
+																		  			\ \color{transparent}{
+																		  				\cancel{
+																		  					\displaystyle{0 \choose 0}
+																		  				}
+																		  			}
+																		  			&&
+																		  			\ +2\displaystyle{n \choose 1}
+																		  			&\color{transparent}{+}&
+																		  			\color{transparent}{
+																		  				\cancel{
+																		  					\displaystyle{0 \choose 0}
+																		  				}
+																		  			}
+																		  			+ \ \ \
+																		  			\cdots \ \ \ \ \ \
+																		  			& &=2^n.
+																				\end{array}
+																			}
+																			$
+																			<p style="padding:0 0 0 180">
+																				$
+																				\begin{equation}
+																					\begin{split}
+																						\Longrightarrow 2\displaystyle\sum_{
+																							l \ \text{: odd}
+																						}{
+																							n \choose l
+																						}
+																						&=2^n \\
+																						\displaystyle\sum_{
+																							l \ \text{: odd}}{n \choose l
+																						} 
+																						&=2^n \cdot 2^{-1} \\
+																						&= 2^{n-1}. \\ 
+																						&\ \square
+																					\end{split}
+																				\end{equation}
+																				$
+																			</p>
+																		</p>
+																	</td>
+																</tr>
+																<tr>
+																	<td style="vertical-align:top; padding:14 0 00 00">(iv)</td>
+																	<td style="vertical-align:top; padding:00 0 10 10">
+																		$\displaystyle\sum_{j=0}^n{n \choose j}+\displaystyle\sum_{j=0}^n(-1)^j{n \choose j} =$
+																		<p>
+																			$
+																			\displaystyle
+																				\frac{
+																					\begin{array}{llll} 
+																			  			\ \ \ \ \ \
+																			  			\displaystyle{n \choose 0}
+																			  			&+&
+																			  			\color{#aaa}{
+																				  				\cancel{
+																				  					\displaystyle{n \choose 1}
+																				  				}
+																			  				}
+																			  				&+&
+																			  				\displaystyle{n \choose 2}
+																			  				&+&
+																			  				\cdots
+																			  				&+&
+																			  				\displaystyle{n \choose n}=2^n \\ 
+																			  				\ +\displaystyle{n \choose 0}
+																			  			&-&
+																			  			\color{#aaa}{
+																				  				\cancel{
+																				  					\displaystyle{n \choose 1}
+																				  				}
+																			  				}
+																			  			&+&
+																			  			\displaystyle{n \choose 2}
+																			  				&+&
+																			  				\cdots&\pm&\displaystyle{n \choose n}=0
+																			  		\end{array}
+																			  		}{
+																			  		\begin{array}{llll} 
+																			  			+2\displaystyle{n \choose 0}
+																			  			&
+																			  			\color{transparent}{+}
+																			  			&
+																			  			\color{transparent}{
+																				  			\cancel{
+																				  				\displaystyle{0 \choose 0}
+																				  			}
+																			  			}
+																		  				&+&
+																		  				2\displaystyle{n \choose 2}
+																		  				&+&
+																		  				\cdots & & & & & =2^n.
+																					\end{array}
+																				} 
+																			$
+																			<p style="padding:0 0 0 180">
+																				$
+																				\begin{equation}
+																					\begin{split}
+																						\Longrightarrow 2\displaystyle\sum_{
+																							l \ \text{: even}
+																						}{
+																							n \choose l
+																						}
+																						&=2^n \\ 
+																						\displaystyle\sum_{
+																							l \ \text{: even}}{n \choose l
+																						} 
+																						&=2^n \cdot 2^{-1} \\
+																						&= 2^{n-1}. \\ 
+																						& \ \square
+																					\end{split}
+																				\end{equation}
+																				$
+																			</p>
+																		</p>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
 									</table>
@@ -3695,7 +3680,7 @@
 						          		<td>&#160;</td>
 						          	</tr>
 						          	<tr>
-						          		<td><a class="pset" style="cursor:default" onclick="currentDiv(1)">Basic Properties of Numbers</a></td>
+						          		<td><a class="pset" style="cursor:default" onclick="currentDiv(2)">Basic Properties of Numbers</a></td>
 						          		<td><a class="pset" style="cursor:default">Numbers of Various Sorts</a></th>
 						          		<td><a class="pset" style="cursor:default">Functions</a></th>
 						          		<td><a class="pset" style="cursor:default">Graphs</a></th>
@@ -3713,28 +3698,28 @@
 						          			<a class="pset1" onclick="currentDiv(5)">9</a>
 						          			<a class="pset1" onclick="currentDiv(5)">10</a>
 						          			<a class="pset1" onclick="currentDiv(5)">11</a>
-						          			<a class="pset1" onclick="currentDiv(6)">12</a>
+						          			<a class="pset1" onclick="currentDiv(5)">12</a>
 						          			<a class="pset1" onclick="currentDiv(6)">13</a>
-						          			<a class="pset1" onclick="currentDiv(7)">14</a>
-						          			<a class="pset1" onclick="currentDiv(7)">15</a>
+						          			<a class="pset1" onclick="currentDiv(6)">14</a>
+						          			<a class="pset1" onclick="currentDiv(6)">15</a>
 						          			<br>
-						          			<a class="pset1" onclick="currentDiv(7)">16</a>
-						          			<a class="pset1" onclick="currentDiv(8)">17</a>
-						          			<a class="pset1" onclick="currentDiv(8)">18</a>
-						          			<a class="pset1" onclick="currentDiv(8)">19</a>
-						          			<a class="pset1" onclick="currentDiv(9)">20</a>
-						          			<a class="pset1" onclick="currentDiv(9)">21</a>
-						          			<a class="pset1" onclick="currentDiv(9)">22</a>
-						          			<a class="pset1" onclick="currentDiv(9)">23</a>
-						          			<a class="pset1" onclick="currentDiv(10)">24</a>
-						          			<a class="pset1" onclick="currentDiv(10)">25</a>
+						          			<a class="pset1" onclick="currentDiv(6)">16</a>
+						          			<a class="pset1" onclick="currentDiv(7)">17</a>
+						          			<a class="pset1" onclick="currentDiv(7)">18</a>
+						          			<a class="pset1" onclick="currentDiv(7)">19</a>
+						          			<a class="pset1" onclick="currentDiv(8)">20</a>
+						          			<a class="pset1" onclick="currentDiv(8)">21</a>
+						          			<a class="pset1" onclick="currentDiv(8)">22</a>
+						          			<a class="pset1" onclick="currentDiv(8)">23</a>
+						          			<a class="pset1" onclick="currentDiv(9)">24</a>
+						          			<a class="pset1" onclick="currentDiv(9)">25</a>
 						          			<br>
 						          			&#160;
 						          		</td>
 						          		<td>
-						          			<a class="pset1" onclick="currentDiv(11)">1</a>
-						          			<a class="pset1" onclick="currentDiv(11)">2</a>
-						          			<a class="pset1" onclick="currentDiv(11)">3</a>
+						          			<a class="pset1" onclick="currentDiv(10)">1</a>
+						          			<a class="pset1" onclick="currentDiv(10)">2</a>
+						          			<a class="pset1" onclick="currentDiv(10)">3</a>
 						          			<a class="pset1" onclick="currentDiv(2)">4</a>
 						          			<a class="pset1" onclick="currentDiv(2)">5</a>
 						          			<a class="pset1" onclick="currentDiv(3)">6</a>
