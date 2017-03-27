@@ -728,11 +728,10 @@
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">1.</td>
 										<td style="vertical-align:top; padding:1 0 0 10">
-											You will notice that some of the arguments collected below are taken directly from Spivak or, in other cases, are inspried by the author. In such cases, proofs are marked with a <span style="color: lightgrey">&#9733;</span>, an asterisk, the author's last name, or some peculiar combination.
-											<table style="padding-top:20">
+											<table style="padding:0 0 0 0">
 												<tr>
-													<td style="vertical-align:top; padding: 0 5 0 0">(i)</td>
-													<td style="vertical-align:top; padding: 1 0 0 0">
+													<td style="vertical-align:top; padding:0 5 0 0">(i)</td>
+													<td style="vertical-align:top; padding:1 0 0 0">
 														$
 														\begin{align}
 															&\text{Proof:} \ \ a \cdot x =  a \ \Leftrightarrow \ x = a/a \ \Leftrightarrow  x = 1. \ \square \\
@@ -742,8 +741,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td style="vertical-align:top; padding: 0 0 0 0">(ii)</td>
-													<td style="vertical-align:top; padding: 2 0 0 0">
+													<td style="vertical-align:top; padding:0 0 0 0">(ii)</td>
+													<td style="vertical-align:top; padding:2 0 0 0">
 														$
 														\begin{equation}
 															\begin{split}
@@ -759,8 +758,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td style="vertical-align:top; padding: 0 5 0 0">(iii)</td>
-													<td style="vertical-align:top; padding: 0 0 0 0">
+													<td style="vertical-align:top; padding:0 5 0 0">(iii)</td>
+													<td style="vertical-align:top; padding:0 0 0 0">
 														$
 														\begin{equation}
 															\begin{split}
@@ -778,8 +777,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td style="vertical-align:top; padding: 0 5 0 0">(iv)</td>
-													<td style="vertical-align:top; padding: 0 0 0 0">
+													<td style="vertical-align:top; padding:0 5 0 0">(iv)</td>
+													<td style="vertical-align:top; padding:0 0 0 0">
 													$
 													\begin{equation}
 														\begin{split}
@@ -795,8 +794,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td style="vertical-align:top; padding: 0 5 0 0">(v)</td>
-													<td style="vertical-align:top; padding: 0 0 0 0">
+													<td style="vertical-align:top; padding:0 5 0 0">(v)</td>
+													<td style="vertical-align:top; padding:0 0 0 0">
 														$
 														\begin{equation}
 															\begin{split}
@@ -3652,8 +3651,8 @@
 									        			<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
 									        			<td style="vertical-align:top; padding:0 0 0 10">
 									        				Prove that 
-									        				$$\displaystyle\sum_{k=0}^l {n \choose k}{m \choose l-k}={n+1 \choose l}.$$
-									        				if $r\neq 1.$ (if $r=1$ evaluating the sum certainly presents no problem.)
+									        				$$\displaystyle\sum_{k=0}^l {n \choose k}{m \choose l-k}={n+m \choose l}.$$
+									        				Hint: Apply the binomial theorem to $(1+x)^n(1+x)^m.$
 									        			</td>
 									        		</tr>
 									        		<tr>
@@ -3676,13 +3675,66 @@
 									        			<td style="vertical-align:top; padding:0 0 0 10">
 										        			Prove by induction on $n$ that 
 										        			$$\displaystyle 1+r+r^2+\cdots+r^n=\frac{1-r^{n+1}}{1-r}$$
-										        			Hint: Apply the binomial theorem to $(1+x)^n(1+x)^m.$
+										        			if $r\neq 1.$ (if $r=1$ evaluating the sum certainly presents no problem.)
 									        			</td>
 									        		</tr>
 									        		<tr>
 									        			<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
 									        			<td style="vertical-align:top; padding:0 0 0 10">
 									        				Derive this result by setting $S=1+r+\cdots+r^n,$ multiplying this equaiton by $r,$ and solving the two equations for $S.$
+									        			</td>
+									        		</tr>
+									        	</table>
+									        </td>
+								      	</tr>
+								    </table>
+								    <table style="padding:20 20 0 0">
+										<tr>
+											<td style="vertical-align:top; padding:0 0 0 0">6.</td>
+									        <td style="padding:0 0 0 10">
+									        	<table style="margin:-2 0 10 0">
+									        		<tr>
+									        			<td style="vertical-align:top; padding:0 0 0 0">
+									        				The formula $1^2+\cdots+n^2$ may be derived as follows. We begin with the formula
+									        				$$(k+1)^3-k^3=3k^2+3k+1.$$
+									        				Writing this formula for $k=1,\dots, n$ and adding, we obtain
+									        				$$
+									        				\begin{array}{r c l}			
+															  2^3-1^3 & = & 3\cdot1^2+3\cdot1+1 \\
+															  3^3-2^3 & = & 3\cdot2^2+3\cdot2+1 \\
+															  \ \vdots & \vdots & \vdots \\
+															  (n+1)^3-n^3 & = & 3 \cdot n^2+3 \cdot n+1 \\ 
+															  \hline
+															  (n+1)^3-1 & = & 3[1^2+\cdots+n^2]+3[1+\cdots+n]+n.
+															\end{array}
+									        				$$
+									        				Thus we can find $\displaystyle\sum_{k=1}^nk^2$ if we already know $\displaystyle\sum_{k=1}^nk$ (which could have been found in a similar way). Use this mehod to find
+									        				<table style="padding:10 0 0 0">
+									        					<tr>
+									        						<td style="vertical-align:top; padding:0 0 0 00">(i)</td>
+									        						<td style="vertical-align:top; padding:0 0 0 10">
+									        							$1^3+\cdots+n^3.$
+									        						</td>
+									        					</tr>
+									        					<tr>
+									        						<td style="vertical-align:top; padding:1 0 0 00">(ii)</td>
+									        						<td style="vertical-align:top; padding:0 0 0 10">
+									        							$1^4+\cdots+n^4.$
+									        						</td>
+									        					</tr>
+									        					<tr>
+									        						<td style="vertical-align:center; padding:0 0 0 00">(iii)</td>
+									        						<td style="vertical-align:top; padding:0 0 0 10">
+									        							$\displaystyle\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\cdots+\frac{1}{n(n+1)}.$
+									        						</td>
+									        					</tr>
+									        					<tr>
+									        						<td style="vertical-align:center; padding:0 0 0 00">(iv)</td>
+									        						<td style="vertical-align:top; padding:0 0 0 10">
+									        							$\displaystyle\frac{3}{1^2\cdot2^2}+\frac{5}{2^2\cdot3^2}+\cdots+\frac{2n+1}{n^2(n+1)^2}.$
+									        						</td>
+									        					</tr>
+									        				</table>
 									        			</td>
 									        		</tr>
 									        	</table>
@@ -3700,68 +3752,24 @@
 									<table style="padding:0 0 0 0">
 										<tr>
 											<td style="vertical-align:top; padding:1 0 0 0">4.</td>
-											<td style="vertical-align:top; padding:0 20 0 10">
-												<table>
+											<td style="vertical-align:top; margin:0 20 0 10">
+												<table style="margin:-3 0 0 0">
 													<tr>
-														<td style="vertical-align:top; padding:0 0 0 00">(a)</td>
-														<td style="vertical-align:top; padding:0 0 0 10">
-															For $k=1$ the equation reads $a_1+a_2=a_1+a_2.$ If the equation holds for $k,$ then
+														<td style="vertical-align:top; margin:0 0 0 00">(a)</td>
+														<td style="vertical-align:top; padding:1 0 0 10">
+															This particular argument is a sort of adhoc hybrid of Spivak and myself. Since
+															$$(1+x)^n(1+x)^m=(1+x)^{n+m},$$
+															we have for each pair $k,j=l-k$
 															$$
 															\begin{equation}
-															\begin{split}
-															(a_1+\cdots+a_{k+1})+a_{k+2} &= [(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2} \\
-															&= (a_1+\cdots+a_k)+(a_{k+1}+a_{k+2}) \ \ \ \text{by P1} \\
-															&= a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \\
-															& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{since the equation holds for }k \\
-															&= a_1+\cdots+a_k+a_{k+1}+a_{k+2} \\
-															&= a_1+\cdots+a_{k+2} \\ 
-															& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_1+\cdots+a_{k+2}. \\
-															& \ \square
-															\end{split}
-															\end{equation}
-															$$
-														</td>
-													</tr>
-													<tr>
-														<td style="vertical-align:top; padding:0 0 0 00">(b)</td>
-														<td style="vertical-align:top; padding:0 0 0 10">
-															For $k=1$ the equation reduces to the definition $a_1+\cdots+a_k.$ If the equation is true for some $k < n,$ then
-															$$
-															\begin{equation}
-															\begin{split}
-															(a_1+\cdots+a_{k+1})
-															&+(a_{k+2}+\cdots+a_n) \\
-															&= [(a_1+\cdots+a_k)+a_{k+1}]+(a_{k+2}+\cdots+a_n) \\
-															& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by part(a)} \\
-															&= (a_1+\cdots+a_k)+(a_{k+1}+(a_{k+2}+\cdots+a_n)) \\
-															& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by P1} \\
-															&= (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n) \\ 
-															& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_{k+1}\cdots+a_n. \\
-															&=a_1+\cdots+a_n \ \ \ \ \ \ \text{by assumption}. \\
-															& \ \square
-															\end{split}
-															\end{equation}
-															$$
-														</td>
-													</tr>
-													<tr>
-														<td style="vertical-align:top; padding:0 0 0 00">(c)</td>
-														<td style="vertical-align:top; padding:0 0 0 10">
-															his proof is by 
-															<div class="tooltip">complete induction
-									  							<span class="tooltiptext">
-									  								<span style="color:grey; font-family:'avenir'; font-size:13">complete induction</span>: to prove the statement <b>P</b>(<em>m</em> + 1) under the assumption that <b>P</b>(<em>n</em>) holds for all natural <em>n</em> < (<em>m</em> + 1). By contrast, basic&ndash;induction only assumes <b>P</b>(<em>m</em>)
-									  							</span>
-															</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
-															$$
-															\begin{equation}
-															\begin{split}
-															s(a_1,\dots,a_k) &= s'(a_1,\dots,a_l)+s''(a_{l+1},\dots,a_k) \\
-															&= (a_1+\cdots+a_l)+(a_{l+1}+\cdots+a_k) \ \ \ \ \ \text{by assumption} \\
-															&= a_1+\cdots+a_k \ \ \ \ \ \text{by part(b).} \\
-															& \ \square
-															\end{split}
-															\end{equation}
+																\begin{split}
+																	\displaystyle
+																		\sum_{k=0}^n {n \choose k}x^k \cdot \sum_{j=0}^m {m \choose j}x^j &= \sum_{l=0}^{n+m} {n+m \choose l}x^l \\ 
+																		\sum_{k=0}^l {n \choose k}x^k \cdot {m \choose l-k}x^{l-k} &= {n+m \choose l}x^l \\
+																		\sum_{k=0}^l {n \choose k} \cdot {m \choose l-k} &= {n+m \choose l}, \\
+																		&\ \square
+																\end{split}
+															\end{equation} 
 															$$
 														</td>
 													</tr>
