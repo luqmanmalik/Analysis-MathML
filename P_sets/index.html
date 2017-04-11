@@ -69,7 +69,7 @@
 		    height:89% !important;
 		    overflow:scroll !important;
 		    font-size:15; 
-		    margin: 0 0 0 45;
+		    margin: 0 0 0 20;
 		    padding: 5 0 0 0;
 		    border-top: 1 solid #f2f2f2;
 		}
@@ -264,6 +264,11 @@
 			font-weight: 500; 
 			padding:10 0 0 0; 
 			margin:0 0 0 0;
+		}
+		.subtitle{
+			color: #aaa;
+			font-size: 15;
+			font-family:'Avenir', 'light';
 		}
 
 		</style>
@@ -573,10 +578,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -586,9 +591,9 @@
 								</tr>
 							</table>
 							<div class="c1p1">
-								<table style="padding: 10 0 0 0">
+								<table style="padding:10 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">1.</td>
+										<td style="vertical-align:top; padding:0 0 0 00">01.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											Prove the following:
 											<table style="padding:10 0 0 ">
@@ -624,30 +629,28 @@
 								</table>
 								<table style="padding: 20 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">2.</td>
+										<td style="vertical-align:top; padding:0 0 0 00">02.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											What is wrong with the following "proof"? Let $x=y.$ Then
-											<p style="padding:0 0 0 37">
-												$
-												\begin{equation}
-													\begin{split}
-														x^2 &= xy, \\ 
-														x^2-y^2 &= xy-y^2, \\ 
-														(x+y)(x-y) &= y(x-y), \\ 
-														x+y &= y, \\ 
-														2y &= y, \\ 
-														2 &= 1. \\ 
-														& \ \square
-													\end{split}
-												\end{equation}
-												$
-											</p>
+											$$
+											\begin{equation}
+												\begin{split}
+													x^2 &= xy, \\ 
+													x^2-y^2 &= xy-y^2, \\ 
+													(x+y)(x-y) &= y(x-y), \\ 
+													x+y &= y, \\ 
+													2y &= y, \\ 
+													2 &= 1. \\ 
+													& \ \square
+												\end{split}
+											\end{equation}
+											$$
 										</td>
 									</tr>
 								</table>
-								<table style="padding:20 0 0 0">
+								<table style="margin:-5 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">3.</td>
+										<td style="vertical-align:top; padding:0 0 0 00">03.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											Prove the following:
 											<table style="padding:10 0 10 0">
@@ -720,13 +723,16 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 30;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
-								<table style="padding:0 20 0 0">
+								<p style="font-size:16; margin:2 0 0 0; padding:0 20 0 0">
+									The following arguments, in particular chapters 1&ndash;4, should be deeply familiar to the freshman and sophemore. Whenever necessary, arguments are spelled out in full. More often than not, however, they will be sieved of extraneous content.
+								</p>
+								<table style="padding:10 20 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">1.</td>
+										<td style="vertical-align:top; padding:0 0 0 00">01.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											<table style="margin:-2 0 0 0">
 												<tr>
@@ -735,7 +741,7 @@
 														$
 														\begin{align}
 															&\text{Proof:} \ \ a \cdot x =  a \ \Leftrightarrow \ x = a/a \ \Leftrightarrow  x = 1. \ \square \\
-															&\text{Proof:} \ \ 1 = a^{-1}a = a^{-1}(ax) = (a^{-1}a)x =1 \cdot x =x. \ \square \ \color{lightgrey}{&#9733;}
+															&\text{Proof:} \ \ 1 = a^{-1}a = a^{-1}(ax) = (a^{-1}a)x =1 \cdot x =x. \ \square^\color{lightgrey}{*}
 														\end{align}
 														$ 
 													</td>
@@ -836,7 +842,7 @@
 								</table>
 								<table style="padding-top:20">
 									<tr>
-										<td style="vertical-align:top">2.</td>
+										<td style="vertical-align:top">02.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											Line 3 $\rightarrow$ 4: division by 0 is undefined.
 										</td>
@@ -844,7 +850,7 @@
 								</table>
 								<table style="padding-top:20">
 									<tr>
-										<td style="vertical-align:top; padding:7 0 0 0">3.</td>
+										<td style="vertical-align:top; padding:7 0 0 0">03.</td>
 										<td style="vertical-align:top; padding:0 0 10 10">
 											<table>
 												<tr>
@@ -938,10 +944,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -951,9 +957,9 @@
 								</tr>
 							</table>
 							<div class="c1p1">
-								<table style="padding: 10 0 0 0">
+								<table style="padding:10 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 10 0 0">4.</td>
+										<td style="vertical-align:top; padding:0 10 0 0">04.</td>
 										<td style="padding: 0 0 0 0">
 											Find all numbers $x$ for which 
 											<table style="padding: 10 0 0 0">
@@ -1019,7 +1025,7 @@
 								</table>
 								<table style="padding: 20 0 10 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 15 0 0">5.</td>
+										<td style="vertical-align:top; padding:0 15 0 0">05.</td>
 										<td style="padding-top:1">Prove the following:
 											<br>
 											<table style="padding: 10 0 0 0">
@@ -1075,13 +1081,13 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 30;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding: 0 12 0 0">4.</td>
+										<td style="vertical-align:top; padding: 0 12 0 0">04.</td>
 										<td style="vertical-align:top; padding: 0 00 0 0">
 											<p style="padding:0 15 0 0">
 												Remember that the goal is to apply P1&ndash;P12 as they are introduced. The aim, with regard to theory and formalism, is to proove all statements using soley the axioms established in the text, which resutls in a complete and consistent body of work.
@@ -1317,7 +1323,7 @@
 								</table>
 								<table style="padding: 20 0 10 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 15 0 0">5.</td>
+										<td style="vertical-align:top; padding:0 15 0 0">05.</td>
 										<td style="vertical-align:top; padding:0 5 0 0">(i)</td>
 									<td style="vertical-align:top; padding:1 0 0 0">
 										Notice that $b-a$ and $d-c$ are in $P$, the set of positive integers, and so to is $(b-a)+(d-c)=(b+d)-(a+c).$ So we have
@@ -1404,10 +1410,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -1419,7 +1425,7 @@
 							<div class="c1p1">
 								<table style="padding: 10 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding: 0 0 0 00">6.</td>
+										<td style="vertical-align:top; padding: 0 0 0 00">06.</td>
 										<td style="vertical-align:top; padding: 0 0 0 10">(a)</td>
 										<td style="vertical-align:top; padding: 0 0 0 10">
 											Prove that if $0 \leq x < y,$ then $x^n < y^n,$ $n=1, 2, 3, \dots$
@@ -1463,7 +1469,7 @@
 								</table>
 							    <table style="vertical-align:top; padding: 18 0 10 0">
 							    	<tr>
-							        	<td style="vertical-align:top; padding: 0 0 0 0">8.</td>
+							        	<td style="vertical-align:top; padding: 0 0 0 0">08.</td>
 							        	<td>
 							          		<p style="vertical-align:top; padding: 0 20 0 10">
 							          			Although the basic properties of inequalities were stated in terms of the collection $P$ of all positive numbers, and < was defined in terms of $P$, this procedure can be reversed. Suppose that P10&ndash;P12 are replaced by
@@ -1515,13 +1521,13 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 30;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding: 0 10 0 0">6.</td>
+										<td style="vertical-align:top; padding: 0 10 0 0">06.</td>
 										<td style="vertical-align:top; padding: 0 10 0 0">(a)</td>
 										<td style="vertical-align:top; padding: 0 0 0 0">
 											<p style="vertical-align:top; padding: 0 20 0 0">
@@ -1559,7 +1565,7 @@
 								</table>
 								<table style="padding: 15 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding: 0 10 0 0">7.</td>
+										<td style="vertical-align:top; padding: 0 10 0 0">07.</td>
 										<td style="vertical-align:top; padding: 0 10 0 0">
 											If $a < b$, then 
 											<br>
@@ -1576,7 +1582,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td style="vertical-align:top; padding:15 10 0 0">8.</td>
+										<td style="vertical-align:top; padding:15 10 0 0">08.</td>
 										<td style="vertical-align:top; padding:15 10 0 0">
 											<p style="vertical-align:top; padding: 0 20 10 0">
 												Two applications of P'12 show that if $a < b \ \text{and} \ c < d,$ then $a+c < b+c < b+d,$ do $a+c < b+d$ by P'11. In particylar, if $0 < b$ and $0 < d,$ then $0 < b+d,$ which proves P11. It follows, in addition, that if $a < 0,$ then $-a>0;$ for if $-a < 0$ were true, then $0=a+(-a) < 0,$ contradicting P'10. Consequently, any nuber $a$ satisfies precisely one of the conditiond $a=0,a>0,a < 0,$ the last being equivalent to$-a>0.$ This proves P10. Finally, P'13 shows that if $0 < a$ and $0 < c,$ then $0 < ac,$ which proves P12. $ \ \ \square$ <label title="Spivak" style="color: #aaa; padding-left:5px">*</label>
@@ -1591,10 +1597,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -1604,9 +1610,9 @@
 								</tr>
 							</table>
 							<div class="c1p1">
-								<table style="padding: 10 0 0 7">
+								<table style="padding:10 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">9.</td>
+										<td style="vertical-align:top; padding:0 0 0 0">09.</td>
 						        		<td style="padding:0 0 0 10">
 						        			Express each of the following  with at least one less pair of absolute value signs.
 								            <table style="padding: 10 0 0 0">
@@ -1793,13 +1799,13 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 30;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 10 0 0">9.</td>
+										<td style="vertical-align:top; padding:0 10 0 0">09.</td>
 										<td style="vertical-align:top; padding:0 10 0 0">
 											After simplifying the given expressions, we have
 											<table style="padding:10 0 0 0">
@@ -2013,10 +2019,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -2130,7 +2136,7 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
@@ -2252,10 +2258,10 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Basic Properties of Numbers</td>
-									<td style="padding:0 0 0 212">
+									<td>Part I. Prologue / Basic Properties of Numbers</td>
+									<td style="padding:0 0 0 90">
 										<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 											<input type="text" placeholder="&lambda; ..." class="search"
@@ -2388,11 +2394,11 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
-								<table style="padding:0 20 0 6">
+								<table style="padding:0 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">17.</td>
 											<td style="vertical-align:top; padding:0 20 0 10">
@@ -2738,10 +2744,10 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td>Basic Properties of Numbers</td>
-										<td style="padding:0 0 0 212">
+										<td>Part I. Prologue / Basic Properties of Numbers</td>
+										<td style="padding:0 0 0 90">
 											<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 												<input type="text" placeholder="&lambda; ..." class="search"
@@ -2842,7 +2848,7 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
@@ -2859,10 +2865,10 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td>Basic Properties of Numbers</td>
-										<td style="padding:0 0 0 212">
+										<td>Part I. Prologue / Basic Properties of Numbers</td>
+										<td style="padding:0 0 0 90">
 											<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 												<input type="text" placeholder="&lambda; ..." class="search"
@@ -2968,7 +2974,7 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
+									padding:0 0 0 20;
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 								<div class="infscrll">
@@ -3063,10 +3069,10 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td>Numbers of Various Sorts</td>
-										<td style="padding:0 0 0 236">
+										<td>Part I. Prologue / Numbers of Various Sorts</td>
+										<td style="padding:0 0 0 116">
 											<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 												<input type="text" placeholder="&gamma; ..." class="search"
@@ -3078,7 +3084,7 @@
 								<div class="c1p1">
 									<table style="padding:10 20 0 0">
 										<tr>
-											<td style="vertical-align:top; padding:0 0 0 0">1.</td>
+											<td style="vertical-align:top; padding:0 0 0 0">01.</td>
 									        <td style="vertical-align:top; padding:0 0 0 10">
 									        	Prove the following formulas by induction.
 									        	<table style="padding:10 0 0 0; width:100%">
@@ -3096,7 +3102,7 @@
 								    </table>
 								    <table style="vertical-align:top; padding:20 20 0 0">
 								      	<tr>
-									        <td style="vertical-align:top; padding:0 0 0 00">2.</td>
+									        <td style="vertical-align:top; padding:0 0 0 00">02.</td>
 									        <td style="vertical-align:top; padding:0 0 0 10">
 									        	Find a formula for
 									        	<table style="padding:10 20 0 0; width:100%">
@@ -3121,7 +3127,7 @@
 								    </table>
 								    <table style="vertical-align:top; padding:20 20 10 0">
 								      	<tr>
-									        <td style="vertical-align:top; padding:11 0 0 00">3.</td>
+									        <td style="vertical-align:top; padding:11 0 0 00">03.</td>
 									        <td style="vertical-align:top; padding:00 0 0 10">
 									        	If $0 \leq k \leq n,$ the binomial coefficient $\displaystyle {n \choose k}$ is defined by 
 									        	$\displaystyle{n \choose k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)\cdots(n-k+1)}{k!}, \ \ \ \text{if} \ k\neq0,n$ 
@@ -3218,7 +3224,7 @@
 							</td>
 							<td style="vertical-align:top;
 											width:50%; height:100%;
-											padding:0 0 0 25;
+											padding:0 0 0 20;
 											border-top:20 solid #f2f2f2;
 											border-left:1 solid #f2f2f2">
 									<div class="infscrll_C2P1">
@@ -3227,7 +3233,7 @@
 										</p>
 										<table style="padding:0 20 0 0">
 											<tr>
-												<td style="vertical-align:top; padding: 2 0 0 00">1.</td>
+												<td style="vertical-align:top; padding: 2 0 0 00">01.</td>
 												<td style="vertical-align:top; padding: 0 0 0 10">
 													<table style="0 20 0 0">
 														<tr>
@@ -3301,7 +3307,7 @@
 										</table>
 										<table style="padding:0 20 0 0">
 											<tr>
-												<td style="vertical-align:top; padding: 14 0 00 00">2.</td>
+												<td style="vertical-align:top; padding: 14 0 00 00">02.</td>
 												<td style="vertical-align:top; padding: 00 0 00 10">
 													<table>
 														<tr>
@@ -3348,7 +3354,7 @@
 										</table>
 										<table>
 											<tr>
-												<td style="vertical-align:top; padding: 15 0 0 00">3.</td>
+												<td style="vertical-align:top; padding: 15 0 0 00">03.</td>
 												<td style="vertical-align:top; padding: 00 0 0 10">
 													<table style="padding:0 20 0 0">
 														<tr>
@@ -3629,10 +3635,10 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:10 0 10 45; color:lightgrey; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td>Numbers of Various Sorts</td>
-										<td style="padding:0 0 0 236">
+										<td>Part I. Prologue / Numbers of Various Sorts</td>
+										<td style="padding:0 0 0 116">
 											<form action="index.html" style="padding:0 0 0 0; margin:0 0 0 0">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
 												<input type="text" placeholder="&gamma; ..." class="search"
@@ -3642,6 +3648,9 @@
 									</tr>
 								</table>
 								<div class="c1p1">
+									<p style="font-size:16; margin:12 0 0 0; padding:0 20 0 0">
+										The following arguments relate to Grimaldi (DCM/C1.3). Note: be sure to develop a deeper understanding of problem four.
+									</p>
 									<table style="padding:10 20 0 0">
 										<tr>
 											<td style="vertical-align:top; padding:0 0 0 0">4.</td>
@@ -3997,7 +4006,7 @@
 					<table style="position:absolute; top:-20px; font-size:13px; outline:none">
 						<tr>
 							<td>
-								<div style="position:fixed; padding:8 0 0 8">
+								<div style="position:fixed; padding:8 0 0 12">
 									<a style="float:left" href="https://github.com/luqmanmalik">
 										<i style="font-size:21px" class="fa fa-github" aria-hidden="true"></i>
 									</a>
@@ -4024,7 +4033,7 @@
 									  	<br>
 									  	<hr class="style-two">
 										<div class="infscrll_dc">
-									  		<p class="drop_table">Prologue / Foundations / Derivatives and Integrals</p>
+									  		<p class="drop_table">Prologue / Foundations / Derivatives and Integrals / Infinite Sequences and Infinite Series / Epilogue</p>
 								        	<table style="width:100%; padding:20 0 10 0">
 									          	<tr>
 									          		<td><a class="pset" onclick="currentDiv(2)">Basic Properties of Numbers</a></td>
@@ -4956,7 +4965,7 @@
 								    </li>
 							  	</ul>
 							</td>
-							<td style="position:fixed; top:3.5; right:10">
+							<td style="position:fixed; top:3.5; right:20">
 								<div class="container">
 									<div style="float:left">
 										<a onclick="plusDivs(-1)" style="cursor:default; font-size:15">&#9508;</a>
