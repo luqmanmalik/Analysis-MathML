@@ -633,12 +633,13 @@
 										<td style="vertical-align:top; padding:0 0 0 10">
 											What is wrong with the following "proof"? Let $x=y.$ Then
 											$$
+											\require{cancel}
 											\begin{equation}
 												\begin{split}
 													x^2 &= xy, \\ 
 													x^2-y^2 &= xy-y^2, \\ 
 													(x+y)(x-y) &= y(x-y), \\ 
-													x+y &= y, \\ 
+													x+y &= y, \ \ \ \ \color{grey}{\text{Err} \ \ \cancel{a\vert0}} \\ 
 													2y &= y, \\ 
 													2 &= 1. \\ 
 													& \ \square
@@ -1531,7 +1532,7 @@
 										<td style="vertical-align:top; padding: 0 10 0 0">(a)</td>
 										<td style="vertical-align:top; padding: 0 0 0 0">
 											<p style="vertical-align:top; padding: 0 20 0 0">
-												From $0 \leq x < y$ and probleem 5(viii) we have $x^2 < y^2$ [as in Problem 5(ix)]. Then, from $0 \leq x < y$ and $x^2 < y^2$ we have $x^3 < y^3.$ We continue this way to prove that $x^n < y^n$ for  $n=2,3, ...$ (a rigorous proof uses induction, covered in the next chapter). $ \ \ \square \ \color{lightgrey}{&#9733;}$
+												From $0 \leq x < y$ and probleem 5(viii) we have $x^2 < y^2$ [as in Problem 5(ix)]. Then, from $0 \leq x < y$ and $x^2 < y^2$ we have $x^3 < y^3.$ We continue this way to prove that $x^n < y^n$ for  $n=2,3, ...$ (a rigorous proof uses induction, covered in the next chapter). $ \ \ \square$<sup style="color:grey">*</sup>
 											</p>
 										</td>
 									</tr>
@@ -1540,7 +1541,8 @@
 										<td style="vertical-align:top; padding: 0 10 0 0">(b)</td>
 										<td>
 											<p style="vertical-align:top; padding: 0 20 0 0">
-												By part (a), we know that if $0 \leq x < y,$ then $x^n < y^n$. Moreover, if $0 \leq x < y,$ then $0 \leq -y < -x,$ so by (a), $(-y)^n < -(x)^n.$ Since $n$ is odd, we derive $-y^n < -x^n,$ hence $x^n < y^n.$ Finally, $x < 0 \leq y$ implies that $x^n <0 \leq y^n,$ since $n$ is odd. Thus, in every case, if $x < y$ then $x^n < y^n. \ \ \square$
+												By part (a), we know that if $0 \leq x < y,$ then $x^n < y^n$. Moreover, if $0 \leq x < y,$ then $0 \leq -y < -x,$ so by (a), $(-y)^n < -(x)^n.$ Since $n$ is odd, we derive $-y^n < -x^n,$ hence $x^n < y^n.$ Finally, $x < 0 \leq y$ implies that 
+												$x^n < 0 \leq y^n,$ since $n$ is odd. Thus, in every case, if $x < y$ then $x^n < y^n. \ \ \square$
 											</p>
 										</td>
 									</tr>
@@ -1558,7 +1560,7 @@
 										<td style="vertical-align:top; padding: 0 10 0 0">(d)</td>
 										<td>
 											<p style="vertical-align:top; padding: 0 20 0 0">
-												Similarly, if $n$ is even, then using part (a) instead of part (b) we see thtat if $x,y \geq 0 \ \text{and} \ x^n=y^n,$ then $x=y$. Moreover, if $x,y \leq 0$ and $x^n=y^n,$ then $-x,-y \leq 0$ and $(-x)^n=(-y)^n,$ so again $x=y.$ The only other possibility is that one of $x$ and $y$ is positive, the other negative. In this case $x$ and $-y$ are both positive or both negative. Moreover $x^n=(-y)^n,$ since $n$ is even, so it follows from the previous cases that $x=-y. \ \ \square \ \color{lightgrey}{&#9733;}$
+												Similarly, if $n$ is even, then using part (a) instead of part (b) we see thtat if $x,y \geq 0 \ \text{and} \ x^n=y^n,$ then $x=y$. Moreover, if $x,y \leq 0$ and $x^n=y^n,$ then $-x,-y \leq 0$ and $(-x)^n=(-y)^n,$ so again $x=y.$ The only other possibility is that one of $x$ and $y$ is positive, the other negative. In this case $x$ and $-y$ are both positive or both negative. Moreover $x^n=(-y)^n,$ since $n$ is even, so it follows from the previous cases that $x=-y. \ \ \square$<sup style="color:grey">*</sup>
 											</p>
 										</td>
 									</tr>
@@ -2760,7 +2762,7 @@
 									<table style="padding:10 20 0 0">
 										<tr>
 											<td style="vertical-align:top; padding:0 0 0 0">
-												In our later work, three facts about inequalities will be crucial. Although proofs will be supplied at the appropriate point in the text, a personal assault on these problems is infinitely more enlightening than a perusal of a completely worked-out proof. The statements of these propositions involve some weird numbers, but their basic message is simple: if $x$ is close enough to $x_0,$ and $y$ is close enough to $y_0,$ then $x+y$ will be close to $x_0+y_0,$ and $xy$ will be close to $x_0y_0,$ and $1/y$ will be close to $1/y_0.$ The symbol "<i>&epsilon;</i>" which appears in these propositions is the fifth letter of the Greek alphabet ("epsilon"), snd could just as well be replaced by a less intimidating Roman letter; however, tradition has made the use of <i>&epsilon;</i> sacrosanct in thecontexts to which these theorems apply.
+												In our later work, three facts about inequalities will be crucial. Although proofs will be supplied at the appropriate point in the text, a personal assault on these problems is infinitely more enlightening than a perusal of a completely worked-out proof. The statements of these propositions involve some weird numbers, but their basic message is simple: if $x$ is close enough to $x_0,$ and $y$ is close enough to $y_0,$ then $x+y$ will be close to $x_0+y_0,$ and $xy$ will be close to $x_0y_0,$ and $1/y$ will be close to $1/y_0.$ The symbol "<i>&epsilon;</i>" which appears in these propositions is the fifth letter of the Greek alphabet ("epsilon"), snd could just as well be replaced by a less intimidating Roman letter; however, tradition has made the use of <i>&epsilon;</i> sacrosanct in the contexts to which these theorems apply.
 											</td>
 										</tr>
 									</table>
@@ -2769,14 +2771,14 @@
 								        	<td style="vertical-align:top; padding:0 0 0 00">20.</td>
 								        	<td style="vertical-align:top; padding:0 0 0 10">
 								        		Prove that if
-								            	<p>
+								            	<p style="padding:0 0 0 20">
 								            		$
 								            		\displaystyle
 								            			\vert x-x_0 \rvert < \frac{\varepsilon}{2} \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2}
 								            		$
 								            	</p>
 								            	then
-								            	<p>
+								            	<p style="padding:0 0 0 20">
 									            	$\lvert (x+y) - (x_0+y_0) \rvert < \varepsilon,$
 									            	<br>
 									            	$\lvert (x-y) - (x_0-y_0) \rvert < \varepsilon.$
@@ -2811,11 +2813,13 @@
 								        	</td>
 									        <td style="padding:0 0 0 10">
 									        	Prove that if $y_0 \neq 0$
-									            $$
-									            \lvert y-y_0 \rvert < \text{min} \bigg( \frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg),
-									            $$
-									            then $y \neq 0$ and
-									            <p style="padding:0 0 0 50">
+									        	<p  style="padding:0 0 0 20">
+										            $
+										            \lvert y-y_0 \rvert < \text{min} \bigg( \frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg),
+										            $
+										        </p>
+										        then $y \neq 0$ and
+									            <p style="padding:0 0 0 70">
 													$
 													\displaystyle
 														\Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert < \varepsilon.
@@ -2854,8 +2858,20 @@
 							<div class="infscrll">
 								<table style="padding:0 20 0 6">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">20&ndash;23.</td>
-											<td style="vertical-align:top; padding:0 20 0 10">See Chapter 5.</td>
+										<td style="vertical-align:top; padding:0 0 0 00">20.</td>
+											<td style="vertical-align:top; padding:0 20 0 10">
+												Generally speaking, by chapter 1 &ndash; problem 12.v, we know $\lvert x \rvert - \lvert y \rvert \leq \lvert x-y \rvert.$ Therefore, if
+												$$\lvert x-x_0 \rvert < \frac{\varepsilon}{2} \ \ \ \ \ \ \text{and} \ \ \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2}$$
+												then
+												$$
+												\begin{align}
+													\lvert x-x_0 \rvert + \lvert y-y_0 \rvert &< \varepsilon \ \ \ \succ \ \ \ \text{1.5.i} \\
+													\lvert x \rvert + \lvert x_0 \rvert + \lvert y \rvert + \lvert y_0 \rvert &< \varepsilon \ \ \ \succ \ \ \ \text{1.12.iv} \\
+													\lvert x \rvert + \lvert y \rvert + \lvert x_0 \rvert + \lvert y_0 \rvert &< \varepsilon \ \ \ \succ \ \ \ \dots \\
+													\lvert x - y \rvert + \lvert x_0 - y_0 \rvert &< \varepsilon \ \ \ \succ \ \ \ \text{1.12.iv} \\
+												\end{align}
+												$$
+											</td>
 										</tr>
 									</table>
 								</div>
