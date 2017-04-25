@@ -2806,23 +2806,24 @@
 									        </td>
 								      	</tr>
 								    </table>
-								    <table style="vertical-align:top; padding: 20 20 10 0">
+								    <table style="vertical-align:top; padding: 20 20 0 0">
 								      	<tr>
 								        	<td style="vertical-align:top; padding:0 0 0 0">
 								        		<label title="text" style="color:#aaa">*</label>23.
 								        	</td>
 									        <td style="padding:0 0 0 10">
-									        	Replace the question marks in the following statement by expressions involvi&ndash;<br>ng $\varepsilon, \ x_0$ and $y_0$ so that the conclusion will be true:
-									        	<br>
-									        	If $y_0 \neq 0$ and 
-									        	$$
-									        	\lvert y-y_0 \rvert < \ ? \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < \ ?
-									        	$$
-									        	then $y \neq 0$ and
-									        	$$
-									        	\Bigg\lvert \frac{x}{y} \ - \frac{x_0}{y_0} \ \Bigg\rvert < \varepsilon.
-									        	$$
-									        	This problem is trivial in the sense that its solution follows from Problem 21 and 22 with almost no work at all (notice that $x/y=x \cdot 1/y.$) The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely. 
+									        	Replace the question marks in the following statement by expressions involving $\varepsilon, \ x_0$ and $y_0$ so that the conclusion will be true:
+									        	<p>
+										        	If $y_0 \neq 0$ and 
+										        	$$
+										        	\lvert y-y_0 \rvert < \ ? \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < \ ?
+										        	$$
+										        	then $y \neq 0$ and
+										        	$$
+										        	\Bigg\lvert \frac{x}{y} \ - \frac{x_0}{y_0} \ \Bigg\rvert < \varepsilon.
+										        	$$
+										        	This problem is trivial in the sense that its solution follows from Problem 21 and 22 with almost no work at all (notice that $x/y=x \cdot 1/y$). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
+										        </p>
 									        </td>
 								      	</tr>
 								    </table>
@@ -2834,7 +2835,7 @@
 									border-top:20 solid #f2f2f2;
 									border-left:1 solid #f2f2f2">
 							<div class="infscrll">
-								<table style="padding:0 20 0 6">
+								<table style="padding:0 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">20.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
@@ -2868,7 +2869,7 @@
 										</td>
 									</tr>
 								</table>
-								<table style="padding:20 20 0 6">
+								<table style="padding:20 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">21.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
@@ -2894,26 +2895,41 @@
 										</td>
 									</tr>
 								</table>
-								<table style="padding:5 20 10 6">
+								<table style="padding:5 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">22.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
 											By the triangle inequality theorem, we have 
 											<p style="margin:10 0 10 20">
-												$\left|y_0\right| = \left|(y_0 - y) + y\right| \leq \left|y - y_0\right| + \left|y\right|.$
-											</p> 
+												$\lvert y_0 \rvert = \lvert (y_0 - y) + y \rvert \leq \lvert y - y_0 \rvert + \lvert y \rvert.$
+											</p>	
 											This, taken with the given condition
-											$\left| y - y_0 \right| < \left| y_0 \right| / 2$ suggests that
+											$\lvert y - y_0 \rvert < \lvert y_0 \lvert| / 2$ suggests that
 											$$
-											\frac{\left|y_0\right|}{2} = \left|y_0\right| - \frac{\left|y_0\right|}{2} < \left|y_0\right| - \left|y - y_0\right| \leq \left|y\right|.
+											\frac{\lvert y_0 \rvert}{2} = \lvert y_0 \rvert - \frac{\lvert y_0 \rvert}{2} < \lvert y_0 \rvert - \lvert y - y_0 \rvert \leq \lvert y \rvert.
 											$$
-											Now, we apply the condition $\left|y - y_0\right| < \dfrac{\varepsilon \left|y_0\right|^2}{2}$ to the numerator in the following expression:
+											Now, we apply the condition $\lvert y - y_0 \rvert < \dfrac{\varepsilon \lvert y_0 \rvert^2}{2}$ to the numerator in the following expression:
 											$$
-											\left|\frac{1}{y} - \frac{1}{y_0}\right| = \frac{\left|y - y_0\right|}{\left|y\right|\left|y_0\right|} 
-											< \dfrac{\left|y - y_0\right|}{\dfrac{\left|y_0\right|\left|y_0\right|}{2}} 
-											< \frac{\varepsilon\left|y_0\right|^2}{2}\bigg/\frac{\left|y_0\right|^2}{2} = \varepsilon
+											\Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert = \frac{\lvert y - y_0 \rvert}{\lvert y \rvert\lvert y_0 \rvert} 
+											< \dfrac{\lvert y - y_0 \rvert}{\dfrac{\lvert y_0 \rvert\lvert y_0 \rvert}{2}} 
+											< \frac{\varepsilon\lvert y_0 \rvert^2}{2}\bigg/\frac{\lvert y_0 \rvert^2}{2} = \varepsilon
 											$$
 											from which we obtain our desired result. $\square$
+										</td>
+									</tr>
+								</table>
+								<table style="padding:20 20 10 0">
+									<tr>
+										<td style="vertical-align:top; padding:09 00 0 00">23.</td>
+										<td style="vertical-align:top; padding:00 20 0 10">
+											Following problem 21, we find that $\Bigg\lvert \dfrac{x}{y}-\dfrac{x_0}{y_0} \Bigg\rvert < \varepsilon$ if
+											<p style="margin:10 0 10 20">
+												$\lvert x-x_0 \rvert < \text{min} \bigg( \dfrac{\varepsilon}{2(1 / \lvert y_0 \rvert +1)},1\bigg), \ \ \ \ \ \text{and} \ \ \ \ \ \ \Bigg\lvert\dfrac{1}{y}-\dfrac{1}{y_0}\Bigg\rvert < \dfrac{\varepsilon}{2(\lvert x_0 \rvert +1)},$
+											</p>
+											Moreover, in accordence with problem 22, the latter condition is true when the inequality 
+											<p style="margin:10 0 0 0">
+												$\lvert y-y_0 < \text{min}\bigg(\dfrac{\lvert y_0 \rvert}{2}, \dfrac{\varepsilon\lvert y_0 \rvert^2}{4(\lvert x_0 \rvert +1)}\bigg) \ \text{holds.} \ \square$ 
+											</p>
 										</td>
 									</tr>
 								</table>
