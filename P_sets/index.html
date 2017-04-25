@@ -2796,20 +2796,13 @@
 								        		<label title="text" style="color:#aaa">*</label>22.
 								        	</td>
 									        <td style="padding:0 0 0 10">
-									        	Prove that if $y_0 \neq 0$
-									        	<p style="padding-left:45%">
+									        	Prove that if $y_0 \neq 0$ and
+									        	<p>
 										            $
 										            \displaystyle
-										            \lvert y-y_0 \rvert < \text{min} \bigg( \displaystyle\frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg),
+										            \lvert y-y_0 \rvert < \text{min} \bigg( \displaystyle\frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg), \ \text{then} \ y \neq 0, \ \text{and} \ \Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert < \varepsilon.
 										            $
 										        </p>
-										        then $y \neq 0$ and
-									            <p style="padding-left:60%">
-													$
-													\displaystyle
-													\Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert < \varepsilon.
-													$
-												</p>
 									        </td>
 								      	</tr>
 								    </table>
@@ -2898,6 +2891,29 @@
 												\end{split}
 											\end{equation}
 											$$
+										</td>
+									</tr>
+								</table>
+								<table style="padding:5 20 10 6">
+									<tr>
+										<td style="vertical-align:top; padding:0 0 0 00">22.</td>
+										<td style="vertical-align:top; padding:0 20 0 10">
+											By the triangle inequality theorem, we have 
+											<p style="margin:10 0 10 20">
+												$\left|y_0\right| = \left|(y_0 - y) + y\right| \leq \left|y - y_0\right| + \left|y\right|.$
+											</p> 
+											This, taken with the given condition
+											$\left| y - y_0 \right| < \left| y_0 \right| / 2$ suggests that
+											$$
+											\frac{\left|y_0\right|}{2} = \left|y_0\right| - \frac{\left|y_0\right|}{2} < \left|y_0\right| - \left|y - y_0\right| \leq \left|y\right|.
+											$$
+											Now, we apply the condition $\left|y - y_0\right| < \dfrac{\varepsilon \left|y_0\right|^2}{2}$ to the numerator in the following expression:
+											$$
+											\left|\frac{1}{y} - \frac{1}{y_0}\right| = \frac{\left|y - y_0\right|}{\left|y\right|\left|y_0\right|} 
+											< \dfrac{\left|y - y_0\right|}{\dfrac{\left|y_0\right|\left|y_0\right|}{2}} 
+											< \frac{\varepsilon\left|y_0\right|^2}{2}\bigg/\frac{\left|y_0\right|^2}{2} = \varepsilon
+											$$
+											from which we obtain our desired result. $\square$
 										</td>
 									</tr>
 								</table>
