@@ -4122,7 +4122,7 @@
 									        		$\displaystyle\sum_{k=1}^n k^5=\frac{1}{6}n^6+\frac{1}{2}n^5+\frac{5}{12}n^4-\frac{1}{12}n^2$
 									        		<br>
 									        		$\displaystyle\sum_{k=1}^n k^6=\frac{1}{7}n^7+\frac{1}{2}n^6+\frac{1}{2}n^5-\frac{1}{6}n^3+\frac{1}{42}n$
-									        		<div class="tooltip_c2p7">$...$
+									        		<div class="tooltip_c2p7">$\dots$
 									        			<span class="tooltiptext_c2p7">
 							  								$\displaystyle\sum_{k=i}^n k^7 = \frac{1}{8}n^8+\frac{1}{2}n^7+\frac{7}{12}n^6-\frac{7}{24}n^4+\frac{1}{12}n^2$
 							  								$\displaystyle\sum_{k=i}^n k^8 = \frac{1}{9}n^9+\frac{1}{2}n^8+\frac{2}{3}n^7-\frac{7}{15}n^5+\frac{2}{9}n^3-\frac{1}{30}n$
@@ -4165,7 +4165,7 @@
 															&=\frac{n^3}{3}+\color{grey}{\cancel{n^2}}+\frac{2n}{3}-\bigg(\color{grey}{\cancel{\frac{n^2}{2}}}+\frac{n}{2}\bigg) \\
 															&=\frac{n^3}{3}+\frac{n^2}{2}+\frac{2n}{3}-\frac{n}{2} \\
 															&=\frac{n^3}{3}+\frac{n^2}{2}+\frac{n}{6}. \\
-															&\ \square
+															&\ \circ
 														\end{split}
 													\end{equation}
 													$
@@ -4179,7 +4179,7 @@
 							        						&= \frac{n^4+4n^3+6n^2+4n-2n^3-n^2-2n^2-n-2n^2-2n-n}{4} \\
 							        						&= \frac{n^4}{4}+\frac{\color{grey}{\cancel{2}}n^3}{\color{grey}{\cancel{4}}}+\frac{n^2}{4}. \\
 							        						&= \frac{n^4}{4}+\frac{n^3}{2}+\frac{n^2}{4}. \\
-							        						& \ \square
+							        						& \ \circ
 							        					\end{split}
 							        				\end{equation}
 							        				$
@@ -4200,16 +4200,32 @@
 							        						&= \bigg[n^5+\frac{5n^4}{2}+\frac{5n^3}{3}+4n-\frac{25n}{6}\bigg]\frac{1}{5} \\
 							        						&= \bigg[n^5+\frac{5n^4}{2}+\frac{5n^3}{3}-\frac{n}{6}\bigg]\frac{1}{5} \\
 							        						&= \frac{n^5}{5}+\frac{n^4}{2}+\frac{n^3}{3}-\frac{n}{30}. \\
-							        						& \ \square
+							        						& \ \circ
 							        					\end{split}
 							        				\end{equation}
 							        				$
 												</p>
 												...
 												<p>
-													We'll assume that the statement holds for all $p_i \leq p$ where $p_i \in \mathbb{N}.$ Now, the binomial theorem yields the equations
-													$$(k+1)^{p+1}-k^{p+1}=(p+1)k^p+\lambda_0 k^{p-1}+\lambda_1 k^{p-2}+\cdots+\lambda_{m-1} k^2+\lambda_m k^1$$
+													We'll assume that the statement holds for all $p_i \leq p$ where $p_i \in \mathbb{N}.$ The binomial theorem yields the equations
+													$$(k+1)^{p+1}-k^{p+1}=(p+1)k^p+\lambda_0 k^{p-1}+\lambda_1 k^{p-2}+\cdots+\lambda_m k^1+1$$
 													Writing this formula for $k=1,\dots,n$ and adding, we obtain
+													$$
+							        				\begin{array}{rcl}			
+														2^{p+1}-1^{p+1} &=& (p+1) \cdot 1^p+\lambda_0 \cdot 1^{p-1}+\lambda_1 \cdot 1^{p-2}+\cdots+\lambda_m \cdot 1^1+1 \\
+														3^{p+1}-2^{p+1} &=& (p+1) \cdot 2^p+\lambda_0 \cdot 2^{p-1}+\lambda_1 \cdot 2^{p-2}+\cdots+\lambda_m \cdot 2^1+1 \\
+														\ \vdots & \vdots & \vdots \\
+														(n+1)^{p+1}-n^{p+1} & = & (p+1) \cdot n^p+\lambda_0 \cdot n^{p-1} +\lambda_1 \cdot n^{p-2}+\cdots+\lambda_m \cdot n^1+1 \\
+														\hline
+														(n+1)^{p+1}-1^{\color{transparent}{p+1}} &=& (p+1)\displaystyle\sum_{k=1}^n k^p+\lambda_0\sum_{k=1}^n k^{p-1}+\cdots+\lambda_m\sum_{k=1}^n k^1+n. \\
+														&\Downarrow& \\
+														\dfrac{(n+1)^{p+1}}{p+1} &=& \displaystyle\sum_{k=1}^n k^p+\lambda_i\sum_{k=1}^n k^r, \ \ \ \ \ \text{for} \ i \in \mathbb{N} \ \text{and} \ r < p.
+													\end{array}
+													$$
+													By assumption, we can write each $\displaystyle T=\lambda_i\sum_{k=1}^nk^r$ as an expression involving powers $n^s$ with $s \leq p.$ It follows that
+													<p style="padding:0 0 0 50">
+														$\displaystyle \sum_{k=1}^nk^p=\frac{(n+1)^{p+1}}{p+1}+T, \ \text{where} \ \forall n^s \ \text{composing} \ T, \ s < p+1. \ \square$
+													</p>
 												</p>
 											</td>
 										</tr>
