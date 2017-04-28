@@ -2,7 +2,7 @@
 ### 4E Problem Sets &#9634; Michael Spivak
 #### Solutions by Luqman Malik
 
-These are my solutions to the text. That is to say, what is written here I have written myself. 
+*Calculus* is the first element in the Spivak analysis–sequence. **CLC_FE**, therefore, is the first installment in my solution sequence.
 
 **Part V (Epilogue)** of the book concludes with chapters on the construction of the real numbers, and a demonstration of the uniqueness of the real numbers. In response, I offer some remarks on the Peano–Dedekind construction of **N** with the aim of expanding that set of arguments to **&real;** via Part V of the present text and also with a look ahead to Abrahm Robinson's work on non–standard analysis.
 
