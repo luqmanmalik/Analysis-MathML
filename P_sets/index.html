@@ -187,19 +187,21 @@
 		input[type="submit"]{border-radius: 0%; background: white; font-family: 'Arial'; font-size: 11px; border: 1px solid lightgrey; margin-top:5px; color:grey;}
 		input[type="submit"]:hover{color: black; border: 1px solid grey; transition: color .1s}
 		input[type="search"]{
+
 			color:#aaa;
 			font-size: 13;
-			text-align: center;
+			text-align: left;
 			font-family:'Avenir';
 			-webkit-appearance:caret;
 			border-radius: 0%!important;
 		}
 		.search{
 			color:#aaa;
-			background: transparent;
 			font-size: 13;
-			text-align: center;
+			padding:0 1 0 5;
+			text-align: left;
 			font-family:'Avenir';
+			background: transparent;
 			-webkit-appearance:caret;
 			border-radius: 0%!important;
 		}
@@ -380,14 +382,15 @@
 									width:50%; height: 100%;
 									cursor:default;
 									padding:0 0 0 0;">
-							<div style="width:100%; background:#f2f2f2; padding:0 0 0 0">
+							<div style="width:100%; background:#f2f2f2" align="right">
 								<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-								<input type="search" class="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()">
-								<p id="search_res" style="margin:0 0 0 10; font-size:14; font-family:'Avenir', 'light'; color:grey"></p>
+								<input type="search" class="search" autosave="10" id="clc_fe" onsearch="search_func()" 
+										placeholder="Search Calculus, Fourth...">
+								<p id="search_res" style="margin:10 8 0 0; font-size:14; font-family:'Avenir', 'light'; color:grey"></p>
 								<script>
 								function search_func() {
-								   var x = document.getElementById("clc_fe_s1");
-								   document.getElementById("search_res").innerHTML = x+"\n";
+								   var x = document.getElementById("clc_fe");
+								   document.getElementById("search_res").innerHTML = x.value;
 								}
 								</script>
 							</div>
@@ -636,16 +639,16 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" autosave="10" id="clc_fe_1" onsearch="search_func1()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res_1" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
 											<script>
-											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br> >> " + x.value;
+											function search_func1() {
+											   var x = document.getElementById("clc_fe_1");
+											   document.getElementById("search_res_1").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -1011,19 +1014,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s3" id="clc_fe_s3" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res3" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br> >> " + x.value;
+											   var x = document.getElementById("clc_fe_s3");
+											   document.getElementById("search_res3").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -1485,19 +1488,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s4" id="clc_fe_s4" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res4" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br> >> " + x.value;
+											   var x = document.getElementById("clc_fe_s4");
+											   document.getElementById("search_res4").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -1681,19 +1684,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="10" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="10" autosave="10" name="s5" id="clc_fe_s5" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res5" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s5");
+											   document.getElementById("search_res5").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -2111,19 +2114,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s6" id="clc_fe_s6" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res6" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s6");
+											   document.getElementById("search_res6").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -2358,19 +2361,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s7" id="clc_fe_s7" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res7" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s7");
+											   document.getElementById("search_res7").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -2852,19 +2855,19 @@
 									<tr>
 										<td>Prologue &#9634; Basic Properties of Numbers</td>
 										<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s8" id="clc_fe_s8" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res8" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s8");
+											   document.getElementById("search_res8").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 									</tr>
 								</table>
@@ -3073,19 +3076,19 @@
 								<tr>
 									<td>Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s9" id="clc_fe_s9" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res9" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s9");
+											   document.getElementById("search_res9").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -3285,19 +3288,19 @@
 								<tr>
 									<td>Prologue &#9634; Numbers of Various Sorts</td>
 									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s10" id="clc_fe_s10" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res10" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s10");
+											   document.getElementById("search_res10").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 								</tr>
 							</table>
@@ -3859,19 +3862,19 @@
 									<tr>
 										<td>Prologue &#9634; Numbers of Various Sorts</td>
 										<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s11" id="clc_fe_s11" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res11" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s11");
+											   document.getElementById("search_res11").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 									</tr>
 								</table>
@@ -4200,19 +4203,19 @@
 									<tr>
 										<td>Prologue &#9634; Numbers of Various Sorts</td>
 										<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0">
+										<!-- <div style="padding:0 0 0 0; margin:0 0 0 0">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" results="5" autosave="10" name="s" id="clc_fe_s1" onsearch="search_func()" 
+											<input type="search" results="5" autosave="10" name="s12" id="clc_fe_s12" onsearch="search_func()" 
 													placeholder="Search repository...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
+											<p id="search_res12" style="margin:0 0 0 5; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func() {
-											   var x = document.getElementById("clc_fe_s1");
-											   document.getElementById("search_res").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_fe_s12");
+											   document.getElementById("search_res12").innerHTML = x;
 											}
 											</script>
-										</div>
+										</div> -->
 									</td>
 									</tr>
 								</table>
