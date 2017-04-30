@@ -384,13 +384,13 @@
 									padding:0 0 0 0;">
 							<div style="width:100%; background:#f2f2f2" align="right">
 								<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-								<input type="search" class="search" autosave="10" id="clc_fe" onsearch="search_func()" 
+								<input type="search" class="search" autosave="5" id="clc_fe" onsearch="search_func()" 
 										placeholder="Search Calculus, Fourth...">
-								<p id="search_res" style="margin:10 8 0 0; font-size:14; font-family:'Avenir', 'light'; color:grey"></p>
+								<p id="search_res" style="margin:0 8 0 0; font-size:14; font-family:'Avenir', 'light'; color:grey"></p>
 								<script>
 								function search_func() {
 								   var x = document.getElementById("clc_fe");
-								   document.getElementById("search_res").innerHTML = x.value;
+								   document.getElementById("search_res").innerHTML = '<br>' + x.value;
 								}
 								</script>
 							</div>
@@ -637,7 +637,7 @@
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td>Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
 									<td style="padding:2 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
