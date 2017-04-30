@@ -9,5 +9,3 @@ __Part V (Epilogue)__ of the book concludes with chapters on the construction of
 __Required tech()__ This repository is Safari–centric and designed on a 13" MacBook running OS X El Capitan. Given the simplex design of the page–frame (HTML_CSS, MathJax) versus the complex embedding of the carousel<sup>4</sup> main–frame (JS, PHP, c++), a browser–universal repository seems exessive and idyllic at this stage.
 
 This library is licensed for use under the terms in the file <code>MIT_License</code>.
-
-&Lambda; . &Mu; .
