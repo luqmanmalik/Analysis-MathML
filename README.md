@@ -10,4 +10,4 @@ __Required tech()__ This repository is Safari–centric and designed on a 13" Ma
 
 This library is licensed for use under the terms in the file <code>MIT_License</code>.
 
-<p style="font-family:'Times'">&Lambda; . &Mu; .</p>
+&Lambda; . &Mu; .
