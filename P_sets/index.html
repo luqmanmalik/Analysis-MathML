@@ -47,7 +47,7 @@
 		}
 
 		.t_contents {
-		    height:93.4% !important;
+		    height:92.8% !important;
 		    overflow:scroll !important;
 		    color:grey;
 		    font-size:15;
@@ -56,10 +56,10 @@
 		}						
 
 		.infscrll {
-		    height:96% !important;
+		    height:93.3% !important;
 		    overflow:scroll !important;
 		    font-size:15; 
-		    padding-top:20
+		    padding:20 0 0 20;
 		}
 		.infscrll_C2P1 {
 		    height: 96% !important;
@@ -68,7 +68,7 @@
 		    padding:6 0 0 4
 		}
 		.c1p1 {
-		    height:89% !important;
+		    height:88% !important;
 		    overflow:scroll !important;
 		    font-size:15; 
 		    margin: 0 0 0 20;
@@ -131,6 +131,8 @@
 		
 		a.textnav{color: white; font-size: 18; font-weight: 500;}
 		a.textnav:hover{text-decoration: underline; cursor:default;}
+		a.textnav_f2{color: #aaa; font-size: 15; font-weight: 500;}
+		a.textnav_f2:hover{color: lightgrey; cursor:default; transition: color .2s;}
 		/*a:active{color: grey !important}*/
 		a.two{color:lightgrey; text-decoration: none}
 		a.two:hover{color: grey}
@@ -142,54 +144,13 @@
 		a.contents:hover{text-decoration: underline; cursor: default;}
 		i.fa{font-size: 16px;}
 
-		textarea{
-			color:lightgrey;
-			width:500px; height:1000px;
-			font-size: 11px;
-			font-family: 'Arial';
-			letter-spacing: .5px;
-			border-left: 1px solid #f2f2f2; 
-			padding:20px;
-			border-top: 1px solid #f2f2f2;
-			border-right: 1px solid #f2f2f2; 
-			border-bottom: 1px solid #f2f2f2;
-
-		}
-		textarea:hover{outline: 2px solid #ABDFF5}
-		textarea:focus{color:grey; outline: 2px solid #ABDFF5}
-
-		textarea.two{
-			width:500px; height:300px;
-			font-size: 11px;
-			font-family: 'Arial';
-			letter-spacing: .5px;
-			border-left: 1px solid #f2f2f2; padding:10px;
-			border-top: 40px solid #f2f2f2; padding:10px;
-			border-right: 1px solid #f2f2f2; padding:10px;
-			border-bottom: 1px solid #f2f2f2; padding:10px}
-		}
-		textarea.two:hover{outline: 2px solid #ABDFF5}
-		textarea.two:focus{outline: 2px solid #ABDFF5}
-
-		textarea.three{
-			width:500px; height:500px;
-			font-size: 11px;
-			font-family: 'Arial';
-			letter-spacing: .5px;
-			border-left: 1px solid #f2f2f2; padding:10px;
-			border-top: 40px solid #f2f2f2; padding:10px;
-			border-right: 1px solid #f2f2f2; padding:10px;
-			border-bottom: 1px solid #f2f2f2; padding:10px}
-		}
-		textarea.three:hover{outline: 2px solid #ABDFF5}
-		textarea.three:focus{outline: 2px solid #ABDFF5}
 
 		input[type="submit"]{border-radius: 0%; background: white; font-family: 'Arial'; font-size: 11px; border: 1px solid lightgrey; margin-top:5px; color:grey;}
 		input[type="submit"]:hover{color: black; border: 1px solid grey; transition: color .1s}
 		input[type="search"]{
 			color:#aaa;
 			font-size: 13;
-			text-align: left;
+			text-align: right;
 			font-family:'Avenir';
 			-webkit-appearance:caret;
 			border-radius: 0%!important;
@@ -198,7 +159,7 @@
 			color:#aaa;
 			font-size: 13;
 			padding:0 1 0 5;
-			text-align: left;
+			text-align: right;
 			font-family:'Avenir';
 			background: transparent;
 			-webkit-appearance:caret;
@@ -339,6 +300,55 @@
 			-moz-user-select: none;
 			-webkit-user-select: none;
 			-ms-user-select: none;
+		}
+
+		ul.discom_5ep {
+		  text-align: left;
+		  display: inline;
+		  margin:0;
+		  padding:0;
+		  list-style: none;
+		}
+		ul.discom_5ep li {
+			color: #aaa;
+			font-size: 16;
+			font-family: Avenir, light;
+			display: inline-block;
+			margin:0;
+			position: relative;
+			padding: 0;
+			cursor: pointer;
+		}
+		ul.discom_5ep li:hover {
+		  background: transparent;
+		  color: #aaa;
+		  margin:0;
+		  cursor: default;
+		}
+		ul.discom_5ep li ul.discom_5ep {
+		  padding: 0;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  display: none;
+		  opacity: 0;
+		  visibility: hidden;
+		  -webkit-transiton: opacity 0.2s;
+		  -moz-transition: opacity 0.2s;
+		  -ms-transition: opacity 0.2s;
+		  -o-transition: opacity 0.2s;
+		  -transition: opacity 0.2s;
+		}
+		ul.discom_5ep li ul.discom_5ep li { 
+			padding: 0 0 0 10;
+		  	background: transparent;
+		  	display: inline; 
+		}
+		ul.discom_5ep li ul.discom_5ep li:hover { }
+		ul.discom_5ep li:hover ul.discom_5ep {
+		  display: inline;
+		  opacity: 1;
+		  visibility: visible;
 		}
 		</style>
 	</head>
@@ -639,20 +649,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_1" onsearch="search_func1()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_1" onsearch="search_func1()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_1" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res1" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func1() {
-											   var x = document.getElementById("clc_fe_1");
-											   document.getElementById("search_res_1").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_1");
+											   document.getElementById("search_res1").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -793,9 +803,25 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<p style="font-size:16; margin:2 0 0 0; padding:0 20 0 0">
 									The following arguments, in particular chapters 1&ndash;4, should be deeply familiar to the freshman and sophomore. Whenever necessary, arguments are spelled out in full. More often than not, however, they will be sieved of extraneous content.
@@ -1014,20 +1040,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_2" onsearch="search_func2()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_2" onsearch="search_func2()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_2" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res2" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func2() {
-											   var x = document.getElementById("clc_fe_2");
-											   document.getElementById("search_res_2").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_2");
+											   document.getElementById("search_res2").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -1159,9 +1185,25 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
@@ -1488,20 +1530,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_3" onsearch="search_func3()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_3" onsearch="search_func3()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_3" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res3" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func3() {
-											   var x = document.getElementById("clc_fe_3");
-											   document.getElementById("search_res_3").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_3");
+											   document.getElementById("search_res3").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -1607,9 +1649,25 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
@@ -1684,20 +1742,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_4" onsearch="search_func4()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_4" onsearch="search_func4()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_4" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res4" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func4() {
-											   var x = document.getElementById("clc_fe_4");
-											   document.getElementById("search_res_4").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_4");
+											   document.getElementById("search_res4").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -1894,9 +1952,25 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
@@ -2114,20 +2188,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_5" onsearch="search_func5()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_5" onsearch="search_func5()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_5" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res5" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func5() {
-											   var x = document.getElementById("clc_fe_5");
-											   document.getElementById("search_res_5").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_5");
+											   document.getElementById("search_res5").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -2239,9 +2313,25 @@
 						</td>
 						<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 20 0 6">
 									<tr>
@@ -2292,9 +2382,7 @@
 								</table>
 								<table style="padding:20 20 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">
-											<label title="Text" style="color:#aaa">*</label>15.
-										</td>
+										<td style="vertical-align:top; padding:0 0 0 0; color:grey">15.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											If $x \neq y,$ then
 											<br>
@@ -2306,9 +2394,7 @@
 								</table>
 								<table style="padding:20 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:2 0 0 0">
-											<label title="Spivak" style="color:#aaa">*</label>16.
-										</td>
+										<td style="vertical-align:top; padding:2 0 0 0; color:grey">16.</td>
 										<td style="vertical-align:top; padding:0 0 0 0">
 											<table style="padding:0 20 0 10">
 												<tr>
@@ -2361,20 +2447,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_6" onsearch="search_func6()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_6" onsearch="search_func6()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_6" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res6" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func6() {
-											   var x = document.getElementById("clc_fe_6");
-											   document.getElementById("search_res_6").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_6");
+											   document.getElementById("search_res6").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -2505,9 +2591,25 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 20 0 0">
 									<tr>
@@ -2855,20 +2957,20 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-										<td style="padding:2 0 0 80">
+										<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+										<td style="padding:12 0 0 80">
 											<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-												<input type="search" autosave="10" id="clc_fe_7" onsearch="search_func7()" 
+												<input type="search" class="search" autosave="5" id="clc_feps_7" onsearch="search_func7()" 
 														placeholder="Search Calculus, Fourth...">
 												<div style="border-bottom:1 solid #f2f2f2"></div>
-												<p id="search_res_7" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+												<p id="search_res7" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 												<script>
 												function search_func7() {
-												   var x = document.getElementById("clc_fe_7");
-												   document.getElementById("search_res_7").innerHTML = "<br>" + x.value;
+												   var x = document.getElementById("clc_feps_7");
+												   document.getElementById("search_res7").innerHTML = "<br>" + x.value;
 												}
 												</script>
 											</div>
@@ -2967,9 +3069,25 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 20;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 20 0 0">
 									<tr>
@@ -3076,20 +3194,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_8" onsearch="search_func8()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_8" onsearch="search_func8()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_8" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res8" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func8() {
-											   var x = document.getElementById("clc_fe_8");
-											   document.getElementById("search_res_8").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_8");
+											   document.getElementById("search_res8").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -3192,16 +3310,30 @@
 							</div>
 						</td>
 						<td style="vertical-align:top;
-								width:50%; height:100%;
-								padding:0 0 0 20;
-								border-top:20 solid #f2f2f2;
-								border-left:1 solid #f2f2f2">
+									width:50%; height:100%;
+									padding:0 0 0 0;
+									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">
-											<label title="text" style="color:#aaa">*</label>24.
-										</td>
+										<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">24.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
 											<table style="margin:-2 0 0 0">
 												<tr>
@@ -3288,20 +3420,20 @@
 				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 								<tr>
-									<td style="vertical-align:top">Prologue &#9634; Numbers of Vsrious Sorts</td>
-									<td style="padding:2 0 0 80">
+									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Numbers of Various Sorts</td>
+									<td style="padding:12 0 0 80">
 										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_9" onsearch="search_func9()" 
+											<input type="search" class="search" autosave="5" id="clc_feps_9" onsearch="search_func9()" 
 													placeholder="Search Calculus, Fourth...">
 											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_9" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+											<p id="search_res9" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 											<script>
 											function search_func9() {
-											   var x = document.getElementById("clc_fe_9");
-											   document.getElementById("search_res_9").innerHTML = "<br>" + x.value;
+											   var x = document.getElementById("clc_feps_9");
+											   document.getElementById("search_res9").innerHTML = "<br>" + x.value;
 											}
 											</script>
 										</div>
@@ -3450,12 +3582,28 @@
 							</div>
 						</td>
 						<td style="vertical-align:top;
-										width:50%; height:100%;
-										padding:0 0 0 20;
-										border-top:20 solid #f2f2f2;
-										border-left:1 solid #f2f2f2">
-								<div class="infscrll_C2P1">
-									<p style="font-size:16; padding:1 20 0 0">
+									width:50%; height:100%;
+									padding:0 0 0 0;
+									border-left:1 solid #f2f2f2">
+							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+								<ul class="discom_5ep">
+								  <li>
+								    &#9656;
+								    <ul class="discom_5ep">
+								     	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+							  			</li>
+								    	<li>
+								      		<a class="textnav_f2">&#9679;&#9508;</a>
+							  				<a class="textnav_f2">&#9500;&#9679;</a>
+								     	</li>
+								    </ul>
+								  </li>
+								</ul>
+							</div>
+							<div class="infscrll">
+									<p style="font-size:16; margin:2 20 0 0">
 										In problem 2, I introduce the notion $"\succ" \langle \text{read: "successor of"} \rangle$ to mean: "which is preceded by," in equation form.
 									</p>
 									<table style="padding:0 20 0 0">
@@ -3862,24 +4010,24 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:2 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
-											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" autosave="10" id="clc_fe_10" onsearch="search_func10()" 
-													placeholder="Search Calculus, Fourth...">
-											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res_10" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
-											<script>
-											function search_func10() {
-											   var x = document.getElementById("clc_fe_10");
-											   document.getElementById("search_res_10").innerHTML = "<br>" + x.value;
-											}
-											</script>
-										</div>
-									</td>
+										<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Numbers of Various Sorts</td>
+										<td style="padding:12 0 0 80">
+											<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
+												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
+												<input type="search" class="search" autosave="5" id="clc_feps_10" onsearch="search_func10()" 
+														placeholder="Search Calculus, Fourth...">
+												<div style="border-bottom:1 solid #f2f2f2"></div>
+												<p id="search_res10" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
+												<script>
+												function search_func10() {
+												   var x = document.getElementById("clc_feps_10");
+												   document.getElementById("search_res10").innerHTML = "<br>" + x.value;
+												}
+												</script>
+											</div>
+										</td>
 									</tr>
 								</table>
 								<div class="c1p1">
@@ -3989,9 +4137,25 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+								<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+									<ul class="discom_5ep">
+									  	<li>
+									    	&#9656;
+									    	<ul class="discom_5ep">
+									     		<li>
+									      			<a class="textnav_f2">&#9679;&#9508;</a>
+								  					<a class="textnav_f2">&#9500;&#9679;</a>
+								  				</li>
+									    		<li>
+									      			<a class="textnav_f2">&#9679;&#9508;</a>
+								  					<a class="textnav_f2">&#9500;&#9679;</a>
+									     		</li>
+									    	</ul>
+									  	</li>
+									</ul>
+								</div>
 								<div class="infscrll">
 									<table style="padding:0 0 0 0">
 										<tr>
@@ -4203,20 +4367,20 @@
 					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
-								<table style="padding:8 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
+								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
 									<tr>
-										<td style="vertical-align:top">Prologue &#9634; Basic Properties of Numbers</td>
-										<td style="padding:2 0 0 80">
+										<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Numbers of Various Sorts</td>
+										<td style="padding:12 0 0 80">
 											<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
 												<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-												<input type="search" autosave="10" id="clc_fe_11" onsearch="search_func11()" 
+												<input type="search" class="search" autosave="5" id="clc_feps_11" onsearch="search_func11()" 
 														placeholder="Search Calculus, Fourth...">
 												<div style="border-bottom:1 solid #f2f2f2"></div>
-												<p id="search_res_11" style="margin:0 9 0 5; font-size:14; font-family:'Avenir', 'light'"></p>
+												<p id="search_res11" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
 												<script>
 												function search_func11() {
-												   var x = document.getElementById("clc_fe_11");
-												   document.getElementById("search_res_11").innerHTML = "<br>" + x.value;
+												   var x = document.getElementById("clc_feps_11");
+												   document.getElementById("search_res11").innerHTML = "<br>" + x.value;
 												}
 												</script>
 											</div>
@@ -4264,9 +4428,25 @@
 							</td>
 							<td style="vertical-align:top;
 									width:50%; height:100%;
-									padding:0 0 0 25;
-									border-top:20 solid #f2f2f2;
+									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
+								<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
+									<ul class="discom_5ep">
+									  	<li>
+									    	&#9656;
+									    	<ul class="discom_5ep">
+									     		<li>
+									      			<a class="textnav_f2">&#9679;&#9508;</a>
+								  					<a class="textnav_f2">&#9500;&#9679;</a>
+								  				</li>
+									    		<li>
+									      			<a class="textnav_f2">&#9679;&#9508;</a>
+								  					<a class="textnav_f2">&#9500;&#9679;</a>
+									     		</li>
+									    	</ul>
+									  	</li>
+									</ul>
+								</div>
 								<div class="infscrll">
 									<table style="padding:1 20 10 0">
 										<tr>
