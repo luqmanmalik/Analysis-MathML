@@ -19,100 +19,117 @@
 
 		<!-- Slides -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 		<script src="processing.js" type="text/javascript"></script>
 		
 		<!-- CSS -->
 		<style type="text/css">
-
-		app / assets / stylesheets / custom.css.scss
 		
-		html{
-		   overflow-y: scroll;
-		}
-
+		html{overflow-y: scroll;}
+		
 		.unselectable {
-		    -webkit-touch-callout: none;
-		    -webkit-user-select: none;
-		    -khtml-user-select: none;
-		    -moz-user-select: none;
-		    -ms-user-select: none;
 		    user-select: none;
+		    -ms-user-select: none;
+		    -moz-user-select: none;
+		    -khtml-user-select: none;
+		    -webkit-user-select: none;
+		    -webkit-touch-callout: none;
 		}
-
 		.MathJax:focus, .mjx-chtml:focus, .MathJax_SVG:focus {
    			outline:none;
-   			border: 1 solid #D1DCE9;
-   			padding: 2 2;
+   			padding:2 2 2 2;
+   			border:1 solid #f2f2f2;
 		}
-
+		.navbar{
+			height:30;
+			width:100%; 
+			margin:0 0 0 0; 
+			position:fixed; 
+			font-family:'Avenir','light';
+			background:linear-gradient(lightgrey, grey); 
+		}
+		.w3-content{
+			width:100%; 
+			height:100%;
+			position:fixed;
+		}
+		.mySlides{
+			width:100%; 
+			height:100%; 
+			margin:30 0 0 0; 
+			padding:0 0 0 0; 
+			border-collapse: collapse
+		}
+		.T_page{
+			width:50%; 
+			height:100%; 
+			vertical-align:top;
+			padding:10 10 0 10;
+			background:linear-gradient(lightgrey, grey); 
+			background-repeat:no-repeat
+		}
+		.T_field{
+			color:grey;
+			font-size:18;
+			cursor:default; 
+			padding:14 0 14 40; 
+			font-family:'Avenir', 'light'; 
+			background:linear-gradient(white,#E5E7E9);opacity:.5;
+		}
+		.sols_by{
+			color:#f2f2f2;
+			font-size:14;
+			font-weight:500;
+			padding:50 0 0 40;
+			font-family:'Avenir';
+		}
+		.lic_tag{
+			color:#aaa; 
+			font-size:13;
+			font-weight:500;
+			padding:20 0 0 40; 
+			font-family:'Avenir';
+		}
+		.tc_page{
+			height: 100%;
+			cursor:default;
+			padding:0 0 0 0;
+			vertical-align:top;width:50%; 
+		}
+		.search_res{
+			margin:0 8 0 0; 
+			font-size:14; font-family:'Avenir', 'light'; color:grey
+		}
 		.t_contents {
-		    height:92.8% !important;
-		    overflow:scroll !important;
 		    color:grey;
 		    font-size:15;
-		    font-family:'Avenir', 'light';
 		    padding:0 0 10 40;
-		}						
-
-		.infscrll {
-		    height:93.3% !important;
+		    height:92.8% !important;
 		    overflow:scroll !important;
+		    font-family:'Avenir', 'light';
+		}
+		.tc_title{font-size:25}
+		.tc_items{color:grey; font-size:15}				
+		
+		.infscrll {
 		    font-size:15; 
 		    padding:20 0 0 20;
-		}
-		.infscrll_C2P1 {
-		    height: 96% !important;
-		    overflow: scroll;
-		    font-size:15; 
-		    padding:6 0 0 4
+		    height:93.3% !important;
+		    overflow:scroll !important;
 		}
 		.c1p1 {
+			font-size:15; 
+		    margin:0 0 0 20;
+		    padding:5 0 0 0;
 		    height:88% !important;
 		    overflow:scroll !important;
-		    font-size:15; 
-		    margin: 0 0 0 20;
-		    padding: 5 0 0 0;
-		    border-top: 1 solid #f2f2f2;
-		}
-		.c1p4 {
-		    height: 635 !important;
-		    overflow: scroll;
-		    font-size:15; 
-		    margin: 0 0 0 45;
-		    padding: 5 0 0 0;
-		    border-top: 1 solid #f2f2f2;
-		}
-		.c1p6 {
-		    height: 635 !important;
-		    overflow: scroll;
-		    font-size:15; 
-		    margin: 0 0 0 45;
-		    padding: 5 0 0 0;
-		    border-top: 1 solid #f2f2f2;
-		}
-		.c1p9 {
-		    height: 635 !important;
-		    overflow: scroll;
-		    font-size:15; 
-		    margin: 0 0 0 45;
-		    padding: 5 0 0 0;
-		    border-top: 1 solid #f2f2f2;
-		}
-		.c1p12 {
-		    height: 561 !important;
-		    overflow: scroll;
-		    font-size:15; 
-		    margin: 0 0 0 45;
-		    padding: 5 20 0 0;
 		    border-top: 1 solid #f2f2f2;
 		}
 		.infscrll_dc {
-		    height:89.3% !important;
-		    overflow:scroll;
 		    font-size:15; 
 		    padding-top:20;
 		    margin:-8 0 0 0;
+		    overflow:scroll;
+		    height:89.3% !important;
 		}
 
 		canvas {
@@ -145,8 +162,20 @@
 		i.fa{font-size: 16px;}
 
 
-		input[type="submit"]{border-radius: 0%; background: white; font-family: 'Arial'; font-size: 11px; border: 1px solid lightgrey; margin-top:5px; color:grey;}
-		input[type="submit"]:hover{color: black; border: 1px solid grey; transition: color .1s}
+		input[type="submit"]{
+			border-radius: 0%; 
+			background: white; f
+			ont-family: 'Arial'; 
+			font-size: 11px; 
+			border: 1px solid lightgrey; 
+			margin-top:5px; 
+			color:grey;
+		}
+		input[type="submit"]:hover{
+			color: black; 
+			border: 1px solid grey; 
+			transition: color .1s
+		}
 		input[type="search"]{
 			color:#aaa;
 			font-size: 13;
@@ -353,300 +382,61 @@
 		</style>
 	</head>
 
-		<!-- ************************************************************************************************************************************************************************************************************************************Body************************************************* -->
+	<!-- ********************************************************************************************************************************************************************
+																				Body
+	********************************************************************************************************************************************************************* -->
 
 	<body style="margin:0 0 0 0">
 		<label class="unselectable">
-			<div style="background:linear-gradient(lightgrey, grey); 
-						width:100%; 
-						height:30; 
-						margin:0 0 0 0; 
-						position:fixed; 
-						font-family:'Avenir','light'"></div>
-
-			<!-- P_set -->
-			<div class="w3-content" style="position:fixed; width:100%; height:100%">
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+			<div class="navbar"></div>
+			<!-- P_sets -->
+			<div class="w3-content">
+				<!-- Slide One -->
+				<table class="mySlides">
 					<tr>
-						<td style="vertical-align:top; 
-									padding:10 10 0 10; 
-									width:50%; height:100%;
-									background:linear-gradient(lightgrey, grey); background-repeat:no-repeat">
-							<p style="padding:14 0 14 40;
-										color:grey; 
-										font-family:'Avenir', 'light'; 
-										font-size:18px;  
-										background:linear-gradient(white,#E5E7E9);
-										opacity:.5;
-										cursor:default">
-								Calculus
-								<br>
-								<span style="font-size:16px">Fourth Edition Problem Sets</span>
-								<br>
-								&#9634; <span style="font-size:12px">MICHAEL SPIVAK</span>
+						<td class="T_page">
+							<p class="T_field"> 
+								<script src="jquery.js"></script> 
+							    <script> 
+									$(function(){
+								    	$("#t_contents").load("p_sets/repo_title.html"); 
+							    	});
+							    </script>
+							    <span id="t_contents"></span>
 							</p>
 							<!-- Cover art -->
 							<div align="center">
 								<canvas id="recursion" data-processing-sources="recursion/recursion.pde" width="600" height="360"></canvas>
 							</div>
-							<p style="color:#f2f2f2; font-size:14; padding:50 0 0 40;Font-family:'Avenir'; font-weight:500">SOLUTIONS by Luqman Malik</p>
-							<p style="color:#aaa; font-size:13; padding:20 0 0 40; font-family:'Avenir'; font-weight:500">MIT License</p>
+							<p class="sols_by">SOLUTIONS by Luqman Malik</p>
+							<p class="lic_tag">MIT License</p>
 						</td>
-						<td style="vertical-align:top;
-									width:50%; height: 100%;
-									cursor:default;
-									padding:0 0 0 0;">
+						<td class="tc_page">
+							<!-- Search-f:0 -->
 							<div style="width:100%; background:#f2f2f2" align="right">
 								<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-								<input type="search" class="search" autosave="5" id="clc_fe" onsearch="search_func()" 
-										placeholder="Search Calculus, Fourth...">
-								<p id="search_res" style="margin:0 8 0 0; font-size:14; font-family:'Avenir', 'light'; color:grey"></p>
+								<input type="search" class="search" autosave="5" id="clc_fe" onsearch="search_func()" placeholder="Search Calculus, Fourth...">
+								<p id="search_res" class="search_res"></p>
 								<script>
-								function search_func() {
+								function search_func(){
 								   var x = document.getElementById("clc_fe");
 								   document.getElementById("search_res").innerHTML = '<br>' + x.value;
 								}
 								</script>
 							</div>
 							<div class="t_contents">
-								<p style="font-size:25">Contents</p>
-								<table style="color:grey; font-size:15;">
-									<tr>
-								        <td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;1.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-								        	<a class="contents">Basic Properties of Numbers</a>
-								        </td>
-								    </tr>
-								    <tr>
-								    	<td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;2.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-								        	<a class="contents">Numbers of Various Sorts</a>
-								        </td>
-								    </tr>
-								    <tr>
-								    	<td style="vetical-align:top; padding:0 0 27 0">&nbsp;&nbsp;3.</td>
-								        <td style="vetical-align:top; padding:0 0 00 0">
-								    		<a class="contents">Functions</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">Ordered Pairs</a></td>
-								          		</tr>
-								          	</table>
-								        </td>
-								    </tr>
-								    <tr>
-								    	<td style="vetical-align:top; padding:0 0 73 0">&nbsp;&nbsp;4.</td>
-								        <td style="vetical-align:top; padding:0 0 00 0">
-								    		<a class="contents">Graphs</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix 1.</td>
-								          			<td>
-								          				<a class="contents">Vectors</a>
-								          			</td>
-								          		</tr>
-								          		<tr>
-								          			<td>Appendix 2.</td>
-								          			<td>
-								          				<a class="contents">The Conic Sections</a>
-								          			</td>
-								          		</tr>
-								          		<tr>
-								          			<td>Appendix 3.</td>
-								          			<td>
-								          				<a class="contents">Polar Coordinates</a>
-								          			</td>
-								          		</tr>
-								          	</table>
-								        </td>
-								    </tr>
-								    <tr>
-							        	<td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;5.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-							          		<a class="contents">Limits</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;6.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-							          		<a class="contents">Continuous Functions</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;7.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-							          		<a class="contents">Three Hard Theorems</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							        	<td style="vetical-align:top; padding:0 0 25 0">&nbsp;&nbsp;8.</td>
-								        <td style="vetical-align:top; padding:0 0 00 0">
-								        	<a class="contents">Least Upper Bounds</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">Uniform Continuity</a></td>
-								          		</tr>
-								          	</table>
-								        </td>
-								    </tr>
-								    <tr>
-								        <td style="vetical-align:top; padding:0 0 0 0">&nbsp;&nbsp;9.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-								        	<a class="contents">Derivatives</a>
-								        </td>
-								    </tr>
-								    <tr>
-								        <td style="vetical-align:top; padding:0 0 0 0">10.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-								        	<a class="contents">Differentiation</a>
-								        </td>
-								    </tr>
-								    <tr>
-								        <td style="vetical-align:top; padding:0 0 25 0">11.</td>
-								        <td style="vetical-align:top; padding:0 0 00 0">
-								        	<a class="contents">
-								          		Significance of the Derivative
-								          	</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">Convexity and Concavity</a></td>
-								          		</tr>
-								          	</table>
-								        </td>
-								    </tr>
-								    <tr>
-								    	<td style="vetical-align:top; padding:0 0 27 0">12.</td>
-								        <td style="vetical-align:top; padding:0 0 00 0">
-								          	<a class="contents">Inverse Functions</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">Parametric Representations of Curves</a></td>
-								          		</tr>
-								          	</table>
-								        </td>
-							        </tr>
-							        <tr>
-							        	<td style="vetical-align:top; padding:0 0 27 0">13.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-								          	<a class="contents">Integrals</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">Riemann Sums</a></td>
-								          		</tr>
-								          	</table>
-								        </td>
-							        </tr>
-							        <tr>
-							        	<td style="vetical-align:top; padding:0 0 0 0">14.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-							          		<a class="contents">The Fundamental Theorem of Calculus</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="vetical-align:top; padding:0 0 0 0">15.</td>
-								        <td style="vetical-align:top; padding:0 0 0 0">
-							        		<a class="contents">The Trigonometric Functions</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="color:silver">16</td>
-							        	<td>
-							          		<a class="contents">$\pi$ is Irrational</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="color:silver">17</td>
-							        	<td><a class="contents">Planetary Motion</a></td>
-							        </tr>
-							        <tr>
-							        	<td style="padding:0 0 0 0">18</td>
-							        	<td>
-							          		<a class="contents">The Logarithm and Exponential Functions</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="vertical-align:top; padding:1 0 0 0">19.</td>
-							        	<td>
-							          		<a class="contents">Integration in Elementary Terms</a>
-								          	<table style="color:grey; font-size:15; padding:0 0 0 10">
-								          		<tr>
-								          			<td>Appendix. <a class="contents">The Cosmopolitan Integral</a></td>
-								          		</tr>
-								          	</table>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="padding:0 0 0 0">20.</td>
-							        	<td>
-							        		<a class="contents">Approximation by Polynomial Functions</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="color:silver">21.</td>
-							        	<td>
-							        		<a class="contents">$e$ is Transcendental</a>
-							        	</td>
-							        </tr>
-							        <tr>
-							        	<td style="padding:0 0 0 0">22.</td>
-							        	<td>
-							          		<a class="contents">Infinite Sequences</a>
-							          	</td>
-							        </tr>
-							       <tr>
-							        	<td style="padding:0 0 0 0">23.</td>
-							          	<td>
-							          		<a class="contents">Infinite Series</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">24.</td>
-							          	<td>
-							          		<a class="contents">Uniform Convergence and Power Series</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">25.</td>
-							          	<td>
-							          		<a class="contents">Complex Numbers</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">26.</td>
-							          	<td>
-							          		<a class="contents">Complex Functions</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">27.</td>
-							          	<td>
-							          		<a class="contents">Complex Power Series</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">28.</td>
-							          	<td>
-							          		<a class="contents">Fields</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">29.</td>
-							          	<td>
-							          		<a class="contents">Construction of the Real Numbers</a>
-							          	</td>
-							        </tr>
-							        <tr>
-							          	<td style="padding:0 0 0 0">30.</td>
-							          	<td>
-							          		<a class="contents">Uniqueness of The Real Numbers</a>
-							          	</td>
-							        </tr>
-							    </table>
+								<script src="jquery.js"></script> 
+							    <script> 
+									$(function(){
+								    	$("#t_contents1").load("p_sets/t_contents.html"); 
+							    	});
+							    </script>
+							    <span id="t_contents1"></span>
 							</div>
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -1037,7 +827,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -1527,7 +1317,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -1583,7 +1373,7 @@
 								</table>
 								<table style="padding: 18 0 0 0">
 								    <tr>
-								    	<td style="vertical-align:top; padding: 0 0 0 0">7.</td>
+								    	<td style="vertical-align:top; padding: 0 0 0 0">07.</td>
 								    	<td style="vertical-align:top; padding: 0 0 0 10">
 								        	Prove that if $0 < a < b$, then 
 
@@ -1739,7 +1529,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -2123,7 +1913,7 @@
 													<td style-"vertical-align:top; padding: 0 0 0 0">
 														If $x > 1 \ \text{or} \ x < -2,$ then the condition becomes $(x-1)()x+2)=3,$ or $x^2+x-5=0,$ for which the solutions are 
 														$(-1+\sqrt{21})/2$, $(-1-\sqrt{21})/2.$ Since the first is $>1$ and the second is $< 2,$ both are solutions to the equation
-														$|x-1| \cdot |x+2|=3.$ For $-2 < x < 1$ the conditions becomes $(1-x)(x+2)=3$ or $x^2+x+1=0,$ which has no solutions. $ \ \ \square \ \color{lightgrey}{&#9733;}$
+														$|x-1| \cdot |x+2|=3.$ For $-2 < x < 1$ the conditions becomes $(1-x)(x+2)=3$ or $x^2+x+1=0,$ which has no solutions. $ \ \ \square$<span style="color:#aaa">&#9733;</span>
 													</td>
 												</tr>
 											</table>
@@ -2185,7 +1975,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -2209,7 +1999,7 @@
 								</tr>
 							</table>
 							<div class="c1p1">
-								<table style="vertical-align:top; padding:10 20 0 7">
+								<table style="vertical-align:top; padding:10 20 0 0">
 							      	<tr>
 							        	<td style="vertical-align:top; padding:0 0 0 00">13.</td>
 							        	<td style="vertical-align:top; padding:0 0 0 10">
@@ -2230,7 +2020,7 @@
 							        	</td>
 							      	</tr>
 							    </table>
-							    <table style="padding:0 20 0 7">
+							    <table style="padding:0 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">14.</td>
 								        <td style="vertical-align:top; padding:0 0 0 10">(a)</td>
@@ -2255,9 +2045,7 @@
 							    </table>
 							    <table style="padding:20 0 0 0">
 							    	<tr>
-								      	<td style="vertical-align:top; padding:0 0 0 0">
-								      		<label title="Text" style="color:#aaa">*</label>15.
-								      	</td>
+								      	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">15.</td>
 								        <td style="vertical-align:top; padding:0 0 0 10">
 								        	Prove that if $x$ and $y$ are not both $0$, then $$x^2+xy+y^2 >0, \\ x^4+x^3y+x^2y^2+xy^3+y^4 >0.$$ 
 								        	<span style="padding:0 0 0 3">Hint: Use Problem 1.</span>
@@ -2266,9 +2054,7 @@
 							    </table>
 							    <table style="padding: 20 20 0 0">
 							    	<tr>
-								      	<td style="vertical-align:top; padding:0 0 0 0">
-								      		<label title="Text" style="color:#aaa">*</label>16.
-								      	</td>
+								      	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">16.</td>
 									    <td style="vertical-align:top; padding:0 0 0 10">(a)</td>
 								        <td style="vertical-align:top; padding:0 0 0 10">
 							        		Show that
@@ -2333,7 +2119,7 @@
 								</ul>
 							</div>
 							<div class="infscrll">
-								<table style="padding:0 20 0 6">
+								<table style="padding:0 20 0 0">
 									<tr>
 										<td style="vertical-align:top; padding:0 0 0 00">13.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
@@ -2353,7 +2139,7 @@
 										</td>
 									</tr>
 								</table>
-								<table style="padding:0 0 0 6">
+								<table style="padding:0 0 0 0">
 									<tr>
 										<td style="vertical-align:top; padding: 0 0 0 00">14.</td>
 										<td style="vertical-align:top; padding: 0 0 0 10">
@@ -2444,7 +2230,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -2954,7 +2740,7 @@
 							</td>
 						</tr>
 					</table>
-					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+					<table class="mySlides">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
 								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -2985,7 +2771,7 @@
 											</td>
 										</tr>
 									</table>
-									<table style="vertical-align:top; padding:20 20 0 8">
+									<table style="vertical-align:top; padding:20 20 0 0">
 								      	<tr>
 								        	<td style="vertical-align:top; padding:0 0 0 00">20.</td>
 								        	<td style="vertical-align:top; padding:0 0 0 10">
@@ -3010,9 +2796,7 @@
 								    </table>
 								    <table style="vertical-align:top; padding:20 20 0 0">
 								      	<tr>
-								        	<td style="vertical-align:top; padding:0 0 0 0">
-								        		<label title="text" style="color:#aaa">*</label>21.
-								        	</td>
+								        	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">21.</td>
 								        	<td style="padding:0 0 0 10">
 									        	Prove that if
 									            $$
@@ -3030,9 +2814,7 @@
 								    </table>
 								    <table style="vertical-align:top; padding: 20 20 0 0">
 								      	<tr>
-								        	<td style="vertical-align:top; padding:0 0 0 0">
-								        		<label title="text" style="color:#aaa">*</label>22.
-								        	</td>
+								        	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">22.</td>
 									        <td style="padding:0 0 0 10">
 									        	Prove that if $y_0 \neq 0$ and
 									        	<p>
@@ -3046,9 +2828,7 @@
 								    </table>
 								    <table style="vertical-align:top; padding: 20 20 0 0">
 								      	<tr>
-								        	<td style="vertical-align:top; padding:0 0 0 0">
-								        		<label title="text" style="color:#aaa">*</label>23.
-								        	</td>
+								        	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">23.</td>
 									        <td style="padding:0 0 0 10">
 									        	Replace the question marks in the following statement by expressions involving $\varepsilon, \ x_0$ and $y_0$ so that the conclusion will be true:
 									        	<p>
@@ -3125,7 +2905,7 @@
 								</table>
 								<table style="padding:20 20 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">21.</td>
+										<td style="vertical-align:top; padding:0 00 0 00; color:#aaa">21.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
 											By problem 12(v) / <span style="color:grey">inverse triangle inequality</span>: 
 											<p style="margin:10 0 10 20">
@@ -3151,7 +2931,7 @@
 								</table>
 								<table style="padding:5 20 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">22.</td>
+										<td style="vertical-align:top; padding:0 00 0 00; color:#aaa">22.</td>
 										<td style="vertical-align:top; padding:0 20 0 10">
 											By the triangle inequality theorem, we have 
 											<p style="margin:10 0 10 20">
@@ -3174,7 +2954,7 @@
 								</table>
 								<table style="padding:20 20 10 0">
 									<tr>
-										<td style="vertical-align:top; padding:09 00 0 00">23.</td>
+										<td style="vertical-align:top; padding:09 00 0 00; color:#aaa">23.</td>
 										<td style="vertical-align:top; padding:00 20 0 10">
 											Following problem 21, we find that $\Bigg\lvert \dfrac{x}{y}-\dfrac{x_0}{y_0} \Bigg\rvert < \varepsilon$ if
 											<p style="margin:10 0 10 20">
@@ -3191,7 +2971,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -3217,9 +2997,7 @@
 							<div class="c1p1">
 								<table style="padding:10 20 0 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">
-											<label title="text" style="color:#aaa">*</label>24.
-										</td>
+										<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">24.</td>
 								        <td style="padding:0 0 0 10">
 								        	This problem shows that the actual placement of parentheses in a sum is irrelevant. The proofs involve "mathematical induction"; if you are not familiar with such proofs, but still want to tackle this problem, it can be saved until after Chapter 2, where proofs by induction are explained.
 								        	<br>
@@ -3256,11 +3034,9 @@
 								        </td>
 							      	</tr>
 							    </table>
-							    <table style="vertical-align:top; padding:20 0 0 0">
+							    <table style="vertical-align:top; padding:20 20 0 0">
 							      	<tr>
-							        	<td style="vertical-align:top; padding:0 0 0 0">
-							        		<label title="text" style="color:#aaa">*</label>25.
-							        	</td>
+							        	<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">25.</td>
 							        	<td style="padding:0 0 0 10">
 							        		Suppose that we interpret "number" to mean either $0$ or $1$, and + and $\cdot$ to be the operations defined by the following two tables.
 							        		<div style="padding:0 0 0 50"> 
@@ -3405,9 +3181,7 @@
 								</table>
 								<table style="padding:0 20 10 0">
 									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">
-											<label title="text" style="color:#aaa">*</label>25.
-										</td>
+										<td style="vertical-align:top; padding:0 0 0 0; color:#aaa">25.</td>
 										<td style="vertical-align:top; padding:0 0 0 10">
 											P2, P3, P4, P6, P7, P8 are obvious from a glance at the tables. There are eight cases for P1, and even this number can be reduced: because P2 is true, it is clear that $a+(b+c)=(a+b)+c$ if $a,b,$ or $c$ is 0, so only the case $a=b=c=1$ must be checked. Similarly for P5. Finally, P9 is true for $a=0,$ since $0\cdot b=0$ for all $b,$ and for $a=1,$ since $1\cdot b=b$ for all $b. \ \ \square$
 										</td>
@@ -3417,7 +3191,7 @@
 						</td>
 					</tr>
 				</table>
-				<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
 							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -4007,7 +3781,7 @@
 							</td>
 						</tr>
 					</table>
-					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+					<table class="mySlides">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
 								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
@@ -4364,7 +4138,7 @@
 							</td>
 						</tr>
 					</table>
-					<table class="mySlides" style="margin:30 0 0 0; padding:0 0 0 0; width:100%; height:100%; border-collapse: collapse">
+					<table class="mySlides">
 						<tr>
 							<td style="vertical-align:top; width:50%; height:100%">
 								<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
