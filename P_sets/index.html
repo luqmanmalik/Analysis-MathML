@@ -120,9 +120,9 @@
 			font-size:15; 
 		    margin:0 0 0 20;
 		    padding:5 0 0 0;
-		    height:88% !important;
+		    height:85% !important;
 		    overflow:scroll !important;
-		    border-top: 1 solid #f2f2f2;
+		    /*border-top: 1 solid #f2f2f2;*/
 		}
 		.infscrll_dc {
 		    font-size:15; 
@@ -130,6 +130,13 @@
 		    margin:-8 0 0 0;
 		    overflow:scroll;
 		    height:89.3% !important;
+		}
+		.field_6{
+			width:100%; 
+			height:10; 
+			margin:0 0 0 0; 
+			padding:0 0 12 0; 
+			background:#f2f2f2
 		}
 
 		canvas {
@@ -331,14 +338,14 @@
 			-ms-user-select: none;
 		}
 
-		ul.discom_5ep {
+		ul.clc_4ep {
 		  text-align: left;
 		  display: inline;
 		  margin:0;
 		  padding:0;
 		  list-style: none;
 		}
-		ul.discom_5ep li {
+		ul.clc_4ep li {
 			color: #aaa;
 			font-size: 16;
 			font-family: Avenir, light;
@@ -348,13 +355,13 @@
 			padding: 0;
 			cursor: pointer;
 		}
-		ul.discom_5ep li:hover {
+		ul.clc_4ep li:hover {
 		  background: transparent;
 		  color: #aaa;
 		  margin:0;
 		  cursor: default;
 		}
-		ul.discom_5ep li ul.discom_5ep {
+		ul.clc_4ep li ul.clc_4ep {
 		  padding: 0;
 		  top: 0;
 		  left: 0;
@@ -368,13 +375,13 @@
 		  -o-transition: opacity 0.2s;
 		  -transition: opacity 0.2s;
 		}
-		ul.discom_5ep li ul.discom_5ep li { 
+		ul.clc_4ep li ul.clc_4ep li { 
 			padding: 0 0 0 10;
 		  	background: transparent;
 		  	display: inline; 
 		}
-		ul.discom_5ep li ul.discom_5ep li:hover { }
-		ul.discom_5ep li:hover ul.discom_5ep {
+		ul.clc_4ep li ul.clc_4ep li:hover { }
+		ul.clc_4ep li:hover ul.clc_4ep {
 		  display: inline;
 		  opacity: 1;
 		  visibility: visible;
@@ -408,8 +415,14 @@
 							<div align="center">
 								<canvas id="recursion" data-processing-sources="recursion/recursion.pde" width="600" height="360"></canvas>
 							</div>
-							<p class="sols_by">SOLUTIONS by Luqman Malik</p>
-							<p class="lic_tag">MIT License</p>
+							<!-- Solutions by LM, MIT L -->
+							<script src="jquery.js"></script> 
+						    <script> 
+								$(function(){
+							    	$("#t_contents1").load("p_sets/t_pg_ftr.html"); 
+						    	});
+						    </script>
+						    <span id="t_contents1"></span>
 						</td>
 						<td class="tc_page">
 							<!-- Search-f:0 -->
@@ -428,10 +441,10 @@
 								<script src="jquery.js"></script> 
 							    <script> 
 									$(function(){
-								    	$("#t_contents1").load("p_sets/t_contents.html"); 
+								    	$("#t_contents2").load("p_sets/t_contents.html"); 
 							    	});
 							    </script>
-							    <span id="t_contents1"></span>
+							    <span id="t_contents2"></span>
 							</div>
 						</td>
 					</tr>
@@ -459,6 +472,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding:10 0 0 0">
 									<tr>
@@ -595,26 +625,26 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
 								<p style="font-size:16; margin:2 0 0 0; padding:0 20 0 0">
-									The following arguments, in particular chapters 1&ndash;4, should be deeply familiar to the freshman and sophomore. Whenever necessary, arguments are spelled out in full. More often than not, however, they will be sieved of extraneous content.
+									The aim is always to apply P1&ndash;P12 (and eventually P13) as they become relevant in the problem sets &mdash; that way, we can have strong confedence in our derivations. At times, of course, it is advisable to know many proofs of a theorem &ndash; should they exist, that is.
 								</p>
 								<table style="padding:10 20 0 0">
 									<tr>
@@ -850,6 +880,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding:10 0 0 0">
 									<tr>
@@ -977,54 +1024,51 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
 								<table style="padding:0 0 0 0">
 									<tr>
 										<td style="vertical-align:top; padding: 0 12 0 0">04.</td>
-										<td style="vertical-align:top; padding: 0 00 0 0">
-											<p style="padding:0 15 0 0">
-												Remember that the goal is to apply P1&ndash;P12 as they are introduced. The aim, with regard to theory and formalism, is to prove all statements using solely the axioms established in the text, which results in a complete and consistent body of work.
-											</p>
-											<table>
+										<td style="vertical-align:top; padding: 0 0 0 0">
+											<table style="margin:-3 0 0 0">
 												<tr>
 													<td style="padding: 0 10 0 0">(i)</td>
 													<td style="padding: 4 00 0 0">
-														$(4-x < 3-2x) \ \Leftrightarrow \ (-x +2x < 3-4) \ \Leftrightarrow \ (x < -1).$
+														$[4-x < 3-2x] \ \leftrightarrow \ [-x +2x < 3-4] \ \leftrightarrow \ [x < -1].$
 													</td>
 												</tr>
 												<tr>
 													<td style="padding: 0 5 0 0">(ii)</td>
 													<td style="padding: 0 0 0 0">
-														$(5-x^2 < 8) \ \Leftrightarrow \ (x^2 > -3) \ \Leftrightarrow \ (x > \sqrt{-3}),$ so all $x.$
+														$[5-x^2 < 8]\ \leftrightarrow \ [x^2 > -3] \ \leftrightarrow \ [x > \sqrt{-3}], \ \forall x.$
 													</td>
 												</tr>
 												<tr>
 													<td style="padding: 0 5 0 0">(iii)</td>
 													<td style="padding: 0 0 0 0">
-														$(5-x^2 < -2) \ \Leftrightarrow \ (x^2 > 7) \ \Leftrightarrow \ (x > \sqrt{7}),$ or $x < - \sqrt{7}.$
+														$[5-x^2 < -2] \ \leftrightarrow \ [x^2 > 7] \ \leftrightarrow \ [x > \sqrt{7}] \ \vee \ [x < - \sqrt{7}].$
 													</td>
 												</tr>
 												<tr>
 													<td style="vertical-align:top; padding: 0 5 0 0">(iv)</td>
 													<td style="vertical-align:top; padding: 0 0 0 0">
-														$(x-1)(x-3) > 0 \ \Leftrightarrow \ x < 1$ or $x > 3.$
+														$(x-1)(x-3) > 0 \ \Leftrightarrow \ (x < 1) \ \vee \ (x > 3).$
 														<table style="padding:10 0 0 0">
 															<tr>
 																<td style="vertical-align:top; 
@@ -1047,13 +1091,13 @@
 																<td style="padding:0 0 0 7">
 																	The first condition, i.e., $a,b>0$ is trivial, and follows from P12 &ndash; 
 																	<br>
-																	Closure under multiplication. The second can be proved as follows:
+																	closure under multiplication. The second can be proved as follows:
 																	<br>
 																	<br>
 																	$
 																	\begin{equation}
 																		\begin{split} 
-																			\text{Corollary:} \ (-a) \cdot b + a \cdot b 
+																			\color{grey}{\text{lemma:}} \ (-a) \cdot b + a \cdot b 
 																				&= [(-a)+a] \cdot b \\ 
 																				&= 0 \cdot b = 0. \\ 
 																				& \ \ \downarrow \\ 
@@ -1067,7 +1111,7 @@
 																	$
 																	\begin{equation}
 																		\begin{split} 
-																			\text{Moreover,} \ (-a) \cdot (-b) + [-(a \cdot b )] 
+																			\color{grey}{\text{corrollary:}} \ (-a) \cdot (-b) + [-(a \cdot b )] 
 																				&= (-a) \cdot (-b) + (-a) \cdot b \\ 
 																				&= (-a)[(-b)+b] \cdot b = 0. \\ 
 																				& \ \ \downarrow \\ 
@@ -1102,7 +1146,7 @@
 												<tr>
 													<td style="vertical-align:top; padding:0 5 0 0">(vi)</td>
 													<td style="vertical-align:top; padding:1 0 0 0">
-														First, let us refine the inequality as follows
+														(Note: I used Symbolab to help run this computation) First, let us refine the inequality as follows
 														<br>
 														<br>
 														$x^2+x+1>2 \ \Leftrightarrow \ x^2+x-1>0.$
@@ -1340,6 +1384,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding: 10 0 0 0">
 									<tr>
@@ -1441,21 +1502,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -1552,6 +1613,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding:10 0 0 0">
 									<tr>
@@ -1744,21 +1822,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -1998,6 +2076,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="vertical-align:top; padding:10 20 0 0">
 							      	<tr>
@@ -2101,21 +2196,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_six">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -2253,6 +2348,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+									<ul class="clc_4ep">
+									  	<li>
+									    	&#9656;
+										    <ul class="clc_4ep">
+										     	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+									  			</li>
+										    	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+										     	</li>
+										    </ul>
+									  	</li>
+									</ul>
+								</div>
 							<div class="c1p1">
 								<table style="padding:8 20 0 0">
 									<tr>
@@ -2379,21 +2491,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -2763,6 +2875,23 @@
 										</td>
 									</tr>
 								</table>
+								<div class="field_6">
+									<ul class="clc_4ep">
+									  	<li>
+									    	&#9656;
+										    <ul class="clc_4ep">
+										     	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+									  			</li>
+										    	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+										     	</li>
+										    </ul>
+									  	</li>
+									</ul>
+								</div>
 								<div class="c1p1">
 									<table style="padding:10 20 0 0">
 										<tr>
@@ -2851,21 +2980,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -2994,6 +3123,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding:10 20 0 0">
 									<tr>
@@ -3089,21 +3235,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -3214,6 +3360,23 @@
 									</td>
 								</tr>
 							</table>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
+								</ul>
+							</div>
 							<div class="c1p1">
 								<table style="padding:10 20 0 0">
 									<tr>
@@ -3359,21 +3522,21 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-							<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-								<ul class="discom_5ep">
-								  <li>
-								    &#9656;
-								    <ul class="discom_5ep">
-								     	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-							  			</li>
-								    	<li>
-								      		<a class="textnav_f2">&#9679;&#9508;</a>
-							  				<a class="textnav_f2">&#9500;&#9679;</a>
-								     	</li>
-								    </ul>
-								  </li>
+							<div class="field_6">
+								<ul class="clc_4ep">
+								  	<li>
+								    	&#9656;
+									    <ul class="clc_4ep">
+									     	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+								  			</li>
+									    	<li>
+									      		<a class="textnav_f2">&#9679;&#9508;</a>
+								  				<a class="textnav_f2">&#9500;&#9679;</a>
+									     	</li>
+									    </ul>
+								  	</li>
 								</ul>
 							</div>
 							<div class="infscrll">
@@ -3804,6 +3967,23 @@
 										</td>
 									</tr>
 								</table>
+								<div class="field_6">
+									<ul class="clc_4ep">
+									  	<li>
+									    	&#9656;
+									    	<ul class="clc_4ep">
+										     	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+									  			</li>
+										    	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+										     	</li>
+									   		</ul>
+									  	</li>
+									</ul>
+								</div>
 								<div class="c1p1">
 									<p style="font-size:16; margin:12 0 0 0; padding:0 20 0 0">
 										The following arguments relate to Grimaldi (DCM/C1.3). Note: be sure to develop a deeper understanding of problem four.
@@ -3913,11 +4093,11 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-								<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-									<ul class="discom_5ep">
+								<div class="field_6">
+									<ul class="clc_4ep">
 									  	<li>
 									    	&#9656;
-									    	<ul class="discom_5ep">
+									    	<ul class="clc_4ep">
 									     		<li>
 									      			<a class="textnav_f2">&#9679;&#9508;</a>
 								  					<a class="textnav_f2">&#9500;&#9679;</a>
@@ -4161,6 +4341,23 @@
 										</td>
 									</tr>
 								</table>
+								<div class="field">
+									<ul class="clc_4ep">
+									  	<li>
+									    	&#9656;
+										    <ul class="clc_4ep">
+										     	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+									  			</li>
+										    	<li>
+										      		<a class="textnav_f2">&#9679;&#9508;</a>
+									  				<a class="textnav_f2">&#9500;&#9679;</a>
+										     	</li>
+										    </ul>
+									  	</li>
+									</ul>
+								</div>
 								<div class="c1p1">
 									<table style="padding:10 20 0 0">
 										<tr>
@@ -4204,11 +4401,11 @@
 									width:50%; height:100%;
 									padding:0 0 0 0;
 									border-left:1 solid #f2f2f2">
-								<div style="width:100%; height:20; margin:0 0 0 0; padding:0 0 2 0; background:#f2f2f2">
-									<ul class="discom_5ep">
+								<div class="field_6">
+									<ul class="clc_4ep">
 									  	<li>
 									    	&#9656;
-									    	<ul class="discom_5ep">
+									    	<ul class="clc_4ep">
 									     		<li>
 									      			<a class="textnav_f2">&#9679;&#9508;</a>
 								  					<a class="textnav_f2">&#9500;&#9679;</a>
