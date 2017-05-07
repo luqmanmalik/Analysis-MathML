@@ -5,9 +5,8 @@
 		<!-- MathJax -->
 		<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
 		<script type="text/x-mathjax-config">MathJax.Hub.Config({messageStyle: 'none',tex2jax: {preview: 'none'}});</script>
-		<script type="text/javascript" 
-				async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
-		</script>
+		<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS": {fonts: ["Latin-Modern"]}});</script>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 		<!-- Ajax -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -25,7 +24,7 @@
 		<style type="text/css">
 		
 		html{overflow-y: scroll;}
-		body{margin:0 0 0 0;}
+		body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 		
 		.unselectable {
 		    user-select: none;
@@ -38,7 +37,7 @@
 		.MathJax:focus, .mjx-chtml:focus, .MathJax_SVG:focus {
    			outline:none;
    			padding:2 2 2 2;
-   			border:1 solid #f2f2f2;
+   			border:1 solid #E3E5E8;
 		}
 		.navbar{
 			height:30;
@@ -122,8 +121,9 @@
 		.tc_items{color:grey; font-size:15}				
 		
 		.infscrll {
+			width:97%;
 		    font-size:15; 
-		    padding:20 0 0 20;
+		    padding:15 0 0 20;
 		    height:93.1% !important;
 		    overflow:scroll !important;
 		}
@@ -141,6 +141,7 @@
 			border-bottom:1 solid #f2f2f2;
 		}
 		.field_6{
+			font-family: 'Avenir', 'light';
 			color:#aaa;
 			height:20; 
 			width:100%; 
@@ -150,14 +151,17 @@
 		}
 		.field6_lind{
 			float:left;
-			margin:0 0 0 0;
+			margin:-2 0 0 0;
+			padding:0 0 0 0;
 		}
 		.field6_rind{
 			float:right; 
-			margin:0 1 0 0;
+			margin:-2 1 0 0;
 			transform: scale(-1);
 		}
 		.field_7 {
+			 font-size:13;
+			width:97%;
 			font-size:15; 
 		    margin:0 0 0 20;
 		    padding:5 0 0 0;
@@ -174,7 +178,7 @@
 			padding:0 0 0 0;
 			border-left:1 solid #f2f2f2;
 		}
-		.pp_heading{
+		.pp_head_n{
 			color:#aaa;
 			width:100%;
 			font-size:18;
@@ -374,8 +378,35 @@
 			-webkit-user-select: none;
 			-ms-user-select: none;
 		}
-		.vtop_pzero{vertical-align:top; padding:0 0 0 0}
-		.vtop_pten{vertical-align:top; padding:0 0 0 10}
+		.vtop_zero{vertical-align:top; padding:0 0 0 0}
+		.vtop_t2{vertical-align:top; padding:2 0 0 0}
+		.vtop_t3{vertical-align:top; padding:3 0 0 0}
+		.vtop_t4{vertical-align:top; padding:4 0 0 0}
+		.vtop_t5{vertical-align:top; padding:5 0 0 0}
+		.vtop_t9{vertical-align:top; padding:8 0 0 0}
+		.vtop_t10{vertical-align:top; padding:10 0 0 0}
+		.vtop_lten{vertical-align:top; padding:0 0 0 10}
+		.vtop_t5_lten{vertical-align:top; padding:5 0 0 10}
+		.vtop_t2l5{vertical-align:top; padding:2 0 0 5}
+		.vtop_lfive{vertical-align:top; padding:0 0 0 5}
+		.vtop_rten{vertical-align:top; padding:0 10 0 0}
+		.vtop_rfive{vertical-align:top; padding:0 5 0 0;}
+		.pt10_r20{padding:10 20 0 0;}
+		.pt20_b10{padding:20 0 10 0;}
+		.pt10{padding:10 0 0 0;}
+		.pzero{padding:0 0 0 0;}
+		.mar_zero{margin:0 0 0 0}
+		.mar_t5{margin:5 0 0 0;}
+		.mar_t5_b5{margin:5 0 5 0;}
+		.mar_t3{margin:3 0 0 0;}
+		.mar_t20{margin:20 0 0 0;}
+		.mar_t20_r20{margin:20 20 0 0;}
+		.mar_r20_l40{margin:0 20 0 40;}
+		.mar_b10{margin:0 0 10 0;}
+		.c1sl1_forwrd{font-size:16; margin:2 0 0 0; padding:0 20 0 0}
+		.c1_p4iv_thm{padding:10 20 0 42;}
+		.theorem{vertical-align:top; color:grey;font-size:13;padding:2 0 0 0}
+		.proof{vertical-align:top; color:grey; font-size:13; padding:1 0 0 0}
 		</style>
 	</head>
 
@@ -447,10 +478,10 @@
 							<script src="jquery.js"></script> 
 						    <script> 
 								$(function(){
-							    	$("#pp_heading").load("p_sets/pp_heading.html"); 
+							    	$("#pp_head1").load("p_sets/pp_head1.html"); 
 						    	});
 						    </script>
-						    <span id="pp_heading"></span>
+						    <span id="pp_head1"></span>
 						    <!-- PSET_nav 1 -->
 							<div class="field_6">
 								<div class="field6_lind">&#x25B8;</div>
@@ -473,701 +504,67 @@
 								<div class="field6_lind">&#x25B8;</div>
 								<div class="field6_rind">&#x25B8;</div>
 							</div>
+							<!-- Solutions 1-3 -->
 							<div class="infscrll">
-								<p style="font-size:16; margin:2 0 0 0; padding:0 20 0 0">
-									The aim is always to apply P1&ndash;P12 (and eventually P13) as they become relevant in the problem sets &mdash; that way, we can have strong confedence in our derivations. At times, of course, it is advisable to know many proofs of a theorem &ndash; should they exist, that is.
-								</p>
-								<table style="padding:10 20 0 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 00">01.</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											<table style="margin:-2 0 0 0">
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(i)</td>
-													<td style="vertical-align:top; padding:1 0 0 0">
-														$
-														\begin{align}
-															&\text{Proof:} \ \ a \cdot x =  a \ \Leftrightarrow \ x = a/a \ \Leftrightarrow  x = 1. \ \square \\
-															&\text{Proof:} \ \ 1 = a^{-1}a = a^{-1}(ax) = (a^{-1}a)x =1 \cdot x =x. \ \square
-														\end{align}
-														$ 
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 0 0 0">(ii)</td>
-													<td style="vertical-align:top; padding:2 0 0 0">
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ (x-y)(x+y)
-																	&= [x+(-y)](x+y) = x(x+y)+(-y)(x+y) \\ 
-																	&= x(x+y)-[y(x+y)] = x^2+xy-[yx+y^2] \\ 
-																	&= x^2+[xy-yx]-y^2 \\ 
-																	&= x^2-y^2. \\ 
-																	& \ \square 
-															\end{split}
-														\end{equation}
-														$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(iii)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ [x^2=y^2] \Rightarrow 0 
-																	&= y^2-x^2 \\ 
-																	&= -x^2+y^2 = -(x^2-y^2) \\ 
-																	&= x^2-y^2 \\ 
-																	&= (x-y)(x+y) \\ 
-																	&= x-y \ \ \ | \ \ \ \text{or} \ \ 0=x+y \Leftrightarrow x=-y. \\ 
-																x 	&= y. \\ 
-																	& \ \square
-															\end{split}
-														\end{equation}
-														$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(iv)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-													$
-													\begin{equation}
-														\begin{split}
-															\text{Proof:} \ \ (x-y)(x^2+xy+y^2) 
-																&= x(x^2+xy+y^2)-y(x^2+xy+y^2) \\ 
-																&= x(x^2+xy+y^2)-[y(x^2+xy+y^2)] \\ 
-																&= x^3+x^2y+xy^2-[yx^2+xy^2+y^3] \\ 
-																&= x^3-y^3. \\ 
-																& \ \square
-														\end{split}
-													\end{equation}
-													$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(v)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ (x-y)(x^{n-1}+x^{n-2}y 
-																	&+\cdots+xy^{n-2}+y^{n-1}) \\ 
-																	&= x(x^{n-1}+x^{n-2}y +\cdots+xy^{n-2}+y^{n-1}) \\ 
-																	& \ \ \ \ \ \ -[y(x^{n-1}+x^{n-2}y +\cdots+xy^{n-2}+y^{n-1})] \\ 
-																	&= x^n+x^{n-1}y+\cdots+x^2y^{n-2}+xy^{n-1} \\ 
-																	& \ \ \ \ \ \ -[x^{n-1}y+x^{n-2}y^2 +\cdots+xy^{n-1}+y^n] \\ 
-																	&= x^n-y^n. \\ 
-																	& \ \square
-															\end{split}
-														\end{equation}
-														$ 
-														<br>
-														<br>
-														Using sigma notation, this proof may also be written as follows:
-														<br>
-														<br>
-														$
-														\begin{equation}
-															\begin{split}
-																(x-y) \cdot \sum_{j=0}^{n-1} x^jy^{n-1-j}
-																	&= x \bigg( \sum_{j=0}^{n-1} x^jy^{n-1-j} \bigg) - \bigg[ y \bigg( \sum_{j=0}^{n-1} x^jy^{n-1-j} \bigg) \bigg] \ \\ 
-																	&= x^n + \sum_{j=0}^{n-2} x^{j+1}y^{n-1-j} - \bigg[ \sum_{j=1}^{n-1} x^jy^{n-j} + y^n \bigg] \ \\ 
-																	&= x^n + \sum_{j=0}^{n-2} x^{j+1}y^{n-1-j} - \bigg[ \sum_{k=0}^{n-2} x^{k+1}y^{n-(k+1)} + y^n \bigg] \ \\ 
-																	& \ \ \ \ \ \ \ \ \ \ \ (\text{where} \ k = j-1) \ \\ 
-																	&= x^n-y^n. \\ 
-																	& \ \square
-															\end{split}
-														\end{equation}
-														$
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<table style="padding-top:20">
-									<tr>
-										<td style="vertical-align:top">02.</td>
-										<td style="vertical-align:top; padding:0 0 0 10">
-											Line 3 $\rightarrow$ 4: division by 0 is undefined.
-										</td>
-									</tr>
-								</table>
-								<table style="padding-top:20">
-									<tr>
-										<td style="vertical-align:top; padding:7 0 0 0">03.</td>
-										<td style="vertical-align:top; padding:0 0 10 10">
-											<table>
-												<tr>
-													<td style="vertical-align:top; padding:5 0 0 0">(i)</td>
-													<td style="vertical-align:top; padding:0 0 0 10">
-													$
-													\displaystyle
-														\text{Proof:} \ \ \frac{ac}{bc} = \frac{a}{b} \cdot \frac{c}{c} = \frac{a}{b} \cdot 1 = \frac{a}{b}. \ \ \square$ 
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top">&#160;</td>
-													<td style="vertical-align:top; padding: 0 0 0 10"> 
-														$\text{Proof:} \ \ a/b = ab^{-1} = (ac)(b^{-1}c^{-1}) = (ac)(bc)^{-1} \ (\text{by (iii)}) = ac/bc. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:10 0 0 0">(ii)</td>
-													<td style="vertical-align:top; padding:0 0 0 10"> 
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ \frac{a}{b} + \frac{c}{d} 
-																	&= \bigg( \frac{d}{d} \bigg) \cdot \frac{a}{b} + \bigg( \frac{b}{b} \bigg) \cdot \frac{c}{d} \\ 
-																	&= \frac{ad+bc}{bd}. \\ 
-																	& \ \square
-															\end{split}
-														\end{equation}
-														$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top">(iii)</td>
-													<td style="padding:0 0 0 10"> 
-														$\text{Proof:} \ \ (ab)^{-1} = 1/ab = (1/a) \cdot (1/b) = a^{-1}b^{-1}. \ \ \square$
-														<br>
-														$\text{Proof:} \ \ ab(a^{-1}b^{-1}) = (a \cdot a^{-1})(b \cdot b^{-1}) = 1, \text{so} \ a^{-1} \cdot b^{-1} = (ab)^{-1}. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top">(iv)</td>
-													<td style="padding:2 0 0 10"> 
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ (a/b)(c/d) 
-																	&= (ab^{-1})(cd^{-1})  = (ac)(b^{-1}d^{-1}) \\
-																	&= (ac)(bd)^{-1} (\text{by (iii)}) \\
-																	&= (ac)/(bd). \\
-																	& \ \square
-															\end{split}
-														\end{equation}
-														$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:10 0 0 0">(v)</td>
-													<td style="vertical-align:top; padding:0 0 0 10">
-														$
-														\displaystyle
-															\text{Proof:} \ \ \frac{a}{b} \bigg/ \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c} = \frac{ad}{bc}. \ \ \square
-														$
-														<br>
-														$
-														\begin{equation}
-															\begin{split}
-																\text{Proof:} \ \ (a/b)/(c/d) 
-																	&= (a/b)(c/d)^{-1} = (ab^{-1})(cd^{-1})^{-1} \\ 
-																	&= (ab^{-1})(c^{-1}d) = ad(b^{-1}c^{-1}) \\
-																	&= ad(bc)^{-1} = (ad)/(bc). \\ 
-																	& \ \square
-																\end{split}
-														\end{equation}
-														$ 
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top">(vi)</td>
-													<td style="padding:2 10 0 10">
-														Proof: If $ab^{-1} = cd^{-1}$, then $(ab^{-1})bd = (cd^{-1})bd,$ or $ad=bc.$ Conversely, if $ad= bc,$ then $(ad)d^{-1}b^{-1} = (bc)d^{-1}b^{-1},$ or $ab^{-1} = cd^{-1}.$ If $ab^{-1} = ba^{-1},$ then $a^2=b^2,$ so by Problem 1&ndash;iii, $a=b$ or $a=-b.$ Conversely, if $a=b,$ then $a/b=b/a=1$ and if $a=-b,$ then $a/b=b/a=-1. \ \ \ \square$ 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
+								<script src="jquery.js"></script> 
+							    <script>
+									$(function(){
+								    	$("#c1_ss1-3").load("p_sets/c1_ss1-3.html"); 
+							    	});
+							    </script>
+							    <span id="c1_ss1-3"></span>
 							</div>
 						</td>
 					</tr>
 				</table>
+				<!-- Slide three -->
 				<table class="mySlides">
 					<tr>
-						<td style="vertical-align:top; width:50%; height:100%">
-							<table style="padding:10 0 10 20; color:#aaa; font-family:'Avenir', 'light'; font-size:18; width:100%">
-								<tr>
-									<td style="vertical-align:top; padding:11 0 0 1">Prologue &#9634; Basic Properties of Numbers</td>
-									<td style="padding:12 0 0 80">
-										<div style="padding:0 0 0 0; margin:0 0 0 0" align="right">
-											<input type="submit" style="position: fixed; left: -10000000px;" disabled/>
-											<input type="search" class="search" autosave="5" id="clc_feps_2" onsearch="search_func2()" 
-													placeholder="Search Calculus, Fourth...">
-											<div style="border-bottom:1 solid #f2f2f2"></div>
-											<p id="search_res2" style="margin:0 6 0 0; font-size:14; font-family:'Avenir', 'light"></p>
-											<script>
-											function search_func2() {
-											   var x = document.getElementById("clc_feps_2");
-											   document.getElementById("search_res2").innerHTML = "<br>" + x.value;
-											}
-											</script>
-										</div>
-									</td>
-								</tr>
-							</table>
+						<td class="pblm_page">
+							<!-- Header 2 :: P :: BPN -->
+							<script src="jquery.js"></script> 
+						    <script> 
+								$(function(){
+							    	$("#pp_head2").load("p_sets/pp_head2.html"); 
+						    	});
+						    </script>
+						    <span id="pp_head2"></span>
 							<!-- PSET_nav 2 -->
 							<div class="field_6">
 								<div class="field6_lind">&#x25B8;</div>
 								<div class="field6_rind">&#x25B8;</div>
 							</div>
+							<!-- Problems 4-5 -->
 							<div class="field_7">
-								<table style="padding:10 0 0 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 10 0 0">04.</td>
-										<td style="padding: 0 0 0 0">
-											Find all numbers $x$ for which 
-											<table style="padding: 10 0 0 0">
-												<tr>
-													<td style="padding:0 0 0 0">(i)</td>
-													<td style="padding:0 0 0 10">$4-x < 3-2x.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(ii)</td>
-													<td style="padding:0 0 0 10">$5-x^2 < 8.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(iii)</td>
-													<td style="padding:0 0 0 10">$5-x^2 < -2.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0; vertical-align:top">(iv)</td>
-													<td style="padding:0 0 0 10">$(x-1)(x-3) > 0.$</span> (When is a product of two numbers positive?)</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(v)</td>
-													<td style="padding:0 0 0 10">$x^2-2x+2 > 0.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(vi)</td>
-													<td style="padding:0 0 0 10">$x^2+x+1 > 2.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(vii)</td>
-													<td style="padding:0 0 0 10">$x^2-x+10 > 16.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(viii)</td>
-													<td style="padding:0 0 0 10">$x^2+x+1 > 0.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(ix)</td>
-													<td style="padding:0 0 0 10">$(x-\pi)(x+5)(x-3) > 0.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(x)</td>
-													<td style="padding:0 0 0 10">$(x-\sqrt[3]{2})(x-\sqrt{2}) > 0.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(xi)</td>
-													<td style="padding:0 0 0 10">$2^x < 8.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(xii)</td>
-													<td style="padding:0 0 0 10">$x+3^x < 4.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(xiii)</td>
-													<td style="padding:0 0 0 10">$\displaystyle\frac{1}{x} + \frac{1}{1-x} > 0.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(xiv)</td>
-													<td style="padding:0 0 0 10">$\displaystyle\frac{x-1}{x+1} > 0.$</td> 
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<table style="padding: 20 0 10 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 15 0 0">05.</td>
-										<td style="padding-top:1">Prove the following:
-											<br>
-											<table style="padding: 10 0 0 0">
-												<tr>
-													<td style="padding:0 0 0 0">(i)</td>
-													<td style="padding:0 0 0 10">
-														If $a < b$ and $c < d,$ then $a+c < b+d.$</span>
-													</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(ii)</td>
-													<td style="padding:0 0 0 10">If $a < b,$ then $-b < -a.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(iii)</td>
-													<td style="padding:0 0 0 10">If $a < b$ and $c > d,$ then $a-c < b-d.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(iv)</td>
-													<td style="padding:0 0 0 10">If $a < b$ and $c > 0,$ then $ac < bc.$</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(v)</td>
-													<td style="padding:0 0 0 10">
-														If $a < b$ and $c < 0,$ then $ac > bc.$
-													</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(vi)</td>
-													<td style="padding:0 0 0 10">If $a > 1,$ then $a^2 > a.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(vii)</td>
-													<td style="padding:0 0 0 10">If $0 < a < 1,$ then $a^2 < a.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(viii)</td>
-													<td style="padding:0 0 0 10">If $0 \leq a < b,$ and $0 \leq c < d,$ then $ac < bd.$</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(ix)</td>
-													<td style="padding:0 0 0 10">If $0 \leq a < b,$ then $a^2 < b^2.$ (Use (iii).)</td> 
-												</tr>
-												<tr>
-													<td style="padding:0 0 0 0">(x)</td>
-													<td style="padding:0 0 0 10">If $a, b \geq 0$ and $a^2 < b^2,$ then $a < b.$ (Use (ix), backwards.)</td> 
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
+								<script src="jquery.js"></script> 
+							    <script> 
+									$(function(){
+								    	$("#c1_ps4-5").load("p_sets/c1_ps4-5.html"); 
+							    	});
+							    </script>
+							    <span id="c1_ps4-5"></span>
 							</div>
 						</td>
-						<td style="vertical-align:top;
-									width:50%; height:100%;
-									padding:0 0 0 0;
-									border-left:1 solid #f2f2f2">
+						<td class="sls_page">
 							<!-- SSET_nav 2 -->
 							<div class="field_6">
 								<div class="field6_lind">&#x25B8;</div>
 								<div class="field6_rind">&#x25B8;</div>
 							</div>
+							<!-- Solutions 4-5 -->
 							<div class="infscrll">
-								<table style="padding:0 0 0 0">
-									<tr>
-										<td style="vertical-align:top; padding: 0 12 0 0">04.</td>
-										<td style="vertical-align:top; padding: 0 0 0 0">
-											<table style="margin:-3 0 0 0">
-												<tr>
-													<td style="padding: 0 10 0 0">(i)</td>
-													<td style="padding: 4 00 0 0">
-														$[4-x < 3-2x] \ \leftrightarrow \ [-x +2x < 3-4] \ \leftrightarrow \ [x < -1].$
-													</td>
-												</tr>
-												<tr>
-													<td style="padding: 0 5 0 0">(ii)</td>
-													<td style="padding: 0 0 0 0">
-														$[5-x^2 < 8]\ \leftrightarrow \ [x^2 > -3] \ \leftrightarrow \ [x > \sqrt{-3}], \ \forall x.$
-													</td>
-												</tr>
-												<tr>
-													<td style="padding: 0 5 0 0">(iii)</td>
-													<td style="padding: 0 0 0 0">
-														$[5-x^2 < -2] \ \leftrightarrow \ [x^2 > 7] \ \leftrightarrow \ [x > \sqrt{7}] \ \vee \ [x < - \sqrt{7}].$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding: 0 5 0 0">(iv)</td>
-													<td style="vertical-align:top; padding: 0 0 0 0">
-														$(x-1)(x-3) > 0 \ \Leftrightarrow \ (x < 1) \ \vee \ (x > 3).$
-														<table style="padding:10 0 0 0">
-															<tr>
-																<td style="vertical-align:top; 
-																			color:grey;
-																			font-size:13;
-																			padding:1 0 0 0">
-																	THEOREM
-																</td>
-																<td style="padding:0 0 0 7">
-																	The product of two numbers $a$ and $b$ is positive when $a,b > 0$ or $a,b < 0.$
-																</td>
-															</tr>
-															<tr>
-																<td style="vertical-align:top; 
-																			color:grey;
-																			font-size:13;
-																			padding:1 0 0 0">
-																	PROOF
-																</td>
-																<td style="padding:0 0 0 7">
-																	The first condition, i.e., $a,b>0$ is trivial, and follows from P12 &ndash; 
-																	<br>
-																	closure under multiplication. The second can be proved as follows:
-																	<br>
-																	<br>
-																	$
-																	\begin{equation}
-																		\begin{split} 
-																			\color{grey}{\text{lemma:}} \ (-a) \cdot b + a \cdot b 
-																				&= [(-a)+a] \cdot b \\ 
-																				&= 0 \cdot b = 0. \\ 
-																				& \ \ \downarrow \\ 
-															   -(a \cdot b) \ \ & \ \ \ \ \ \ -(a \cdot b) \\ 
-																				& \ \ \downarrow \\ 
-															   (-a) \cdot b \ \ &= \ -(a \cdot b). \\
-																   				& \ {\Large\circ}
-																   		\end{split}
-																   	\end{equation}
-																   	$ 
-																	$
-																	\begin{equation}
-																		\begin{split} 
-																			\color{grey}{\text{corrollary:}} \ (-a) \cdot (-b) + [-(a \cdot b )] 
-																				&= (-a) \cdot (-b) + (-a) \cdot b \\ 
-																				&= (-a)[(-b)+b] \cdot b = 0. \\ 
-																				& \ \ \downarrow \\ 
-															  + (a \cdot b) \ \ & \ \ \ \ \ \ +(a \cdot b) \\ 
-																  				& \ \ \downarrow \\ 
-															(-a) \cdot (-b) \ \ &= \ \ a \cdot b. \\ 
-																				& \ \square
-																		\end{split}
-																	\end{equation}
-																	$
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(v)</td>
-													<td style="vertical-align:top; padding:2 0 0 0">
-														Observing that 
-														<br>
-														<br>
-														$\begin{align}
-														0 < x^2-2x+2 = 0 & < x^2-2x+1+1 \\ 
-														0 & < (x-1)(x-1)+1 \\ 
-														0 & < (x-1)^2+1,
-														\end{align}$
-														<br>
-														<br>
-														we know that $x^2-2x+2>0$ for all $x.$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(vi)</td>
-													<td style="vertical-align:top; padding:1 0 0 0">
-														(Note: I used Symbolab to help run this computation) First, let us refine the inequality as follows
-														<br>
-														<br>
-														$x^2+x+1>2 \ \Leftrightarrow \ x^2+x-1>0.$
-														<br>
-														<br>
-														$\text{Using the quadratic equation:} \ \ \displaystyle x_{1,2}=\frac{-b \pm  
-														\sqrt{b^2-4ac}}{2a}, \ \ \text{with}$ $a=1, \ b=1, \ c=-1$, we have
-														<br>
-														<br>
-														$\displaystyle x=\frac{-1 +\sqrt{1^2-(4)(1)(-1)}}{2 \cdot1} = \frac{-1 +\sqrt{5}}{2},$
-														<br>
-														<br>
-														$\displaystyle x=\frac{-1 -\sqrt{1^2-(4)(1)(-1)}}{2 \cdot1} = \frac{-1 -\sqrt{5}}{2}. \ \ \text{Hence, we have}$
-														<br>
-														<br>
-														$\displaystyle x = \frac{-1+\sqrt{5}}{2}, \ \ \ \ \text{and} \ \ \ \ x = \frac{-1-\sqrt{5}}{2}, \ \text{which may be factored into}$
-														<br>
-														<br>
-														$\displaystyle\bigg(x + \frac{1-\sqrt{5}}{2}\bigg)\bigg(x + \frac{1+\sqrt{5}}{2}\bigg)>0. \ \text{Next we need to compute the}$
-														<br>
-														<br>
-														signs of each of the factors.
-														<br>
-														<br>
-														$\text{a.)} \ \ \displaystyle x + \frac{1-\sqrt{5}}{2} = 0 \ \equiv \ 
-														x=\frac{\sqrt{5}-1}{2}$
-														<br>
-														<br>
-														$\text{b.)} \ \ \displaystyle x + \frac{1-\sqrt{5}}{2} < 0 \ \equiv \ x<\frac{\sqrt{5}-1}{2}$
-														<br>
-														<br>
-														$\text{c.)} \ \ \displaystyle x + \frac{1-\sqrt{5}}{2} > 0 \ \equiv \ x>\frac{\sqrt{5}-1}{2}$
-														<br>
-														<br>
-														<br>
-														$\text{d.)} \ \ \displaystyle x + \frac{1+\sqrt{5}}{2} = 0 \ \equiv \ 
-														x=\frac{-1-\sqrt{5}}{2}$
-														<br>
-														<br>
-														$\text{e.)} \ \ \displaystyle x + \frac{1+\sqrt{5}}{2} < 0 \ \equiv \ 
-														x<\frac{-1-\sqrt{5}}{2}$
-														<br>
-														<br>
-														$\text{f.)} \ \ \displaystyle x + \frac{1+\sqrt{5}}{2} > 0 \ \equiv \ 
-														x>\frac{-1-\sqrt{5}}{2}$
-														<br>
-														<br>
-														Finally, choosing ranges that satisfy the condition "$>0$", we have
-														<br>
-														<br>
-														$\displaystyle x^2+x+1>2 \ \Longleftrightarrow \ \Bigg(x>\frac{\sqrt{5}-1}{2} \ \ \text{or} \ \ 
-														x<\frac{-1-\sqrt{5}}{2} \Bigg). \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(vii)</td>
-													<td style="vertical-align:top; padding:1 0 0 0">
-														Given that $$(x^2-x+10 > 16) \ \Longrightarrow \ [(x^2-x-6>0) = (x+2)(x-3)>0],$$ we know that $x < -2$ or $x>3$. $ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(viii)</td>
-													<td style="vertical-align:top; padding:1 0 0 0">
-														Observe that: 
-														$
-														\ \begin{align}
-															x^2+x+1+(0-0) &> 0 \\ 
-															x^2+x+1+(6-6) &> 0 \\ 
-															x^2+x-6       &> -7 \\
-															(x-2)(x+3)    &> -7.
-														\end{align}
-														$
-														<br>
-														<br>
-														Since $x^2+x-6>-7$ for all $x$, we also have $x^2+x+1>0$ for all 
-														<br>
-														numbers $x$. $ \ \square$
-														<br>
-														<br>
-														<span style="font-family:'Arial'; font-size: 11px; font-weight: bold">SPIVAK</span>: &#160 All $x$ since $x^2+x+1=[x+(1/2)]^2+(3/4).$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(ix)</td>
-													<td style="vertical-align:top; padding:1 0 0 0">
-														$(x-\pi)(x+5)(x-3) > 0 \ \text{whenever} \ -5 < x < 3 \ \text{or} \ \pi < x. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(x)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														$x > \sqrt{2} \ \text{or} \ x < \sqrt[3]{2}. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(xi)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														Since $\text{log}_2(8)=3,$ we have $2^x>8$ for $x < 3. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:top; padding:0 5 0 0">(xii)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														Since $x+3^x = 4$ when $x=1,$ we need $x < 1. \ \ \square$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:center; padding:0 5 0 0">(xiii)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														$
-														\displaystyle 
-															\text{Since} \ \frac{1}{x} + \frac{1}{1-x} < 0 \ \text{whenever} \ x < 0 \ \text{or} \ 1 < x, \ \text{we need} \ 0 < x < 1. \ \ \square
-														$
-													</td>
-												</tr>
-												<tr>
-													<td style="vertical-align:center; padding:0 5 0 0">(xiv)</td>
-													<td style="vertical-align:top; padding:0 0 0 0">
-														$
-														\displaystyle 
-															\frac{x-1}{x+1} = 0 \ \text{whenever} \ x = 1 \ \text{or} \ x=-1, \ \text{we need} \ x < -1 \ \text{or} \ 1 < x. \ \ \square
-														$
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>	
-								</table>
-								<table style="padding: 20 0 10 0">
-									<tr>
-										<td style="vertical-align:top; padding:0 15 0 0">05.</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(i)</td>
-									<td style="vertical-align:top; padding:1 0 0 0">
-										Notice that $b-a$ and $d-c$ are in $P$, the set of positive integers, and so to is $(b-a)+(d-c)=(b+d)-(a+c).$ So we have
-										$(a+c) < (b+d). \ \ \square$
-									</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 10 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(ii)</td>
-										<td style="vertical-align:top; padding:2 0 0 0">
-											Clearly, $b-a$, which is to say $-a+b=-a-(-b)$ is in $P$. Therefore, we 
-											<br>
-											conclude that $-b < -a. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(iii)</td>
-										<td style="vertical-align:top; padding:2 0 0 0">
-											From (ii) we know that $-c < -d;$ then it follows from (i) that $a+(-c) < b+(-d). \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(iv)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											We know that $b-a$ and $c$ are in $P$. From <u>closure under multiplication</u> (P12) 
-											<br>
-											we derive that $c(b-a)=bc-ac$ is also in $P$. Hence, $ac < bc. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(v)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											Here, we know that $b-a$ and $-c$ are in $P$. From (P12) we derive that $-c(b-a)=ac-bc$ is in $P$, which is to say that $bc < ac. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(vi)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											If $1 < a$, then $0 < a$. Hence $1 \cdot a < a \cdot a = a^2,$ by problem (iv). $ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(vii)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											Using (iv), we see that since $0 < a \ $ and $ \ a < 1$, we have $a \cdot a < a \cdot 1 = a^2$<br> $< a. \ \square$ 
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(viii)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											Notice that if $a=0 \ \text{or} \ c=0,$ then $ac=0$ while $bd>0$, so $ac < bd.$ 
-											<br>
-											Otherwise, by (iv), we have $ac < ad < bd \ \Rightarrow \ ac < bd. \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(ix)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											By substituting $a$ for $c$, and $b$ for $d$ in the argument from (viii), we may easily secure our desired result. $ \ \ \square$
-										</td>
-									</tr>
-									<tr>
-										<td style="vertical-align:top; padding:0 0 0 0">&nbsp;</td>
-										<td style="vertical-align:top; padding:0 5 0 0">(x)</td>
-										<td style="vertical-align:top; padding:0 2 0 0">
-											If $a < b$ were false, then either $a=b$ or $a>b$. But if $a=b$, then $a^2=b^2$, 
-											<br>
-											and if $a>b \leq 0,$ then $a^2>b^2,$ by part (ix). $ \ \ \square$
-											<label title="Spivak" style="color: #aaa; padding-left:3">*</label>
-										</td>
-									</tr>
-								</table>
+								<script src="jquery.js"></script> 
+							    <script>
+									$(function(){
+								    	$("#c1_ss4-5").load("p_sets/c1_ss4-5.html"); 
+							    	});
+							    </script>
+							    <span id="c1_ss4-5"></span>
 							</div>
 						</td>
 					</tr>
 				</table>
+				<!-- Slide four -->
 				<table class="mySlides">
 					<tr>
 						<td style="vertical-align:top; width:50%; height:100%">
