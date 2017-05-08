@@ -1,0 +1,337 @@
+<html>
+	<table class="pr_20">
+		<tr>
+			<td class="vtop_zero">17.</td>
+			<td class="vtop_r20l10">
+				<table>
+					<tr>
+						<td class="vtop_zero">(a)</td>
+						<td class="vtop_lten">
+							We may find this value directly by completing the square. (Notice that there is a good amount of reverse engineering occurring in 17(c) in particular.) Since
+							<p>
+							$
+							\begin{align}
+							\displaystyle
+							2x^2-3x+4 &= 2x^2-3x+\frac{9}{8}+4-\frac{9}{8} \\
+									  &= 2\bigg(x^2-\frac{6x}{4}+\frac{9}{8}\bigg)+4-\frac{9}{8} \\
+									  &= 2\bigg(x^2-\frac{3x}{4}-\frac{3x}{4}+\frac{9}{16}\bigg)+4-\frac{9}{8} \\
+									  &= 2 \bigg(x-\frac{3}{4}\bigg)^2+4-\frac{9}{8} \\
+							          &= 2 \bigg(x-\frac{3}{4}\bigg)^2 +\frac{23}{8},
+							\end{align}
+							$
+							</p>
+							the smallest possible value is 23/8, when $(x-3/4)=0,$ or $x=3/4. \ \ \square$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(b)</td>
+						<td class="vtop_lten">
+							Similarly, we have 
+							<p>
+								$
+								\begin{align}
+								\displaystyle
+								x^2-3x+2y^2+4y+2 &= x^2-3x+2y^2+4y+2+\bigg(\frac{9}{4}-\frac{9}{4}\bigg) \\
+										  &= x^2-3x+\frac{9}{4}+2y^2+4y+2-\frac{9}{4} \\
+										  &= \bigg(x-\frac{3}{2}\bigg)\bigg(x-\frac{3}{2}\bigg)+2(y^2+2y+1)-\frac{9}{4} \\
+										  &= \bigg(x-\frac{3}{2}\bigg)^2+2(y+1)^2-\frac{9}{4}, \\
+								\end{align}
+								$
+							</p>
+							so the smallest possible value is $-9/4,$ when $x=3/2$ and $y=1. \ \ \square$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(c)</td>
+						<td class="vtop_lten">
+							This (original) calculation is an unpacking of Spivak<label title="(CAB:3,4ED)" style="color:grey">*</label>. For each $y$ we have
+							<p>
+							$
+							\require{cancel}
+							\begin{align}
+							x^2+4xy+5y^2 &- 4x-6y+7 \\
+										 &= x^2+4xy-4x+5y^2-6y+7 \\
+										 &= x^2+4x(y-1)+5y^2-6y+7 \\
+										 &= x^2+2[2x(y-1)]+5y^2-6y+7 \\
+										 &= x^2+2x(y-1)+2x(y-1)+ \color{grey}{4(y-1)^2} - \color{grey}{4(y-1)^2} \\ 
+										 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
+										 &= [x+2(y-1)][x+2(y-1)]-4(y-1)^2 \\ 
+										 &  \ \ \ \ \ \ \ \ \ +5y^2-6y+7 \\
+							     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y-1)^2 \\
+							     		 &= [x+2(y-1)]^2+5y^2-6y+7-4(y^2-2y+1) \\
+							    		 &= [x+2(y-1)]^2+5y^2-6y+7-4y^2+8y-4) \\
+						 				 &= [x+2(y-1)]^2+y^2+2y+3 \\
+					     				 &= [x+2(y-1)]^2+(y+1)^2+2, \\
+							\end{align}
+							$
+							</p>
+							so the smallest possible value is 2, when $y=-1$ and $x=-2(y-1)=4. \ \ \square$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_r20">
+		<tr>
+			<td class="vtop_zero">18.</td>
+			<td class="vtop_r20l10">
+				<table class="pr_20">
+					<tr>
+						<td class="vtop_zero">(a)</td>
+						<td class="vtop_r20l10">
+							To show that the numbers under consideration satisfy the given equation, we 
+							will prove the quadratic equation by completing the square. First, note that $x^2+bx+c=0 \ \Leftrightarrow \ ax^2+bx+c=0,$ where $x=1$. It then follows that
+							$$
+							\begin{equation}
+								\begin{split}
+															x^2+\frac{bx}{a}+\frac{c}{a} &= \frac{0}{a} \\
+															x^2+\frac{bx}{a}+\frac{c}{a} &= 0 \\
+									x^2+\frac{bx}{a}+\frac{c}{a}-\bigg(\frac{c}{a}\bigg) &= 0-\bigg(\frac{c}{a}\bigg) \\
+																		x^2+\frac{bx}{a} &= -\frac{c}{a} \\
+											 x^2+\frac{bx}{a}+\bigg(\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\bigg(\frac{b}{2a}\bigg)^2 \\
+															\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{c}{a}+\frac{b^2}{4a^2} \\
+															\bigg(x+\frac{b}{2a}\bigg)^2 &= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2} \\
+															\bigg(x+\frac{b}{2a}\bigg)^2 &= \frac{b^2-4ac}{4a^2} \\
+													 \sqrt{\bigg(x+\frac{b}{2a}\bigg)^2} &= \sqrt{\frac{b^2-4ac}{4a^2}} \\
+																		  x+\frac{b}{2a} &= \pm\sqrt{\frac{b^2-4ac}{4a^2}} \\
+																		  x+\frac{b}{2a} &= \pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+												 x+\frac{b}{2a}-\bigg(\frac{b}{2a}\bigg) &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+																					   x &= -\bigg(\frac{b}{2a}\bigg)\pm\frac{\displaystyle\sqrt{{b}^2-4ac}}{2a} \\
+																					   x &= \frac{-b\pm\displaystyle\sqrt{{b}^2-4ac}}{2a}.
+								\end{split}
+							\end{equation}
+							$$
+							So, clearly the desired numbers satisfy the given equation, particular in the
+							case $a=1. \ \ \square$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(b)</td>
+						<td class="vtop_lten">
+						We may capture this result by forcing the following contradiction.
+						<p class="pl_30">
+							$
+							\begin{align}
+							x^2+bx+c &= x^2+bx+\frac{b^2}{4}+c-\frac{b^2}{4} \\
+									 &= \bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \\
+									 &\geq c-\frac{b^2}{4};
+							\end{align}
+							$
+						</p>
+						but $\displaystyle (b^2-4c < 0) \ = \ (-4c < -b^2) \ = \ (c > b^2/4) \ = \ [0 < c-(b^2/4)].$ which contradicts our original assumption, so $x^2+bx+c>0$ for all $x. \ \ \square$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(c)</td>
+						<td class="vtop_lten">
+							Applying part (b) with $y$ for $b$ and $y^2$ for $c:$ we have $b^2-4c=y^2-4y^2 < 0$ for $y \neq 0,$ so $x^2+xy+y^2>0$ for all $x$ if $y \neq 0$ (and surely $x^2+xy+y^2>0$ for all $x \neq 0$ if $y=0$). $ \ \ \square$ 
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(d)</td>
+						<td class="vtop_lten">
+							$\alpha$ must satisfy $(\alpha y)^2-4y^2 < 0$ or $\alpha ^2 < 4$ or $| \alpha | < 2$. $ \ \ \square$ 
+					</tr>
+					<tr>
+						<td class="vtop_zero">(e)</td>
+						<td class="vtop_lten">
+							Since 
+							<p class="pl_30">
+								$\displaystyle x^2+bx+c=\bigg(x+\frac{b}{2}\bigg)^2+\bigg(c-\frac{b^2}{4}\bigg) \geq c-\frac{b^2}{4},$
+							</p> 
+							and since $x^2+bx+c$ has the value $c-b^2/4$ when $x=-b/2,$ the minimum value is $c-b^2/4.$ Also, since 
+							<p class="pl_30">
+								$\displaystyle ax^2+bx+c=a\bigg(x^2+\frac{bx}{a}+\frac{c}{a}\bigg),$
+							</p>
+							the minimum value is 
+							<p class="pl_30">
+								$\displaystyle a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg)=c-\frac{b^2}{4a}. \ \ \square$
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_b10">
+		<tr>
+			<td class="vtop_zero">19.</td>
+			<td class="vtop_r20l10">
+				<table>
+					<tr>
+						<td class="vtop_zero">(a)</td>
+						<td class="vtop_lten">
+							<table>
+								<tr>
+									<td class="vtop_zero">Proof<sub>1</sub>:</td>
+									<td class="vtop_lten">
+										If $x_1=\lambda y_1$ and $x_2=\lambda y_2$ for some $\lambda \geq 0,$ then
+										
+										<p>$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\sqrt{{y_1}^2+{y_2}^2}$</p>
+										
+										$\displaystyle(\lambda y_1)y_1 + (\lambda y_2)y_2 \leq \sqrt{{(\lambda y_1)}^2+{(\lambda y_2)}^2} \sqrt{(x_1\lambda^{-1})^2+(x_2\lambda^{-1})^2}$
+										
+										$\displaystyle\lambda {y_1}^2 + \lambda {y_2}^2 \leq \sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{(\lambda y_1\lambda^{-1})^2+(\lambda y_2\lambda^{-1})^2}$ 
+										
+										$\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 \leq \bigg(\sqrt{{\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2} \sqrt{{y_1}^2+{y_2}^2}\bigg)^2$ 
+										
+										$\big(\lambda {y_1}^2 + \lambda {y_2}^2\big)^2 \leq \big({\lambda}^2 {y_1}^2+{\lambda}^2 {y_2}^2\big) \big({y_1}^2+{y_2}^2\big)$
+
+										<p class="padding:0 0 10 0">
+											$\lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4 \leq \lambda^2{y_1}^4 + 2\lambda^2{y_1}^2{y_2}^2 + \lambda^2{y_2}^4. \ \square$
+										</p>
+									</td>
+								</tr>
+							</table>
+							<table class="pt_20">
+								<tr>
+									<td class="vtop_zero">Proof<sub>2</sub>:</td>
+									<td class="vtop_lten">
+										$
+										\begin{align}
+										(x_1)(0)+(x_2)(0) &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2} \sqrt{0+0} \\
+										0 &\leq 0. \\
+										& \ \square
+										\end{align}
+										$
+									</td>
+								</tr>
+							</table>
+							<table class="pt10">
+								<tr>
+									<td class="vtop_zero">Proof<sub>3</sub>:</td>
+									<td class="vtop_lten">
+										Supposing $y_1$ and $y_2$ are not both $0$, and that there is no number $\lambda$ such that $x_1=\lambda y_1$ and $x_2=\lambda y_2$, then 
+										$$
+										\begin{align}
+											0 
+											&< (\lambda y_1-x_1)^2 + (\lambda y_2-x_2)^2 \\ 
+											&= \lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{x_2}^2\big),
+										\end{align}
+										$$ 
+										and the equation 
+										$$\lambda^2 \big({y_1}^2+{y_2}^2\big)-2\lambda\big(x_1y_1+x_2y_2\big)+\big({x_1}^2+{y_1}^{2 \ *}\big)=0
+										$$ 
+										has no solution $\lambda$. So by problem 
+										<div class="tooltip">18(a,e)
+				  							<span class="tooltiptext">
+				  								That is to say, this difference inequality corresponds to the following transformation of 18(e):
+				  								$$
+												\begin{align}\displaystyle
+												a\bigg(\frac{c}{a}-\frac{b^2}{4a^2}\bigg) &> 0 \\
+												a\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+												a\cdot\bigg(\frac{4}{a}\bigg)\bigg(\frac{b^2}{4a^2}-\frac{c}{a}\bigg) &< 0 \\
+												\bigg(\frac{b}{a}\bigg)^2-\frac{4c}{a} &< 0,
+												\end{align}
+												$$
+				  							</span>
+										</div>
+										we must have $$\Bigg[\frac{2(x_1y_1+x_2y_2)}{({y_1}^1+{y_2}^2)}\Bigg]^2-\Bigg[\frac{4({x_1}^2+{y_1}^{2 \ *})}{({y_1}^2+{y_2}^2)}\Bigg] < 0, \\$$ which yields the Schwarz inequality. $ \ \ \square$
+										<p>
+											<label title="erratum" style="color:aaa">*</label> It is likely that this term is a typo, and is intended to read $"{x_2}^2"$ as the line that contains it is simply an expansion of the right&ndash;hand side of the initial inequality, and otherwise identical to the equation just above it. Given 18(a), the argument seems erroneous otherwise. But the simplification actually works out using either term, so there may be some other reason for this.
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(b)</td>
+						<td class="vtop_lten">
+							$\require{cancel}$
+							We have $2xy \leq x^2+y^2,$ since $0 \leq (x-y)^2=x^2-2xy+y^2.$ Thus
+							<ol type="1">
+								<li>
+									$\displaystyle\frac{2x_1y_1}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2},$
+								</li>
+								<li>
+									$\displaystyle\frac{2x_2y_2}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \leq \frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2};$
+								</li>
+							</ol>
+							addition yields
+							<p>
+								$
+								\begin{align}
+									\displaystyle
+										\frac{2(x_1y_1+x_2y_2)}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}} 
+										&\leq \\
+										\bigg(\frac{{x_1}^2}{{x_1}^2+{x_2}^2} + \frac{{y_1}^2}{{y_1}^2+{y_2}^2}\bigg) &+ \bigg(\frac{{x_2}^2}{{x_1}^2+{x_2}^2} + \frac{{y_2}^2}{{y_1}^2+{y_2}^2}\bigg) \\ 
+										&= \frac{2({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)} \\ 
+										&= \frac{2\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}}{\color{grey}{\cancel{({x_1}^2+{x_2}^1)({y_1}^1+{y_2}^2)}}} \\ 
+										&\leq 2.
+								\end{align}
+								$
+							</p>
+							Multiplying both sides of the statement by 
+							$$\displaystyle\frac{\displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}}{2}$$
+							yields the Schwarz inequality. $ \ \ \square$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(c)</td>
+						<td class="vtop_lten">
+							Theorem: 
+							$x_1y_1+x_2y_2 \leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$
+							<br>
+							Lemma: $({x_1}^2+{x_2}^2)({y_1}^2+{y_2}^2) = (x_1y_1+x_2y_2)^2+(x_1y_1-x_2y_2).$
+							<br>
+							Proof<sub>(lemma)</sub>:
+							<p>
+								$
+								\begin{equation}
+									\begin{split}
+										({x_1}^2 + {x_2}^2)({y_1}^2+{y_2}^2) 
+											&= (x_1y_1+x_2y_2)^2 + (x_1y_1-x_2y_2) \\
+											{x_1}^2{y_1}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 
+											&= (x_1y_1)^2 + 2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\ 
+											& \ \ \ \ \ + (x_1y_1)^2-2(x_1y_1)(x_2y_2) + (x_2y_2)^2 \\
+											&= {x_1}^2{y_1}^2 + 2x_1y_1x_2y_2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
+											& \ \ \ \ \ - 2x_1y_1x_2y_2 + {x_2}^2{y_1}^2 \\
+											&= {x_1}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 + {x_2}^2{y_1}^2 \\
+											&= {x_1}^2{y_1}^2 + {x_2}^2{y_1}^2 + {x_2}^2{y_2}^2 + {x_1}^2{y_2}^2 \\
+											&= {y_1}^2({x_1}^2+{x_2}^2) + {y_2}^2({x_1}^2+{x_2}^2) \\
+											({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2) 
+											&= ({x_1}^2+{x_2}^2)({y_1}^2+{y_1}^2). \\
+											& \ \square
+									\end{split}
+								\end{equation}
+								$
+							</p>
+							<u>Proof</u>:
+							<p>
+								$
+								\begin{equation}
+									\begin{split}
+										\text{Since} \ 0 \leq (x_1y_2-x_2y_1)^2 \ \Rightarrow \ (x_1y_2-x_2y_1)^2 &\leq ({x_1}^2+{x_2}^2)({x_1}^2+{x_2}^2) \\
+										x_1y_2-x_2y_1 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2} \\
+										& \ \Downarrow \\
+										x_1y_1+x_2y_2 &\leq \displaystyle\sqrt{{x_1}^2+{x_2}^2}\displaystyle\sqrt{{y_1}^2+{y_2}^2}. \\
+										& \ \square
+									\end{split}
+								\end{equation}
+								$
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(d)</td>
+						<td class="vtop_lten">
+							The proof in part (a) already yields the desired result. In part (b), equality holds only if it holds in (1) and (2). Since $2xy=x^2+y^2$ only when $0=(x-y)^2,$ i.e., $x=y,$ this means that 
+							$$
+							\begin{equation}
+								\frac{x_i}{\displaystyle\sqrt{{x_1}^2+{x_2}^2}}=\frac{y_i}{\displaystyle\sqrt{{y_1}^2+{y_2}^2}} \ \ \ \ \ \text{for} \ i=1,2,
+							\end{equation}
+							$$
+							so we can choose $\lambda=\displaystyle\sqrt{{x_1}^2+{x_2}^2}\bigg/\displaystyle\sqrt{{y_1}^2+{y_2}^2}.$ 
+							<p>
+								In part (c), equality only holds when $x_1y_2-x_2y_1=0.$ One possibility is $y_1=y_2=0.$ If $y_1 \neq 0,$ then $x_1=(x_1/y_1)y_1$ and also $x_1=(x_1/y_1)y_2;$ 
+								similarly, if $y_2=0,$ then $\lambda=x_2/y_2. \ \square$
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</html>
