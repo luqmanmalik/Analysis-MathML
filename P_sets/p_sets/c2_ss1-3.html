@@ -10,32 +10,32 @@
 					<tr>
 						<td class="vtop_zero">(i)</td>
 						<td class="vtop_t5_lten"> 
-							$
-							\begin{equation}
-								\begin{split}
-									\text{Base:} \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 
-										&= [1(1+1)(2\cdot1+1)]/6 \\
-										&= [1\cdot2(2+1)]/6 \\
-										&= (2\cdot3)/6 \\
-										&= 1. \\
-										& \ \square
-								\end{split}
-							\end{equation}
-							$
-							<br>
-							<br>
-							$
-							\begin{equation}
-								\begin{split}
-									\text{Induction hypothesis:} \ \ n=k \ \ \rightarrow \ \ 1^2+\cdots+k^2 
-									&= [k(k+1)(2\cdot k+1)]/6 \\
-									&= [(k^2+k)(2k+1)]/6.
-								\end{split}
-							\end{equation}
-							$ 
-							<br>
-							<br>
-							$ \ \text{Proof}: \ n=k+1$
+							<p class="mar_zero">
+								$
+								\begin{equation}
+									\begin{split}
+										\text{Base:} \ \ n=1 \ \ \ \rightarrow \ \ \ 1^2+\cdots+n^2 
+											&= [1(1+1)(2\cdot1+1)]/6 \\
+											&= [1\cdot2(2+1)]/6 \\
+											&= (2\cdot3)/6 \\
+											&= 1. \\
+											& \ \square
+									\end{split}
+								\end{equation}
+								$
+							</p>
+							<p class="mar_t10">
+								$
+								\begin{equation}
+									\begin{split}
+										\text{Induction hypothesis:} \ \ n=k \ \ \rightarrow \ \ 1^2+\cdots+k^2 
+										&= [k(k+1)(2\cdot k+1)]/6 \\
+										&= [(k^2+k)(2k+1)]/6.
+									\end{split}
+								\end{equation}
+								$
+								$ \ \text{Proof}: \ n=k+1$
+							</p>
 							$$
 							\begin{equation}
 								\begin{split}
@@ -57,7 +57,7 @@
 							$$
 							\begin{equation}
 								\begin{split}
-									[1+\cdots+k+(k+1)]^2 
+									[1+\cdots+(k+1)]^2 
 										&= (1+\cdots+k)^2+2(1+\cdots+k)(k+1)+(k+1)^2 \\
 										&= 1^3+k^3+2\big[[k(k+1)/2](k+1)\big]+(k+1)^2 \\
 										&= 1^3+\cdots+k^3+k(k^2+2k+1)+(k+1)^2 \\
@@ -181,7 +181,7 @@
 					</tr>
 					<tr>
 						<td class="vtop_t5">(d)</td>
-						<td class="vtop_t5_r20_l10">
+						<td class="vtop_t5_l10">
 							The binomial theorem clearly holds for $n=1$. Suppose that $\forall n \leq n+1,$
 							$$\displaystyle(a+b)^n=\sum_{j=0}^n{n \choose j}a^{n-j}b^j.$$
 							Given the induction hypothesis above, we have
@@ -206,6 +206,7 @@
 							so the binomial theorem holds for $n+1. \ \ \square$
 						</td>
 					</tr>
+					<tr>
 						<td class="vtop_t13">(e)</td>
 						<td class="vtop_lten">
 							<table class="pr_20">
