@@ -1,0 +1,90 @@
+<html>
+	<table class="pt10_r20">
+		<tr>
+			<td class="vtop_zero_cgrey">24.</td>
+	        <td class="pl_10">
+	        	This problem shows that the actual placement of parentheses in a sum is irrelevant. The proofs involve "mathematical induction"; if you are not familiar with such proofs, but still want to tackle this problem, it can be saved until after Chapter 2, where proofs by induction are explained.
+	        	<br>
+	        	Let us agree, for definiteness, that $a_1+ \cdots + a_k$ will denote
+	        	$$a_1 + (a_2 + (a_3 + \cdots + (a_{n-2} + (a_{n-1}+a_n))) \cdots).$$
+	        	Thus $a_1+a_2+a_3$ denotes $a_1+(a_2+a_3),$ and $a_1+a_2+a_3+a_4$ denotes $a_1+(a_2+(a_3+a_4)),$ etc.
+	        	<table class="pt_15">
+	        		<tr>
+	        			<td class="vtop_zero">(a)</td>
+	        			<td class="vtop_lten">
+	        				Prove that
+	        				$$(a_1+ \cdots + a_k)+a_{k+1} = a_1+ \cdots + a_{k+1}.$$
+	        				Hint: Use induction on $k$.
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_zero">(b)</td>
+	        			<td class="vtop_lten">
+	        				Prove that if $k \leq n,$ then
+	        				$$(a_1+ \cdots + a_k)+(a_{k+1}+ \cdots + a_n) = a_1+ \cdots + a_n.$$
+	        				Hint: Use part (a) to give a proof by induction on $k$.
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_zero">(c)</td>
+	        			<td class="vtop_lten">
+	        				Let $s(a_1, \dots, a_k)$ be some sum formed from $a_1, \dots, a_k.$ Show that
+	        				$$s(a_1, \dots, a_k) = a_1 + \cdots + a_k.$$
+	        				Hint: There must be two sums $s'(a_1, \dots, a_l)$ and $s''(a_{l+1}, \dots, a_k)$ such that
+	        				$$s(a_1, \dots, a_k) = s'(a_1, \dots, a_l) + s''(a_{l+1}, \dots, a_k).$$
+	        			</td>
+	        		</tr>
+	        	</table>
+	        </td>
+      	</tr>
+    </table>
+    <table class="pt20_r20">
+      	<tr>
+        	<td class="vtop_zero_cgrey">25.</td>
+        	<td class="pl_10">
+        		Suppose that we interpret "number" to mean either $0$ or $1$, and + and $\cdot$ to be the operations defined by the following two tables.
+        		<div style="padding:0 0 0 50"> 
+             		<div style="float:left"> 
+			    		<table style="border-collapse:collapse">
+			                <tr>
+			                	<td style="padding:10 19 10 19">$+$</td>
+			                  	<td style="padding:10 19 10 19">$0$</td>
+			                  	<td style="padding:10 19 10 19">$1$</td>
+			                </tr>
+			                <tr>
+			                  	<td style="padding:10 19 0 19">$0$</td>
+			                  	<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+			                  	<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+			                </tr>
+			                <tr>
+			                  	<td style="padding:10 19 0 19">$1$</td>
+			                  	<td style="border:1 solid grey; padding:10 19 10 19">$1$</td>
+			                	<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+			                </tr>
+			            </table>
+			        </div>
+		            <div style="float:left; padding:0 0 0 50"> 
+		              	<table style="border-collapse:collapse">
+		                	<tr>
+		                  		<td style="padding:10 19 10 19">$\cdot$</td>
+		                  		<td style="padding:10 19 10 19">$0$</td>
+		                  		<td style="padding:10 19 10 19">$1$</td>
+		                	</tr>
+		                	<tr>
+		                  		<td style="padding:10 19 0 19">$0$</td>
+		                  		<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+		                  		<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+		                	</tr>
+		                	<tr>
+		                  		<td style="padding:10 19 0 19">$1$</td>
+		                  		<td style="border:1 solid grey; padding:10 19 10 19">$1$</td>
+		                  		<td style="border:1 solid grey; padding:10 19 10 19">$0$</td>
+		                	</tr>
+		              	</table>
+		            </div>
+          		</div>
+        	</td>
+      	</tr>
+    </table>
+    <p style="padding-left:92; font-size:16">Check that properties P1&ndash;P9 all hold, even though $1+1=0.$</p>
+</html>

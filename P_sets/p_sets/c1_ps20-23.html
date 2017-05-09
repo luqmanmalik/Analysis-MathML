@@ -1,0 +1,72 @@
+<html>
+	<table class="pt10_r20">
+		<tr>
+			<td class="vtop_zero">
+				In our later work, three facts about inequalities will be crucial. Although proofs will be supplied at the appropriate point in the text, a personal assault on these problems is infinitely more enlightening than a perusal of a completely worked-out proof. The statements of these propositions involve some weird numbers, but their basic message is simple: if $x$ is close enough to $x_0,$ and $y$ is close enough to $y_0,$ then $x+y$ will be close to $x_0+y_0,$ and $xy$ will be close to $x_0y_0,$ and $1/y$ will be close to $1/y_0.$ The symbol "$\varepsilon$" which appears in these propositions is the fifth letter of the Greek alphabet ("epsilon"), and could just as well be replaced by a less intimidating Roman letter; however, tradition has made the use of $\varepsilon$ sacrosanct in the contexts to which these theorems apply.
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_r20">
+      	<tr>
+        	<td class="vtop_zero">20.</td>
+        	<td class="vtop_lten">
+        		Prove that if $\vert x-x_0 \rvert < \dfrac{\varepsilon}{2}$ &nbsp;&nbsp; and &nbsp;&nbsp; $\lvert y-y_0 \rvert < \dfrac{\varepsilon}{2},$ then
+            	<p style="padding-left:20%">
+		            $
+		            \begin{align}
+		            	\lvert (x+y) - (x_0+y_0) \rvert &< \varepsilon, \\
+		            	\lvert (x-y) - (x_0-y_0) \rvert &< \varepsilon.
+		            \end{align}
+		            $
+            	</p>
+        	</td>
+      	</tr>
+    </table>
+    <table class="pt20_r20">
+      	<tr>
+        	<td class="vtop_zero_cgrey">21.</td>
+        	<td class="vtop_lten">
+	        	Prove that if
+	            $$
+	            \lvert x-x_0 \rvert < \text{min} \bigg(\frac{\varepsilon}{2(\lvert y_0 \rvert +1)} \ , 1 \bigg) \ \ \ \ \text{and} \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2(\lvert x_0 \rvert +1)} \ ,
+	            $$
+	            then $\lvert xy-x_0y_0 \rvert < \varepsilon.$
+	            <br>
+	            (The notation "min" was defined in Problem 13, but the formula provided by that problem is irrelevent at the moment; the first inequality in the hypothesis just means that
+	            $$
+	            \vert x-x_0 \rvert < \frac{\varepsilon}{2(\lvert y_0 \rvert+1)} \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < 1;
+	            $$
+	            at one point in the argument you will need the first inequality, and at another point you will need the second. One more word of advice: since the hypotheses only provide information about $x-x_0$ and $y-y_0,$ it is almost a foregone conclusion that the proof will depend upon writing $xy-x_0y_0$ in a way that involves $x-x_0$ and $y-y_0.$)
+       		</td>
+      	</tr>
+    </table>
+    <table class="pt20_r20">
+      	<tr>
+        	<td class="vtop_zero_cgrey">22.</td>
+	        <td class="vtop_lten">
+	        	Prove that if $y_0 \neq 0$ and
+	        	<div style="margin:10 0 0 70">
+		            $
+		            \displaystyle
+		            \lvert y-y_0 \rvert < \text{min} \bigg( \displaystyle\frac{\lvert y_0 \rvert}{2} \ , \frac{\varepsilon \lvert y_0 \rvert ^2}{2} \ \bigg), \ \text{then} \ y \neq 0, \ \text{and} \ \Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert< \varepsilon.
+		            $
+		        </div>
+	        </td>
+      	</tr>
+    </table>
+    <table class="pt20_r20">
+      	<tr>
+        	<td class="vtop_zero_cgrey">23.</td>
+	        <td class="vtop_lten">
+	        	Replace the question marks in the following statement by expressions involving $\varepsilon, \ x_0$ and $y_0$ so that the conclusion will be true:
+	        	<p>
+		        	If $y_0 \neq 0$ and 
+		        	$$\lvert y-y_0 \rvert < \ ? \ \ \ \ \text{and} \ \ \ \ \lvert x-x_0 \rvert < \ ?$$
+		        	then $y \neq 0$ and
+		        	$$\Bigg\lvert \frac{x}{y} \ - \frac{x_0}{y_0} \ \Bigg\rvert < \varepsilon.$$
+		        	This problem is trivial in the sense that its solution follows from Problem 21 and 22 with almost no work at all (notice that $x/y=x \cdot 1/y$). The crucial point is not to become confused; decide which of the two problems should be used first, and don't panic if your answer looks unlikely.
+		        </p>
+	        </td>
+      	</tr>
+    </table>
+</html>

@@ -1,0 +1,126 @@
+<html>
+	<table class="pt10_r20">
+		<tr>
+			<td class="vtop_zero">01.</td>
+	        <td class="vtop_lten">
+	        	Prove the following formulas by induction.
+	        	<table class="p_t10-r20-w100">
+	        		<tr>
+	        			<td class="pt_3">(i)</td>
+	        			<td class="pl_10">$1^2+\cdots+n^2=\displaystyle\frac{n(n+1)(2n+1)}{6}.$</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="pt_3">(ii)</td>
+	        			<td class="pl_10">$1^3+\cdots+n^3=(1+\cdots+n)^2.$</td>
+	        		</tr>
+	        	</table>
+	        </td>
+      	</tr>
+    </table>
+    <table class="pt20_r20">
+      	<tr>
+	        <td class="vtop_zero">02.</td>
+	        <td class="vtop_lten">
+	        	Find a formula for
+	        	<table class="p_t10-r20-w100">
+	        		<tr>
+	        			<td class="pt_3">(i)</td>
+	        			<td class="pl_10">$\displaystyle\sum_{i=1}^{n} (2i-1)=1+3+5+\cdots+(2n-1).$</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="pt_3">(ii)</td>
+	        			<td class="pl_10">$\displaystyle\sum_{i=1}^{n} (2i-1)^2=1^2+3^2+5^2+\cdots+(2n-1)^2.$</td>
+	        		</tr>
+	        	</table>
+	        	<table>
+	        		<tr>
+	        			<td class="pzero">
+	        				Hint: what do these expressions have to do with $1+2+3+\cdots+2n$ and $1^2+2^2+3^2+\cdots+(2n)^2?$
+	        			</td>
+	        		</tr>
+	        	</table>
+	        </td>
+      	</tr>
+    </table>
+    <table class="pt20_r20_b10">
+      	<tr>
+	        <td class="vtop_t6">03.</td>
+	        <td class="vtop_lten">
+	        	If $0 \leq k \leq n,$ the binomial coefficient $\displaystyle {n \choose k}$ is defined by
+	        	<p class="mar_t10">
+	        		$\displaystyle{n \choose k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)\cdots(n-k+1)}{k!}, \ \ \ \text{if} \ k\neq0,n$ 
+	        	</p>
+	        	<p class="mar_t10">
+	        		$\displaystyle{n \choose 0}={n \choose n}=1$ (a special case of the first formula if we define $0!=1,)$ and for $k < 0$ or $n < k$ we just define the binomial coefficient to be 0.
+	        	</p>
+	        	<table class="p_t10-r20-w100">
+	        		<tr>
+	        			<td class="vtop_zero">(a)</td>
+	        			<td class="vtop_lten">
+	        				Prove that
+	        				$$\displaystyle{n+1 \choose k}=\displaystyle{n \choose k-1}+\displaystyle{n \choose k}.$$
+	        				The proof does not require an induction argument.
+	        				<br>
+	        				<br>
+	        				This relation gives rise to the following configuration, known as "Pascal's triangle" &mdash; a number not on one of the sides is the sum of the two numbers above it; the binomial coefficient $\displaystyle{n \choose k}$ is the $(k+1)\text{st}$ number in the $(n+1)\text{st}$ row.
+	        				$$
+	        				\begin{array}
+							&	&    &    &    &	&  1 \\
+								&	 &    &    &  1 &    &  1 \\
+								&	 &    &  1 &    &  2 &    &  1 \\
+								&	 &	1 &    &  3 &    &  3 &    &  1 \\
+								&  1 &    &  4 &    &  6 &    &  4 &    &  1 \\
+							  1 &    &  5 &	   & 10 & 	 & 10 &	   &  5 &	 &  1 \\
+								&	 &    &    &	& \dots
+							\end{array}
+							$$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_zero">(b)</td>
+	        			<td class="vtop_lten">
+	        				Notice that all the numbers in Pascal's triangle are natural  numbers. Use part (a) to prove by induction that $\displaystyle{n \choose k}$ is always a natural number. (Your entire proof by induction will, in a sense, be summed up in a glance by Pascal's triangle.)
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_zero">(c)</td>
+	        			<td class="vtop_lten">
+	        				Give another proof that $\displaystyle{n \choose k}$ is a natural number by showing that $\displaystyle{n \choose k}$ is the number of sets of exactly $k$ itegers  each chosen from $1,\dots, n.$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_t1">(d)</td>
+	        			<td class="vtop_lten">
+	        				Prove the <b>binomial theorem</b>: If $a$ and $b$ are any numbers and $n$ is a natural number, then
+	        				$$
+	        				\begin{equation}
+	        				\begin{split}
+	        				\displaystyle
+	        				(a+b)^n &= a^n+{n \choose 1}a^{n-1}b+{n \choose 2}a^{n-2}b^2+\cdots+{n \choose n-1}ab^{n-1}+b^n \\
+	        				&= \sum_{j=0}^{n} {n \choose j}a^{n-j}b^j.
+	        				\end{split}
+	        				\end{equation}
+	        				$$
+	        			</td>
+	        		</tr>
+	        		<tr>
+	        			<td class="vtop_zero">(e)</td>
+	        			<td class="vtop_lten">
+	        				Prove that
+	        				<p class="mar_t10">
+		        				$
+		        				\begin{array}{ll}
+		        					\text{(i)}		& \displaystyle\sum_{j=0}^{n}{n \choose j}={n \choose 0}+\cdots+{n \choose n}=2^n. \\
+		        					\text{(ii)}		& \displaystyle\sum_{j=0}^{n}(-1)^j{n \choose j}={n \choose 0}-{n \choose 1}+\cdots\pm{n \choose n}=0. \\
+		        					\text{(iii)}	& \displaystyle\sum_{l \ \text{odd}}{n \choose l}={n \choose 1}+{n \choose 3}+\cdots=2^{n-1}. \\
+		        					\text{(vi)}		& \displaystyle\sum_{l \ \text{even}}{n \choose l}={n \choose 0}+{n \choose 2}+\cdots=2^{n-1}.
+		        				\end{array}
+		        				$
+		        			</p>
+	        			</td>
+	        		</tr>
+	        	</table>
+        	</td>
+     	 </tr>
+    </table>
+</html>
