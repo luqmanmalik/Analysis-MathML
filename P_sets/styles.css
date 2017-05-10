@@ -427,3 +427,18 @@ hr.style-two {
 .theorem{vertical-align:top; color:grey;font-size:13;padding:2 0 0 0}
 .proof{vertical-align:top; color:grey; font-size:13; padding:1 0 0 0}
 .r20L44_font16{padding:0 20 0 40; font-size:16}
+.dd_menu{
+	background:none; 
+	width:100%;
+	height:20; 
+	margin-left:-8; 
+	margin-top:-8; 
+	padding:5 1 5 15; 
+	font-family:'Avenir', 'light'
+}
+.ddm_table{
+	position:absolute; 
+	top:-20; 
+	font-size:13; 
+	outline:none
+}
