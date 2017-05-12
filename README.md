@@ -14,7 +14,7 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
   </tr>
   <tr>
     <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V2<br><br>&nbsp;</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V2<br>&nbsp;</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
