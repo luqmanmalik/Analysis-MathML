@@ -1,36 +1,35 @@
 ## Calculus
-### 4E Problem Sets &#9634; Michael Spivak
+### Fourth Edition Problem Sets &#9634; Michael Spivak
 #### Solutions by Luqman Malik
 
-__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. To anyone with a keen palate for the rigor of the subject, and equal regard for its utility, I recommend _The Hitchhiker's Guide to Calculus_ (Spivak), and _What is Calculus about_ (W.W. Sawyer) as companions to enjoy alongside this volume. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL. 
-<table class="tg">
+__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. To anyone with a keen palate for the rigor of the subject, and equal regard for its utility, I recommend _The Hitchhiker's Guide to Calculus_ (Spivak), and _What is Calculus about_ (W.W. Sawyer) as companions to enjoy alongside this volume. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL. >
   <tr>
-    <th class="tg-yw4l"></th>
-    <th class="tg-yw4l"></th>
-    <th class="tg-yw4l"></th>
-    <th class="tg-yw4l"></th>
-    <th class="tg-yw4l"></th>
+    <th>Calculus, Fourth Edition</th>
+    <th>Calculus on Manifolds</th>
+    <th>A Hitchhiker's Guide to Calculus</th>
+    <th>What is Calculus About</th>
+    <th>IRP</th>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V2</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
   </tr>
   <tr>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
   </tr>
 </table>
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
