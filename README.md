@@ -2,7 +2,8 @@
 ### Fourth Edition Problem Sets &#9634; Michael Spivak
 #### Solutions by Luqman Malik
 
-__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. To anyone with a keen palate for the rigor of the subject, and equal regard for its utility, I recommend _The Hitchhiker's Guide to Calculus_ (Spivak), and _What is Calculus about_ (W.W. Sawyer) as companions to enjoy alongside this volume. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL. >
+__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. To anyone with a keen palate for the rigor of the subject, and equal regard for its utility, I recommend _The Hitchhiker's Guide to Calculus_ (Spivak), and _What is Calculus about_ (W.W. Sawyer) as companions to enjoy alongside this volume. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL.
+<table style="border:1 solid lightgrey">
   <tr>
     <th>Calculus, Fourth Edition</th>
     <th>Calculus on Manifolds</th>
