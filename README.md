@@ -8,13 +8,13 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
   <tr>
     <td>Calculus, Fourth Edition<br><br>&nbsp;</td>
     <td>Calculus on Manifolds: A Modern Approch to Classical Theorems of Advanced Calculus</td>
-    <td>A Hitchhiker's Guide to Calculus<br><br></td>
+    <td>A Hitchhiker's Guide to Calculus<br><br>&nbsp;</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V2</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V2<br><br>&nbsp;</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
