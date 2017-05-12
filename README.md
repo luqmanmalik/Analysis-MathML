@@ -3,12 +3,6 @@
 #### Solutions by Luqman Malik
 
 __Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. To anyone with a keen palate for the rigor of the subject, and equal regard for its utility, I recommend _The Hitchhiker's Guide to Calculus_ (Spivak), and _What is Calculus about_ (W.W. Sawyer) as companions to enjoy alongside this volume. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL. 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-yw4l{vertical-align:top}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-yw4l"></th>
