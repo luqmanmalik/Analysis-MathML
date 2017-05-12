@@ -6,18 +6,18 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
 
 <table style="border:1 solid lightgrey">
   <tr>
-    <td style="vertical-align:top">Calculus, Fourth Edition</td>
-    <td style="vertical-align:top">Calculus on Manifolds: A Modern Approch to Classical Theorems of Advanced Calculus</td>
-    <td style="vertical-align:top">A Hitchhiker's Guide to Calculus</td>
-    <td style="vertical-align:top"></td>
-    <td style="vertical-align:top"></td>
+    <td>Calculus, Fourth Edition<br><br></td>
+    <td>Calculus on Manifolds: A Modern Approch to Classical Theorems of Advanced Calculus</td>
+    <td>A Hitchhiker's Guide to Calculus<br><br></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td style="vertical-align:top">A Comprehensive Inroduction to Differential Geometry, V1</td>
-    <td style="vertical-align:top">A Comprehensive Inroduction to Differential Geometry, V2</td>
-    <td style="vertical-align:top">A Comprehensive Inroduction to Differential Geometry, V3</td>
-    <td style="vertical-align:top">A Comprehensive Inroduction to Differential Geometry, V4</td>
-    <td style="vertical-align:top">A Comprehensive Inroduction to Differential Geometry, V5</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V2</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
+    <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
   </tr>
 </table>
 
