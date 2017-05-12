@@ -4,13 +4,13 @@
 
 __Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643) I will have the page–frame available as a Safari application pretty soon. It will be released as an open Hilix product under MITL.
 
-<table style="border:1 solid lightgrey; font-family:'Courier', 'New'">
+<table style="border:1 solid lightgrey">
   <tr>
-    <th>Calculus, Fourth Edition</th>
-    <th>Calculus on Manifolds</th>
-    <th>A Hitchhiker's Guide to Calculus</th>
-    <th>What is Calculus About</th>
-    <th>IRP</th>
+    <td>Calculus, Fourth Edition</td>
+    <td>Calculus on Manifolds</td>
+    <td>A Hitchhiker's Guide to Calculus</td>
+    <td>What is Calculus About</td>
+    <td>IRP</td>
   </tr>
   <tr>
     <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
@@ -18,20 +18,6 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
     <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
     <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
-  </tr>
-  <tr>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
-  </tr>
-  <tr>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
   </tr>
 </table>
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
