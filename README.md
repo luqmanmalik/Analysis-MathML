@@ -9,8 +9,8 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
     <td>Calculus, Fourth Edition</td>
     <td>Calculus on Manifolds</td>
     <td>A Hitchhiker's Guide to Calculus</td>
-    <td>What is Calculus About</td>
-    <td>IRP</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
