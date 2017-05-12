@@ -7,7 +7,7 @@ __Calculus__ is the first volume in the eight–part analysis sequence by mathem
 <table style="border:1 solid lightgrey">
   <tr>
     <td>Calculus, Fourth Edition</td>
-    <td>Calculus on Manifolds, A Modern Approch to...</td>
+    <td>Calculus on Manifolds: A Modern Approch to Classical Theorems of Advanced Calculus</td>
     <td>A Hitchhiker's Guide to Calculus</td>
     <td></td>
     <td></td>
