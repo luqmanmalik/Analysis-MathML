@@ -12,7 +12,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 .MathJax:focus, .mjx-chtml:focus, .MathJax_SVG:focus {
 		outline:none;
 		padding:2 2 2 2;
-		border:1 solid #E3E5E8;
+		border:1px solid #E3E5E8;
 }
 .navbar{
 	height:30;
@@ -113,7 +113,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	padding:0 0 0 0; margin:0 0 0 0;
 }
 .f5_underline{
-	border-bottom:1 solid #f2f2f2;
+	border-bottom:1px solid #f2f2f2;
 }
 .field_6{
 	font-family: 'Avenir', 'light';
@@ -151,7 +151,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	vertical-align:top;
 	width:50%; height:100%;
 	padding:0 0 0 0;
-	border-left:1 solid #f2f2f2;
+	border-left:1px solid #f2f2f2;
 }
 .pp_head_n{
 	color:#aaa;
