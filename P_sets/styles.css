@@ -353,6 +353,7 @@ hr.style-two {
 	-webkit-user-select: none;
 	-ms-user-select: none;
 }
+/* Answer style */
 .vtop_zero{vertical-align:top; padding:0 0 0 0}
 .vtop_mzero{vertical-align:top; margin:0 0 0 0;}
 .vcenter_zero{vertical-align:center; padding:0 0 0 0}
