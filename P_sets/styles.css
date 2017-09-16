@@ -1,6 +1,5 @@
 html{overflow-y: scroll;}
 body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
-
 .unselectable {
     user-select: none;
     -ms-user-select: none;
@@ -10,9 +9,9 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
     -webkit-touch-callout: none;
 }
 .MathJax:focus, .mjx-chtml:focus, .MathJax_SVG:focus {
-		outline:none;
-		padding:2 2 2 2;
-		border:1px solid #E3E5E8;
+	outline:none;
+	padding:2 2 2 2;
+	border:1px solid #E3E5E8;
 }
 .navbar{
 	height:30;
@@ -88,7 +87,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
     color:grey;
     font-size:15;
     padding:0 0 10 40;
-    height:92.8% !important;
+    height:92.1% !important;
     overflow:scroll !important;
     font-family:'Avenir', 'light';
 }
@@ -120,7 +119,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	color:#aaa;
 	height:20; 
 	width:100%; 
-	margin:0 0 0 0; 
+	margin:0 0 0 0;
 	padding:3 0 0 0; 
 	background:#f2f2f2;
 }
@@ -135,12 +134,12 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	transform: scale(-1);
 }
 .field_7 {
-	 font-size:13;
+	font-size:13;
 	width:97%;
 	font-size:15; 
     margin:0 0 0 20;
     padding:5 0 0 0;
-    height:84.9% !important;
+    height:84.5% !important;
     overflow:scroll !important;
 }
 .pblm_page{

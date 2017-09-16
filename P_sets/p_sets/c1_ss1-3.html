@@ -1,6 +1,6 @@
 <html>
 	<p class="c1sl1_forwrd">
-		The aim is always to apply P1&ndash;P12 (and eventually P13) as they become relevant in the problem sets &mdash; that way, we can have strong confedence in our derivations. At times, of course, it is advisable to know many proofs of a theorem &ndash; should they exist, that is.
+		The aim is always to apply P1&ndash;P12 (and eventually P13) as they become relevant in the problem sets &mdash; that way, we can have strong confedence in the logic of our derivations. More often then not, begining with later problems of this chapter, different combinations of properties and proof types may apply to the same solution.
 	</p>
 	<table class="pt10_r20">
 		<tr>
@@ -11,8 +11,8 @@
 						<td class="vtop_t4">
 							$
 							\begin{array}{ll}
-								\text{(i)}	& \text{Proof:} \ \ a \cdot x =  a \ \Leftrightarrow \ x = a/a \ \Leftrightarrow  x = 1. \ \square \\
-											& \text{Proof:} \ \ 1 = a^{-1}a = a^{-1}(ax) = (a^{-1}a)x =1 \cdot x =x. \ \square
+								\text{(i)}	& a \cdot x =  a \ \Leftrightarrow \ x = a/a \ \Leftrightarrow  x = 1. \ \square \\
+											& 1 = a^{-1}a = a^{-1}(ax) = (a^{-1}a)x =1 \ \cdot x =x. \ \color{#aaa}{\blacksquare}
 							\end{array}
 							$
 						</td>
@@ -22,7 +22,7 @@
 							$
 							\begin{equation}
 								\begin{split}
-									\text{(ii)} \ \ \ \text{Proof:} \ \ (x-y)(x+y)
+									\text{(ii)} \ (x-y)(x+y)
 										&= [x+(-y)](x+y) = x(x+y)+(-y)(x+y) \\ 
 										&= x(x+y)-[y(x+y)] = x^2+xy-[yx+y^2] \\ 
 										&= x^2+[xy-yx]-y^2 \\ 
@@ -38,7 +38,7 @@
 							$
 							\begin{equation}
 								\begin{split}
-									\text{(iii)} \ \ \text{Proof:} \ \ [x^2=y^2] \Rightarrow 0 
+									\text{(iii)} \ [x^2=y^2] \rightarrow 0 
 										&= y^2-x^2 \\ 
 										&= -x^2+y^2 = -(x^2-y^2) \\ 
 										&= x^2-y^2 \\ 
@@ -56,7 +56,7 @@
 						$
 						\begin{equation}
 							\begin{split}
-								\text{(iv)} \ \ \text{Proof:} \ \ (x-y)(x^2+xy+y^2) 
+								\text{(iv)} \ (x-y)(x^2+xy+y^2) 
 									&= x(x^2+xy+y^2)-y(x^2+xy+y^2) \\ 
 									&= x(x^2+xy+y^2)-[y(x^2+xy+y^2)] \\ 
 									&= x^3+x^2y+xy^2-[yx^2+xy^2+y^3] \\ 
@@ -72,7 +72,7 @@
 							$
 							\begin{equation}
 								\begin{split}
-									\text{(v)} \ \ \text{Proof:} \ \ (x-y)(x^{n-1}+x^{n-2}y 
+									\text{(v)} \ (x-y)(x^{n-1}+x^{n-2}y 
 										&+\cdots+xy^{n-2}+y^{n-1}) \\ 
 										&= x(x^{n-1}+x^{n-2}y +\cdots+xy^{n-2}+y^{n-1}) \\ 
 										& \ \ \ \ \ \ -[y(x^{n-1}+x^{n-2}y +\cdots+xy^{n-2}+y^{n-1})] \\ 
@@ -93,7 +93,7 @@
 										&= x^n + \sum_{j=0}^{n-2} x^{j+1}y^{n-1-j} - \bigg[ \sum_{k=0}^{n-2} x^{k+1}y^{n-(k+1)} + y^n \bigg] \ \\ 
 										& \ \ \ \ \ \ \ \ \ \ \ (\text{where} \ k = j-1) \ \\ 
 										&= x^n-y^n. \\ 
-										& \ \square
+										& \ \color{#aaa}{\blacksquare}
 								\end{split}
 							\end{equation}
 							$
@@ -118,8 +118,8 @@
 						<td class="vtop_zero">
 						$
 						\begin{array}{ll}
-							\text{(i)}	& \text{Proof:} \ \ \dfrac{ac}{bc} = \dfrac{a}{b} \cdot \dfrac{c}{c} = \dfrac{a}{b} \cdot 1 = \dfrac{a}{b}. \ \square \\
-										& \text{Proof:} \ \ a/b = ab^{-1} = (ac)(b^{-1}c^{-1}) = (ac)(bc)^{-1} \ (\text{by (iii)}) = ac/bc. \ \square
+							\text{(i)}	& \dfrac{ac}{bc} = \dfrac{a}{b} \cdot \dfrac{c}{c} = \dfrac{a}{b} \cdot 1 = \dfrac{a}{b}. \ \square \\
+										& a/b = ab^{-1} = (ac)(b^{-1}c^{-1}) = (ac)(bc)^{-1} \ (\text{by (iii)}) = ac/bc. \ \square
 						\end{array}
 						$
 						</td>
@@ -129,7 +129,7 @@
 							$
 							\begin{equation}
 								\begin{split}
-									\text{(ii)} \ \ \ \text{Proof:} \ \ \frac{a}{b} + \frac{c}{d} 
+									\text{(ii)} \ \ \ \frac{a}{b} + \frac{c}{d} 
 										&= \bigg( \frac{d}{d} \bigg) \cdot \frac{a}{b} + \bigg( \frac{b}{b} \bigg) \cdot \frac{c}{d} \\ 
 										&= \frac{ad+bc}{bd}. \\ 
 										& \ \square
@@ -142,8 +142,8 @@
 						<td class="vtop_zero">
 							$
 							\begin{array}{ll}
-								\text{(iii)}	& \text{Proof:} \ \ (ab)^{-1} = 1/ab = (1/a) \cdot (1/b) = a^{-1}b^{-1}. \ \square \\
-												& \text{Proof:} \ \ ab(a^{-1}b^{-1}) = (a \cdot a^{-1})(b \cdot b^{-1}) = 1, \text{so} \ a^{-1} \cdot b^{-1} = (ab)^{-1}. \ \square
+								\text{(iii)}	& (ab)^{-1} = 1/ab = (1/a) \cdot (1/b) = a^{-1}b^{-1}. \ \square \\
+												& ab(a^{-1}b^{-1}) = (a \cdot a^{-1})(b \cdot b^{-1}) = 1, \text{so} \ a^{-1} \cdot b^{-1} = (ab)^{-1}. \ \square
 							\end{array}
 							$
 						</td>
@@ -153,7 +153,7 @@
 							$
 							\begin{equation}
 								\begin{split}
-									\text{(iv)} \ \ \ \ \text{Proof:} \ \ (a/b)(c/d) 
+									\text{(iv)} \ \ \ \ a/b)(c/d) 
 										&= (ab^{-1})(cd^{-1})  = (ac)(b^{-1}d^{-1}) \\
 										&= (ac)(bd)^{-1} (\text{by (iii)}) \\
 										&= (ac)/(bd). \\
@@ -165,16 +165,16 @@
 					</tr>
 					<tr>
 						<td class="vtop_zero">
-							$\text{(v)} \ \ \ \ \text{Proof:} \ \ \dfrac{a}{b} \bigg/ \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c} = \dfrac{ad}{bc}. \ \ \square$
-							&#xa;
+							$\text{(v)} \ \ \ \ \dfrac{a}{b} \bigg/ \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c} = \dfrac{ad}{bc}. \ \ \square$
+							<br>
 							$
 							\begin{equation}
 								\begin{split}
-									\ \ \ \ \ \ \ \ \text{Proof:} \ (a/b)/(c/d) 
+									\ \ \ \ \ \ \ \ \ a/b)/(c/d) 
 										&= (a/b)(c/d)^{-1} = (ab^{-1})(cd^{-1})^{-1} \\ 
 										&= (ab^{-1})(c^{-1}d) = ad(b^{-1}c^{-1}) \\
 										&= ad(bc)^{-1} = (ad)/(bc). \\ 
-										& \ \square
+										& \ \color{#aaa}{\blacksquare}
 									\end{split}
 							\end{equation}
 							$ 
@@ -183,13 +183,19 @@
 					<tr>
 						<td class="vtop_zero">
 							<p class="mar_zero">
-								$\text{(vi)}	\ \text{Proof: If} \ ab^{-1} = cd^{-1}, \ \text{then} \ (ab^{-1})bd = (cd^{-1})bd, \ \text{or} \ ad=bc. \ \text{Conversely,}$
-								&#xa;
-								$\text{if} \ ad= bc, \ \text{then} \ (ad)d^{-1}b^{-1} = (bc)d^{-1}b^{-1}, \ \text{or} \ ab^{-1} = cd^{-1}. \ \text{If} \ ab^{-1} = ba^{-1},$
-								&#xa;
-								$\text{then} \ a^2=b^2, \ \text{so by Problem 1&ndash;iii,} \ a=b \ \text{or} \ a=-b. \ \text{Conversely, if} \ a=b, \ \text{then}$
-								&#xa;
-								$a/b=b/a=1 \ \text{and if} \ a=-b, \ \text{then} \ a/b=b/a=-1. \ \square$
+								<table>
+									<tr>
+										<td class="vtop_t1">$\text{(vi)}$</td>
+										<td class="vtop_t2lten">
+											$
+											\begin{array}{l}
+												(ab^{-1} = cd^{-1}) \rightarrow \big[[(ab^{-1})bd = (cd^{-1})bd] \vee (ad=bc)\big]. \ \text{Conversely,} \\
+												(ad= bc) \rightarrow \big[[(ad)d^{-1}b^{-1} = (bc)d^{-1}b^{-1}] \vee \ ab^{-1} = cd^{-1}\big]. \\ (ab^{-1} = ba^{-1}) \rightarrow (a^2=b^2), \ \therefore | 1&ndash;\text{iii} | \ a=b \ \text{or} \ a=-b. \ \text{Conversely,} \\ [(a=b) \rightarrow (a/b=b/a=1)] \wedge [(a=-b) \rightarrow (a/b=b/a=-1)]. \ \square
+											\end{array}
+											$
+										</td>
+									</tr>
+								</table>
 							</p> 
 						</td>
 					</tr>
