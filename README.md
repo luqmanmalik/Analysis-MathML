@@ -1,8 +1,8 @@
 ## HLXRT-MSIBS-00-03
 ### Calculus, Fourth Edition &#9634; Michael Spivak
-#### P/S-extract
+#### P/S extract
 
-__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643). This <P/S> stack is the fourth book in the HLXRT mathematical analysis sequence.
+__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643). This P/S stack is the fourth book in the HLXRT mathematical analysis sequence.
 
 <table style="border:1 solid lightgrey">
   <tr>
