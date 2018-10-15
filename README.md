@@ -1,4 +1,4 @@
-## MSC2010-26-01_80-82517
+## MSC2010_26-01_80-82517
 ### Calculus, Fourth Edition &#9634; Michael Spivak
 #### Solutions by Luqman Malik
 
