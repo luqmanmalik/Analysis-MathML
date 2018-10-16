@@ -2,7 +2,7 @@
 ### MSC2010/LCCCN/ISBN: 26-01_80-82517_0914098918
 #### Auther: Michael Spivak
 #### Publisher: Publish or Perish, Inc.
-#### Solutions: Luqman Malik, M.Sc.-R2
+#### Solutions: Luqman Malik, M.Sc|R2
 <br>
 <br>
 
