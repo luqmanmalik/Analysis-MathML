@@ -2,10 +2,9 @@
 ### MSC2010/LCCCN/ISBN: 26-01_80-82517_0914098918
 #### Auther: Michael Spivak
 #### Publisher: Publish or Perish, Inc.
-#### Solutions: Luqman Malik, MSc.R2
+#### Solutions: Luqman Malik, M.Sc.-R2
 
-__Calculus__ is the first volume in the eight–part analysis sequence by mathematician and author Michael Spivak. Digital copies of the third edition have been made available at the Internet Archive.[<sup>+</sup>](https://archive.org/details/Calculus_643). This P/S stack is the fourth book in the HLXRT mathematical analysis sequence.
-
+__Contents__ 
 <table style="border:1 solid lightgrey">
   <tr>
     <td>Calculus, Fourth Edition<br><br>&nbsp;</td>
