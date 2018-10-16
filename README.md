@@ -3,8 +3,8 @@
 #### Auther: Michael Spivak
 #### Publisher: Publish or Perish, Inc.
 #### Solutions: Luqman Malik, M.Sc.-R2
-
-__Contents__ 
+<br>
+__CONTENTS__ 
 <table style="border:1 solid lightgrey">
   <tr>
     <td>Calculus, Fourth Edition<br><br>&nbsp;</td>
