@@ -1,5 +1,5 @@
-## Calculus: Fourth
-#### Repository title: 26-01_80-82517_0914098918
+## Calculus, Fourth Edition
+### 26-01_80-82517_0914098918
 #### Auther: Michael Spivak
 #### Publisher: Publish or Perish, Inc.
 #### Solutions by Luqman Malik
