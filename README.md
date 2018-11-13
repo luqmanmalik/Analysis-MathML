@@ -17,7 +17,7 @@ __Preface__
 
 | Part 2   |  Foundations                     |
 |----------|----------------------------------|
-|          |  3 Functions 39                  |
+|          |  3. Functions 39.  Appendix      |
 |          |  2 Numbers of Various Sorts 21   |
 
 
