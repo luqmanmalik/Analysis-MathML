@@ -10,17 +10,16 @@ Solutions: Luqman Malik, MSc-R2
 
 __Preface__
 
-| Part 1   |  Prologue                         |
-|----------|:----------------------------------|
+| Part 1   |  Prologue                               |
+|----------|:----------------------------------------|
 |          |  1 Basic Properties of Numbers &nbsp; 3 |
 |          |  2 Numbers of Various Sorts &nbsp; 21   |
 
-| Part 2   |  Foundations                      |
-|----------|:----------------------------------|
+| Part 2   |  Foundations                            |
+|----------|:----------------------------------------|
 |          |  <table><tr><td>3 Functions &nbsp; 39</td></tr><tr><td style="indent:20px"><em>&nbsp; Appendix. Ordered Pairs</em> &nbsp; 54</td></tr></table>|
-|          |  2 Numbers of Various Sorts &nbsp; 21   |
 |          |  <table><tr><td>4 Graphs &nbsp; 56</td></tr><tr><td style="indent:20px"><em>&nbsp; Appendix. Ordered Pairs</em> &nbsp; 54</td></tr></table>|
-|          |  2 Numbers of Various Sorts &nbsp; 21   |
+|          |  5 Limits 90                            |
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
