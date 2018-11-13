@@ -27,11 +27,14 @@ __Preface__
 
 | Part 3   |  Derivatives and Integrals              |
 |----------|:----------------------------------------|
-|          |  &nbsp;&nbsp;9 Derivatives &nbsp; 147|
+|          |  &nbsp;&nbsp;9 Derivatives &nbsp; 147   |
 |          |  10 Differentiation &nbsp; 166 |
 |          |  11 Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp; Appendix. Convexity and Concavity &nbsp; 216</td></tr></table>|
 |          |  12 Inverse Functions &nbsp; 227<table><tr><td>&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241</td></tr></table>|
 |          |  13 Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
+|          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
+|          |  15 The Trigonometric Functions &nbsp; 300
+|          |  16 <math><mi>&pi;</mi></math> is Irrational &nbsp; 321|
 
 
 
