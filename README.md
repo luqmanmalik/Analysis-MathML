@@ -1,6 +1,6 @@
 ## Calculus, Fourth Edition
 ### MSC2010_LCCCN_ISBN: 26-01_80-82517_0914098918
-<author style="color:lightgray">Auther: Michael Spivak.</author>  
+<span style="color:red">Auther: Michael Spivak.</span>  
 Publisher: Publish or Perish, Inc.  
 Solutions: Luqman Malik, MSc-R2.
 <br>
