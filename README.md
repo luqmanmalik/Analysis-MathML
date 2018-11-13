@@ -6,7 +6,8 @@ Publisher: Publish or Perish, Inc.
 Solutions: Luqman Malik, MSc-R2
 ```
 
-### Contents ··························································································································
+---
+### Contents 
 
 __Preface__
 
