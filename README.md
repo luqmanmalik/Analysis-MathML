@@ -6,28 +6,18 @@ Publisher: Publish or Perish, Inc.
 Solutions: Luqman Malik, MSc-R2
 ```
 
-__CONTENTS__ 
-<table style="border:1 solid lightgrey">
-  <tr>
-    <td>Calculus, Fourth Edition<br><br>&nbsp;</td>
-    <td>Calculus on Manifolds: A Modern Approch to Classical Theorems of Advanced Calculus</td>
-    <td>A Hitchhiker's Guide to Calculus<br><br>&nbsp;</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>A Comprehensive Inroduction to Differential Geometry, V1</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V2<br>&nbsp;</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V3</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V4</td>
-    <td>A Comprehensive Inroduction to Differential Geometry, V5</td>
-  </tr>
-</table>
 
-| Part 1   |      Prologue                    |
+__CONTENTS__ 
+| Part 1   |  Prologue                    |
 |----------|----------------------------------|
 |          |  1 Basic Properties of Numbers 3 |
 |          |  2 Numbers of Various Sorts 21   |
+
+| Part 2   |  Foundations                     |
+|----------|----------------------------------|
+|          |  1 Basic Properties of Numbers 3 |
+|          |  2 Numbers of Various Sorts 21   |
+
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
 
