@@ -1,8 +1,10 @@
 ## Calculus, Fourth Edition
-### MSC2010/LCCCN/ISBN: 26-01_80-82517_0914098918
-#### Auther: Michael Spivak
-#### Publisher: Publish or Perish, Inc.
-#### Solutions: Luqman Malik, MSc-R2
+<specs style="color:gray">
+  ### MSC2010/LCCCN/ISBN: 26-01_80-82517_0914098918
+  #### Auther: Michael Spivak
+  #### Publisher: Publish or Perish, Inc.
+  #### Solutions: Luqman Malik, MSc-R2
+</specs>
 <br>
 <br>
 
@@ -24,11 +26,11 @@ __CONTENTS__
   </tr>
 </table>
 
-| Tables   |      Are      |  Cool |
+| Part 1   |      Prologue      |  Cool |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| - |  left-aligned | $1600 |
+| - |    centered   |   $12 |
+| - | right-aligned |    $1 |
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
 
