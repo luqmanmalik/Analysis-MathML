@@ -9,6 +9,7 @@ Solutions: Luqman Malik, MSc-R2
 #### Contents
 
 __Preface__
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
