@@ -12,13 +12,13 @@ __Preface__
 
 | Part 1   |  Prologue                         |
 |----------|:----------------------------------|
-|          |  1 Basic Properties of Numbers  3 |
-|          |  2 Numbers of Various Sorts  21   |
+|          |  1 Basic Properties of Numbers &nbsp; 3 |
+|          |  2 Numbers of Various Sorts &nbsp; 21   |
 
 | Part 2   |  Foundations                      |
 |----------|:----------------------------------|
-|          |  <table><tr><td>3. Functions  39.</td></tr><tr><td><i>Appendix. Ordered Pairs</i>  54</td></tr></table> |
-|          |  2 Numbers of Various Sorts 21   |
+|          |  <table><tr><td>3. Functions &nbsp; 39.</td></tr><tr><td><i>Appendix. Ordered Pairs</i> &nbsp; 54</td></tr></table> |
+|          |  2 Numbers of Various Sorts &nbsp; 21   |
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
