@@ -17,7 +17,7 @@ __Preface__
 
 | Part 2   |  Foundations                            |
 |----------|:----------------------------------------|
-|          |  <table><tr><td>3 Functions &nbsp; 39</td></tr><tr><td style="margin-left:30px"><em>&nbsp; Appendix. Ordered Pairs</em> &nbsp; 54</td></tr></table>|
+|          |  3 Functions &nbsp; 39<table><tr><td style="margin-left:30px"><em>&nbsp; Appendix. Ordered Pairs</em> &nbsp; 54</td></tr></table>|
 |          |  <table><tr><td>4 Graphs &nbsp; 56</td></tr><tr><td style="indent:30px"><em>&nbsp; Appendix 1. Vectors</em> &nbsp; 75</td></tr><tr><td style="indent:30px"><em>&nbsp; Appendix 2. The Conic Sections</em> &nbsp; 80</td></tr></tr><tr><td style="indent:30px"><em>&nbsp; Appendix 3. Polar Coordinates</em> &nbsp; 84</td></tr></table>|
 |          |  5 Limits &nbsp; 90                            |
 |          |  6 Continuous Functions &nbsp; 113             |
