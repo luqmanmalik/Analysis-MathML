@@ -10,14 +10,14 @@ Solutions: Luqman Malik, MSc-R2
 
 __Preface__
 
-| Part 1   |  Prologue                        |
+| Part 1   |  Prologue                         |
 |----------|:----------------------------------|
-|          |  1 Basic Properties of Numbers 3 |
-|          |  2 Numbers of Various Sorts 21   |
+|          |  1 Basic Properties of Numbers  3 |
+|          |  2 Numbers of Various Sorts  21   |
 
-| Part 2   |  Foundations                     |
+| Part 2   |  Foundations                      |
 |----------|:----------------------------------|
-|          |  <table><tr><td>3. Functions 39.</td></tr><tr><td>Appendix</td></tr></table>|
+|          |  <table><tr><td>3. Functions  39.</td></tr><tr><td><i>Appendix. Ordered Pairs</i>  54</td></tr></table> |
 |          |  2 Numbers of Various Sorts 21   |
 
 
