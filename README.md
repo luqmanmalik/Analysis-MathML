@@ -14,6 +14,7 @@ __Preface__
 |----------|:----------------------------------|
 |          |  1 Basic Properties of Numbers &nbsp; 3 |
 |          |  2 Numbers of Various Sorts &nbsp; 21   |
+
 | Part 2   |  Foundations                      |
 |----------|:----------------------------------|
 |          |  <table><tr><td>3 Functions &nbsp; 39</td></tr><tr><td style="indent:20px"><em>&nbsp; Appendix. Ordered Pairs</em> &nbsp; 54</td></tr></table>|
