@@ -7,7 +7,7 @@ Solutions: Luqman Malik, MSc-R2
 ```
 
 ---
-### Contents 
+### CONTENTS 
 
 __Preface__
 
