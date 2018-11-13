@@ -17,7 +17,7 @@ __Preface__
 
 | Part 2   |  Foundations                      |
 |----------|:----------------------------------|
-|          |  <table><tr><td>3 Functions &nbsp; 39.</td></tr><tr><td><i>Appendix. Ordered Pairs</i> &nbsp; 54</td></tr></table>|
+|          |  <table><tr><td>3 Functions &nbsp; 39</td></tr><tr><td><i>&nbsp; Appendix. Ordered Pairs</i> &nbsp; 54</td></tr></table>|
 |          |  2 Numbers of Various Sorts &nbsp; 21   |
 
 
