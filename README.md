@@ -9,7 +9,7 @@ Solutions: Luqman Malik, MSc-R2
 #### Contents
 
 __Preface__
-| Part 1   |  Prologue                        |
+| Part 1   |  Prologue |
 |----------|----------------------------------|
 |          |  1 Basic Properties of Numbers 3 |
 |          |  2 Numbers of Various Sorts 21   |
