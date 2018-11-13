@@ -27,7 +27,7 @@ __Preface__
 
 | Part 3   |  Derivatives and Integrals              |
 |----------|:----------------------------------------|
-|          |   9 Derivatives &nbsp; 147               |
+|          |  &nbsp;9 Derivatives &nbsp; 147               |
 |          |  10 Differentiation &nbsp; 166 |
 |          |  11 Functions &nbsp; 39<table><tr><td>&nbsp; Appendix. Ordered Pairs &nbsp; 54</td></tr></table>|
 |          |  12 Graphs &nbsp; 56<table><tr><td>&nbsp; Appendix 1. Vectors &nbsp; 75</td></tr><tr><td style="indent:30px">&nbsp; Appendix 2. The Conic Sections &nbsp; 80</td></tr></tr><tr><td style="indent:30px">&nbsp; Appendix 3. Polar Coordinates &nbsp; 84</td></tr></table>|
