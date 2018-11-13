@@ -14,6 +14,7 @@ __Preface__
 |          |  1 Basic Properties of Numbers 3 |
 |          |  2 Numbers of Various Sorts 21   |
 
+--
 | Part 2   |  Foundations                     |
 |----------|----------------------------------|
 |          |  1 Basic Properties of Numbers 3 |
