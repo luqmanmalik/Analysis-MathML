@@ -27,7 +27,7 @@ __Preface__
 
 | Part 3   |  Derivatives and Integrals              |
 |----------|:----------------------------------------|
-|          |  &nbsp;&nbsp;9 Derivatives &nbsp; 147   |
+|          |  &nbsp;&nbsp;9. Derivatives &nbsp; 147   |
 |          |  10. Differentiation &nbsp; 166 |
 |          |  11. Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp; Appendix. Convexity and Concavity &nbsp; 216</td></tr></table>|
 |          |  12. Inverse Functions &nbsp; 227<table><tr><td>&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241</td></tr></table>|
