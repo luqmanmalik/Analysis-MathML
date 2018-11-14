@@ -13,31 +13,31 @@ __Preface__
 
 | Part 1   |  Prologue                               |
 |----------|:----------------------------------------|
-|          |  1 Basic Properties of Numbers &nbsp; 3 |
-|          |  2 Numbers of Various Sorts &nbsp; 21   |
+|          |  1. Basic Properties of Numbers &nbsp; 3 |
+|          |  2. Numbers of Various Sorts &nbsp; 21   |
 
 | Part 2   |  Foundations                            |
 |----------|:----------------------------------------|
-|          |  3 Functions &nbsp; 39<table><tr><td>&nbsp; Appendix. Ordered Pairs &nbsp; 54</td></tr></table>|
-|          |  4 Graphs &nbsp; 56<table><tr><td>&nbsp; Appendix 1. Vectors &nbsp; 75</td></tr><tr><td style="indent:30px">&nbsp; Appendix 2. The Conic Sections &nbsp; 80</td></tr></tr><tr><td style="indent:30px">&nbsp; Appendix 3. Polar Coordinates &nbsp; 84</td></tr></table>|
-|          |  5 Limits &nbsp; 90                     |
-|          |  6 Continuous Functions &nbsp; 113      |
-|          |  7 Three Hard Theorems &nbsp; 120       |
-|          |  8 Least Upper Bounds &nbsp; 131<table><tr><td style="margin-left:30px">&nbsp; Appendix. Uniform Continuity &nbsp; 142</td></tr></table>|
+|          |  3. Functions &nbsp; 39<table><tr><td>&nbsp; Appendix. Ordered Pairs &nbsp; 54</td></tr></table>|
+|          |  4. Graphs &nbsp; 56<table><tr><td>&nbsp; Appendix 1. Vectors &nbsp; 75</td></tr><tr><td style="indent:30px">&nbsp; Appendix 2. The Conic Sections &nbsp; 80</td></tr></tr><tr><td style="indent:30px">&nbsp; Appendix 3. Polar Coordinates &nbsp; 84</td></tr></table>|
+|          |  5. Limits &nbsp; 90                     |
+|          |  6. Continuous Functions &nbsp; 113      |
+|          |  7. Three Hard Theorems &nbsp; 120       |
+|          |  8. Least Upper Bounds &nbsp; 131<table><tr><td style="margin-left:30px">&nbsp; Appendix. Uniform Continuity &nbsp; 142</td></tr></table>|
 
 | Part 3   |  Derivatives and Integrals              |
 |----------|:----------------------------------------|
 |          |  &nbsp;&nbsp;9 Derivatives &nbsp; 147   |
-|          |  10 Differentiation &nbsp; 166 |
-|          |  11 Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp; Appendix. Convexity and Concavity &nbsp; 216</td></tr></table>|
-|          |  12 Inverse Functions &nbsp; 227<table><tr><td>&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241</td></tr></table>|
-|          |  13 Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
-|          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
-|          |  15 The Trigonometric Functions &nbsp; 300
-|          |  16 &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
-|          |  17 Planetary Motion &nbsp; 327 &nbsp; &#9657; |
-|          |  18 The Logarithm and Exponentail Functions &nbsp; 336|
-|          |  19 Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397</td></tr></table>|
+|          |  10. Differentiation &nbsp; 166 |
+|          |  11. Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp; Appendix. Convexity and Concavity &nbsp; 216</td></tr></table>|
+|          |  12. Inverse Functions &nbsp; 227<table><tr><td>&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241</td></tr></table>|
+|          |  13. Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
+|          |  14. The Fundamental Theorem of Calculus &nbsp; 282|
+|          |  15. The Trigonometric Functions &nbsp; 300
+|          |  16. &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
+|          |  17. Planetary Motion &nbsp; 327 &nbsp; &#9657; |
+|          |  18. The Logarithm and Exponentail Functions &nbsp; 336|
+|          |  19. Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397</td></tr></table>|
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
