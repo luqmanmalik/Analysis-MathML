@@ -3,7 +3,7 @@
 ```
 TXT Author: Michael Spivak  
 Publisher: Publish or Perish, Inc.  
-SLN SETS Author/Developer: Luqman Malik, MSc-R2
+SLN SETS Author/Developer: Luqman Malik
 ```
 
 ---
