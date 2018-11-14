@@ -29,15 +29,15 @@ __Preface__
 |----------|:----------------------------------------|
 |          |  &nbsp;&nbsp;9. Derivatives &nbsp; 147   |
 |          |  10. Differentiation &nbsp; 166 |
-|          |  11. Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp;&nbsp; Appendix. Convexity and Concavity &nbsp; 216</td></tr></table>|
-|          |  12. Inverse Functions &nbsp; 227<table><tr><td>&nbsp;&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241</td></tr></table>|
-|          |  13. Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
+|          |  11. Significance of the Derivative &nbsp; 185<table><tr><td>&nbsp;&nbsp; Appendix. Convexity and Concavity &nbsp; 216&nbsp;</td></tr></table>|
+|          |  12. Inverse Functions &nbsp; 227<table><tr><td>&nbsp;&nbsp; Appendix. Parametric Representation of Curves &nbsp; 241&nbsp;</td></tr></table>|
+|          |  13. Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. Riemann Sums &nbsp; 279&nbsp;</td></tr></table>|
 |          |  14. The Fundamental Theorem of Calculus &nbsp; 282|
 |          |  15. The Trigonometric Functions &nbsp; 300
 |          |  16. &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
 |          |  17. Planetary Motion &nbsp; 327 &nbsp; &#9657; |
 |          |  18. The Logarithm and Exponentail Functions &nbsp; 336|
-|          |  19. Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397</td></tr></table>|
+|          |  19. Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397&nbsp;</td></tr></table>|
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
