@@ -35,8 +35,8 @@ __Preface__
 |          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
 |          |  15 The Trigonometric Functions &nbsp; 300
 |          |  16 &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
-|          |  17 Planetary Motion 327 &nbsp; &#9657; |
-|          |  18 The Logarithm and Exponentail Functions 336|
+|          |  17 Planetary Motion &nbsp; 327 &nbsp; &#9657; |
+|          |  18 The Logarithm and Exponentail Functions &nbsp; 336|
 |          |  19 Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397</td></tr></table>|
 
 
