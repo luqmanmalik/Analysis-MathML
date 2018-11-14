@@ -35,7 +35,9 @@ __Preface__
 |          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
 |          |  15 The Trigonometric Functions &nbsp; 300
 |          |  16 &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
-|          |  17 Planetary Motion 327 &nbsp; &#9657;|
+|          |  17 Planetary Motion 327 &nbsp; &#9657; |
+|          |  18 The Logarithm and Exponentail Functions 336|
+|          |  19 Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397</td></tr></table>|
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
