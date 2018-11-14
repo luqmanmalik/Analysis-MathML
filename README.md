@@ -34,7 +34,7 @@ __Preface__
 |          |  13 Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
 |          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
 |          |  15 The Trigonometric Functions &nbsp; 300
-|          |  16 <math><mi>&pi;</mi></math> is Irrational &nbsp; 321 &nbsp; &#9657;|
+|          |  16 &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
 |          |  17 Planetary Motion 327 &nbsp; &#9657;|
 
 
