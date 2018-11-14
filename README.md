@@ -34,8 +34,8 @@ __Preface__
 |          |  13 Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp; Appendix. Riemann Sums &nbsp; 279</td></tr></table>|
 |          |  14 The Fundamental Theorem of Calculus &nbsp; 282|
 |          |  15 The Trigonometric Functions &nbsp; 300
-|          |  16 <math><mi>&pi;</mi></math> is Irrational &nbsp; 321 &nbsp;&nbsp; &#9872;|
-|          |  17 Planetary Motion 327 &nbsp;&nbsp; &#9872;|
+|          |  16 <math><mi>&pi;</mi></math> is Irrational &nbsp; 321 &nbsp;&nbsp; &#25B3;|
+|          |  17 Planetary Motion 327 &nbsp;&nbsp; &#25B3;|
 
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
