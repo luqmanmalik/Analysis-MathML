@@ -5,7 +5,7 @@
 TXT Author: Michael Spivak  
 Publisher: Publish or Perish, Inc.  
 ſ-SETS Author/Developer: Luqman Malik
-·············································
+······································
 ©Hilix Research and Technologies, Inc.
 ```
 
