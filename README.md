@@ -15,7 +15,6 @@ __Preface__
 |--------------|:-----------------------------------------|
 |              |  1. Basic Properties of Numbers &nbsp; 3 |
 |              |  2. Numbers of Various Sorts &nbsp; 21   |
-|              |                                          |
 | __Part 2__   |  __Foundations__                         |
 |              |  3. Functions &nbsp; 39<table><tr><td>&nbsp; Appendix. Ordered Pairs &nbsp; 54</td></tr></table>|
 |              |  4. Graphs &nbsp; 56<table><tr><td>&nbsp; Appendix 1. Vectors &nbsp; 75</td></tr><tr><td style="indent:30px">&nbsp; Appendix 2. The Conic Sections &nbsp; 80</td></tr></tr><tr><td style="indent:30px">&nbsp; Appendix 3. Polar Coordinates &nbsp; 84</td></tr></table>|
@@ -23,7 +22,6 @@ __Preface__
 |              |  6. Continuous Functions &nbsp; 113                       |
 |              |  7. Three Hard Theorems &nbsp; 120                        |
 |              |  8. Least Upper Bounds &nbsp; 131<table><tr><td style="margin-left:30px">&nbsp; Appendix. Uniform Continuity &nbsp; 142</td></tr></table>|
-|              |                                                           |
 | __Part 3__   |  __Derivatives and Integrals__                            |
 |              |  &nbsp;&nbsp;9. Derivatives &nbsp; 147                    |
 |              |  10. Differentiation &nbsp; 166 |
@@ -41,7 +39,10 @@ __Preface__
 |              |  21. <i>e</i> is Transcendental &nbsp; 435 &nbsp; &#9872; |
 |              |  22. Infinite Sequences &nbsp; 445                        |
 |              |  22. Infinite Series &nbsp; 464                           |
-|              |  22. Uniform Convergence and Power Series &nbsp; 491      |
+|              |  23. Uniform Convergence and Power Series &nbsp; 491      |
+|              |  24. Complex Numbers &nbsp; 517                           |
+|              |  25. Complex Functions &nbsp; 532                         |
+|              |  26. Complex Power Series &nbsp; 546                      |
 ---
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
