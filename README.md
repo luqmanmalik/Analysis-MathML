@@ -44,9 +44,9 @@ __Preface__
 |              |  26. Complex Functions &nbsp; 532                         |
 |              |  27. Complex Power Series &nbsp; 546                      |
 | __Part 5__   |  __Epilogue__                         |
-|              |  28. Fields &nbsp; 39                                     |
+|              |  28. Fields &nbsp; 571                                     |
 |              |  29. Construction of the Real Numbers &nbsp; 578          |
-|              |  30. Uniqueness of the Real Numbers &nbsp; 591<table><tr><td>&nbsp; Suggested reading &nbsp; 599</td></tr><tr><td style="indent:30px">&nbsp; Answers to Selected Problems &nbsp; 609</td></tr></tr><tr><td style="indent:30px">&nbsp; Glossery of Symbols &nbsp; 655</td></tr><tr><td>&nbsp; Index &nbsp; 659</td></tr></table>|
+|              |  30. Uniqueness of the Real Numbers &nbsp; 591<table><tr><td>&nbsp; Suggested reading &nbsp; 599</td></tr><tr><td style="indent:30px">&nbsp; Answers (to Selected Problems) &nbsp; 609</td></tr></tr><tr><td style="indent:30px">&nbsp; Glossery of Symbols &nbsp; 655</td></tr><tr><td>&nbsp; Index &nbsp; 659</td></tr></table>|
 ---
 
 __Part V (Epilogue)__ of the book concludes with chapters on the construction of the real numbers and a demonstration of the uniqueness of the real numbers. I use this model to explore a forking  **F : (N** &rarr; **&real;)** that revisits some fundamental assumptions about (0, &#x221e;). In doing so, I am considering the arguments of Dedekind–Peano, Weierstrass–Cauchy–Spivak, and A. Robinson.
