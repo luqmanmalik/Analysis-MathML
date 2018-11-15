@@ -11,13 +11,12 @@ Publisher: Publish or Perish, Inc.
 
 __Preface__
 
-| Part 1   |  Prologue                               |
-|----------|:----------------------------------------|
-|          |  1. Basic Properties of Numbers &nbsp; 3 |
-|          |  2. Numbers of Various Sorts &nbsp; 21   |
-
-| Part 2   |  Foundations                            |
-|----------|:----------------------------------------|
+| Part 1       |  Prologue                                |
+|--------------|:-----------------------------------------|
+|              |  1. Basic Properties of Numbers &nbsp; 3 |
+|              |  2. Numbers of Various Sorts &nbsp; 21   |
+|              |                                          |
+| __Part 2__   |  __Foundations__                         |
 |          |  3. Functions &nbsp; 39<table><tr><td>&nbsp; Appendix. Ordered Pairs &nbsp; 54</td></tr></table>|
 |          |  4. Graphs &nbsp; 56<table><tr><td>&nbsp; Appendix 1. Vectors &nbsp; 75</td></tr><tr><td style="indent:30px">&nbsp; Appendix 2. The Conic Sections &nbsp; 80</td></tr></tr><tr><td style="indent:30px">&nbsp; Appendix 3. Polar Coordinates &nbsp; 84</td></tr></table>|
 |          |  5. Limits &nbsp; 90                     |
