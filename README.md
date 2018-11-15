@@ -32,8 +32,8 @@ __Preface__
 |              |  13. Integrals &nbsp; 250<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. Riemann Sums &nbsp; 279&nbsp;</td></tr></table>|
 |              |  14. The Fundamental Theorem of Calculus &nbsp; 282|
 |              |  15. The Trigonometric Functions &nbsp; 300
-|              |  16. &pi; is Irrational &nbsp; 321 &nbsp; &#9657;|
-|              |  17. Planetary Motion &nbsp; 327 &nbsp; &#9657; |
+|              |  16. &pi; is Irrational &nbsp; 321 &nbsp; &diams;|
+|              |  17. Planetary Motion &nbsp; 327 &nbsp; &diams; |
 |              |  18. The Logarithm and Exponentail Functions &nbsp; 336|
 |              |  19. Integration in Elementary Terms &nbsp; 359<table><tr><td style="margin-left:30px">&nbsp;&nbsp; Appendix. The Cosmopolitan Integral &nbsp; 397&nbsp;</td></tr></table>|
 ---
