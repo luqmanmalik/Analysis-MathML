@@ -6,7 +6,7 @@ TXT Author: Michael Spivak
 Publisher: Publish or Perish, Inc.  
 ſ-SETS Author/Developer: Luqman Malik
 ·················································
-Copyright: Hilix Research and Technologies, Inc.®
+Distribution License: Hilix Research and Technologies, Inc.®
 ```
 
 ---
