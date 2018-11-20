@@ -3,8 +3,8 @@
 #### MSC2010_LCCCN_ISBN: 26-01_80-82517_0914098918
 ```
 IMU P-Rank: 1B (adv. baccalaureate)
-Π-SETS: Michael Spivak, Publish or Perish, Inc.  
-ſ-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
+[Π]-SETS: Michael Spivak, Publish or Perish, Inc.  
+[ſ]-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
 ·····························································
 Distribution license: Hilix Research and Technologies, Inc.®
 ```
