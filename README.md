@@ -2,10 +2,10 @@
 ### Foundations in Mathematical Analysis
 #### MSC2010_LCCCN_ISBN: 26-01_80-82517_0914098918
 ```
-Mathematical Sciences Rank 1B  
+IMU Rank: 1B. (adv. baccalaureate)
 Π-SETS: Michael Spivak, Publish or Perish, Inc.  
 ſ-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
-································································
+·····························································
 Distribution license: Hilix Research and Technologies, Inc.®
 ```
 
