@@ -4,8 +4,8 @@
 ```
 IMU P-Rank: 1A (adv. baccalaureate).  
 Series: Foundations in Mathematical Analysis
-Π-SETS: Michael Spivak, Publish or Perish, Inc.  
-ſ -SETS: Luqman Malik, Hilix Research and Technologies, Inc.
+(Π)-SETS: Michael Spivak, Publish or Perish, Inc.  
+(ſ)-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
 ·····························································
 Distribution license: Hilix Research and Technologies, Inc.®
 ```
