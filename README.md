@@ -2,8 +2,8 @@
 ### Foundations in Mathematical Analysis
 #### MSC2010_LCCCN_ISBN: 26-01_80-82517_0914098918
 ```
-&Pi;-SETS: Michael Spivak, Publish or Perish, Inc.  
-&#383;-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
+&Pi; -SETS: Michael Spivak, Publish or Perish, Inc.  
+&#x017F; -SETS: Luqman Malik, Hilix Research and Technologies, Inc.
 ································································
 Distribution license: Hilix Research and Technologies, Inc.®
 ```
