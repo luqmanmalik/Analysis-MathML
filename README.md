@@ -1,6 +1,6 @@
 ## Elementary Analysis
 ### Formal Calculus
-#### 26-01_80-82517_0914098918
+#### 26-01 80-82517 0914098918
 ```
 Luqman Malik  
 IMU rank: 1A (adv. baccalaureate).  
