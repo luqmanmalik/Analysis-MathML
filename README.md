@@ -2,7 +2,7 @@
 ### Formal Calculus
 #### 26-01_80-82517_0914098918
 ```
-IMU P-Rank: 1A (adv. baccalaureate).  
+IMU rank: 1A (adv. baccalaureate).  
 Series: Foundations in Mathematical Analysis  
 [ſ]-SETS: Luqman Malik, Hilix Research and Technologies, Inc.
 ·····························································
