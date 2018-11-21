@@ -1,6 +1,6 @@
-## Formal Calculus
-### Foundations in Mathematical Analysis
-#### MSC2010_LCCCN_ISBN: 26-01_80-82517_0914098918
+## Elementary Analysis
+### Formal Calculus
+#### 26-01_80-82517_0914098918
 ```
 IMU P-Rank: 1A (adv. baccalaureate).  
 Series: Foundations in Mathematical Analysis
