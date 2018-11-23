@@ -3,7 +3,7 @@
 #### 26-01 80-82517 0914098918
 ```
 Luqman Malik  
-IMU rank: 1A (adv. baccalaureate).  
+IMU P-RNK: 1A (adv. baccalaureate).  
 Series: Foundations in Mathematical Analysis  
 ·····························································
 Distribution license: Hilix Research and Technologies, Inc.®
