@@ -93,7 +93,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
     font-family:'Avenir', 'light';
 }
 .tc_title{font-size:25}
-.tc_items{color:grey; font-size:12}				
+.tc_items{color:grey; font-size:12px}				
 
 .infscrll {
 	width:97%;
