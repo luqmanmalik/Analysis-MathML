@@ -189,7 +189,7 @@ a.two:hover{color: grey}
 a.contents{
 	color:grey; 
 	font-family:'Avenir', 'light'; 
-	font-size:12px;
+	font-size:10px;
 }
 a.contents:hover{text-decoration: underline; cursor: default;}
 i.fa{font-size: 16px;}
