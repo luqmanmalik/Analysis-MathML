@@ -60,6 +60,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	font-family:'Avenir';
 }
 .tc_page{
+	width:100%;
 	height: 100%;
 	cursor:default;
 	padding:0 0 0 0;
