@@ -204,6 +204,7 @@ input[type="search"]{
 	font-family:'Avenir';
 	-webkit-appearance:caret;
 	border-radius: 0%!important;
+	border:1px solid none;
 }
 .search{
 	color:#aaa;
@@ -215,6 +216,7 @@ input[type="search"]{
 	background: transparent;
 	-webkit-appearance:caret;
 	border-radius: 0%!important;
+	border:1px solid none;
 }
 
 .dropdown {
