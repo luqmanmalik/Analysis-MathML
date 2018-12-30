@@ -17,24 +17,24 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	background:linear-gradient(lightgrey, grey); 
 }
 .w3-content{
-	width:100%; 
+	width:100%!important; 
 	height:100%;
 	position:fixed;
 }
 .mySlides{
-	width:100%; 
+	width:100%!important; 
 	height:100%; 
 	margin:30 0 0 0; 
 	padding:0 0 0 0;
 	font-family:'Avenir';
-	border-collapse: collapse
+	border-collapse: collapse;
 }
 .T_page{
 	height:100%; 
 	vertical-align:top;
 	padding:10 10 0 10;
 	background:linear-gradient(lightgrey, grey); 
-	background-repeat:no-repeat
+	background-repeat:no-repeat;
 }
 .T_field{
 	color:grey;
