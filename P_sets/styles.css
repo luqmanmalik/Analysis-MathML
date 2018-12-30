@@ -22,9 +22,8 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	position:fixed;
 }
 .mySlides{
-	width:200%; 
-	height:100%; 
-	position:fixed;
+	width:900;
+	height:100%;
 	margin:30 0 0 0; 
 	padding:0 0 0 0;
 	font-family:'Avenir';
