@@ -30,7 +30,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	border-collapse: collapse
 }
 .T_page{
-	width:100%; 
+	width:50%; 
 	height:100%; 
 	vertical-align:top;
 	padding:10 10 0 10;
@@ -60,7 +60,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	font-family:'Avenir';
 }
 .tc_page{
-	width:100%;
+	width:50%;
 	height: 100%;
 	cursor:default;
 	padding:0 0 0 0;
