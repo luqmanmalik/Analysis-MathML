@@ -39,9 +39,8 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	background-repeat:no-repeat;
 }
 .T_field{
-	width:95%;
-	height:100;
-	color:white;
+	width:90%;
+	height:1%;
 	cursor:default; 
 	padding:20; 
 	font-family:'Arial'; 
