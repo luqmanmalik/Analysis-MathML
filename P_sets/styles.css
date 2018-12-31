@@ -50,16 +50,13 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	width:20%;
 	height:1%;
 	font-size:14;
-	color:white;
 	font-weight:500;
-	padding:50 0 0 40;
 	font-family:'Avenir';
 }
 .lic_tag{
-	color:white; 
+	color:white!important; 
 	font-size:14;
-	font-weight:500;
-	padding:20 0 0 40; 
+	font-weight:500; 
 	font-family:'Avenir';
 }
 .tc_page{
