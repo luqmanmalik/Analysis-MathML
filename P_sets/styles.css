@@ -47,6 +47,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	background:linear-gradient(white,#E5E7E9);opacity:.5;
 }
 .TP_footer{
+	color:white;
 	width:20%;
 	height:1%;
 	font-size:14;
