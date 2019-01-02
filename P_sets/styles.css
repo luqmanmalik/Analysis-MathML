@@ -69,8 +69,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 }
 .searchf_0{
 	width:100%;
-	border:1px solid red;
-	outline:none;
+	outline:gray;
 	background:#f2f2f2;
 }
 .search_res{
