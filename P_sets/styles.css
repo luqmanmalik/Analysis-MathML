@@ -35,7 +35,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	height:100%; 
 	vertical-align:top;
 	padding:10 10 0 10;
-	background:linear-gradient(lightgrey, grey); 
+	background-image: url("whiteMountain.jpg");
 	background-repeat:no-repeat;
 }
 .T_field{
