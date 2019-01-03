@@ -37,6 +37,7 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	height:100%; 
 	vertical-align:top;
 	padding:10 10 0 10;
+	font-family:'Arial';
 	background-image: url("whiteMountain.jpg");
 	background-repeat:no-repeat;
 }
