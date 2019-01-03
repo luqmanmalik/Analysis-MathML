@@ -1,5 +1,6 @@
 html{overflow-y: scroll;}
-body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
+/*body{margin:0 0 0 0;font-family: 'lmroman10-regular'}*/
+body{margin:0 0 0 0;font-family: 'Arial'}
 .unselectable {
     user-select: none;
     -ms-user-select: none;
@@ -13,7 +14,7 @@ body{margin:0 0 0 0;font-family: 'lmroman10-regular'}
 	width:100%; 
 	margin:0 0 0 0; 
 	position:fixed; 
-	font-family:'Avenir','light';
+	font-family:'Arial';
 	background:linear-gradient(lightgrey, grey); 
 }
 .w3-content{
