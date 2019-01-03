@@ -208,8 +208,6 @@ input[type="search"]{
 	text-align: right;
 	font-family:'Avenir';
 	-webkit-appearance:caret;
-	border-radius: 0%!important;
-	border:1px solid none;
 }
 .search{
 	color:#aaa;
@@ -220,8 +218,6 @@ input[type="search"]{
 	font-family:'Avenir';
 	background: transparent;
 	-webkit-appearance:caret;
-	border-radius: 0%!important;
-	border:1px solid none;
 }
 
 .dropdown {
