@@ -45,7 +45,8 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	width:92%;
 	height:1%;
 	cursor:default; 
-	padding:20; 
+	padding:20;
+	font-family:10;
 	font-family:'Arial'; 
 	background:linear-gradient(white,#E5E7E9);opacity:.5;
 }
