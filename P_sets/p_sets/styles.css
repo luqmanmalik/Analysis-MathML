@@ -58,7 +58,9 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	font-weight:500;
 	font-family:'Avenir';
 }
-.lic_tag{
+.HRT{
+	margin-top:200;
+	float:right;
 	color:red; 
 	font-size:14;
 	font-weight:500; 
