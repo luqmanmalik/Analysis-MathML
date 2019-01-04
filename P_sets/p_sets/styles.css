@@ -63,7 +63,9 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	height:1%;
 	margin-top:200;
 	float:right;
-	color:White; 
+	color:gray;
+	background:white;
+	opacity:.7;
 	font-size:14;
 	font-weight:500; 
 	font-family:'Arial';
