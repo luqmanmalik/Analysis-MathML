@@ -63,6 +63,7 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	height:1%;
 	float:right;
 	color:gray;
+	overflow:hidden;
 	background:white;
 	opacity:.7;
 	font-size:14;
