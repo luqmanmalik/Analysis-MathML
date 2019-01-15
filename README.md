@@ -3,7 +3,7 @@
 #### 26-01 80-82517 0914098918
 ```
 Luqman Malik  
-IMU P-RNK 10  
+IMU P-RNK 2.0
 Series: Foundations in Mathematical Analysis  
 ·····························································
 Distribution license: Hilix Research and Technologies, Inc.®
