@@ -43,12 +43,13 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	background-repeat:no-repeat;
 }
 .T_field{
-	width:100%;
-	height:10%;
+	width:92%;
+	height:1%;
 	cursor:default; 
 	padding:20;
 	font-size:10;
-	font-family:'Arial'; 
+	font-family:'Arial';
+	overflow:hidden;
 	background:linear-gradient(white,#E5E7E9);opacity:.5;
 }
 .THd{font-size:30; font-family:'Arial';}
