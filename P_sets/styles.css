@@ -202,10 +202,11 @@ input[type="submit"]{
 input[type="search"]{
 	color:#aaa;
 	outline:none;
-	border:1px solid gray;
+	border:1px solid none;
 	font-size: 13;
 	text-align: right;
 	font-family:'Avenir';
+	background: transparent;
 	-webkit-appearance:caret;
 }
 
