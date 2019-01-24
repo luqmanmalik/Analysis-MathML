@@ -191,7 +191,7 @@ a.two{color:lightgrey; text-decoration: none}
 a.two:hover{color: grey}
 a.contents{
 	color:grey; 
-	font-family:'Avenir', 'light'; 
+	font-family:'Arial', 'light'; 
 	font-size:12px;
 }
 a.contents:hover{text-decoration: underline; cursor: default;}
@@ -208,7 +208,7 @@ input[type="search"]{
 	border:1px solid transparent;
 	font-size: 13;
 	text-align: right;
-	font-family:'Avenir';
+	font-family:'Arial';
 	background: transparent;
 	-webkit-appearance:caret;
 }
