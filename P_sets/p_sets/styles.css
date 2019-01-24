@@ -1,37 +1,3 @@
-html{overflow-y: scroll;}
-/*body{margin:0 0 0 0;font-family: 'lmroman10-regular'}*/
-body{margin:0 0 0 0;font-family: 'Arial'}
-.unselectable {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
-.navbar{
-	height:30;
-	width:100%; 
-	margin:0 0 0 0; 
-	position:fixed; 
-	font-family:'Arial';
-	background:linear-gradient(lightgrey, grey); 
-}
-.w3-content{
-	width:100%; 
-	height:100%;
-	font-family:'Arial';
-	position:fixed;
-	text-align:center;
-}
-.mySlides{
-	width:100%;
-	height:100%;
-	margin:30 0 0 0; 
-	padding:0 0 0 0;
-	font-family:'Arial';
-	border-collapse:collapse;
-}
 .T_page{
 	width:500;
 	height:100%; 
@@ -88,12 +54,12 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	color:grey;
 	font-size:14; 
 	margin:0 8 0 0; 
-	font-family:'Avenir', 'light';
+	font-family:'Arial';
 }
 .sres_n{
 	font-size:14;
 	margin:0 6 0 0;
-	font-family:'Avenir', 'light';
+	font-family:'Arial';
 }
 .t_contents {
     color:grey;
@@ -102,7 +68,7 @@ body{margin:0 0 0 0;font-family: 'Arial'}
     width:100%!important;
     height:92.1% !important;
     overflow:scroll !important;
-    font-family:'Avenir', 'light';
+    font-family:'Arial';
 }
 .tc_title{font-size:15}
 .tc_items{color:grey; font-size:12; line-height:1}				
