@@ -202,22 +202,13 @@ input[type="submit"]{
 input[type="search"]{
 	color:#aaa;
 	outline:none;
+	border:1px solid gray;
 	font-size: 13;
 	text-align: right;
 	font-family:'Avenir';
 	-webkit-appearance:caret;
 }
-.search{
-	color:#aaa;
-	width:100%;
-	outline:none;
-	font-size: 13;
-	padding:0 1 0 5;
-	text-align: right;
-	font-family:'Avenir';
-	background: transparent;
-	-webkit-appearance:caret;
-}
+
 
 .dropdown {
     position: relative;
