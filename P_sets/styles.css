@@ -43,7 +43,7 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	background-repeat:no-repeat;
 }
 .T_field{
-	padding:15 0 0 10;
+	padding:15 0 15 10;
 	background:linear-gradient(white,#E5E7E9);opacity:.5;
 }
 .THd{font-size:30; font-family:'Arial';}
