@@ -95,7 +95,7 @@ body{margin:0 0 0 0;font-family: 'Arial'}
     overflow:scroll !important;
     font-family:'Avenir', 'light';
 }
-.tc_title{font-size:15}
+.tc_title{font-size:15; font-family:'Arial'}
 .tc_items{color:grey; font-size:12; line-height:1}				
 
 .infscrll {
