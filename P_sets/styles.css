@@ -67,7 +67,8 @@ body{margin:0 0 0 0;font-family: 'Arial'}
 	font-family:'Arial';
 	cursor:default;
 	padding:0 0 0 0;
-	vertical-align:top;width:50%; 
+	vertical-align:top;width:50%;
+	background: linear-gradient(#f1f1f1, #f9f9f9);
 }
 .searchf_0{
 	width:100%;
