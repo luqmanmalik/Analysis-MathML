@@ -38,23 +38,23 @@
 		</ul>
 	      </section>
 	    </td>
-						<td class="tc_page">
-							<!-- Searchf_0 -->
-							<div class="searchf_0" align="right">
-								<input type="submit" disabled/>
-								<input type="search" autosave="5" id="clc_fe" onsearch="search_func()" placeholder="search">
-								<!-- Output -->
-								<p id="search_res" class="search_res"></p>
-								<script>
-								function search_func(){
-								   var x = document.getElementById("clc_fe");
-								   document.getElementById("search_res").innerHTML = '<br>' + x.value;
-								}
-								</script>
-							</div>
-							<!-- Table of Contents -->
-							<div class="t_contents">
-								<script src="jquery.js"></script> 
+	    <td class="tc_page">
+	      <!-- Searchf_0 -->
+	      <div class="searchf_0" align="right">
+		<input type="submit" disabled/>
+		<input type="search" autosave="5" id="clc_fe" onsearch="search_func()" placeholder="search">
+		<!-- Output -->
+		<p id="search_res" class="search_res"></p>
+		<script>
+		  function search_func(){
+		    var x = document.getElementById("clc_fe");
+		    document.getElementById("search_res").innerHTML = '<br>' + x.value;
+		  }
+		</script>
+	      </div>
+	      <!-- Table of Contents -->
+	      <div class="t_contents">
+	      <script src="jquery.js"></script> 
 							    <script> 
 									$(function(){
 								    	$("#t_contents2").load("p_sets/t_contents.html"); 
