@@ -3,7 +3,7 @@
 #### Foundations in Mathematical Analysis
 ```
 Luqman Malik, IEEE 
-XVR Research and Technologies, Inc.
+XVR, Inc.
 XVR Software Disctributions®
 ```
 
