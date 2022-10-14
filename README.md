@@ -4,7 +4,7 @@
 ```
 Luqman Malik, IEEE 
 Watters Research and Technologies, Inc.
-Distribution license: Watters Software Disctributions®
+Watters Software Disctributions®
 ```
 
 ---
