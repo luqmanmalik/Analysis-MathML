@@ -3,8 +3,8 @@
 #### Foundations in Mathematical Analysis
 ```
 Luqman Malik, IEEE 
-Watters Research and Technologies, Inc.
-Watters Software Disctributions®
+XVR Research and Technologies, Inc.
+XVR Software Disctributions®
 ```
 
 ---
