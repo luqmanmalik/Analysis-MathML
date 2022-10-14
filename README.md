@@ -1,7 +1,6 @@
 ## Elementary Analysis
 ### Formal Calculus
----
-Foundations in Mathematical Analysis
+#### Foundations in Mathematical Analysis
 ```
 Luqman Malik, IEEE 
 Watters Research and Technologies, Inc.
