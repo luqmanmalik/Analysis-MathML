@@ -1,12 +1,11 @@
 ## Elementary Analysis
 ### Formal Calculus
-#### 26-01 80-82517 0914098918
 ```
 Luqman Malik  
-IMU P-RNK 2.0
+Watters Research and Technologies, Inc.
 Series: Foundations in Mathematical Analysis  
 ·····························································
-Distribution license: Hilix Research and Technologies, Inc.®
+Distribution license: Watters Software Disctributions®
 ```
 
 ---
