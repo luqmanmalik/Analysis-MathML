@@ -8,7 +8,7 @@ XVR Research and Technologies, Inc.
 ```
 
 ---
-#### CONTENTS 
+### CONTENTS 
 
 __Preface__
 
