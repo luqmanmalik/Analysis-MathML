@@ -1,10 +1,10 @@
 ## Elementary Analysis
 ### Formal Calculus
-```
-Luqman Malik  
-Watters Research and Technologies, Inc.
-Series: Foundations in Mathematical Analysis  
 ·····························································
+Foundations in Mathematical Analysis
+```
+Luqman Malik, IEEE 
+Watters Research and Technologies, Inc.
 Distribution license: Watters Software Disctributions®
 ```
 
