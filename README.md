@@ -2,9 +2,9 @@
 ### Formal Calculus
 #### Foundations in Mathematical Analysis
 ```
-Luqman Malik, IEEE 
-XVR, Inc.
+Luqman Malik, IEEE97735109
 XVR Software Disctributions®
+XVR, Inc.
 ```
 
 ---
