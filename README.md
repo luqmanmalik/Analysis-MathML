@@ -4,7 +4,7 @@
 ```
 Luqman Malik, IEEE97735109
 XVR Software Disctributions®
-XVR Research and Technologies, Inc.
+Watters Research and Technologies, Inc.
 ```
 
 ---
