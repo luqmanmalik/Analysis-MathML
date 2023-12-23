@@ -1,0 +1,82 @@
+<html>
+	<table class="pzero">
+		<tr>
+			<td class="vtop_zero_cgrey">24.</td>
+			<td class="vtop_r20l10">
+				<table class="mar_neg2">
+					<tr>
+						<td class="vtop_zero">(a)</td>
+						<td class="vtop_lten">
+							For $k=1$ the equation reads $a_1+a_2=a_1+a_2.$ If the equation holds for $k,$ then
+							$$
+							\begin{equation}
+							\begin{split}
+							(a_1+\cdots+a_{k+1})+a_{k+2} &= [(a_1+\cdots+a_k)+a_{k+1}]+a_{k+2} \\
+							&= (a_1+\cdots+a_k)+(a_{k+1}+a_{k+2}) \ \ \ \text{by P1} \\
+							&= a_1+\cdots+a_k+(a_{k+1}+a_{k+2}) \\
+							& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{since the equation holds for }k \\
+							&= a_1+\cdots+a_k+a_{k+1}+a_{k+2} \\
+							&= a_1+\cdots+a_{k+2} \\ 
+							& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_1+\cdots+a_{k+2}. \\
+							& \ \square
+							\end{split}
+							\end{equation}
+							$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(b)</td>
+						<td class="vtop_lten">
+							For $k=1$ the equation reduces to the definition $a_1+\cdots+a_k.$ If the equation is true for some $k < n,$ then
+							$$
+							\begin{equation}
+							\begin{split}
+							(a_1+\cdots+a_{k+1})
+							&+(a_{k+2}+\cdots+a_n) \\
+							&= [(a_1+\cdots+a_k)+a_{k+1}]+(a_{k+2}+\cdots+a_n) \\
+							& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by part(a)} \\
+							&= (a_1+\cdots+a_k)+(a_{k+1}+(a_{k+2}+\cdots+a_n)) \\
+							& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by P1} \\
+							&= (a_1+\cdots+a_k)+(a_{k+1}+\cdots+a_n) \\ 
+							& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \text{by the definition of } a_{k+1}\cdots+a_n. \\
+							&=a_1+\cdots+a_n \ \ \ \ \ \ \text{by assumption}. \\
+							& \ \square
+							\end{split}
+							\end{equation}
+							$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(c)</td>
+						<td class="vtop_lten">
+							his proof is by 
+							<div class="tooltip">complete induction
+	  							<span class="tooltiptext">
+	  								<span style="color:grey; font-family:'avenir'; font-size:13">complete induction</span>: to prove the statement <b>P</b>(<em>m</em> + 1) under the assumption that <b>P</b>(<em>n</em>) holds for all natural <em>n</em> < (<em>m</em> + 1). By contrast, basic&ndash;induction only assumes <b>P</b>(<em>m</em>)
+	  							</span>
+							</div> on $k$ (see Chapter 2). The assertion is clear for $k=1.$ Assume that it is true for all $l < k.$ Then
+							$$
+							\begin{equation}
+							\begin{split}
+							s(a_1,\dots,a_k) &= s'(a_1,\dots,a_l)+s''(a_{l+1},\dots,a_k) \\
+							&= (a_1+\cdots+a_l)+(a_{l+1}+\cdots+a_k) \ \ \ \ \ \text{by assumption} \\
+							&= a_1+\cdots+a_k \ \ \ \ \ \text{by part(b).} \\
+							& \ \square
+							\end{split}
+							\end{equation}
+							$$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="p_r20-b10">
+		<tr>
+			<td class="vtop_zero_cgrey">25.</td>
+			<td class="vtop_lten">
+				P2, P3, P4, P6, P7, P8 are obvious from a glance at the tables. There are eight cases for P1, and even this number can be reduced: because P2 is true, it is clear that $a+(b+c)=(a+b)+c$ if $a,b,$ or $c$ is 0, so only the case $a=b=c=1$ must be checked. Similarly for P5. Finally, P9 is true for $a=0,$ since $0\cdot b=0$ for all $b,$ and for $a=1,$ since $1\cdot b=b$ for all $b. \ \ \square$
+			</td>
+		</tr>
+	</table>
+</html>

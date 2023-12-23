@@ -1,0 +1,205 @@
+<html>
+	<table class="p_r20">
+		<tr>
+			<td class="vtop_zero">04.</td>
+			<td class="vtop_mzero">
+				<table class="mar_neg2">
+					<tr>
+						<td class="vtop_lfive">(a)</td>
+						<td class="vtop_r20l10">
+							This particular argument is a sort of ad&ndash;hoc hybrid of Spivak and myself. The derivations are (at this point) reflective of what I think is happening. I will make them more robust and explicit down the line. Since
+							$$(1+x)^n(1+x)^m=(1+x)^{n+m},$$
+							we have for each pair $k,j=l-k$
+							$$
+							\begin{equation}
+								\begin{split}
+									\displaystyle
+										\sum_{k=0}^n {n \choose k}x^k \cdot \sum_{j=0}^m {m \choose j}x^j &= \sum_{l=0}^{n+m} {n+m \choose l}x^l \\ 
+										\sum_{k=0}^l {n \choose k}x^k \cdot {m \choose l-k}x^{l-k} &= {n+m \choose l}x^l \\
+										\sum_{k=0}^l {n \choose k} \cdot {m \choose l-k} &= {n+m \choose l}, \\
+										&\ \square
+								\end{split}
+							\end{equation} 
+							$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_lten">(b)</td>
+						<td class="vtop_lten">
+							Letting $m,l=n$ in part (a), and observing that
+							$$
+							\begin{equation}
+								\begin{split}
+									\displaystyle
+									{n \choose n-k} 
+										&= \frac{n!}{(n-k)![n-(n-k)]!} \\
+										&= \frac{n!}{k!(n-k)!} \\
+										&= {n \choose k} \\
+										& \ \ \downarrow
+								\end{split}
+							\end{equation}
+							$$
+							<p class="mar_tnull_lten">we have</p>
+							$$
+							\begin{equation}
+								\begin{split}
+									\displaystyle
+									\sum_{k=0}^l {n \choose k} \cdot {m \choose l-k} &= {n+m \choose l}, \\
+									\sum_{k=0}^n {n \choose k} \cdot {n \choose n-k} &= {2n \choose n}, \\
+									\sum_{k=0}^n {n \choose k}^2 &= {2n \choose n}, \\
+										&\ \square
+								\end{split}
+							\end{equation} 
+							$$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="pr_20">
+		<tr>
+			<td class="vtop_t1">05.</td>
+			<td class="vtop_mzero">
+				<table class="mar_neg2">
+					<tr>
+						<td class="vtop_lten">(a)</td>
+						<td class="vtop_lten">
+							Since
+							$$1+r=\frac{(1+r)\color{grey}{\cancel{(1-r)}}}{\color{grey}{\cancel{(1-r)}}}=\frac{1-r^2}{1-r},$$
+							the formula is true for $n=1.$ Suppose it holds for any $n \geq 1,$ i.e.,
+							$$1+r+\cdots+r^n=\frac{1-r^{n+1}}{1-r}.$$
+							Then
+							$$
+							\begin{equation}
+								\begin{split}
+									\displaystyle
+										1+r+\cdots+r^n+r^{n+1}
+										&= \frac{1-r^{n+1}}{1-r}+r^{n+1} \\
+										&= \frac{1-r^{n+1}+r^{n+1}(1-r)}{1-r} \\
+										&= \frac{1\color{grey}{\cancel{-r^{n+1}}}\color{grey}{\cancel{+r^{n+1}}}-r^{n+1+1}}{1-r} \\
+										&= \frac{1-r^2}{1-r}. \\
+										&\ \square
+								\end{split}
+							\end{equation}
+							$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_lten">(b)</td>
+						<td class="vtop_t2lten">
+							$
+							\begin{align*}
+							\text{Let} \ \ \ \ \ \ \ \ \ S &= 1+r+\cdots+r^n \\
+							rS &= \color{transparent}{1}+r+\cdots+r^n+r^{n+1}.
+							\end{align*}
+							$
+							<br>
+							$\text{Thus} \ \ \ \ \ \ S(1-r)=S-rS=1-r^{n+1} \ \ \Longrightarrow \ \ S=\displaystyle\frac{1-r^{r+1}}{1-r}. \ \square$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_r20">
+		<tr>
+			<td class="vtop_t1">06.</td>
+			<td class="vtop_zero">
+				<table class="mar_neg2">
+					<tr>
+						<td class="vtop_lten">(i)</td>
+						<td class="vtop_lten">
+							Starting with the formula
+	        				$$(k+1)^4-k^4=4k^3+6k^2+4k+1,$$
+	        				then writing this formula for $k=1,\dots, n$ and adding, we obtain
+	        				$$
+	        				\begin{array}{r c l}			
+								2^4-1^4 & = & 4\cdot1^3+6\cdot1^2+4\cdot1+1 \\
+								3^4-2^4 & = & 4\cdot2^3+6\cdot2^2+4\cdot2+1 \\
+								\ \vdots & \vdots & \vdots \\
+								(n+1)^4-n^4 & = & 4 \cdot n^3+6 \cdot n^2+4\cdot n+1 \\ 
+								\hline
+								(n+1)^4-1^{\color{transparent}{4}} & = & 4\displaystyle\sum_{k=1}^n k^3+6\sum_{k=1}^n k^2+4\sum_{k=1}^n k+n.
+							\end{array}
+	        				$$
+	        				Thus, 
+	        				$$
+	        				\begin{equation}
+	        					\begin{split}
+	        						\displaystyle
+	        						\sum_{k=1}^n k^3
+	        						&= \frac{(n+1)^4-1-6\displaystyle\frac{n(n+1)(2n+1)}{6}-4\displaystyle\frac{n(n+1)}{2}-n}{4} \\
+	        						&= \frac{n^4+4n^3+6n^2+4n-2n^3-n^2-2n^2-n-2n^2-2n-n}{4} \\
+	        						&= \frac{n^4}{4}+\frac{\color{grey}{\cancel{2}}n^3}{\color{grey}{\cancel{4}}}+\frac{n^2}{4}. \\
+	        						&= \frac{n^4}{4}+\frac{n^3}{2}+\frac{n^2}{4}. \\
+	        						& \ \square
+	        					\end{split}
+	        				\end{equation}
+	        				$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_lten">(ii)</td>
+						<td class="vtop_lten">
+							Starting with the formula
+	        				$$(k+1)^5-k^5=5k^4+10k^3+10k^2+5k+1,$$
+	        				then writing this formula for $k=1,\dots, n$ and adding, we obtain
+	        				$$
+	        				\begin{array}{r c l}			
+								2^5-1^5 & = & 5\cdot1^4+10\cdot1^3+10\cdot1^2+5\cdot1+1 \\
+								3^5-2^5 & = & 5\cdot2^4+10\cdot2^3+10\cdot2^2+5\cdot2+1 \\
+								\ \vdots & \vdots & \vdots \\
+								(n+1)^5-n^5 & = & 5 \cdot n^4+10 \cdot n^3+10 \cdot n^2+5 \cdot n+1 \\ 
+								\hline
+								(n+1)^5-1^{\color{transparent}{4}} & = & 5\bigg(\displaystyle\sum_{k=1}^n k^4\bigg)+10\bigg(\sum_{k=1}^n k^3\bigg)+10\bigg(\sum_{k=1}^n k^2\bigg) \\
+								& \ & \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +5\bigg(\displaystyle\sum_{k=1}^n k\bigg)+n.
+							\end{array}
+	        				$$
+	        				Thus, 
+	        				$$
+	        				\begin{equation}
+	        					\begin{split}
+	        						\displaystyle
+	        						\sum_{k=1}^n k^4
+	        						&= \bigg[(n+1)^5-1-10\bigg(\frac{n^4}{4}+\frac{n^3}{2}+\frac{n^2}{4}\bigg)-10\frac{n(n+1)(2n+1)}{6} \\
+	        						&\ \ \ \ \ \ \ \ \ \ \ \ -5\frac{n(n+1)}{2}-n\bigg]\frac{1}{5} \\
+	        						&= \bigg[n^5+5n^4+10n^3+10n^2+5n\color{grey}{\cancel{+1-1}}-\frac{5n^4}{2}-5n^3-\frac{5n^2}{2} \\
+	        						&\ \ \ \ \ \ \ \ \ \ \ \ - \frac{5n(2n^2+3n+1)}{3}-\frac{5n^2+5n}{2}-n\bigg]\frac{1}{5} \\
+	        						&= \bigg[n^5+5n^4-\frac{5n^4}{2}+10n^3-5n^3+10n^2-\frac{5n^2}{2}+5n-n-\frac{5n}{2} \\
+	        						&\ \ \ \ \ \ \ \ \ \ \ \ - \frac{10n^3+15n^2+5n}{3}-\frac{5n^2}{2}\bigg]\frac{1}{5} \\
+	        						&= \bigg[n^5+\frac{5n^4}{2}+10n^3-5n^3-\frac{10n^3}{3}\color{grey}{\cancel{+10n^2-5n^2-\frac{15n^2}{3}}}+4n \\
+	        						&\ \ \ \ \ \ \ \ \ \ \ \ -\frac{5n}{2}-\frac{5n}{3}\bigg]\frac{1}{5} \\
+	        						&= \bigg[n^5+\frac{5n^4}{2}+\frac{5n^3}{3}+4n-\frac{25n}{6}\bigg]\frac{1}{5} \\
+	        						&= \bigg[n^5+\frac{5n^4}{2}+\frac{5n^3}{3}-\frac{n}{6}\bigg]\frac{1}{5} \\
+	        						&= \frac{n^5}{5}+\frac{n^4}{2}+\frac{n^3}{3}-\frac{n}{30}. \\
+	        						& \ \square
+	        					\end{split}
+	        				\end{equation}
+	        				$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(iii)</td>
+						<td class="vtop_lten">
+							From
+							$$\frac{1}{k}-\frac{1}{k+1}=\frac{(k+1)-k}{k(k+1)}=\frac{1}{k(k+1)}, \ \ \ \ \ \ \ \ \ \ k=1,\dots, n$$
+							we obtain
+							$$1-\frac{1}{n+1}=\sum_{k=1}^n \frac{1}{k(k+1)}. \ \square$$
+						</td>
+					</tr>
+					<tr>
+						<td class="vtop_zero">(iv)</td>
+						<td class="vtop_lten">
+							From
+							$$\frac{1}{k^2}-\frac{1}{(k+1)^2}=\frac{(k+1)^2-k^2}{k^2(k+1)^2}=\frac{2k+1}{k^2(k+1)^2}, \ \ \ \ \ \ \ \ \ \ k=1,\dots, n
+							$$
+							we obtain
+							$$1-\frac{1}{(n+1)^2}=\sum_{k=1}^n \frac{2k+1}{k^2(k+1)^2}. \ \square$$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</html>
