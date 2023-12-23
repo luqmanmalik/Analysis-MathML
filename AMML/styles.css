@@ -70,10 +70,10 @@ body{margin:0 0 0 0;}
 	vertical-align:top;
 	font-family:'Arial';
     background-position:bottom 0px center;
-	background-image: url("whiteMountain.jpg");
+	background-image: url("WhiteMountain.jpg");
 	background-repeat:no-repeat;
 }
-.TF-TF_background{background:linear-gradient(to left, #E5E7E9,#f9f9f9);}
+.TP-TC_background{background:linear-gradient(to left, #E5E7E9,#f9f9f9);}
 .t_field{
     width:100%;
     height:30%;
