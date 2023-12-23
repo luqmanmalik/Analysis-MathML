@@ -1,0 +1,100 @@
+<html>
+	<table class="pr_20">
+		<tr>
+			<td class="vtop_zero">20.</td>
+			<td class="vtop_r20l10">
+				By theorem 1, we know that $\forall x \in \mathbb{R}, \ \lvert x+y \rvert \leq \lvert x \rvert - \lvert y \rvert.$ Therefore, if
+				$$\lvert x-x_0 \rvert < \frac{\varepsilon}{2} \ \ \ \ \ \ \text{and} \ \ \ \ \ \ \lvert y-y_0 \rvert < \frac{\varepsilon}{2},$$
+				then
+				<table style="width:100%">
+					<tr>
+						<td style="border-right:1 solid lightgrey; padding:0 10 0 0">
+							$$
+							\begin{align}
+								\lvert x-x_0 \rvert + \lvert y-y_0 \rvert &< \varepsilon \\
+								\lvert (x-x_0) + (y-y_0) \rvert &< \varepsilon \ \succ \text{pg.12} \\
+								\lvert (x+y) - (x_0+y_0) \rvert &< \varepsilon \\
+								&\ \square
+							\end{align}
+							$$
+						</td>
+						<td style="border-left:1 solid lightgrey; padding:0 0 0 10">
+							$$
+							\begin{align}
+								\lvert x-x_0 \rvert + \lvert y-y_0 \rvert &< \varepsilon \\
+								\lvert (x-x_0) - (y-y_0) \rvert &< \varepsilon \ \succ \text{pg.12} \\
+								\lvert (x-y) - (x_0-y_0) \rvert &< \varepsilon \\
+								&\ \square
+							\end{align}
+							$$
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_r20">
+		<tr>
+			<td class="vtop_zero_cgrey">21.</td>
+			<td class="vtop_r20l10">
+				By problem 12(v) / <span style="color:grey">inverse triangle inequality</span>: 
+				<p class="mar_t10_b10_l20">
+					$\lvert x \rvert - \lvert x_0 \rvert \leq \lvert x-x_0 \rvert < 1 \ \Rightarrow \ \lvert x \rvert < 1+\vert x_0 \rvert,$
+				</p>
+				therefore
+				$$
+				\begin{equation}
+					\begin{split}
+						\lvert xy-x_0y_0 \rvert \\
+						=\lvert x(y-y_0)+y_0(x-x_0) \rvert 
+						&\leq \lvert x(y-y_0) \rvert + \lvert y_0(x-x_0) \rvert \\
+						&\leq \lvert x \rvert \lvert y-y_0 \rvert + \lvert y_0 \rvert \lvert x-x_0 \rvert \ \succ \ 12(i) \\
+						&< \bigg(\color{grey}{\cancel{1+\vert x_0 \rvert}} \bigg)\bigg[\frac{\varepsilon}{2(\color{grey}{\cancel{\lvert x_0 \rvert +1)}}}\bigg]+\vert y_0 \rvert \bigg[\frac{\varepsilon}{2(\lvert y_0 \rvert +1)}\bigg] \\
+						&< \frac{\varepsilon}{2} + \bigg(\frac{\lvert y_0 \rvert}{\lvert y_0 \rvert+1}\bigg)\bigg(\frac{\varepsilon}{2}\bigg) \\
+						&< \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon. \\
+						&\ \square
+					\end{split}
+				\end{equation}
+				$$
+			</td>
+		</tr>
+	</table>
+	<table class="mar_t5_r20">
+		<tr>
+			<td class="vtop_zero_cgrey">22.</td>
+			<td class="vtop_r20l10">
+				By the triangle inequality theorem, we have 
+				<p class="mar_t10_b10_l20">
+					$\lvert y_0 \rvert = \lvert (y_0 - y) + y \rvert \leq \lvert y - y_0 \rvert + \lvert y \rvert.$
+				</p>	
+				This, taken with the given condition
+				$\lvert y - y_0 \rvert < \lvert y_0 \lvert| / 2$ suggests that
+				$$
+				\frac{\lvert y_0 \rvert}{2} = \lvert y_0 \rvert - \frac{\lvert y_0 \rvert}{2} < \lvert y_0 \rvert - \lvert y - y_0 \rvert \leq \lvert y \rvert.
+				$$
+				Now, we apply the condition $\lvert y - y_0 \rvert < \dfrac{\varepsilon \lvert y_0 \rvert^2}{2}$ to the numerator in the following expression:
+				$$
+				\Bigg\lvert \frac{1}{y} - \frac{1}{y_0} \Bigg\rvert = \frac{\lvert y - y_0 \rvert}{\lvert y \rvert\lvert y_0 \rvert} 
+				< \dfrac{\lvert y - y_0 \rvert}{\dfrac{\lvert y_0 \rvert\lvert y_0 \rvert}{2}} 
+				< \frac{\varepsilon\lvert y_0 \rvert^2}{2}\bigg/\frac{\lvert y_0 \rvert^2}{2} = \varepsilon
+				$$
+				from which we obtain our desired result. $\square$
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_r20_b10">
+		<tr>
+			<td class="vtop_t4_cgrey">23.</td>
+			<td class="vtop_r20L10">
+				Following problem 21, we find that $\Bigg\lvert \dfrac{x}{y}-\dfrac{x_0}{y_0} \Bigg\rvert < \varepsilon$ if
+				<p class="mar_t10_b10_l20">
+					$\lvert x-x_0 \rvert < \text{min} \bigg( \dfrac{\varepsilon}{2(1 / \lvert y_0 \rvert +1)},1\bigg), \ \ \ \ \ \text{and} \ \ \ \ \ \ \Bigg\lvert\dfrac{1}{y}-\dfrac{1}{y_0}\Bigg\rvert < \dfrac{\varepsilon}{2(\lvert x_0 \rvert +1)},$
+				</p>
+				Moreover, in accordence with problem 22, the latter condition is true when the inequality 
+				<p class="mar_t10">
+					$\lvert y-y_0 < \text{min}\bigg(\dfrac{\lvert y_0 \rvert}{2}, \dfrac{\varepsilon\lvert y_0 \rvert^2}{4(\lvert x_0 \rvert +1)}\bigg) \ \text{holds.} \ \square$ 
+				</p>
+			</td>
+		</tr>
+	</table>
+</html>

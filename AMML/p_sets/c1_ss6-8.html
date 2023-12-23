@@ -1,0 +1,63 @@
+<html>
+	<table>
+		<tr>
+			<td class="vtop_zero">06.</td>
+			<td class="vtop_lten">(a)</td>
+			<td class="vtop_r20l10">
+				<p class="pzero">
+					From $0 \leq x < y$ and problem 5(viii) we have $x^2 < y^2$ [as in Problem 5(ix)]. Then, from $0 \leq x < y$ and $x^2 < y^2$ we have $x^3 < y^3.$ We continue this way to prove that $x^n < y^n$ for  $n=2,3, ...$ (a rigorous proof uses induction, covered in the next chapter). $ \ \ \square$
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="vtop_zero"></td>
+			<td class="vtop_lten">(b)</td>
+			<td class="vtop_r20l10">
+				<p class="pzero">
+					By part (a), we know that if $0 \leq x < y,$ then $x^n < y^n$. Moreover, if $0 \leq x < y,$ then $0 \leq -y < -x,$ so by (a), $(-y)^n < -(x)^n.$ Since $n$ is odd, we derive $-y^n < -x^n,$ hence $x^n < y^n.$ Finally, $x < 0 \leq y$ implies that 
+					$x^n < 0 \leq y^n,$ since $n$ is odd. Thus, in every case, if $x < y$ then $x^n < y^n. \ \ \square$
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="vtop_zero"></td>
+			<td class="vtop_lten">(c)</td>
+			<td class="vtop_r20l10">
+				<p class="pzero">
+					This follows immediately from (b) since $x < y$ implies that $x^2 < y^2$, and conversely, $y < x$ implies that $y^2 < x^2. \ \ \square$
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="vtop_zero"></td>
+			<td class="vtop_lten">(d)</td>
+			<td class="vtop_r20l10">
+				<p class="pzero">
+					Similarly, if $n$ is even, then using part (a) instead of part (b) we see thtat if $x,y \geq 0 \ \text{and} \ x^n=y^n,$ then $x=y$. Moreover, if $x,y \leq 0$ and $x^n=y^n,$ then $-x,-y \leq 0$ and $(-x)^n=(-y)^n,$ so again $x=y.$ The only other possibility is that one of $x$ and $y$ is positive, the other negative. In this case $x$ and $-y$ are both positive or both negative. Moreover $x^n=(-y)^n,$ since $n$ is even, so it follows from the previous cases that $x=-y. \ \ \square$
+				</p>
+			</td>
+		</tr>
+	</table>
+	<table class="pt_20">
+		<tr>
+			<td class="vtop_zero">07.</td>
+			<td class="vtop_r20l10">
+				If $a < b$, then 
+				<p>$\displaystyle a=\frac{a+a}{2} < \frac{a+b}{2} < \frac{b+b}{2}=b.$</p>
+				<p>
+					$\big(((0 < a < b) \ \rightarrow \ (a^2 < ab)) \ \succ \ 5(\text{iv})\big) \ \rightarrow \ \big((a < \sqrt{ab}) \ \succ \ 5(\text{x})\big).$ Moreover, we have $(a-b)^2 > 0,$ hence
+				</p>
+				$$a^2+b^2 > 2ab, \ \Leftrightarrow \ a^2+2ab+b^2 > 4ab, \ \Leftrightarrow \ (a+b)^2 > 4ab,$$
+				so $a+b>2 \sqrt{ab} \ \Leftrightarrow \ \sqrt{ab} < (a+b)/2.$ Moreover, for all $a,b$ we have $(a-b)^2 \geq 0,$ and thus $4ab \leq (a+b)^2 \ \Leftrightarrow \ \sqrt{ab} \ \leq \ (a+b)/2 \ \text{for} \ a,b \geq 0. \ \ \square$
+			</td>
+		</tr>
+	</table>
+	<table class="pt20_b10">
+		<tr>
+			<td class="vtop_zero">08.</td>
+			<td class="vtop_r20l10">
+				Two applications of P'12 show that if $a < b \ \text{and} \ c < d,$ then $a+c < b+c < b+d,$ do $a+c < b+d$ by P'11. In particular, if $0 < b$ and $0 < d,$ then $0 < b+d,$ which proves P11. It follows, in addition, that if $a < 0,$ then $-a>0;$ for if $-a < 0$ were true, then $0=a+(-a) < 0,$ contradicting P'10. Consequently, any nuber $a$ satisfies precisely one of the conditions $a=0,a>0,a < 0,$ the last being equivalent to$-a>0.$ This proves P10. Finally, P'13 shows that if $0 < a$ and $0 < c,$ then $0 < ac,$ which proves P12. $ \ \ \square$
+			</td>
+		</tr>
+	</table>
+</html>
