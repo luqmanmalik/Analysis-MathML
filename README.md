@@ -1,9 +1,7 @@
-## Elementary Analysis
-### Formal Calculus
+## Analysis in MathML
 #### Foundations in Mathematical Analysis
 ```
-Luqman Malik, IEEE97735109
-XVR Software Disctributions®
+Luqman Malik,
 Watters Research and Technologies, Inc.
 ```
 
