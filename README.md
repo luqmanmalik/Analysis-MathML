@@ -3,6 +3,8 @@
 ```
 Luqman Malik,
 Watters Research and Technologies, Inc.
+Mathematical Association of America
+Institute for Electrical and Electronics Engineers
 ```
 
 ---
@@ -47,4 +49,4 @@ __Preface__
 |              |  29. Construction of the Real Numbers &nbsp; 578          |
 |              |  30. Uniqueness of the Real Numbers &nbsp; 591<table><tr><td>&nbsp; Suggested reading &nbsp; 599</td></tr><tr><td style="indent:30px">&nbsp; Answers (to Selected Problems) &nbsp; 609</td></tr></tr><tr><td style="indent:30px">&nbsp; Glossery of Symbols &nbsp; 655</td></tr><tr><td>&nbsp; Index &nbsp; 659</td></tr></table>|
 ---
-__Specification.__ This repository is Safari–centric. The page macro is an eleventh–order quaternion prismplex, with eight enclosed (dynamic) fields. It may also be described as a partial frame meaning that not every such field has slide and scroll fucntionality in contrast to a complete frame, where every closed field has slide and scroll functionality. The frame's memory is accesible through conventional menus and search. Less conventionally, each slide has autonomous search functionality, whose query returns remain loaded in the RAM while sliding through pages. The library is licensed for use under the terms in the file <code>MIT_License</code>.
+__Specification.__ This repository is Webkit–centric. The page macro is an eleventh–order quaternion prismplex, with eight enclosed, dynamic fields. It may also be described as a complete frame, meaning that every field has slide and scroll fucntionality. The frame's memory is accesible through conventional menus and search. Each slide has autonomous search, whose query returns remain loaded in the RAM while seperate fields are active. The library is licensed for use under the terms outlined in the file <code>MIT License</code> and <code>BSD License</code>.
