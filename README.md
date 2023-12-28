@@ -4,12 +4,9 @@
 
 # Analysis in MathML
 #### Foundations in Mathematical Analysis
-```
-Luqman Malik,
-Watters Research and Technologies, Inc.
-Mathematical Association of America
-Institute for Electrical and Electronics Engineers
-```
+[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/phpunit/phpunit)
+[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
+[![composer.lock](http://poser.pugx.org/phpunit/phpunit/composerlock)](https://packagist.org/packages/phpunit/phpunit)
 
 ---
 ### CONTENTS 
