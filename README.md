@@ -4,7 +4,7 @@
 
 # Analysis in MathML
 #### Foundations in Mathematical Analysis
-[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/phpunit/phpunit)
+![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fluqmanmalik.com%2FLuqman_Malik-home-blue?label=Luqman%20Malik)
 [![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
 [![composer.lock](http://poser.pugx.org/phpunit/phpunit/composerlock)](https://packagist.org/packages/phpunit/phpunit)
 
