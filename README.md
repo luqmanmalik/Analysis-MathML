@@ -12,9 +12,6 @@
 
 ---
 ### CONTENTS 
-
-__Preface__
-
 | Part 1       |  Prologue                                |
 |--------------|:-----------------------------------------|
 |              |  1. Basic Properties of Numbers &nbsp; 3 |
