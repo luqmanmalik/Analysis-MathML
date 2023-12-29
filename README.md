@@ -51,4 +51,4 @@
 ---
 
 ### Specification
-This page framework is Webkit–centric. The layout design is an eleventh–order quaternion prismplex, with eight dynamic relational-fields. It may also be described as a complete frame, meaning that every field has slide and scroll fucntionality. The frame's memory is accesible through conventional menus and search. Each slide has autonomous search, whose query returns remain loaded in the RAM while seperate fields are active. The directory is licensed for use under the terms outlined in the <code>MIT License</code> and <code>BSD (C4)License</code>.
+This page framework is Webkit–centric. The layout design is an eleventh–order quaternion prismplex, with eight dynamic relational-fields. It may also be described as a complete frame, meaning that every field has slide and scroll fucntionality. The frame's memory is accesible through conventional menus and search. Each slide has autonomous search, whose query returns remain loaded in the RAM while seperate fields are active. The directory is licensed for use under the terms outlined in the <code>MIT/BSD(C4) License</code> bundle.
