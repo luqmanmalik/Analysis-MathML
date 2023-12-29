@@ -4,9 +4,10 @@
 
 # Analysis in MathML
 #### Foundations in Mathematical Analysis
-![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fluqmanmalik.com%2FLuqman_Malik-home-blue?label=Luqman%20Malik)
-[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
-[![composer.lock](http://poser.pugx.org/phpunit/phpunit/composerlock)](https://packagist.org/packages/phpunit/phpunit)
+![Static Badge](https://img.shields.io/badge/.com-blue?label=Luqman%20Malik&labelColor=gray&color=blue)
+![Static Badge](https://img.shields.io/badge/BSD%20(4)Clause-%2375AEA1?label=license)
+![Static Badge](https://img.shields.io/badge/V%2017.1-%23AE758C?label=Webkit)
+![Static Badge](https://img.shields.io/badge/MathML-%23758FAE?label=W3C)
 
 ---
 ### CONTENTS 
