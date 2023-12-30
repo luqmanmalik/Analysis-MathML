@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/luqmanmalik/Analysis-MathML/master/cover0.png">
+  <img src="https://raw.githubusercontent.com/luqmanmalik/Analysis-MathML/master/cover.png">
 </p>
 
 # Analysis in MathML
