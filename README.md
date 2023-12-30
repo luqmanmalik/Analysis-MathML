@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/luqmanmalik/Analysis-MathML/master/cover.png">
-</p>
-
 # Analysis in MathML
 ### Foundations in Mathematical Analysis
 #### (Safari Webkit 17.1)
